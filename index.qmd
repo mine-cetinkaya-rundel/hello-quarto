@@ -1,0 +1,67 @@
+---
+title: "Awesome Title"
+format: revealjs
+editor: visual
+---
+
+## Hi, I'm Mine
+
+-   Theme: teaching
+
+<!-- -->
+
+    ::: {.notes}
+    Mine:
+    :::
+
+## Hi, I'm Julie
+
+*Unpolished ideas:*
+
+-   I'm a marine ecologist - turned open project founder
+-   I help research teams collaborate around data and open science workflows.
+-   I am a prolific RMarkdown user, but not a pro user
+-   Theme: collaborating
+
+<!-- -->
+
+    ::: {.notes}
+    Julie
+    :::
+
+## Overall theme for our talk
+
+    :::: {.columns}
+
+    ::: {.column width="40%"}
+    Quarto is something you can use if you love Rmd.
+    SCUBA Penguin breathing Rmd -> breathing Quarto
+    :::
+
+    ::: {.column width="60%"}
+    Quarto is something you can use even if you’ve never used Rmd.
+    Penguin with SCUBA gear set up next to them
+    :::
+
+    ::::
+
+    ::: {.notes}
+    Mine: 
+    Julie:
+    :::
+
+## What is Quarto
+
+Story and Demo
+
+Demo
+
+    ::: {.notes}
+    Mine: 
+    :::
+
+## Collaborating with Quarto
+
+    ::: {.notes}
+    Julie:
+    :::
