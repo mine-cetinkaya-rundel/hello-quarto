@@ -18,9 +18,8 @@ Mine:
 
 *Unpolished ideas:*
 
--   I'm a marine ecologist - turned open project founder
--   I help research teams collaborate around data and open science workflows.
--   I am a prolific RMarkdown user, but not a pro user
+-   I'm a marine ecologist and founded Openscapes to help research teams collaborate around data and open science workflows.
+-   I am a prolific RMarkdown and Quarto user, but not a pro user
 -   Theme: collaborating
 
 <!-- -->
@@ -31,17 +30,19 @@ Julie
 
 ## Overall theme for our talk
 
-::: columns
+:::: {.columns}
+
 ::: {.column width="40%"}
 Quarto is something you can use if you love Rmd.
-SCUBA Penguin breathing Rmd -\> breathing Quarto
+SCUBA Penguin breathing Rmd -> breathing Quarto
 :::
 
 ::: {.column width="60%"}
-Quarto is something you can use even if you've never used Rmd.
+Quarto is something you can use even if you’ve never used Rmd.
 Penguin with SCUBA gear set up next to them
 :::
-:::
+
+::::
 
 ::: {.notes}
 Mine: 
@@ -50,16 +51,71 @@ Julie:
 
 ## What is Quarto
 
-Story and Demo
+Next generation R Markdown: Quarto is something you can use if you love Rmd.
 
-Demo
+**Demo - flexibility in the formats:**
+
+-   Change extension from .rmd to .qmd and render
+
+-   Change format from doc to reveal.js (no slide breaks) (then change back to html)
+
+-   Show `_quarto.yml` and make a \~2-page site
+
+**Story:** teaching winter course - diff formats within R (web, slides, course web) I go between the formats a lot (Rmd 8 ways)
 
 ::: {.notes}
 Mine: 
 :::
 
-## Collaborating with Quarto
+## What is Quarto
 
-::: {.notes}
+Quarto is something you can use even if you've never used Rmd.
+
+**Demo - flexibility in the tooling:**
+
+-   Render Mine's example site in VS Code (from GH?), then JupyterLab
+
+-   Include `.ipynb` in example site
+
+-   Return to RStudio, I can do this from my comfort place too.
+
+**Story:** working with NASA Openscapes team create space and place: Collaboration across R & Python, across coders and non-coders
+
+::: notes
+Julie:
+:::
+
+## Interoperability (language, tooling, people)
+
+::: notes
+Julie:
+:::
+
+## Quarto enables new ways of sharing
+
+How academics share their teaching resources/ new avenues for publishing
+
+- If it’s not easy to make a course website, you won’t
+- Tooling that makes it easy to share with the world 
+- New way of getting credit
+- Open sharing of knowledge. Other people can just take
+- When it comes time for promotion/review, I say here it is
+- Last 10% to tweak it for your context
+
+**Story:**
+
+::: notes
+Mine:
+:::
+
+## Quarto enables reuse & reimagining
+
+- create-once-use-often
+- less reinventing; focus your time on the science
+
+
+**Story:**
+
+::: notes
 Julie:
 :::
