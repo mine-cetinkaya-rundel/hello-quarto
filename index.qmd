@@ -24,7 +24,9 @@ Mine:
 Julie
 :::
 
-## Overall theme for our talk
+## Quarto helps you reimagine work, collaboration, and sharing
+
+
 
 :::: {.columns}
 
@@ -39,6 +41,10 @@ Penguin with SCUBA gear set up next to them
 :::
 
 ::::
+
+Flexibility in formats
+
+Flexibility in tooling
 
 ::: {.notes}
 Mine: 
