@@ -4,16 +4,6 @@ format: revealjs
 editor: visual
 ---
 
-## Hi, I'm Mine
-
--   Theme: teaching
-
-<!-- -->
-
-::: {.notes}
-Mine:
-:::
-
 ## Hi, I'm Julie
 
 *Unpolished ideas:*
@@ -26,6 +16,16 @@ Mine:
 
 ::: {.notes}
 Julie
+:::
+
+## Hi, I'm Mine
+
+-   Theme: teaching
+
+<!-- -->
+
+::: {.notes}
+Mine:
 :::
 
 ## Overall theme for our talk
