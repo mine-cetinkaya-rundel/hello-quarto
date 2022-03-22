@@ -10,9 +10,9 @@ editor: visual
 
 <!-- -->
 
-    ::: {.notes}
-    Mine:
-    :::
+::: {.notes}
+Mine:
+:::
 
 ## Hi, I'm Julie
 
@@ -25,30 +25,28 @@ editor: visual
 
 <!-- -->
 
-    ::: {.notes}
-    Julie
-    :::
+::: {.notes}
+Julie
+:::
 
 ## Overall theme for our talk
 
-    :::: {.columns}
+::: columns
+::: {.column width="40%"}
+Quarto is something you can use if you love Rmd.
+SCUBA Penguin breathing Rmd -\> breathing Quarto
+:::
 
-    ::: {.column width="40%"}
-    Quarto is something you can use if you love Rmd.
-    SCUBA Penguin breathing Rmd -> breathing Quarto
-    :::
+::: {.column width="60%"}
+Quarto is something you can use even if you've never used Rmd.
+Penguin with SCUBA gear set up next to them
+:::
+:::
 
-    ::: {.column width="60%"}
-    Quarto is something you can use even if you’ve never used Rmd.
-    Penguin with SCUBA gear set up next to them
-    :::
-
-    ::::
-
-    ::: {.notes}
-    Mine: 
-    Julie:
-    :::
+::: {.notes}
+Mine: 
+Julie:
+:::
 
 ## What is Quarto
 
@@ -56,12 +54,12 @@ Story and Demo
 
 Demo
 
-    ::: {.notes}
-    Mine: 
-    :::
+::: {.notes}
+Mine: 
+:::
 
 ## Collaborating with Quarto
 
-    ::: {.notes}
-    Julie:
-    :::
+::: {.notes}
+Julie:
+:::
