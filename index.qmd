@@ -4,14 +4,6 @@ format: revealjs
 editor: visual
 ---
 
-## Hi, I'm Mine
-
--   Theme: teaching
-
-::: {.notes}
-Mine:
-:::
-
 ## Hi, I'm Julie
 
 *Unpolished ideas:*
@@ -21,8 +13,18 @@ Mine:
 -   Theme: collaborating
 
 ::: {.notes}
-Julie
+Julie:
 :::
+
+## Hi, I'm Mine
+
+-   Theme: teaching
+
+::: {.notes}
+Mine:
+:::
+
+
 
 ## Quarto helps you reimagine work, collaboration, and sharing
 
@@ -47,7 +49,6 @@ Flexibility in formats
 Flexibility in tooling
 
 ::: {.notes}
-Mine: 
 Julie:
 :::
 
