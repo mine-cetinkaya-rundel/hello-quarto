@@ -12,20 +12,19 @@ editor: visual
 -   I am a prolific RMarkdown and Quarto user, but not a pro user
 -   Theme: collaborating
 
-<!-- -->
-
-::: {.notes}
+::: aside
 Julie
 :::
 
 ## Hi, I'm Mine
 
--   Theme: teaching
+*Unpolished ideas:*
 
-<!-- -->
+-   I'm an educator
+- 
 
-::: {.notes}
-Mine:
+::: aside
+Mine
 :::
 
 ## Overall theme for our talk
@@ -44,7 +43,7 @@ Penguin with SCUBA gear set up next to them
 
 ::::
 
-::: {.notes}
+::: aside
 Mine: 
 Julie:
 :::
@@ -63,7 +62,7 @@ Next generation R Markdown: Quarto is something you can use if you love Rmd.
 
 **Story:** teaching winter course - diff formats within R (web, slides, course web) I go between the formats a lot (Rmd 8 ways)
 
-::: {.notes}
+::: aside
 Mine: 
 :::
 
