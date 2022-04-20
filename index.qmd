@@ -4,16 +4,6 @@ format: revealjs
 editor: visual
 ---
 
-## Hi, I'm Mine
-
--   Theme: teaching
-
-<!-- -->
-
-::: {.notes}
-Mine:
-:::
-
 ## Hi, I'm Julie
 
 *Unpolished ideas:*
@@ -22,30 +12,37 @@ Mine:
 -   I am a prolific RMarkdown and Quarto user, but not a pro user
 -   Theme: collaborating
 
-<!-- -->
+::: notes
+Julie:
 
-::: {.notes}
-Julie
 :::
 
-## Overall theme for our talk
+## Hi, I'm Mine
 
-:::: {.columns}
+-   Theme: teaching
 
-::: {.column width="40%"}
-Quarto is something you can use if you love Rmd.
-SCUBA Penguin breathing Rmd -> breathing Quarto
+::: notes
+Mine:
 :::
 
-::: {.column width="60%"}
-Quarto is something you can use even if you’ve never used Rmd.
-Penguin with SCUBA gear set up next to them
+## Quarto helps you reimagine work, collaboration, and sharing
+
+::: columns
+::: {.column width="50%"}
+**Quarto is something you can use if you love Rmd**.
+<br> (SCUBA Penguin breathing Quarto)
 :::
 
-::::
+::: {.column width="50%"}
+**Quarto is something you can use if you've never used Rmd.** <br> (Penguin with SCUBA gear set up next to them)
+:::
+:::
 
-::: {.notes}
-Mine: 
+<br> Flexibility in formats
+
+Flexibility in tooling
+
+::: notes
 Julie:
 :::
 
@@ -53,7 +50,14 @@ Julie:
 
 Next generation R Markdown: Quarto is something you can use if you love Rmd.
 
-**Demo - flexibility in the formats:**
+-   it combines/unifies some "down" packages (visual) - abundnace of hex logos
+-   but not just that: plus: it also brings in Jupyter and other languages (python, Julia). provdies that functionality even ir you're not coming from R ecosystem
+
+::: notes
+Mine:
+:::
+
+## Demo - flexibility in the formats
 
 -   Change extension from .rmd to .qmd and render
 
@@ -63,15 +67,49 @@ Next generation R Markdown: Quarto is something you can use if you love Rmd.
 
 **Story:** teaching winter course - diff formats within R (web, slides, course web) I go between the formats a lot (Rmd 8 ways)
 
-::: {.notes}
-Mine: 
+::: notes
+Mine:
 :::
+
+## Graphic: what is "knit vs render"?
+
+(this comes after changing the extension from .rmd to .qmd)
+
+-   simply arrow/point on that spot where it's different, and convey this difference
 
 ## What is Quarto
 
 Quarto is something you can use even if you've never used Rmd.
 
-**Demo - flexibility in the tooling:**
+::: notes
+Julie:
+:::
+
+## Openscapes: better science for future us
+
+![](images/horst_pew_tools_practice_mindset.jpg){fig-align="center" width="100%"}
+
+::: notes
+Julie: Openscapes
+:::
+
+## title
+
+![](images/horst_openscapes_champions.jpg){fig-align="center" width="100%"}
+
+::: notes
+Julie: Openscapes helps research teams transition to inclusive open data science workflows
+:::
+
+## Lowndes et al. 2017
+
+-   open data science (R/RStudio/RMarkdown)
+
+::: notes
+Julie: Foundations from Openscapes comes from my own work and experience, and R
+:::
+
+## Demo - flexibility in the tooling
 
 -   Render Mine's example site in VS Code (from GH?), then JupyterLab
 
@@ -85,22 +123,16 @@ Quarto is something you can use even if you've never used Rmd.
 Julie:
 :::
 
-## Interoperability (language, tooling, people)
-
-::: notes
-Julie:
-:::
-
 ## Quarto enables new ways of sharing
 
 How academics share their teaching resources/ new avenues for publishing
 
-- If it’s not easy to make a course website, you won’t
-- Tooling that makes it easy to share with the world 
-- New way of getting credit
-- Open sharing of knowledge. Other people can just take
-- When it comes time for promotion/review, I say here it is
-- Last 10% to tweak it for your context
+-   If it's not easy to make a course website, you won't
+-   Tooling that makes it easy to share with the world
+-   New way of getting credit
+-   Open sharing of knowledge. Other people can just take
+-   When it comes time for promotion/review, I say here it is
+-   Last 10% to tweak it for your context
 
 **Story:**
 
@@ -110,11 +142,19 @@ Mine:
 
 ## Quarto enables reuse & reimagining
 
-- create-once-use-often
-- less reinventing; focus your time on the science
+-   create-once-use-often
+-   less reinventing; focus your time on the science
 
 
 **Story:**
+
+-   also Openscapes
+
+::: notes
+Julie:
+:::
+
+## Interoperability (language, tooling, people)
 
 ::: notes
 Julie:
