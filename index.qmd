@@ -48,6 +48,9 @@ Julie:
 
 Next generation R Markdown: Quarto is something you can use if you love Rmd.
 
+- it combines/unifies some "down" packages (visual) - abundnace of hex logos
+- but not just that: plus: it also brings in Jupyter and other languages (python, Julia). provdies that functionality even ir you're not coming from R ecosystem
+
 ::: notes
 Mine:
 :::
@@ -65,6 +68,12 @@ Mine:
 ::: notes
 Mine:
 :::
+
+## Graphic: what is "knit vs render"?
+
+(this comes after changing the extension from .rmd to .qmd)
+
+- simply arrow/point on that spot where it's different, and convey this difference
 
 ## What is Quarto
 
