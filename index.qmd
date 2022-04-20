@@ -28,7 +28,8 @@ Mine:
 
 ::: columns
 ::: {.column width="50%"}
-**Quarto is something you can use if you love Rmd**. <br> (SCUBA Penguin breathing Quarto)
+**Quarto is something you can use if you love Rmd**.
+<br> (SCUBA Penguin breathing Quarto)
 :::
 
 ::: {.column width="50%"}
@@ -48,8 +49,8 @@ Julie:
 
 Next generation R Markdown: Quarto is something you can use if you love Rmd.
 
-- it combines/unifies some "down" packages (visual) - abundnace of hex logos
-- but not just that: plus: it also brings in Jupyter and other languages (python, Julia). provdies that functionality even ir you're not coming from R ecosystem
+-   it combines/unifies some "down" packages (visual) - abundnace of hex logos
+-   but not just that: plus: it also brings in Jupyter and other languages (python, Julia). provdies that functionality even ir you're not coming from R ecosystem
 
 ::: notes
 Mine:
@@ -73,7 +74,7 @@ Mine:
 
 (this comes after changing the extension from .rmd to .qmd)
 
-- simply arrow/point on that spot where it's different, and convey this difference
+-   simply arrow/point on that spot where it's different, and convey this difference
 
 ## What is Quarto
 
@@ -91,7 +92,7 @@ Julie:
 Julie: Openscapes
 :::
 
-## .
+## title
 
 ![](images/horst_openscapes_champions.jpg){fig-align="center" width="100%"}
 
@@ -101,12 +102,11 @@ Julie: Openscapes helps research teams transition to inclusive open data science
 
 ## Lowndes et al. 2017
 
-- open data science (R/RStudio/RMarkdown)
+-   open data science (R/RStudio/RMarkdown)
 
 ::: notes
-Julie: Foundations from Openscapes comes from my own work and experience, and R 
+Julie: Foundations from Openscapes comes from my own work and experience, and R
 :::
-
 
 ## Demo - flexibility in the tooling
 
@@ -145,9 +145,9 @@ Mine:
 -   less reinventing; focus your time on the science
 -   
 
-**Story:** 
+**Story:**
 
-- also Openscapes
+-   also Openscapes
 
 ::: notes
 Julie:
@@ -158,4 +158,3 @@ Julie:
 ::: notes
 Julie:
 :::
-
