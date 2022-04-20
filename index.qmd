@@ -12,17 +12,26 @@ editor: visual
 -   I am a prolific RMarkdown and Quarto user, but not a pro user
 -   Theme: collaborating
 
-::: notes
-Julie:
-
+::: aside
+Julie
 :::
 
 ## Hi, I'm Mine
 
--   Theme: teaching
+*Unpolished ideas:*
+
+-   I'm an educator
+- 
+
+::: aside
+Mine
+:::
+
+## Overall theme for our talk
 
 ::: notes
-Mine:
+Julie:
+
 :::
 
 ## Quarto helps you reimagine work, collaboration, and sharing
@@ -38,12 +47,16 @@ Mine:
 :::
 :::
 
-<br> Flexibility in formats
+- Flexibility in formats
+- Flexibility in tooling
 
-Flexibility in tooling
 
-::: notes
+::: aside
+
+Mine: 
+
 Julie:
+
 :::
 
 ## What is Quarto
@@ -67,8 +80,9 @@ Mine:
 
 **Story:** teaching winter course - diff formats within R (web, slides, course web) I go between the formats a lot (Rmd 8 ways)
 
-::: notes
-Mine:
+::: aside
+Mine: 
+
 :::
 
 ## Graphic: what is "knit vs render"?
