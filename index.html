@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en"><head>
   <meta charset="utf-8">
-  <meta name="generator" content="quarto-0.9.290">
+  <meta name="generator" content="quarto-0.9.294">
 
-  <title>Awesome Title</title>
+  <title>Quarto for reimagining, collaborating, and sharing</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -320,14 +320,14 @@
     <div class="slides">
 
 <section id="title-slide" class="center">
-  <h1 class="title">Awesome Title</h1>
+  <h1 class="title">Quarto for reimagining, collaborating, and sharing</h1>
 </section>
 
 <section id="hi-im-julie" class="slide level2">
 <h2>Hi, I’m Julie</h2>
 <p><em>Unpolished ideas:</em></p>
 <ul>
-<li>I’m a marine ecologist and founded Openscapes to help research teams collaborate around data and open science workflows.</li>
+<li>I’m a marine ecologist turned open data science champion: I lead Openscapes to help teams migrate to collaborative workflows.</li>
 <li>I am a prolific RMarkdown and Quarto user, but not a pro user</li>
 <li>Theme: collaborating</li>
 </ul>
@@ -346,119 +346,100 @@
 <aside><div>
 <p>Mine</p>
 </div></aside></section>
-<section id="overall-theme-for-our-talk" class="slide level2">
-<h2>Overall theme for our talk</h2>
-<aside class="notes">
-<p>Julie:</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="quarto-helps-you-reimagine-work-collaboration-and-sharing" class="slide level2">
-<h2>Quarto helps you reimagine work, collaboration, and sharing</h2>
+<section id="quarto-helps-you-reimagine-collaborate-and-share" class="slide level2">
+<h2>Quarto helps you reimagine, collaborate, and share</h2>
+<p><em>Presented as 4 quadrants in the Quarto logo</em></p>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>Quarto is something you can use if you love Rmd</strong>. <br> (SCUBA Penguin breathing Quarto)</p>
+<p><strong>Quarto is something you can use if you love Rmd</strong>. <br></p>
+<p><br></p>
+<p><strong>Flexibility in formats</strong></p>
 </div><div class="column" style="width:50%;">
-<p><strong>Quarto is something you can use if you’ve never used Rmd.</strong> <br> (Penguin with SCUBA gear set up next to them)</p>
+<p><strong>Quarto is something you can use if you’ve never used Rmd.</strong></p>
+<p><br></p>
+<p><strong>Flexibility in tooling</strong></p>
 </div>
 </div>
-<ul>
-<li>Flexibility in formats</li>
-<li>Flexibility in tooling</li>
-</ul>
 
 <aside><div>
-<p>Mine:</p>
-<p>Julie:</p>
+<p><em>illustrations: SCUBA Penguins breathing/getting ready for Quarto</em></p>
+<p>Mine: will talk about left side</p>
+<p>Julie: will talk about right side; Both: share demos, stories, FAQ’s we’ve encountered so far</p>
 </div></aside></section>
 <section id="what-is-quarto" class="slide level2">
 <h2>What is Quarto</h2>
-<p>Next generation R Markdown: Quarto is something you can use if you love Rmd.</p>
+<p><strong>Quarto is something you can use if you love RMarkdown</strong></p>
+<p><br></p>
+<p><strong>Next generation R Markdown:</strong></p>
 <ul>
-<li>it combines/unifies some “down” packages (visual) - abundnace of hex logos</li>
-<li>but not just that: plus: it also brings in Jupyter and other languages (python, Julia). provdies that functionality even ir you’re not coming from R ecosystem</li>
+<li>It combines/unifies some “down” packages</li>
+<li>It also brings in Jupyter and other languages (python, Julia). provides that functionality even if you’re not coming from R ecosystem</li>
 </ul>
-<aside class="notes">
+
+<aside><div>
+<p><em>Illustration: “down” hex logos</em></p>
 <p>Mine:</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
+</div></aside></section>
 <section id="demo---flexibility-in-the-formats" class="slide level2">
 <h2>Demo - flexibility in the formats</h2>
 <ul>
-<li><p>Change extension from .rmd to .qmd and render</p></li>
-<li><p>Change format from doc to reveal.js (no slide breaks) (then change back to html)</p></li>
-<li><p>Show <code>_quarto.yml</code> and make a ~2-page site</p></li>
+<li>Take .Rmd and change extension to .qmd
+<ul>
+<li>The .Rmd will already have a table and a plot, palmerpenguins</li>
+<li>Knit it, then change to .qmd. Knit again</li>
+<li>Note code chunk options (or other high-level differences)</li>
+</ul></li>
+<li>Change output format to yml slides</li>
+<li>Add a _quarto.yml, render to website
+<ul>
+<li><em>To hand-off to Julie: (a tiny website)</em></li>
+</ul></li>
 </ul>
-<p><strong>Story:</strong> teaching winter course - diff formats within R (web, slides, course web) I go between the formats a lot (Rmd 8 ways)</p>
 
 <aside><div>
 <p>Mine:</p>
 </div></aside></section>
-<section id="graphic-what-is-knit-vs-render" class="slide level2">
-<h2>Graphic: what is “knit vs render”?</h2>
+<section id="faq-knit-vs-render" class="slide level2">
+<h2>FAQ: knit vs render?</h2>
 <p>(this comes after changing the extension from .rmd to .qmd)</p>
-<ul>
-<li>simply arrow/point on that spot where it’s different, and convey this difference</li>
-</ul>
+
+<aside><div>
+<p><em>illustration: maybe a graphic and a arrow pointing at a high-level where it’s different</em></p>
+<p>Mine:</p>
+</div></aside></section>
+<section id="faq-from-jenny-or-jo" class="slide level2">
+<h2>FAQ: from Jenny or Jo?</h2>
 </section>
+<section id="story" class="slide level2">
+<h2>Story:</h2>
+<ul>
+<li>teaching background</li>
+<li>teaching winter course - anectodote from art history student?</li>
+<li>Why is this interesting, is it diff from teaching Rmd? easier, harder? Not different?</li>
+</ul>
+<p>OR: diff formats within R (web, slides, course web) I go between the formats a lot (Rmd 8 ways)</p>
+
+<aside><div>
+<p>Mine:</p>
+</div></aside></section>
 <section id="what-is-quarto-1" class="slide level2">
 <h2>What is Quarto</h2>
-<p>Quarto is something you can use even if you’ve never used Rmd.</p>
-<aside class="notes">
-<p>Julie:</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="openscapes-better-science-for-future-us" class="slide level2">
-<h2>Openscapes: better science for future us</h2>
+<p><strong>Quarto is something you can use even if you’ve never used RMarkdown.</strong></p>
+<p><em>unpolished ideas:</em></p>
+<ul>
+<li>nicely-formatted code &amp; text together to publish</li>
+<li>organizing your work as collections: documentation, code, notebooks</li>
+<li>collaborating framework (across R &amp; Python, across coders and non-coders)</li>
+</ul>
 
-<img data-src="images/horst_pew_tools_practice_mindset.jpg" style="width:100.0%" class="r-stretch quarto-figure-center"><aside class="notes">
-<p>Julie: Openscapes</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="title" class="slide level2">
-<h2>title</h2>
+<aside><div>
+<p>Julie: will start off with a story, then demo</p>
+</div></aside></section>
+<section id="section" class="slide level2">
+<h2></h2>
 
 <img data-src="images/horst_openscapes_champions.jpg" style="width:100.0%" class="r-stretch quarto-figure-center"><aside class="notes">
-<p>Julie: Openscapes helps research teams transition to inclusive open data science workflows</p>
+<p>Julie: We think about open science as landscape of open data, tooling, and communities, with many existing paths forward, as well as opportunities to create new paths together. Our main focus is to empower research teams. A lot of people feel stuck, like these sad animals in the bottom left, or are working alone, like the little hermit crab, with the landscape just out of view. We help folks find common parts of their work and come together as teams and identify their trailhead so they can safely navigate this landscape, and help each other and welcome others as they go.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -471,46 +452,47 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="lowndes-et-al.-2017" class="slide level2">
-<h2>Lowndes et al.&nbsp;2017</h2>
+<section id="creating-space-place" class="slide level2">
+<h2>Creating “space &amp; place”</h2>
+
+
+<img data-src="images/horst_pew_tools_practice_mindset.jpg" style="width:100.0%" class="r-stretch quarto-figure-center"><aside><div>
+<p>Julie: Openscapes helps teams develop practices that are underpinned by tools. Quarto creates “place”</p>
+</div></aside></section>
+<section id="nasa-openscapes" class="slide level2">
+<h2>NASA Openscapes</h2>
+<p>Supporting scientific researcher teams using NASA Earthdata as they migrate their workflows to the cloud.</p>
+<p><strong>Develop mentors • Empower research teams • Scale teaching</strong></p>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><em>Zoom faces, NASA logo</em></p>
+</div><div class="column" style="width:50%;">
 <ul>
-<li>open data science (R/RStudio/RMarkdown)</li>
+<li>find the common</li>
+<li>reuse existing</li>
+<li>contribute to fill gaps</li>
+<li>foster a teaching/learning culture</li>
 </ul>
-<aside class="notes">
-<p>Julie: Foundations from Openscapes comes from my own work and experience, and R</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
+</div>
+</div>
+
+<aside><div>
+<p>Julie: <strong>Story:</strong> working with NASA Openscapes team create space and place: Collaboration across R &amp; Python, across coders and non-coders</p>
+</div></aside></section>
 <section id="demo---flexibility-in-the-tooling" class="slide level2">
 <h2>Demo - flexibility in the tooling</h2>
 <ul>
-<li><p>Render Mine’s example site in VS Code (from GH?), then JupyterLab</p></li>
-<li><p>Include <code>.ipynb</code> in example site</p></li>
-<li><p>Return to RStudio, I can do this from my comfort place too.</p></li>
+<li><p>Render Mine’s example site in JupyterHub</p></li>
+<li><p>Add <code>.ipynb</code> in example site</p></li>
 </ul>
-<p><strong>Story:</strong> working with NASA Openscapes team create space and place: Collaboration across R &amp; Python, across coders and non-coders</p>
-<aside class="notes">
+
+<aside><div>
 <p>Julie:</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+</div></aside></section>
+<section id="qa---quarto-is-a-philosophy-and-a-document-type" class="slide level2">
+<h2>Q&amp;A - Quarto is a “philosophy” (and a document type)</h2>
+<p>From Allison Horst, Gavin</p>
 </section>
 <section id="quarto-enables-new-ways-of-sharing" class="slide level2">
 <h2>Quarto enables new ways of sharing</h2>
@@ -523,60 +505,89 @@
 <li>When it comes time for promotion/review, I say here it is</li>
 <li>Last 10% to tweak it for your context</li>
 </ul>
-<p><strong>Story:</strong></p>
-<aside class="notes">
+
+<aside><div>
 <p>Mine:</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
+</div></aside></section>
+<section id="demo-part-2" class="slide level2">
+<h2>Demo part 2</h2>
+<ul>
+<li><p>visual editor</p></li>
+<li><p>Short - “a few things I’ve learned transitioning Rmd -&gt; quarto”,</p></li>
+<li><p>Now to be a bit more principled about the transition (Change extension .rmd to .qmd and render to see it’s fine)</p></li>
+<li><p>Change _bookdown.yml to _quarto.yml</p></li>
+<li><p>My bookdown H1 headers were markdown <code>#Like This</code>; quarto book will build but the rest of the headers don’t show up on the right TOC. change to yaml <code>title: Like This</code>. Also will look right in the viewer</p></li>
+</ul>
+
+<aside><div>
+<p>Mine:</p>
+</div></aside></section>
+<section id="story-2" class="slide level2">
+<h2>Story 2</h2>
+
+<aside><div>
+<p>Mine:</p>
+</div></aside></section>
+<section id="qa-2" class="slide level2">
+<h2>Q&amp;A 2</h2>
+
+<aside><div>
+<p>Mine:</p>
+</div></aside></section>
 <section id="quarto-enables-reuse-reimagining" class="slide level2">
 <h2>Quarto enables reuse &amp; reimagining</h2>
 <ul>
 <li>create-once-use-often</li>
 <li>less reinventing; focus your time on the science</li>
 </ul>
-<p><strong>Story:</strong></p>
+
+<aside><div>
+<p>Julie:</p>
+</div></aside></section>
+<section id="fostering-a-culture-of-reuse" class="slide level2">
+<h2>Fostering a culture of reuse</h2>
+<p><em>placeholder slide</em></p>
+
+
+<img data-src="images/mentors-screenshot.png" style="width:20.0%" class="r-stretch quarto-figure-center"><aside><div>
+<p>Julie: seeing this enabled with NASA and quarto</p>
+</div></aside></section>
+<section id="fostering-a-culture-of-reuse-1" class="slide level2">
+<h2>Fostering a culture of reuse</h2>
+<p>Interoperability (language, tooling, people) –&gt;</p>
+<p>Enabling collaborations, transferrable skills</p>
+
+<aside><div>
+<p>Julie:</p>
+</div></aside></section>
+<section id="demo-showcase-culture-of-reuse" class="slide level2">
+<h2>Demo / Showcase culture of reuse:</h2>
 <ul>
-<li>also Openscapes</li>
+<li><p><a href="https://nasa-openscapes.github.io/earthdata-cloud-cookbook/">NASA-Openscapes Cookbook</a></p></li>
+<li><p><a href="https://openscapes.github.io/series/">Openscapes Lesson Series</a></p></li>
+<li><p><a href="https://thefaylab.github.io/lab-manual/">Gavin Fay lab manual</a></p></li>
+<li><p>Julie’s Quarto tutorial (building from 2016 Rmd tutorial)</p></li>
 </ul>
-<aside class="notes">
+
+<aside><div>
+<p>Julie: Culture of trust, less reinventing. Meets someone like me where they are and supports them. (Revisit from useR)</p>
+</div></aside></section>
+<section id="fostering-a-culture-of-engagement" class="slide level2">
+<h2>Fostering a culture of engagement</h2>
+<p><em>placeholder slide</em> - why this matters.</p>
+
+
+<img data-src="images/all-we-can-save-screenshot.png" style="width:20.0%" class="r-stretch quarto-figure-center"><aside><div>
 <p>Julie:</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="interoperability-language-tooling-people" class="slide level2">
-<h2>Interoperability (language, tooling, people)</h2>
-<aside class="notes">
-<p>Julie:</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+</div></aside></section>
+<section id="closing" class="slide level2">
+<h2>Closing</h2>
+<ul>
+<li>RMarkdown has helped code be part of something you share</li>
+<li>Tooling that makes things easy can help be culture change</li>
+<li>Tooling &gt; culture change bc repro and sharing</li>
+<li>Quarto could help bring about culture change across languages</li>
+</ul>
 <div class="footer footer-default">
 
 </div>
