@@ -1,8 +1,54 @@
 ---
 title: "Quarto for reimagining, collaborating, and sharing"
-format: revealjs
+format: 
+  revealjs: 
+    theme: style.scss
+    multiplex: true
+    transition: fade
 editor: visual
 ---
+
+# Setup
+
+## Setup
+
+-   This section contains some setup information to be used during the preparation of the talk
+-   Will be removed before finalizing the talk
+
+## Color palette
+
+Tested for six common types of color blindness.
+
+```{r}
+#| label: load-pkg
+#| warning: false
+
+library(tidyverse)
+```
+
+```{r}
+#| out.width: "100%"
+
+df <- tribble(
+  ~color,    ~name,                   ~text_color, 
+  "#FF744E", "OPENSCAPES ORANGE",           "black",
+  "#FAE3E3", "MISTY ROSE",            "black",
+  "#607576", "CADET",                 "black",
+  "#1C1C1C", "EERIE BLACK",           "white",
+  "#75AADB", "QUARTO BLUE",           "black"
+)
+
+ggplot(df, aes(y = fct_inorder(color), x = 10, fill = color)) +
+  geom_col() +
+  scale_fill_identity() +
+  theme_void() +
+  geom_text(aes(x = 1, label = paste(color, "-", name), color = text_color), hjust = 0, fontface = "bold") +
+  scale_color_identity()
+```
+
+## Video embed {background-video="test-video.mp4" background-video-loop="true" background-video-muted="true"}
+
+# Talk
 
 ## Hi, I'm Julie
 
@@ -20,6 +66,7 @@ Julie
 
 *Unpolished ideas:*
 
+-   
 -   I'm an educator
 -   
 
@@ -33,7 +80,8 @@ Mine
 
 ::: columns
 ::: {.column width="50%"}
-**Quarto is something you can use if you love Rmd**. <br>
+**Quarto is something you can use if you love Rmd**.
+<br>
 
 <br>
 
@@ -74,8 +122,11 @@ Julie: will talk about right side; Both: share demos, stories, FAQ's we've encou
 Mine:
 :::
 
-## Demo - flexibility in the formats
+## DEMO: Flexibility in the formats
 
+*This slide will be replaced with a screen recording.*
+
+::: demo
 -   Take .Rmd and change extension to .qmd
     -   The .Rmd will already have a table and a plot, palmerpenguins
     -   Knit it, then change to .qmd. Knit again
@@ -83,6 +134,7 @@ Mine:
 -   Change output format to yml slides
 -   Add a \_quarto.yml, render to website
     -   *To hand-off to Julie: (a tiny website)*
+:::
 
 ::: aside
 Mine:
@@ -131,7 +183,10 @@ Julie: will start off with a story, then demo
 ![](images/horst_openscapes_champions.jpg){fig-align="center" width="100%"}
 
 ::: notes
-Julie: We think about open science as landscape of open data, tooling, and communities, with many existing paths forward, as well as opportunities to create new paths together. Our main focus is to empower research teams. A lot of people feel stuck, like these sad animals in the bottom left, or are working alone, like the little hermit crab, with the landscape just out of view. We help folks find common parts of their work and come together as teams and identify their trailhead so they can safely navigate this landscape, and help each other and welcome others as they go.
+Julie: We think about open science as landscape of open data, tooling, and communities, with many existing paths forward, as well as opportunities to create new paths together.
+Our main focus is to empower research teams.
+A lot of people feel stuck, like these sad animals in the bottom left, or are working alone, like the little hermit crab, with the landscape just out of view.
+We help folks find common parts of their work and come together as teams and identify their trailhead so they can safely navigate this landscape, and help each other and welcome others as they go.
 :::
 
 ## Creating "space & place"
@@ -139,7 +194,8 @@ Julie: We think about open science as landscape of open data, tooling, and commu
 ![](images/horst_pew_tools_practice_mindset.jpg){fig-align="center" width="100%"}
 
 ::: aside
-Julie: Openscapes helps teams develop practices that are underpinned by tools. Quarto creates "place"
+Julie: Openscapes helps teams develop practices that are underpinned by tools.
+Quarto creates "place"
 :::
 
 ## NASA Openscapes
@@ -167,11 +223,15 @@ Supporting scientific researcher teams using NASA Earthdata as they migrate thei
 Julie: **Story:** working with NASA Openscapes team create space and place: Collaboration across R & Python, across coders and non-coders
 :::
 
-## Demo - flexibility in the tooling
+## DEMO: Flexibility in the tooling
 
+*This slide will be replaced with a screen recording.*
+
+::: demo
 -   Render Mine's example site in JupyterHub
 
 -   Add `.ipynb` in example site
+:::
 
 ::: aside
 Julie:
@@ -196,8 +256,11 @@ How academics share their teaching resources/ new avenues for publishing
 Mine:
 :::
 
-## Demo part 2
+## DEMO: Part 2
 
+*This slide will be replaced with a screen recording.*
+
+::: demo
 -   visual editor
 
 -   Short - "a few things I've learned transitioning Rmd -\> quarto",
@@ -206,7 +269,10 @@ Mine:
 
 -   Change \_bookdown.yml to \_quarto.yml
 
--   My bookdown H1 headers were markdown `#Like This`; quarto book will build but the rest of the headers don't show up on the right TOC. change to yaml `title: Like This`. Also will look right in the viewer
+-   My bookdown H1 headers were markdown `#Like This`; quarto book will build but the rest of the headers don't show up on the right TOC.
+    change to yaml `title: Like This`.
+    Also will look right in the viewer
+:::
 
 ::: aside
 Mine:
@@ -245,8 +311,7 @@ Julie: seeing this enabled with NASA and quarto
 
 ## Fostering a culture of reuse
 
-
-Interoperability (language, tooling, people) --> 
+Interoperability (language, tooling, people) --\>
 
 Enabling collaborations, transferrable skills
 
@@ -256,15 +321,22 @@ Julie:
 
 ## Demo / Showcase culture of reuse:
 
+::: question
+Is this going to be a screen recording as well?
+:::
+
 -   [NASA-Openscapes Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
 
--   [Openscapes Lesson Series](https://openscapes.github.io/series/) 
+-   [Openscapes Lesson Series](https://openscapes.github.io/series/)
 
--   [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/) 
-- Julie's Quarto tutorial (building from 2016 Rmd tutorial)
+-   [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
+
+-   Julie's Quarto tutorial (building from 2016 Rmd tutorial)
 
 ::: aside
-Julie: Culture of trust, less reinventing. Meets someone like me where they are and supports them. (Revisit from useR)
+Julie: Culture of trust, less reinventing.
+Meets someone like me where they are and supports them.
+(Revisit from useR)
 :::
 
 ## Fostering a culture of engagement
@@ -279,9 +351,7 @@ Julie:
 
 ## Closing
 
-- RMarkdown has helped code be part of something you share
-- Tooling that makes things easy can help be culture change
-- Tooling > culture change bc repro and sharing
-- Quarto could help bring about culture change across languages
-
-
+-   RMarkdown has helped code be part of something you share
+-   Tooling that makes things easy can help be culture change
+-   Tooling \> culture change bc repro and sharing
+-   Quarto could help bring about culture change across languages

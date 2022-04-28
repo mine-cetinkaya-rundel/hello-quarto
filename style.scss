@@ -1,0 +1,38 @@
+/*-- scss:defaults --*/
+
+// fonts
+@import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap';
+
+$font-family-sans-serif: "Atkinson Hyperlegible", sans-serif;
+$presentation-heading-color: #75AADB;
+$presentation-title-slide-text-align: "left";
+
+/*-- scss:rules --*/
+
+details>summary {
+  font-size: 0.75em;
+}
+
+.small {
+  font-size: 0.75em;
+}
+
+.reveal .slide .demo {
+  border: 3px solid #c7cfcf;
+  color: white;
+  font-size: 0.75em;
+  padding-left: 0.5em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  background: #607576;
+}
+
+.reveal .slide .question {
+  border: 3px solid pink;
+  color: white;
+  font-size: 0.75em;
+  padding-left: 0.5em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  background: red;
+}
