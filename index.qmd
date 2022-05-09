@@ -52,14 +52,14 @@ ggplot(df, aes(y = fct_inorder(color), x = 10, fill = color)) +
 
 ## Hi, I'm Julie
 
-*Unpolished ideas:*
 
--   I'm a marine ecologist turned open data science champion: I lead Openscapes to help teams migrate to collaborative workflows.
--   I am a prolific RMarkdown and Quarto user, but not a pro user
+-   Long-time user of RMarkdown, and also Quarto
+-   Changed my work-life and my life-life 
 -   Theme: collaborating
 
 ::: aside
-Julie
+Julie: So excited to be here. 
+Long-time user of RMarkdown, and Quarto - I am a prolific user and love how out-of-the box they are; I can use them for communicating about research, teaching, and collaborating using mostly the defaults. This as you'll see has been helping me push and blur the boundaries of environmental science, open source, and teaching
 :::
 
 ## Hi, I'm Mine
@@ -76,8 +76,6 @@ Mine
 
 ## Quarto helps you reimagine, collaborate, and share
 
-*Presented as 4 quadrants in the Quarto logo*
-
 ::: columns
 ::: {.column width="50%"}
 **Quarto is something you can use if you love Rmd**.
@@ -85,7 +83,7 @@ Mine
 
 <br>
 
-**Flexibility in formats**
+**Quarto enables sharing (& organization?)**
 :::
 
 ::: {.column width="50%"}
@@ -93,19 +91,20 @@ Mine
 
 <br>
 
-**Flexibility in tooling**
+**Quarto enables reuse & reimagining**
 :::
 :::
 
 ::: aside
+*Presented as 4 quadrants in the Quarto logo*
 *illustrations: SCUBA Penguins breathing/getting ready for Quarto*
 
 Mine: will talk about left side
 
-Julie: will talk about right side; Both: share demos, stories, FAQ's we've encountered so far
+Julie: will talk about right side; Both: share demos, stories, FAQ's
 :::
 
-## What is Quarto
+# What is Quarto 
 
 **Quarto is something you can use if you love RMarkdown**
 
@@ -164,7 +163,7 @@ OR: diff formats within R (web, slides, course web) I go between the formats a l
 Mine:
 :::
 
-## What is Quarto
+# What is Quarto 
 
 **Quarto is something you can use even if you've never used RMarkdown.**
 
@@ -178,27 +177,49 @@ Mine:
 Julie: will start off with a story, then demo
 :::
 
-## 
+## NASA Earthdata Cloud Cookbook
 
-![](images/horst_openscapes_champions.jpg){fig-align="center" width="100%"}
-
-::: notes
-Julie: We think about open science as landscape of open data, tooling, and communities, with many existing paths forward, as well as opportunities to create new paths together.
-Our main focus is to empower research teams.
-A lot of people feel stuck, like these sad animals in the bottom left, or are working alone, like the little hermit crab, with the landscape just out of view.
-We help folks find common parts of their work and come together as teams and identify their trailhead so they can safely navigate this landscape, and help each other and welcome others as they go.
-:::
-
-## Creating "space & place"
-
-![](images/horst_pew_tools_practice_mindset.jpg){fig-align="center" width="100%"}
+Image: screenshot of quarto book 
 
 ::: aside
-Julie: Openscapes helps teams develop practices that are underpinned by tools.
-Quarto creates "place"
+Julie: this is the first Quarto site I made. 3 cool things about this. 
 :::
 
-## NASA Openscapes
+## 1. Familiar and beautiful
+
+Image: screenshot of quarto book, contributing page 
+
+::: aside
+Julie: 
+1. it looks familiar coming from RMarkdown. It's beautiful...
+
+- first real content in it: taught others how to install quarto and contribute, knew it would change but that's ok, the beauty of quarto, it's dynamic, you don't feel stuck or static
+:::
+
+## 2. Interoperability with tech
+
+Image: screenshot of portion of `_quarto.yml`: .ipynbs not .Rmds
+
+::: aside
+Julie: 
+2. language compatibility - using quarto with a python-heavy crowd
+I'm able to build from what I've learned with R and share with the python crowd
+(flexibility in the tooling)
+:::
+
+
+## 3. Interoperability with people
+
+aka collaboration
+
+Image: screenshots of Zoom 
+
+::: aside
+3. cool collaboration with J.J. and the quarto team AND NASA Openscapes. 
+:::
+
+
+## NASA Openscapes Framework
 
 Supporting scientific researcher teams using NASA Earthdata as they migrate their workflows to the cloud.
 
@@ -208,19 +229,20 @@ Supporting scientific researcher teams using NASA Earthdata as they migrate thei
 
 ::: columns
 ::: {.column width="50%"}
-*Zoom faces, NASA logo*
+-   find the common
+-   reuse existing
 :::
 
 ::: {.column width="50%"}
--   find the common
--   reuse existing
+
 -   contribute to fill gaps
--   foster a teaching/learning culture
+-   foster an open (psychologically safe) learning culture
 :::
 :::
 
 ::: aside
-Julie: **Story:** working with NASA Openscapes team create space and place: Collaboration across R & Python, across coders and non-coders
+Julie: This book is part of a 3-year project with NASA to support scientific researcher teams using NASA Earthdata as they migrate their workflows to the cloud.
+
 :::
 
 ## DEMO: Flexibility in the tooling
@@ -228,9 +250,9 @@ Julie: **Story:** working with NASA Openscapes team create space and place: Coll
 *This slide will be replaced with a screen recording.*
 
 ::: demo
--   Render Mine's example site in JupyterHub
-
--   Add `.ipynb` in example site
+- Render Mine's example site in JupyterHub, quarto preview
+- Add `.ipynb`, workflow
+- Also open in VS Code, show `.qmd` (cmd-shift-k to render [attention to other tool chains available])
 :::
 
 ::: aside
@@ -241,7 +263,7 @@ Julie:
 
 From Allison Horst, Gavin
 
-## Quarto enables new ways of sharing
+# Quarto enables new ways of sharing
 
 How academics share their teaching resources/ new avenues for publishing
 
@@ -290,13 +312,13 @@ Mine:
 Mine:
 :::
 
-## Quarto enables reuse & reimagining
+# Quarto enables reuse & reimagining
 
 -   create-once-use-often
 -   less reinventing; focus your time on the science
 
 ::: aside
-Julie:
+Julie: enabling sharing and organization across tooling and people (like Mine just showed) means it's easier to reuse and reimagine.
 :::
 
 ## Fostering a culture of reuse
@@ -315,23 +337,40 @@ Interoperability (language, tooling, people) --\>
 
 Enabling collaborations, transferrable skills
 
+Can collaborate with people sooner. 
+
+Tooling that makes things easy can help be culture change
+
+Tooling > culture change bc repro and sharing
+
 ::: aside
 Julie:
 :::
 
-## Demo / Showcase culture of reuse:
+## Creating "space & place"
 
-::: question
-Is this going to be a screen recording as well?
+![](images/horst_pew_tools_practice_mindset.jpg){fig-align="center" width="100%"}
+
+::: aside
+Julie: Openscapes helps teams develop practices that are underpinned by tools.
+Quarto creates "place"
 :::
 
--   [NASA-Openscapes Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
+## Demo / Showcase culture of reuse:
+
+::: demo
+
+- showcase a few additional quarto sites - establishing & role-modeling culture change
+- open one in RStudio 
+- install with the CLI 
+- quarto pub?
+:::
 
 -   [Openscapes Lesson Series](https://openscapes.github.io/series/)
 
--   [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
+-   [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/)
 
--   Julie's Quarto tutorial (building from 2016 Rmd tutorial)
+-   [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
 
 ::: aside
 Julie: Culture of trust, less reinventing.
@@ -341,7 +380,7 @@ Meets someone like me where they are and supports them.
 
 ## Fostering a culture of engagement
 
-*placeholder slide* - why this matters.
+*placeholder slide* - why this matters. Collaborate with people sooner.
 
 ![](images/all-we-can-save-screenshot.png){fig-align="center" width="20%"}
 
@@ -353,5 +392,26 @@ Julie:
 
 -   RMarkdown has helped code be part of something you share
 -   Tooling that makes things easy can help be culture change
--   Tooling \> culture change bc repro and sharing
+-   Tooling culture change bc repro and sharing
 -   Quarto could help bring about culture change across languages
+
+
+# Quarto examples and resources
+
+- Mine's Toronto talk
+- Julie's Quarto tutorial (building from 2016 Rmd tutorial)
+
+## Cutting room floor 
+
+The following slides won't be in the final talk 
+
+## (Champions landscape)
+
+![](images/horst_openscapes_champions.jpg){fig-align="center" width="100%"}
+
+::: notes
+Julie: We think about open science as landscape of open data, tooling, and communities, with many existing paths forward, as well as opportunities to create new paths together.
+Our main focus is to empower research teams.
+A lot of people feel stuck, like these sad animals in the bottom left, or are working alone, like the little hermit crab, with the landscape just out of view.
+We help folks find common parts of their work and come together as teams and identify their trailhead so they can safely navigate this landscape, and help each other and welcome others as they go.
+:::
