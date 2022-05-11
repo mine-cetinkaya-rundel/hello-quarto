@@ -8,58 +8,18 @@ format:
 editor: visual
 ---
 
-# Setup
-
-## Setup
-
--   This section contains some setup information to be used during the preparation of the talk
--   Will be removed before finalizing the talk
-
-## Color palette
-
-Tested for six common types of color blindness.
-
-```{r}
-#| label: load-pkg
-#| warning: false
-
-library(tidyverse)
-```
-
-```{r}
-#| out.width: "100%"
-
-df <- tribble(
-  ~color,    ~name,                   ~text_color, 
-  "#FF744E", "OPENSCAPES ORANGE",           "black",
-  "#FAE3E3", "MISTY ROSE",            "black",
-  "#607576", "CADET",                 "black",
-  "#1C1C1C", "EERIE BLACK",           "white",
-  "#75AADB", "QUARTO BLUE",           "black"
-)
-
-ggplot(df, aes(y = fct_inorder(color), x = 10, fill = color)) +
-  geom_col() +
-  scale_fill_identity() +
-  theme_void() +
-  geom_text(aes(x = 1, label = paste(color, "-", name), color = text_color), hjust = 0, fontface = "bold") +
-  scale_color_identity()
-```
-
-## Video embed {background-video="test-video.mp4" background-video-loop="true" background-video-muted="true"}
-
-# Talk
+# Intro
 
 ## Hi, I'm Julie
 
-
 -   Long-time user of RMarkdown, and also Quarto
--   Changed my work-life and my life-life 
+-   Changed my work-life and my life-life
 -   Theme: collaborating
 
 ::: aside
-Julie: So excited to be here. 
-Long-time user of RMarkdown, and Quarto - I am a prolific user and love how out-of-the box they are; I can use them for communicating about research, teaching, and collaborating using mostly the defaults. This as you'll see has been helping me push and blur the boundaries of environmental science, open source, and teaching
+Julie: So excited to be here.
+Long-time user of RMarkdown, and Quarto - I am a prolific user and love how out-of-the box they are; I can use them for communicating about research, teaching, and collaborating using mostly the defaults.
+This as you'll see has been helping me push and blur the boundaries of environmental science, open source, and teaching
 :::
 
 ## Hi, I'm Mine
@@ -67,7 +27,9 @@ Long-time user of RMarkdown, and Quarto - I am a prolific user and love how out-
 *Unpolished ideas:*
 
 -   
+
 -   I'm an educator
+
 -   
 
 ::: aside
@@ -78,16 +40,16 @@ Mine
 
 ::: columns
 ::: {.column width="50%"}
-**Quarto is something you can use if you love Rmd**.
+**Quarto is for people who don’t know Rmd.**.
 <br>
 
 <br>
 
-**Quarto enables sharing (& organization?)**
+**Quarto enables sharing & organization**
 :::
 
 ::: {.column width="50%"}
-**Quarto is something you can use if you've never used Rmd.**
+**Quarto is for people who don’t know Rmd.**
 
 <br>
 
@@ -96,21 +58,16 @@ Mine
 :::
 
 ::: aside
-*Presented as 4 quadrants in the Quarto logo*
-*illustrations: SCUBA Penguins breathing/getting ready for Quarto*
+*Presented as 4 quadrants in the Quarto logo* *illustrations: SCUBA Penguins breathing/getting ready for Quarto*
 
 Mine: will talk about left side
 
 Julie: will talk about right side; Both: share demos, stories, FAQ's
 :::
 
-# What is Quarto 
+# Quarto is for people who love Rmd
 
-**Quarto is something you can use if you love RMarkdown**
-
-<br>
-
-**Next generation R Markdown:**
+## Next generation R Markdown
 
 -   It combines/unifies some "down" packages
 -   It also brings in Jupyter and other languages (python, Julia). provides that functionality even if you're not coming from R ecosystem
@@ -154,7 +111,7 @@ Mine:
 ## Story:
 
 -   teaching background
--   teaching winter course - anectodote from art history student?
+-   teaching winter course - anecdote from art history student?
 -   Why is this interesting, is it diff from teaching Rmd? easier, harder? Not different?
 
 OR: diff formats within R (web, slides, course web) I go between the formats a lot (Rmd 8 ways)
@@ -163,9 +120,9 @@ OR: diff formats within R (web, slides, course web) I go between the formats a l
 Mine:
 :::
 
-# What is Quarto 
+# Quarto is for people who don’t know Rmd
 
-**Quarto is something you can use even if you've never used RMarkdown.**
+## Quarto is something you can use even if you've never used RMarkdown
 
 *unpolished ideas:*
 
@@ -179,21 +136,23 @@ Julie: will start off with a story, then demo
 
 ## NASA Earthdata Cloud Cookbook
 
-Image: screenshot of quarto book 
+Image: screenshot of quarto book
 
 ::: aside
-Julie: this is the first Quarto site I made. 3 cool things about this. 
+Julie: this is the first Quarto site I made.
+3 cool things about this.
 :::
 
 ## 1. Familiar and beautiful
 
-Image: screenshot of quarto book, contributing page 
+Image: screenshot of quarto book, contributing page
 
 ::: aside
-Julie: 
-1. it looks familiar coming from RMarkdown. It's beautiful...
+Julie: 1.
+it looks familiar coming from RMarkdown.
+It's beautiful...
 
-- first real content in it: taught others how to install quarto and contribute, knew it would change but that's ok, the beauty of quarto, it's dynamic, you don't feel stuck or static
+-   first real content in it: taught others how to install quarto and contribute, knew it would change but that's ok, the beauty of quarto, it's dynamic, you don't feel stuck or static
 :::
 
 ## 2. Interoperability with tech
@@ -201,23 +160,19 @@ Julie:
 Image: screenshot of portion of `_quarto.yml`: .ipynbs not .Rmds
 
 ::: aside
-Julie: 
-2. language compatibility - using quarto with a python-heavy crowd
-I'm able to build from what I've learned with R and share with the python crowd
-(flexibility in the tooling)
+Julie: 2.
+language compatibility - using quarto with a python-heavy crowd I'm able to build from what I've learned with R and share with the python crowd (flexibility in the tooling)
 :::
-
 
 ## 3. Interoperability with people
 
 aka collaboration
 
-Image: screenshots of Zoom 
+Image: screenshots of Zoom
 
 ::: aside
-3. cool collaboration with J.J. and the quarto team AND NASA Openscapes. 
+3.  cool collaboration with J.J. and the quarto team AND NASA Openscapes.
 :::
-
 
 ## NASA Openscapes Framework
 
@@ -234,7 +189,6 @@ Supporting scientific researcher teams using NASA Earthdata as they migrate thei
 :::
 
 ::: {.column width="50%"}
-
 -   contribute to fill gaps
 -   foster an open (psychologically safe) learning culture
 :::
@@ -242,7 +196,6 @@ Supporting scientific researcher teams using NASA Earthdata as they migrate thei
 
 ::: aside
 Julie: This book is part of a 3-year project with NASA to support scientific researcher teams using NASA Earthdata as they migrate their workflows to the cloud.
-
 :::
 
 ## DEMO: Flexibility in the tooling
@@ -250,9 +203,9 @@ Julie: This book is part of a 3-year project with NASA to support scientific res
 *This slide will be replaced with a screen recording.*
 
 ::: demo
-- Render Mine's example site in JupyterHub, quarto preview
-- Add `.ipynb`, workflow
-- Also open in VS Code, show `.qmd` (cmd-shift-k to render [attention to other tool chains available])
+-   Render Mine's example site in JupyterHub, quarto preview
+-   Add `.ipynb`, workflow
+-   Also open in VS Code, show `.qmd` (cmd-shift-k to render \[attention to other tool chains available\])
 :::
 
 ::: aside
@@ -263,7 +216,9 @@ Julie:
 
 From Allison Horst, Gavin
 
-# Quarto enables new ways of sharing
+# Quarto enables new ways of sharing & organization
+
+## some title...
 
 How academics share their teaching resources/ new avenues for publishing
 
@@ -312,7 +267,9 @@ Mine:
 Mine:
 :::
 
-# Quarto enables reuse & reimagining
+# ​​Quarto enables new ways of reuse & reimagining
+
+## some title...
 
 -   create-once-use-often
 -   less reinventing; focus your time on the science
@@ -337,11 +294,11 @@ Interoperability (language, tooling, people) --\>
 
 Enabling collaborations, transferrable skills
 
-Can collaborate with people sooner. 
+Can collaborate with people sooner.
 
 Tooling that makes things easy can help be culture change
 
-Tooling > culture change bc repro and sharing
+Tooling \> culture change bc repro and sharing
 
 ::: aside
 Julie:
@@ -359,11 +316,10 @@ Quarto creates "place"
 ## Demo / Showcase culture of reuse:
 
 ::: demo
-
-- showcase a few additional quarto sites - establishing & role-modeling culture change
-- open one in RStudio 
-- install with the CLI 
-- quarto pub?
+-   showcase a few additional quarto sites - establishing & role-modeling culture change
+-   open one in RStudio
+-   install with the CLI
+-   quarto pub?
 :::
 
 -   [Openscapes Lesson Series](https://openscapes.github.io/series/)
@@ -380,7 +336,8 @@ Meets someone like me where they are and supports them.
 
 ## Fostering a culture of engagement
 
-*placeholder slide* - why this matters. Collaborate with people sooner.
+*placeholder slide* - why this matters.
+Collaborate with people sooner.
 
 ![](images/all-we-can-save-screenshot.png){fig-align="center" width="20%"}
 
@@ -395,15 +352,18 @@ Julie:
 -   Tooling culture change bc repro and sharing
 -   Quarto could help bring about culture change across languages
 
-
 # Quarto examples and resources
 
-- Mine's Toronto talk
-- Julie's Quarto tutorial (building from 2016 Rmd tutorial)
+## some title...
 
-## Cutting room floor 
+-   Mine's Toronto talk
+-   Julie's Quarto tutorial (building from 2016 Rmd tutorial)
 
-The following slides won't be in the final talk 
+# Cutting room floor
+
+## 
+
+The following slides won't be in the final talk
 
 ## (Champions landscape)
 
