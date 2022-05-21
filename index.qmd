@@ -12,45 +12,50 @@ editor: visual
 
 ## Hi, I'm Julie
 
--   Long-time user of RMarkdown, and also Quarto
+-   Long-time user of R Markdown, and also Quarto
 -   Changed my work-life and my life-life
 -   Theme: collaborating
 
 ::: aside
-Julie: So excited to be here. Long-time user of RMarkdown, and Quarto - I am a prolific user and love how out-of-the box they are; I can use them for communicating about research, teaching, and collaborating using mostly the defaults. This as you'll see has been helping me push and blur the boundaries of environmental science, open source, and teaching
+Julie: So excited to be here.
+Long-time user of RMarkdown, and Quarto - I am a prolific user and love how out-of-the box they are; I can use them for communicating about research, teaching, and collaborating using mostly the defaults.
+This as you'll see has been helping me push and blur the boundaries of environmental science, open source, and teaching.
 :::
 
 ## Hi, I'm Mine
 
-*Unpolished ideas:*
+-   Also a long-time user of R Markdown and of Quarto
 
--   
+-   [TO DO: Add one more bullet point]{.todo}
 
--   I'm an educator
-
--   
+-   Theme: authoring and education
 
 ::: aside
-Mine
+Mine: So excited to be here as well.
+I remember vividly the first time I've heard of knitr at useR 2012 and sitting in the audience and starting to convert my teaching materials to use it while the keynote was still going on.
+I'll call this a success if a few of you are firing up a Quarto project right now to see what all the hype is about.
+As an educator, two things are of upmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats (like documents to slides to websites to books).
+Over the last year of using Quarto for everything, I've felt like I've finally found the tool that lets me go from one to the other with minimal futzing around with my source code.
+This has helped me focus my time on my content, which has been a huge win.
 :::
 
 ## Quarto helps you reimagine, collaborate, and share
 
 ::: columns
 ::: {.column width="50%"}
-**Quarto is for people who don't know Rmd.**. <br>
+**Quarto is for people who love R Markdown.** <br>
 
 <br>
 
-**Quarto enables sharing & organization**
+**Quarto enables new ways of sharing & organization.**
 :::
 
 ::: {.column width="50%"}
-**Quarto is for people who don't know Rmd.**
+**Quarto is for people who don't know R Markdown.**
 
 <br>
 
-**Quarto enables reuse & reimagining**
+**Quarto enables new ways of reuse & reimagining.**
 :::
 :::
 
@@ -62,22 +67,21 @@ Mine: will talk about left side
 Julie: will talk about right side; Both: share demos, stories, FAQ's
 :::
 
-# Quarto is for people who love Rmd
+# Quarto is for people who love R Markdown
 
 ## Next generation R Markdown
 
--   It combines/unifies some "down" packages
--   It also brings in Jupyter and other languages (python, Julia). provides that functionality even if you're not coming from R ecosystem
+::: illustration
+**Illustration:** Many "down" hex logos on one side, Quarto logo and some indication of other languages on the other side.
+:::
 
 ::: aside
-*Illustration: "down" hex logos*
-
-Mine:
+Mine: It combines/unifies some "down" packages. It also brings in Jupyter and other languages (Python, Julia) and provides that functionality even if you're not coming from the R ecosystem.
 :::
 
 ## DEMO: Flexibility in the formats
 
-*This slide will be replaced with a screen recording.*
+[TO DO: Replace contents of this slide with screen recording.]{.todo}
 
 ::: demo
 -   Take .Rmd and change extension to .qmd
@@ -90,22 +94,29 @@ Mine:
 :::
 
 ::: aside
-Mine:
+Mine: [TO DO: Create screen recording and write script.]{.todo}
 :::
 
 ## FAQ: knit vs render?
 
-(this comes after changing the extension from .rmd to .qmd)
+::: illustration
+**Illustration:** A graphic and a arrow pointing at a high-level where it's different.
+
+Rmd -> knitr -> pandoc – R package (rmarkdown) doing the orchestration
+Qmd -> knitr/jupyter -> pandoc – Quarto CLI doing the orchestration
+:::
 
 ::: aside
-*illustration: maybe a graphic and a arrow pointing at a high-level where it's different*
-
-Mine:
+Mine: A common first question is "how are R Markdown and Quarto different, under the hood, particularly given the rename of the file just works?"
 :::
 
 ## FAQ: from Jenny or Jo?
 
-## Story:
+[TO DO: Mine to pick one more question? If it looks like time might allow...]{.todo}
+
+## Story 1: ...
+
+[Question for Julie: I think the second story is less comparative so seems better but also might feel redundant to demo?]{.question}
 
 -   teaching background
 -   teaching winter course - anecdote from art history student?
@@ -133,35 +144,47 @@ Julie: will start off with a story, then demo
 
 ## NASA Earthdata Cloud Cookbook
 
-Image: screenshot of quarto book
+::: illustration
+**Image:** Screenshot of quarto book.
+:::
 
 ::: aside
-Julie: this is the first Quarto site I made. 3 cool things about this.
+Julie: this is the first Quarto site I made.
+3 cool things about this.
 :::
 
 ## 1. Familiar and beautiful
 
-Image: screenshot of quarto book, contributing page
+::: illustration
+**Image:** Screenshot of quarto book, contributing page.
+:::
 
 ::: aside
-Julie: 1. it looks familiar coming from RMarkdown. It's beautiful...
+Julie: 1.
+it looks familiar coming from RMarkdown.
+It's beautiful...
 
 -   first real content in it: taught others how to install quarto and contribute, knew it would change but that's ok, the beauty of quarto, it's dynamic, you don't feel stuck or static
 :::
 
 ## 2. Interoperability with tech
 
-Image: screenshot of portion of `_quarto.yml`: .ipynbs not .Rmds
+::: illustration
+**Image:** Screenshot of portion of `_quarto.yml`: .ipynbs not .Rmds.
+:::
 
 ::: aside
-Julie: 2. language compatibility - using quarto with a python-heavy crowd I'm able to build from what I've learned with R and share with the python crowd (flexibility in the tooling)
+Julie: 2.
+language compatibility - using quarto with a python-heavy crowd I'm able to build from what I've learned with R and share with the python crowd (flexibility in the tooling)
 :::
 
 ## 3. Interoperability with people
 
 aka collaboration
 
-Image: screenshots of Zoom
+::: illustration
+**Image:** Screenshots of Zoom.
+:::
 
 ::: aside
 3.  cool collaboration with J.J. and the quarto team AND NASA Openscapes.
@@ -193,7 +216,7 @@ Julie: This book is part of a 3-year project with NASA to support scientific res
 
 ## DEMO: Flexibility in the tooling
 
-*This slide will be replaced with a screen recording.*
+[TO DO: Replace contents of this slide with screen recording.]{.todo}
 
 ::: demo
 -   Render Mine's example site in JupyterHub, quarto preview
@@ -206,58 +229,66 @@ Julie: This book is part of a 3-year project with NASA to support scientific res
 Julie:
 :::
 
-## Q&A - Quarto is a "philosophy" (and a document type)
+## FAQ: Quarto is a "philosophy" (and a document type)
 
 From Allison Horst, Gavin
 
 # Quarto enables new ways of sharing & organization
 
-## Use quarto to accomplish existing goals
+## Use Quarto to accomplish existing goals
 
--   Consistent and transparent/obvious org across projects (teaching website)
--   Journal articles (research)
--   Personal website? Or R4ds book
--   Screenshots of each, folder org on the bottom
+-   Teaching: Consistent and transparent/obvious org across course websites and materials
+-   Writing: Book - R4DS
+-   Research: Journal articles
+
+::: illustration
+**Image:** Screenshots of each next to each other on top row, folder organization of each on the bottom row. Top looks different, bottom looks very similar.
+:::
+
+::: aside
+Mine: Teaching, writing, and research are three things I do as an educator, and I can do it all with Quarto in ways that look very similar under the hood but very different in output.
+:::
 
 ## some title...
 
 How academics share their teaching resources/ new avenues for publishing
 
 -   If it's not easy to make a course website, you won't
--   Tooling that makes it easy to share with the world
--   New way of getting credit
--   Open sharing of knowledge. Other people can just take
--   When it comes time for promotion/review, I say here it is
+-   Tooling that makes it easy to share with the world on the web
+-   Open sharing of knowledge. Other people can just take and benefit from and it's a new way of getting credit
+-   When it comes time for annual review/promotion materials, it's easy to say "here is everything I created"
 -   Last 10% to tweak it for your context
 
 ::: aside
 Mine:
 :::
 
-## DEMO: Part 2
+## DEMO
 
-*This slide will be replaced with a screen recording.*
+[TO DO: Replace contents of this slide with screen recording.]{.todo}
+
+[Question for Julie: Nothing to hand off, right?]{.question}
 
 ::: demo
 -   visual editor
-
--   Short - "a few things I've learned transitioning Rmd -\> quarto",
-
+-   Short - "a few things I've learned transitioning Rmd -\> quarto"
 -   Now to be a bit more principled about the transition (Change extension .rmd to .qmd and render to see it's fine)
-
 -   Change \_bookdown.yml to \_quarto.yml
-
--   My bookdown H1 headers were markdown `#Like This`; quarto book will build but the rest of the headers don't show up on the right TOC. change to yaml `title: Like This`. Also will look right in the viewer
+-   My bookdown H1 headers were markdown `#Like This`; quarto book will build but the rest of the headers don't show up on the right TOC.
+    Change to yaml `title: Like This`.
+    Also will look right in the viewer.
 :::
 
 ::: aside
-Mine:
+Mine: [TO DO: Create screen recording and write script.]{.todo}
 :::
 
-## Story 2
+## Story 2: ...
+
+[Question for Julie -- Maybe the story is the "some title..." slide?]{.question}
 
 ::: aside
-Mine:
+Mine: [TO DO: Decide on story.]{.todo}
 :::
 
 # Quarto enables new ways of reuse & reimagining
@@ -310,10 +341,13 @@ Julie:
 ![](images/horst_pew_tools_practice_mindset.jpg){fig-align="center" width="100%"}
 
 ::: aside
-Julie: Openscapes helps teams develop practices that are underpinned by tools. Quarto creates "place"
+Julie: Openscapes helps teams develop practices that are underpinned by tools.
+Quarto creates "place"
 :::
 
 ## Demo / Showcase culture of reuse:
+
+[TO DO: Replace contents of this slide with screen recording? Or just images?]{.todo}
 
 ::: demo
 -   showcase a few additional quarto sites - establishing & role-modeling culture change
@@ -329,12 +363,15 @@ Julie: Openscapes helps teams develop practices that are underpinned by tools. Q
 -   [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
 
 ::: aside
-Julie: Culture of trust, less reinventing. Meets someone like me where they are and supports them. (Revisit from useR)
+Julie: Culture of trust, less reinventing.
+Meets someone like me where they are and supports them.
+(Revisit from useR)
 :::
 
 ## Fostering a culture of engagement
 
-*placeholder slide* - why this matters. Collaborate with people sooner.
+*placeholder slide* - why this matters.
+Collaborate with people sooner.
 
 ![](images/all-we-can-save-screenshot.png){fig-align="center" width="20%"}
 
@@ -342,15 +379,18 @@ Julie: Culture of trust, less reinventing. Meets someone like me where they are 
 Julie:
 :::
 
-## "Here's 12 more things we didn't get to showcase"
+# So much more to say...
+
+## "Here are 12 more things we didn't get to showcase"
 
 *Penguin juggling, excitement*
 
--   \"Diagram feature\" maybe code \| output
+-   "Diagram feature" maybe code \| output
 
--   Works with Shiny - that\'s all to say
+-   Works with Shiny - that's all to say
 
--   Quarto pub? What it accomplishes \| what it looks like
+-   Quarto pub?
+    What it accomplishes \| what it looks like
 
 -   Yaml completion in chunk options
 
@@ -358,11 +398,17 @@ Julie:
 
 -   Freeze \> blog posts, jupyter notebooks
 
--   Book chapters opening as you\'d expect them to
+-   Each book chapter starting in a fresh session opening as you'd expect them to
 
--   Table \> 2 tables next to each otherXS
+-   Table \> 2 tables next to each other
 
-## Closing
+- Chalkboard on slides
+
+- Blog posts not running earlier posts
+
+- multiplex: Slides / scroll for audience
+
+## Coda
 
 -   RMarkdown has helped code be part of something you share
 -   Tooling that makes things easy can help be culture change
@@ -387,5 +433,8 @@ The following slides won't be in the final talk
 ![](images/horst_openscapes_champions.jpg){fig-align="center" width="100%"}
 
 ::: notes
-Julie: We think about open science as landscape of open data, tooling, and communities, with many existing paths forward, as well as opportunities to create new paths together. Our main focus is to empower research teams. A lot of people feel stuck, like these sad animals in the bottom left, or are working alone, like the little hermit crab, with the landscape just out of view. We help folks find common parts of their work and come together as teams and identify their trailhead so they can safely navigate this landscape, and help each other and welcome others as they go.
+Julie: We think about open science as landscape of open data, tooling, and communities, with many existing paths forward, as well as opportunities to create new paths together.
+Our main focus is to empower research teams.
+A lot of people feel stuck, like these sad animals in the bottom left, or are working alone, like the little hermit crab, with the landscape just out of view.
+We help folks find common parts of their work and come together as teams and identify their trailhead so they can safely navigate this landscape, and help each other and welcome others as they go.
 :::
