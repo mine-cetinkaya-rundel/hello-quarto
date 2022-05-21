@@ -330,7 +330,9 @@ Mine: [TO DO: Decide on story.]{.todo}
 
 ## Use quarto to be creative about emerging needs/new goals
 
-(image)
+::: illustration
+[TO DO: Add idea for image/illustration]{.todo}
+:::
 
 ::: aside
 Julie: enabling sharing and organization across tooling and people (like Mine just showed) means it's easier to reuse and reimagine.
@@ -356,9 +358,11 @@ Julie: we help teams collaborate, upskill, become resilient. 3 big things:
 
 ## 1. Share earlier
 
-Image: Series book [Openscapes Lesson Series](https://openscapes.github.io/series/)
-
 A way to welcome folks to join you
+
+::: illustration
+**Image:** Series book [Openscapes Lesson Series](https://openscapes.github.io/series/)
+:::
 
 ::: aside
 Julie: share earlier (can I see it? yes) - Series book (existed openly even before was fully dev'd)
@@ -368,9 +372,11 @@ Was true
 
 ## 2. Build inclusion into your daily work
 
-image: Fay Lab Manual
+::: illustration
+**Image:** Fay Lab Manual
+:::
 
--   [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
+[Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
 
 ::: aside
 Julie: Onboarding (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs. little things.
@@ -382,11 +388,14 @@ Create a learning culture
 
 ## 3. Reuse: co-create-once-use-often
 
-*placeholder image - NMFS-Openscapes?*
-
--   [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/) (inspired by Gavin)
+::: illustration
+**Image:** Placeholder - NMFS-Openscapes?
 
 ![](images/mentors-screenshot.png){fig-align="center" width="20%"}
+
+:::
+
+[Openscapes Approach Guide](https://openscapes.github.io/approach-guide/) (inspired by Gavin)
 
 ::: aside
 Julie: Co-create. create-once-use-often. less reinventing; focus your time on the science.
@@ -394,7 +403,7 @@ Julie: Co-create. create-once-use-often. less reinventing; focus your time on th
 seeing this enabled with NASA and quarto - but also NOAA Fisheries: https://rverse-tutorials.github.io/RWorkflow-NWFSC-2022/index.html
 :::
 
-## Fostering a culture of reuse
+## Fostering a culture of reuse {.smaller}
 
 ::: columns
 ::: {.column width="50%"}
@@ -404,10 +413,10 @@ seeing this enabled with NASA and quarto - but also NOAA Fisheries: https://rver
 -   Tooling that makes things easy can help be culture change
 -   Tooling \> culture change bc repro and sharing
 :::
-:::
 
 ::: {.column width="50%"}
 ![](images/horst_pew_tools_practice_mindset.jpg){fig-align="center" width="50%"}
+:::
 :::
 
 ::: aside
@@ -415,7 +424,7 @@ Julie: Openscapes helps teams develop practices that are underpinned by tools.
 Quarto creates "place"
 :::
 
-## Demo / Showcase culture of reuse:
+## DEMO / Showcase culture of reuse
 
 [TO DO: Replace contents of this slide with screen recording? Or just images?]{.todo}
 
@@ -423,8 +432,6 @@ Quarto creates "place"
 -   open one in RStudio
 -   Visual Editor - friendly for non-coders. Reimagine who participates
 :::
-
--   
 
 ::: aside
 Julie: Culture of trust, less reinventing.
@@ -444,7 +451,7 @@ Julie:
 :::
 
 
-## Openscapes: reimagining with Quarto
+## Openscapes: reimagining with Quarto {.smaller}
 
 1.  share earlier (can I see it? yes) - Series book (existed openly even before was fully dev'd) Create a learning culture
 2.  bring inclusion into your daily practice (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs
