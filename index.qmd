@@ -398,12 +398,13 @@ Julie:
 
 # So much more to say...
 
-## "Here are 12 more things we didn't get to showcase" {.smaller}
+## "12 more things we didn't get to showcase" {.smaller}
 
 ::: illustration
 **Illustration / animation:** Penguin juggling, excitement.
 :::
 
+::: small
 1.  "Diagram feature" maybe code \| output
 
 2.  Works with Shiny - that's all to say
@@ -428,6 +429,7 @@ Julie:
 11. multiplex: Slides / scroll for audience
 
 12. [TO DO: Add one more]{.todo}
+:::
 
 ## Coda
 
