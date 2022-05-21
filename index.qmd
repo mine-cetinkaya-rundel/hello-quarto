@@ -62,7 +62,7 @@ Mine: will talk about left side
 Julie: will talk about right side; Both: share demos, stories, FAQ's
 :::
 
-# Quarto is for people who love Rmd
+# Quarto is for people who love RMarkdown
 
 ## Next generation R Markdown
 
@@ -117,19 +117,7 @@ OR: diff formats within R (web, slides, course web) I go between the formats a l
 Mine:
 :::
 
-# Quarto is for people who don't know Rmd
-
-## Quarto is something you can use even if you've never used RMarkdown
-
-*unpolished ideas:*
-
--   nicely-formatted code & text together to publish
--   organizing your work as collections: documentation, code, notebooks
--   collaborating framework (across R & Python, across coders and non-coders)
-
-::: aside
-Julie: will start off with a story, then demo
-:::
+# Quarto is for people who have never used RMarkdown
 
 ## NASA Earthdata Cloud Cookbook
 
@@ -139,7 +127,7 @@ Image: screenshot of quarto book
 Julie: this is the first Quarto site I made. 3 cool things about this.
 :::
 
-## 1. Familiar and beautiful
+## 1. Code & text together beautifully
 
 Image: screenshot of quarto book, contributing page
 
@@ -151,10 +139,20 @@ Julie: 1. it looks familiar coming from RMarkdown. It's beautiful...
 
 ## 2. Interoperability with tech
 
+creating collections
+
 Image: screenshot of portion of `_quarto.yml`: .ipynbs not .Rmds
 
 ::: aside
 Julie: 2. language compatibility - using quarto with a python-heavy crowd I'm able to build from what I've learned with R and share with the python crowd (flexibility in the tooling)
+:::
+
+## 2b. Interoperability with tech
+
+Image: screenshot .qmd with python and R code
+
+::: aside
+Julie: 2. language compatibility - using quarto to support researchers early - first dev is in python but not limited
 :::
 
 ## 3. Interoperability with people
@@ -169,9 +167,7 @@ Image: screenshots of Zoom
 
 ## NASA Openscapes Framework
 
-Supporting scientific researcher teams using NASA Earthdata as they migrate their workflows to the cloud.
-
-**Develop mentors • Empower research teams • Scale teaching**
+Supporting NASA Earth science research teams\' migration to the cloud
 
 <br>
 
@@ -183,7 +179,7 @@ Supporting scientific researcher teams using NASA Earthdata as they migrate thei
 
 ::: {.column width="50%"}
 -   contribute to fill gaps
--   foster an open (psychologically safe) learning culture
+-   foster a learning culture
 :::
 :::
 
@@ -206,9 +202,17 @@ Julie: This book is part of a 3-year project with NASA to support scientific res
 Julie:
 :::
 
-## Q&A - Quarto is a "philosophy" (and a document type)
+## NASA Openscapes and Quarto  
 
-From Allison Horst, Gavin
+1.  code and text together beautifully
+2.  interoperability with tech
+3.  interoperability with people
+
+Workflow philosophy (and a document type)
+
+::: aside
+Julie: summary following demo to transition to Mine
+:::
 
 # Quarto enables new ways of sharing & organization
 
@@ -217,7 +221,11 @@ From Allison Horst, Gavin
 -   Consistent and transparent/obvious org across projects (teaching website)
 -   Journal articles (research)
 -   Personal website? Or R4ds book
--   Screenshots of each, folder org on the bottom
+-   Screenshots of each, folder org on the bottom\
+
+::: aside
+Mine:
+:::
 
 ## some title...
 
@@ -264,50 +272,85 @@ Mine:
 
 ## Use quarto to be creative about emerging needs/new goals
 
--   Learning culture, reuse, peer-teaching
--   Making the implicit explicit - reuse
--   Reuse with new partners: Partnering with many partners - the infrastructure carries forward, content might change with these diff partners but the quarto process (tech and project)
--   "Redefining relationships -blurred lines not frontstage/backstage, co-create (part of intro'ing this: not well-defined understanding of what I do / what Openscapes is esp vs what people expect with Mine university prof)
-
-## some title...
-
--   not limited by languages - can collaborate sooner with more people, reuse, reimagine. Teams.
--   create-once-use-often
--   less reinventing; focus your time on the science
+(image)
 
 ::: aside
 Julie: enabling sharing and organization across tooling and people (like Mine just showed) means it's easier to reuse and reimagine.
+
+(creating new problems/solutions because quarto existion)- new ways of thinking that aren\'t standard practices. Book websites to collaborate on? Not really how we thought about things before
+
+this really shows up with Openscapes
 :::
 
-## Fostering a culture of reuse
+## What we do at Openscapes
 
-*placeholder slide*
+**Engage mentors • Empower research teams • Scale open practices**
+
+-   people infrastructure - creating space.
+
+-   tech infrastructure - creating place.
+
+Create a learning culture, strengthen the open movement
+
+::: aside
+Julie: we help teams collaborate, upskill, become resilient. 3 big things:
+:::
+
+## 1. Share earlier
+
+Image: Series book [Openscapes Lesson Series](https://openscapes.github.io/series/)
+
+A way to welcome folks to join you
+
+::: aside
+Julie: share earlier (can I see it? yes) - Series book (existed openly even before was fully dev'd)
+
+Was true
+:::
+
+## 2. Build inclusion into your daily work
+
+image: Fay Lab Manual
+
+-   [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
+
+::: aside
+Julie: Onboarding (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs
+
+::: aside
+Create a learning culture
+:::
+:::
+
+## 3. Reuse: co-create-once-use-often
+
+*placeholder image - NMFS-Openscapes?*
+
+-   [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/) (inspired by Gavin)
 
 ![](images/mentors-screenshot.png){fig-align="center" width="20%"}
 
 ::: aside
-Julie: seeing this enabled with NASA and quarto
+Julie: Co-create. create-once-use-often. less reinventing; focus your time on the science.
+
+seeing this enabled with NASA and quarto - but also NOAA Fisheries: https://rverse-tutorials.github.io/RWorkflow-NWFSC-2022/index.html
 :::
 
 ## Fostering a culture of reuse
 
-Interoperability (language, tooling, people) --\>
-
-Enabling collaborations, transferrable skills
-
-Can collaborate with people sooner.
-
-Tooling that makes things easy can help be culture change
-
-Tooling \> culture change bc repro and sharing
-
-::: aside
-Julie:
+::: columns
+::: {.column width="50%"}
+-   Interoperability (language, tooling, people) --\>
+-   Enabling collaborations, transferrable skills
+-   Can collaborate with people sooner.
+-   Tooling that makes things easy can help be culture change
+-   Tooling \> culture change bc repro and sharing
+:::
 :::
 
-## Creating "space & place"
-
-![](images/horst_pew_tools_practice_mindset.jpg){fig-align="center" width="100%"}
+::: {.column width="50%"}
+![](images/horst_pew_tools_practice_mindset.jpg){fig-align="center" width="50%"}
+:::
 
 ::: aside
 Julie: Openscapes helps teams develop practices that are underpinned by tools. Quarto creates "place"
@@ -318,21 +361,15 @@ Julie: Openscapes helps teams develop practices that are underpinned by tools. Q
 ::: demo
 -   showcase a few additional quarto sites - establishing & role-modeling culture change
 -   open one in RStudio
--   install with the CLI
--   quarto pub?
 :::
 
--   [Openscapes Lesson Series](https://openscapes.github.io/series/)
-
--   [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/)
-
--   [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
+-   
 
 ::: aside
 Julie: Culture of trust, less reinventing. Meets someone like me where they are and supports them. (Revisit from useR)
 :::
 
-## Fostering a culture of engagement
+## Open science as a movement
 
 *placeholder slide* - why this matters. Collaborate with people sooner.
 
@@ -340,6 +377,16 @@ Julie: Culture of trust, less reinventing. Meets someone like me where they are 
 
 ::: aside
 Julie:
+:::
+
+## Openscapes: reimagining with Quarto
+
+1.  share earlier (can I see it? yes) - Series book (existed openly even before was fully dev'd) Create a learning culture
+2.  bring inclusion into your daily practice (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs
+3.  Reuse: create-once-use-often. less reinventing; focus your time on the science.
+
+::: aside
+Julie: summary slide and transition
 :::
 
 ## "Here's 12 more things we didn't get to showcase"
