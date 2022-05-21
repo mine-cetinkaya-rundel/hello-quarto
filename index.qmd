@@ -63,9 +63,10 @@ This has helped me focus my time on my content, which has been a huge win.
 :::
 
 ::: aside
-Mine: Will talk about left side. 
+Mine: Will talk about left side.
 Julie: Will talk about right side.
-Both: share demos, stories, FAQ's. [Question for Julie: "Burning questions" instead of FAQs? Something else?]{.question}
+Both: share demos, stories, FAQ's.
+[Question for Julie: "Burning questions" instead of FAQs? Something else?]{.question}
 :::
 
 # Quarto is for people who love R Markdown
@@ -397,32 +398,36 @@ Julie:
 
 # So much more to say...
 
-## "Here are 12 more things we didn't get to showcase"
+## "Here are 12 more things we didn't get to showcase" {.smaller}
 
-*Penguin juggling, excitement*
+::: illustration
+**Illustration / animation:** Penguin juggling, excitement.
+:::
 
--   "Diagram feature" maybe code \| output
+1.  "Diagram feature" maybe code \| output
 
--   Works with Shiny - that's all to say
+2.  Works with Shiny - that's all to say
 
--   Quarto pub?
+3.  Quarto pub?
     What it accomplishes \| what it looks like
 
--   Yaml completion in chunk options
+4.  Yaml completion in chunk options
 
--   Informative yaml errors
+5.  Informative yaml errors
 
--   Freeze \> blog posts, jupyter notebooks
+6.  Freeze \> blog posts, jupyter notebooks
 
--   Each book chapter starting in a fresh session opening as you'd expect them to
+7.  Each book chapter starting in a fresh session opening as you'd expect them to
 
--   Table \> 2 tables next to each other
+8.  Table \> 2 tables next to each other
 
--   Chalkboard on slides
+9.  Chalkboard on slides
 
--   Blog posts not running earlier posts
+10. Blog posts not running earlier posts
 
--   multiplex: Slides / scroll for audience
+11. multiplex: Slides / scroll for audience
+
+12. [TO DO: Add one more]{.todo}
 
 ## Coda
 
