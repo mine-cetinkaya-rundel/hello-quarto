@@ -194,8 +194,9 @@ Julie: This book is part of a 3-year project with NASA to support scientific res
 ::: demo
 -   Render Mine's example site in JupyterHub, quarto preview
 -   Add `.ipynb`, workflow
--   Also open in VS Code, show `.qmd` (cmd-shift-k to render \[attention to other tool chains available\])
 -   Also: show `earthdata` python code chunk and how it passes to R code chunk \> this has been huge for researchers in the cloud
+-   Also open in VS Code, show `.qmd` (cmd-shift-k to render \[attention to other tool chains available\])
+-   You install Quarto with a CLI, (like git) so you can work with whatever tooling you want
 :::
 
 ::: aside
@@ -315,7 +316,7 @@ image: Fay Lab Manual
 -   [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
 
 ::: aside
-Julie: Onboarding (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs
+Julie: Onboarding (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs. little things.
 
 ::: aside
 Create a learning culture
@@ -359,8 +360,8 @@ Julie: Openscapes helps teams develop practices that are underpinned by tools. Q
 ## Demo / Showcase culture of reuse:
 
 ::: demo
--   showcase a few additional quarto sites - establishing & role-modeling culture change
 -   open one in RStudio
+-   Visual Editor - friendly for non-coders. Reimagine who participates
 :::
 
 -   
