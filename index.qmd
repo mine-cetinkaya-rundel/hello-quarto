@@ -17,9 +17,7 @@ editor: visual
 -   Theme: collaborating
 
 ::: aside
-Julie: So excited to be here.
-Long-time user of RMarkdown, and Quarto - I am a prolific user and love how out-of-the box they are; I can use them for communicating about research, teaching, and collaborating using mostly the defaults.
-This as you'll see has been helping me push and blur the boundaries of environmental science, open source, and teaching
+Julie: So excited to be here. Long-time user of RMarkdown, and Quarto - I am a prolific user and love how out-of-the box they are; I can use them for communicating about research, teaching, and collaborating using mostly the defaults. This as you'll see has been helping me push and blur the boundaries of environmental science, open source, and teaching
 :::
 
 ## Hi, I'm Mine
@@ -40,8 +38,7 @@ Mine
 
 ::: columns
 ::: {.column width="50%"}
-**Quarto is for people who don’t know Rmd.**.
-<br>
+**Quarto is for people who don't know Rmd.**. <br>
 
 <br>
 
@@ -49,7 +46,7 @@ Mine
 :::
 
 ::: {.column width="50%"}
-**Quarto is for people who don’t know Rmd.**
+**Quarto is for people who don't know Rmd.**
 
 <br>
 
@@ -120,7 +117,7 @@ OR: diff formats within R (web, slides, course web) I go between the formats a l
 Mine:
 :::
 
-# Quarto is for people who don’t know Rmd
+# Quarto is for people who don't know Rmd
 
 ## Quarto is something you can use even if you've never used RMarkdown
 
@@ -139,8 +136,7 @@ Julie: will start off with a story, then demo
 Image: screenshot of quarto book
 
 ::: aside
-Julie: this is the first Quarto site I made.
-3 cool things about this.
+Julie: this is the first Quarto site I made. 3 cool things about this.
 :::
 
 ## 1. Familiar and beautiful
@@ -148,9 +144,7 @@ Julie: this is the first Quarto site I made.
 Image: screenshot of quarto book, contributing page
 
 ::: aside
-Julie: 1.
-it looks familiar coming from RMarkdown.
-It's beautiful...
+Julie: 1. it looks familiar coming from RMarkdown. It's beautiful...
 
 -   first real content in it: taught others how to install quarto and contribute, knew it would change but that's ok, the beauty of quarto, it's dynamic, you don't feel stuck or static
 :::
@@ -160,8 +154,7 @@ It's beautiful...
 Image: screenshot of portion of `_quarto.yml`: .ipynbs not .Rmds
 
 ::: aside
-Julie: 2.
-language compatibility - using quarto with a python-heavy crowd I'm able to build from what I've learned with R and share with the python crowd (flexibility in the tooling)
+Julie: 2. language compatibility - using quarto with a python-heavy crowd I'm able to build from what I've learned with R and share with the python crowd (flexibility in the tooling)
 :::
 
 ## 3. Interoperability with people
@@ -206,6 +199,7 @@ Julie: This book is part of a 3-year project with NASA to support scientific res
 -   Render Mine's example site in JupyterHub, quarto preview
 -   Add `.ipynb`, workflow
 -   Also open in VS Code, show `.qmd` (cmd-shift-k to render \[attention to other tool chains available\])
+-   Also: show `earthdata` python code chunk and how it passes to R code chunk \> this has been huge for researchers in the cloud
 :::
 
 ::: aside
@@ -217,6 +211,13 @@ Julie:
 From Allison Horst, Gavin
 
 # Quarto enables new ways of sharing & organization
+
+## Use quarto to accomplish existing goals
+
+-   Consistent and transparent/obvious org across projects (teaching website)
+-   Journal articles (research)
+-   Personal website? Or R4ds book
+-   Screenshots of each, folder org on the bottom
 
 ## some title...
 
@@ -246,9 +247,7 @@ Mine:
 
 -   Change \_bookdown.yml to \_quarto.yml
 
--   My bookdown H1 headers were markdown `#Like This`; quarto book will build but the rest of the headers don't show up on the right TOC.
-    change to yaml `title: Like This`.
-    Also will look right in the viewer
+-   My bookdown H1 headers were markdown `#Like This`; quarto book will build but the rest of the headers don't show up on the right TOC. change to yaml `title: Like This`. Also will look right in the viewer
 :::
 
 ::: aside
@@ -261,16 +260,18 @@ Mine:
 Mine:
 :::
 
-## Q&A 2
+# Quarto enables new ways of reuse & reimagining
 
-::: aside
-Mine:
-:::
+## Use quarto to be creative about emerging needs/new goals
 
-# ​​Quarto enables new ways of reuse & reimagining
+-   Learning culture, reuse, peer-teaching
+-   Making the implicit explicit - reuse
+-   Reuse with new partners: Partnering with many partners - the infrastructure carries forward, content might change with these diff partners but the quarto process (tech and project)
+-   "Redefining relationships -blurred lines not frontstage/backstage, co-create (part of intro'ing this: not well-defined understanding of what I do / what Openscapes is esp vs what people expect with Mine university prof)
 
 ## some title...
 
+-   not limited by languages - can collaborate sooner with more people, reuse, reimagine. Teams.
 -   create-once-use-often
 -   less reinventing; focus your time on the science
 
@@ -309,8 +310,7 @@ Julie:
 ![](images/horst_pew_tools_practice_mindset.jpg){fig-align="center" width="100%"}
 
 ::: aside
-Julie: Openscapes helps teams develop practices that are underpinned by tools.
-Quarto creates "place"
+Julie: Openscapes helps teams develop practices that are underpinned by tools. Quarto creates "place"
 :::
 
 ## Demo / Showcase culture of reuse:
@@ -329,21 +329,38 @@ Quarto creates "place"
 -   [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
 
 ::: aside
-Julie: Culture of trust, less reinventing.
-Meets someone like me where they are and supports them.
-(Revisit from useR)
+Julie: Culture of trust, less reinventing. Meets someone like me where they are and supports them. (Revisit from useR)
 :::
 
 ## Fostering a culture of engagement
 
-*placeholder slide* - why this matters.
-Collaborate with people sooner.
+*placeholder slide* - why this matters. Collaborate with people sooner.
 
 ![](images/all-we-can-save-screenshot.png){fig-align="center" width="20%"}
 
 ::: aside
 Julie:
 :::
+
+## "Here's 12 more things we didn't get to showcase"
+
+*Penguin juggling, excitement*
+
+-   \"Diagram feature\" maybe code \| output
+
+-   Works with Shiny - that\'s all to say
+
+-   Quarto pub? What it accomplishes \| what it looks like
+
+-   Yaml completion in chunk options
+
+-   Informative yaml errors
+
+-   Freeze \> blog posts, jupyter notebooks
+
+-   Book chapters opening as you\'d expect them to
+
+-   Table \> 2 tables next to each otherXS
 
 ## Closing
 
@@ -370,8 +387,5 @@ The following slides won't be in the final talk
 ![](images/horst_openscapes_champions.jpg){fig-align="center" width="100%"}
 
 ::: notes
-Julie: We think about open science as landscape of open data, tooling, and communities, with many existing paths forward, as well as opportunities to create new paths together.
-Our main focus is to empower research teams.
-A lot of people feel stuck, like these sad animals in the bottom left, or are working alone, like the little hermit crab, with the landscape just out of view.
-We help folks find common parts of their work and come together as teams and identify their trailhead so they can safely navigate this landscape, and help each other and welcome others as they go.
+Julie: We think about open science as landscape of open data, tooling, and communities, with many existing paths forward, as well as opportunities to create new paths together. Our main focus is to empower research teams. A lot of people feel stuck, like these sad animals in the bottom left, or are working alone, like the little hermit crab, with the landscape just out of view. We help folks find common parts of their work and come together as teams and identify their trailhead so they can safely navigate this landscape, and help each other and welcome others as they go.
 :::
