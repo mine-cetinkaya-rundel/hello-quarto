@@ -134,7 +134,7 @@ OR: diff formats within R (web, slides, course web) I go between the formats a l
 Mine:
 :::
 
-# Quarto is for people who don't know R Markdown
+# Quarto is for people who have never used R Markdown
 
 ::: illustration
 **Illustration / animation:** Quarto logo with one quadrant showing the words "Quarto is for people who don't know R Markdown" and the others grayed out.
@@ -163,7 +163,7 @@ Julie: this is the first Quarto site I made.
 3 cool things about this.
 :::
 
-## 1. Familiar and beautiful
+## 1. Code & text together beautifully
 
 ::: illustration
 **Image:** Screenshot of quarto book, contributing page.
@@ -179,6 +179,8 @@ It's beautiful...
 
 ## 2. Interoperability with tech
 
+creating collections
+
 ::: illustration
 **Image:** Screenshot of portion of `_quarto.yml`: .ipynbs not .Rmds.
 :::
@@ -186,6 +188,14 @@ It's beautiful...
 ::: aside
 Julie: 2.
 language compatibility - using quarto with a python-heavy crowd I'm able to build from what I've learned with R and share with the python crowd (flexibility in the tooling)
+:::
+
+## 2b. Interoperability with tech
+
+Image: screenshot .qmd with python and R code
+
+::: aside
+Julie: 2. language compatibility - using quarto to support researchers early - first dev is in python but not limited
 :::
 
 ## 3. Interoperability with people
@@ -202,9 +212,7 @@ aka collaboration
 
 ## NASA Openscapes Framework
 
-Supporting scientific researcher teams using NASA Earthdata as they migrate their workflows to the cloud.
-
-**Develop mentors • Empower research teams • Scale teaching**
+Supporting NASA Earth science research teams\' migration to the cloud
 
 <br>
 
@@ -216,7 +224,7 @@ Supporting scientific researcher teams using NASA Earthdata as they migrate thei
 
 ::: {.column width="50%"}
 -   contribute to fill gaps
--   foster an open (psychologically safe) learning culture
+-   foster a learning culture
 :::
 :::
 
@@ -231,17 +239,27 @@ Julie: This book is part of a 3-year project with NASA to support scientific res
 ::: demo
 -   Render Mine's example site in JupyterHub, quarto preview
 -   Add `.ipynb`, workflow
--   Also open in VS Code, show `.qmd` (cmd-shift-k to render \[attention to other tool chains available\])
 -   Also: show `earthdata` python code chunk and how it passes to R code chunk \> this has been huge for researchers in the cloud
+-   Also open in VS Code, show `.qmd` (cmd-shift-k to render \[attention to other tool chains available\])
+-   You install Quarto with a CLI, (like git) so you can work with whatever tooling you want
 :::
 
 ::: aside
 Julie:
 :::
 
-## FAQ: Quarto is a "philosophy" (and a document type)
+## NASA Openscapes and Quarto  
 
-From Allison Horst, Gavin
+1.  code and text together beautifully
+2.  interoperability with tech
+3.  interoperability with people
+
+
+## FAQ: Quarto is a workflow "philosophy" (and a document type)
+
+::: aside
+Julie: summary following demo to transition to Mine
+:::
 
 # Quarto enables new ways of sharing & organization
 
@@ -312,50 +330,85 @@ Mine: [TO DO: Decide on story.]{.todo}
 
 ## Use quarto to be creative about emerging needs/new goals
 
--   Learning culture, reuse, peer-teaching
--   Making the implicit explicit - reuse
--   Reuse with new partners: Partnering with many partners - the infrastructure carries forward, content might change with these diff partners but the quarto process (tech and project)
--   "Redefining relationships -blurred lines not frontstage/backstage, co-create (part of intro'ing this: not well-defined understanding of what I do / what Openscapes is esp vs what people expect with Mine university prof)
-
-## some title...
-
--   not limited by languages - can collaborate sooner with more people, reuse, reimagine. Teams.
--   create-once-use-often
--   less reinventing; focus your time on the science
+(image)
 
 ::: aside
 Julie: enabling sharing and organization across tooling and people (like Mine just showed) means it's easier to reuse and reimagine.
+
+(creating new problems/solutions because quarto existion)- new ways of thinking that aren\'t standard practices. Book websites to collaborate on? Not really how we thought about things before
+
+this really shows up with Openscapes
 :::
 
-## Fostering a culture of reuse
+## What we do at Openscapes
 
-*placeholder slide*
+**Engage mentors • Empower research teams • Scale open practices**
+
+-   people infrastructure - creating space.
+
+-   tech infrastructure - creating place.
+
+Create a learning culture, strengthen the open movement
+
+::: aside
+Julie: we help teams collaborate, upskill, become resilient. 3 big things:
+:::
+
+## 1. Share earlier
+
+Image: Series book [Openscapes Lesson Series](https://openscapes.github.io/series/)
+
+A way to welcome folks to join you
+
+::: aside
+Julie: share earlier (can I see it? yes) - Series book (existed openly even before was fully dev'd)
+
+Was true
+:::
+
+## 2. Build inclusion into your daily work
+
+image: Fay Lab Manual
+
+-   [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
+
+::: aside
+Julie: Onboarding (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs. little things.
+
+::: aside
+Create a learning culture
+:::
+:::
+
+## 3. Reuse: co-create-once-use-often
+
+*placeholder image - NMFS-Openscapes?*
+
+-   [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/) (inspired by Gavin)
 
 ![](images/mentors-screenshot.png){fig-align="center" width="20%"}
 
 ::: aside
-Julie: seeing this enabled with NASA and quarto
+Julie: Co-create. create-once-use-often. less reinventing; focus your time on the science.
+
+seeing this enabled with NASA and quarto - but also NOAA Fisheries: https://rverse-tutorials.github.io/RWorkflow-NWFSC-2022/index.html
 :::
 
 ## Fostering a culture of reuse
 
-Interoperability (language, tooling, people) --\>
-
-Enabling collaborations, transferrable skills
-
-Can collaborate with people sooner.
-
-Tooling that makes things easy can help be culture change
-
-Tooling \> culture change bc repro and sharing
-
-::: aside
-Julie:
+::: columns
+::: {.column width="50%"}
+-   Interoperability (language, tooling, people) --\>
+-   Enabling collaborations, transferrable skills
+-   Can collaborate with people sooner.
+-   Tooling that makes things easy can help be culture change
+-   Tooling \> culture change bc repro and sharing
+:::
 :::
 
-## Creating "space & place"
-
-![](images/horst_pew_tools_practice_mindset.jpg){fig-align="center" width="100%"}
+::: {.column width="50%"}
+![](images/horst_pew_tools_practice_mindset.jpg){fig-align="center" width="50%"}
+:::
 
 ::: aside
 Julie: Openscapes helps teams develop practices that are underpinned by tools.
@@ -367,17 +420,11 @@ Quarto creates "place"
 [TO DO: Replace contents of this slide with screen recording? Or just images?]{.todo}
 
 ::: demo
--   showcase a few additional quarto sites - establishing & role-modeling culture change
 -   open one in RStudio
--   install with the CLI
--   quarto pub?
+-   Visual Editor - friendly for non-coders. Reimagine who participates
 :::
 
--   [Openscapes Lesson Series](https://openscapes.github.io/series/)
-
--   [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/)
-
--   [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
+-   
 
 ::: aside
 Julie: Culture of trust, less reinventing.
@@ -385,7 +432,7 @@ Meets someone like me where they are and supports them.
 (Revisit from useR)
 :::
 
-## Fostering a culture of engagement
+## Open science as a movement
 
 *placeholder slide* - why this matters.
 Collaborate with people sooner.
@@ -394,6 +441,17 @@ Collaborate with people sooner.
 
 ::: aside
 Julie:
+:::
+
+
+## Openscapes: reimagining with Quarto
+
+1.  share earlier (can I see it? yes) - Series book (existed openly even before was fully dev'd) Create a learning culture
+2.  bring inclusion into your daily practice (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs
+3.  Reuse: create-once-use-often. less reinventing; focus your time on the science.
+
+::: aside
+Julie: summary slide and transition
 :::
 
 # So much more to say...
@@ -461,3 +519,4 @@ Our main focus is to empower research teams.
 A lot of people feel stuck, like these sad animals in the bottom left, or are working alone, like the little hermit crab, with the landscape just out of view.
 We help folks find common parts of their work and come together as teams and identify their trailhead so they can safely navigate this landscape, and help each other and welcome others as they go.
 :::
+
