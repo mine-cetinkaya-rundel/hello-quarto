@@ -13,6 +13,17 @@ details>summary {
   font-size: 0.75em;
 }
 
+.todo {
+  color: red;
+  background-color: yellow;
+  font-style: italic;
+}
+
+.question {
+  background-color: #FF744E;
+  font-style: italic;
+}
+
 .small {
   font-size: 0.75em;
 }
@@ -27,12 +38,12 @@ details>summary {
   background: #607576;
 }
 
-.reveal .slide .question {
-  border: 3px solid pink;
-  color: white;
+.reveal .slide .illustration {
+  border: 3px solid #FF744E;
+  color: black;
   font-size: 0.75em;
   padding-left: 0.5em;
   padding-top: 0.25em;
   padding-bottom: 0.25em;
-  background: red;
+  background: #FAE3E3;
 }
