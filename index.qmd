@@ -1,5 +1,5 @@
 ---
-title: "Quarto for reimagining, collaborating, and sharing"
+title: "reimagine +<br>collaborate +<br>share<br>with Quarto"
 format: 
   revealjs: 
     theme: style.scss
@@ -18,7 +18,7 @@ editor: visual
 
 ::: aside
 Julie: So excited to be here.
-Long-time user of RMarkdown, and Quarto - I am a prolific user and love how out-of-the box they are; I can use them for communicating about research, teaching, and collaborating using mostly the defaults.
+I am a log-time and prolific user of RMarkdown, and Quarto and love how out-of-the box they are; I can use them for communicating about research, teaching, and collaborating using mostly the defaults.
 This as you'll see has been helping me push and blur the boundaries of environmental science, open source, and teaching.
 :::
 
@@ -31,15 +31,17 @@ This as you'll see has been helping me push and blur the boundaries of environme
 -   Theme: authoring and education
 
 ::: aside
-Mine: So excited to be here as well.
-I remember vividly the first time I've heard of knitr at useR 2012 and sitting in the audience and starting to convert my teaching materials to use it while the keynote was still going on.
+Mine: I remember vividly the first time I've heard of knitr at useR 2012 and sitting in the audience and starting to convert my teaching materials to use it while the keynote was still going on.
 I'll call this a success if a few of you are firing up a Quarto project right now to see what all the hype is about.
 As an educator, two things are of upmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats (like documents to slides to websites to books).
 Over the last year of using Quarto for everything, I've felt like I've finally found the tool that lets me go from one to the other with minimal futzing around with my source code.
 This has helped me focus my time on my content, which has been a huge win.
 :::
 
-## Quarto helps you reimagine, collaborate, and share
+## Outline
+
+::: illustration
+**Illustration:** Presented as 4 quadrants in the Quarto logo with SCUBA Penguins breathing/getting ready for Quarto.
 
 ::: columns
 ::: {.column width="50%"}
@@ -58,16 +60,19 @@ This has helped me focus my time on my content, which has been a huge win.
 **Quarto enables new ways of reuse & reimagining.**
 :::
 :::
+:::
 
 ::: aside
-*Presented as 4 quadrants in the Quarto logo* *illustrations: SCUBA Penguins breathing/getting ready for Quarto*
-
-Mine: will talk about left side
-
-Julie: will talk about right side; Both: share demos, stories, FAQ's
+Mine: Will talk about left side. 
+Julie: Will talk about right side.
+Both: share demos, stories, FAQ's. [Question for Julie: "Burning questions" instead of FAQs? Something else?]{.question}
 :::
 
 # Quarto is for people who love R Markdown
+
+::: illustration
+**Illustration / animation:** Quarto logo with one quadrant showing the words "Quarto is for people who love R Markdown" and the others grayed out.
+:::
 
 ## Next generation R Markdown
 
@@ -76,7 +81,8 @@ Julie: will talk about right side; Both: share demos, stories, FAQ's
 :::
 
 ::: aside
-Mine: It combines/unifies some "down" packages. It also brings in Jupyter and other languages (Python, Julia) and provides that functionality even if you're not coming from the R ecosystem.
+Mine: It combines/unifies some "down" packages.
+It also brings in Jupyter and other languages (Python, Julia) and provides that functionality even if you're not coming from the R ecosystem.
 :::
 
 ## DEMO: Flexibility in the formats
@@ -102,8 +108,7 @@ Mine: [TO DO: Create screen recording and write script.]{.todo}
 ::: illustration
 **Illustration:** A graphic and a arrow pointing at a high-level where it's different.
 
-Rmd -> knitr -> pandoc – R package (rmarkdown) doing the orchestration
-Qmd -> knitr/jupyter -> pandoc – Quarto CLI doing the orchestration
+Rmd -\> knitr -\> pandoc -- R package (rmarkdown) doing the orchestration Qmd -\> knitr/jupyter -\> pandoc -- Quarto CLI doing the orchestration
 :::
 
 ::: aside
@@ -128,7 +133,11 @@ OR: diff formats within R (web, slides, course web) I go between the formats a l
 Mine:
 :::
 
-# Quarto is for people who don't know Rmd
+# Quarto is for people who don't know R Markdown
+
+::: illustration
+**Illustration / animation:** Quarto logo with one quadrant showing the words "Quarto is for people who don't know R Markdown" and the others grayed out.
+:::
 
 ## Quarto is something you can use even if you've never used RMarkdown
 
@@ -235,6 +244,10 @@ From Allison Horst, Gavin
 
 # Quarto enables new ways of sharing & organization
 
+::: illustration
+**Illustration / animation:** Quarto logo with one quadrant showing the words "Quarto enables new ways of sharing & organization" and the others grayed out.
+:::
+
 ## Use Quarto to accomplish existing goals
 
 -   Teaching: Consistent and transparent/obvious org across course websites and materials
@@ -242,7 +255,8 @@ From Allison Horst, Gavin
 -   Research: Journal articles
 
 ::: illustration
-**Image:** Screenshots of each next to each other on top row, folder organization of each on the bottom row. Top looks different, bottom looks very similar.
+**Image:** Screenshots of each next to each other on top row, folder organization of each on the bottom row.
+Top looks different, bottom looks very similar.
 :::
 
 ::: aside
@@ -274,9 +288,7 @@ Mine:
 -   Short - "a few things I've learned transitioning Rmd -\> quarto"
 -   Now to be a bit more principled about the transition (Change extension .rmd to .qmd and render to see it's fine)
 -   Change \_bookdown.yml to \_quarto.yml
--   My bookdown H1 headers were markdown `#Like This`; quarto book will build but the rest of the headers don't show up on the right TOC.
-    Change to yaml `title: Like This`.
-    Also will look right in the viewer.
+-   My bookdown H1 headers were markdown `#Like This`; quarto book will build but the rest of the headers don't show up on the right TOC. Change to yaml `title: Like This`. Also will look right in the viewer.
 :::
 
 ::: aside
@@ -292,6 +304,10 @@ Mine: [TO DO: Decide on story.]{.todo}
 :::
 
 # Quarto enables new ways of reuse & reimagining
+
+::: illustration
+**Illustration / animation:** Quarto logo with one quadrant showing the words "Quarto enables new ways of reuse & reimagining" and the others grayed out.
+:::
 
 ## Use quarto to be creative about emerging needs/new goals
 
@@ -402,11 +418,11 @@ Julie:
 
 -   Table \> 2 tables next to each other
 
-- Chalkboard on slides
+-   Chalkboard on slides
 
-- Blog posts not running earlier posts
+-   Blog posts not running earlier posts
 
-- multiplex: Slides / scroll for audience
+-   multiplex: Slides / scroll for audience
 
 ## Coda
 
