@@ -18,7 +18,7 @@ editor: visual
 -   Theme: collaborating
 
 ::: aside
-Julie: So excited to be here. I am a log-time and prolific user of RMarkdown, and Quarto and love how out-of-the box they are; I can use them for communicating about research, teaching, and collaborating using mostly the defaults. This as you'll see has been helping me push and blur the boundaries of environmental science, open source, and teaching. What I'll share today is work with Openscapes colleagues and builds from so many mentors: RLadies, etc
+Julie: So excited to be here. I am a long-time and prolific user of RMarkdown, and Quarto and love how out-of-the box they are; I can use them for communicating about research, teaching, and collaborating using mostly the defaults. This as you'll see has been helping me push and blur the boundaries of environmental science, open source, and teaching. What I'll share today is a huge team-effort with many colleagues, that also builds from many folks in the R and open science communities.
 :::
 
 ## Hi, I'm Mine
@@ -132,53 +132,64 @@ Mine: As an educator, two things are of upmost importance for me about the tools
 **Illustration / animation:** Quarto logo with one quadrant showing the words "Quarto is for people who don't know R Markdown" and the others grayed out.
 :::
 
-## NASA Openscapes: streamlining teamwork with quarto
+## NASA Openscapes
+
+Supporting NASA Earth science research teams' migration to the cloud
+
+::: columns
+::: {.column width="50%"}
+::: illustration
+**Image:** NASA logo, zoom faces?
+:::
+:::
+
+::: {.column width="50%"}
+-   collaboration across silos (culture of reuse)
+-   upskilling the workforce (tech & teaching)
+:::
+:::
+
+::: aside
+Julie: I'm excited to share this story of our NASA Openscapes project, where we are helping NASA support research teams migrating to analysis in the cloud as they migrate their earthdata satellite imagery to the cloud. Co-lead: Erin Robinson
+:::
+
+## Quarto helps streamline teamwork
 
 ::: illustration
 **Image:** Screenshot of quarto Earthdata Cloud Cookbook.
 :::
 
 ::: aside
-Julie: this is the first Quarto site I made. 3 cool things about this.
+Julie: this is the first Quarto site we ever made, started in spring 2021. It's beautiful.
 
-Streamlines teamwork: we came together from across silos, with different skills, comfort with coding, different coding language, different tech. Quarto let us work in one place, visualizing an end-goal, contributing with confidence.
+Streamlines teamwork: we came together from across silos, with different skills, comfort with coding, different coding language, different tech. Quarto let us see an end-goal in our mind, and then work in one place, and learn to contribute with confidence.
+
+I want to talk about streamlining teamwork in 2 ways: interoperating with tech, and interoperating with people.
 :::
 
-## 1. Code & text together beautifully
-
-::: illustration
-**Image:** Screenshot of quarto book, contributing page.
-:::
-
-::: aside
-Julie: 1. it looks familiar coming from RMarkdown. It's beautiful...
-
--   first real content in it: taught others how to install quarto and contribute, knew it would change but that's ok, the beauty of quarto, it's dynamic, you don't feel stuck or static
-:::
-
-## 2a. Interoperability with tech
+## Interoperability with tech (1/2)
 
 creating collections
 
 ::: illustration
-**Image:** Screenshot of portion of `_quarto.yml`: .ipynbs and .qmds.
+**Image:** Screenshot of portion of `_quarto.yml`: .ipynbs, .rmds, .qmds
 :::
 
 ::: aside
-Julie: 2. language compatibility - using quarto with a python-heavy crowd I'm able to build from what I've learned with R and share with the python crowd (flexibility in the tooling)
+Julie: language compatibility - using quarto with a python-heavy crowd I'm able to build from what I've learned with R and share with the python crowd (flexibility in the tooling) *Julie TODO: add HLS .Rmd*
 :::
 
-## 2b. Interoperability with tech
+## Interoperability with tech (2/2)
 
 ::: illustration
 **Image:** Screenshot .qmd with python and R code
 :::
 
 ::: aside
-Julie: 2. language compatibility - using quarto to support researchers early - first dev is in python but not limited
+Julie: language compatibility - using quarto to support researchers early - first dev is in python but not limited
 :::
 
-## 3. Interoperability with people
+## Interoperability with people
 
 aka collaboration
 
@@ -187,41 +198,19 @@ aka collaboration
 :::
 
 ::: aside
-3.  cool collaboration with J.J. and the quarto team AND NASA Openscapes.
-:::
-
-## NASA Openscapes Framework
-
-Supporting NASA Earth science research teams' migration to the cloud
-
-<br>
-
-::: columns
-::: {.column width="50%"}
--   find the common
--   reuse existing
-:::
-
-::: {.column width="50%"}
--   contribute to fill gaps
--   foster a learning culture
-:::
-:::
-
-::: aside
-Julie: This book is part of a 3-year project with NASA to support scientific researcher teams using NASA Earthdata as they migrate their workflows to the cloud.
+Julie: collaboration with J.J. & the quarto team \<\> NASA Openscapes.
 :::
 
 ## DEMO: Flexibility in the tooling
 
-[TO DO: Replace contents of this slide with screen recording.]{.todo}
+[TO DO: Replace with screen recording.]{.todo}
 
 ::: demo
 -   Render Mine's example site in JupyterHub, quarto preview
 -   Add `.ipynb`, workflow (code: palmerpenguins in python?)
 -   `quarto convert` to .qmd
--   Also open in VS Code, show `.qmd` (cmd-shift-k to render \[attention to other tool chains available\])
--   You install Quarto with a CLI, (like git) so you can work with whatever tooling you want
+-   Open in VS Code, show `.qmd` (cmd-shift-k to render \[attention to other tool chains available\])
+-   Mention: You install Quarto with a CLI, (like git) so you can work with whatever tooling you want
 :::
 
 ::: aside
@@ -230,9 +219,11 @@ Julie:
 
 ## NASA Openscapes and Quarto
 
-1.  code and text together beautifully
-2.  interoperability with tech
-3.  interoperability with people
+Streamlines teamwork
+
+-   shared vision: code and text together beautifully
+-   interoperability with tech
+-   interoperability with people
 
 ::: aside
 Julie: summary following demo to transition to Mine
@@ -334,27 +325,25 @@ this really shows up with Openscapes
 
 -   tech infrastructure - creating place.
 
-Create a learning culture, strengthen the open movement
+Create a learning culture, break down silos and loneliness, strengthen the open movement
 
 ::: aside
 Julie: we help teams collaborate, upskill, become resilient. 3 big things:
 :::
 
-## 1. Share earlier
+## Share your ideas earlier
 
 A way to welcome folks to join you
 
 ::: illustration
-**Image:** Series book [Openscapes Lesson Series](https://openscapes.github.io/series/)
+**Image:** Openscapes website (currently blogdown), and Series book [Openscapes Lesson Series](https://openscapes.github.io/series/)
 :::
 
 ::: aside
-Julie: share earlier (can I see it? yes) - Series book (existed openly even before was fully dev'd)
-
-Was true
+Julie: RMarkdown, and now quarto, have played a huge role in the origins of openscapes. Like we were saying with the NASA Mentors, I could see what's possible, I had a way to share. share earlier (can I see it? yes) - Share your ideas - This helps you get help, join forces. It could be in the form of a book This is true whether you're within a small team too
 :::
 
-## 2. Build inclusion into your daily work
+## Build inclusion into your daily work
 
 ::: illustration
 **Image:** Fay Lab Manual
@@ -362,23 +351,19 @@ Was true
 
 [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
 
-::: aside
-Julie: Onboarding (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs. little things.
+[Openscapes Approach Guide](https://openscapes.github.io/approach-guide/) (inspired by Gavin)
 
 ::: aside
-Create a learning culture
-:::
+Julie: This is another way this manifests: Onboarding (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs. little things. Create a learning culture. We've borrowed this idea for Approach Guide
 :::
 
-## 3. Reuse: co-create-once-use-often
+## Reuse: create-once-use-often
 
 ::: illustration
 **Image:** Placeholder - NMFS-Openscapes?
 
 ![](images/mentors-screenshot.png){fig-align="center" width="20%"}
 :::
-
-[Openscapes Approach Guide](https://openscapes.github.io/approach-guide/) (inspired by Gavin)
 
 ::: aside
 Julie: Co-create. create-once-use-often. less reinventing; focus your time on the science.
@@ -389,7 +374,7 @@ seeing this enabled with NASA and quarto - but also NOAA Fisheries: https://rver
 ## Fostering a culture of reuse {.smaller}
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="30%"}
 -   Interoperability (language, tooling, people) --\>
 -   Enabling collaborations, transferrable skills
 -   Can collaborate with people sooner.
@@ -397,7 +382,7 @@ seeing this enabled with NASA and quarto - but also NOAA Fisheries: https://rver
 -   Tooling \> culture change bc repro and sharing
 :::
 
-::: {.column width="50%"}
+::: {.column width="70%"}
 ![](images/horst_pew_tools_practice_mindset.jpg){fig-align="center" width="50%"}
 :::
 :::
@@ -408,7 +393,7 @@ Julie: Openscapes helps teams develop practices that are underpinned by tools. Q
 
 ## DEMO: Showcase culture of reuse
 
-[TO DO: Replace contents of this slide with screen recording.]{.todo}
+[TO DO: Replace with screen recording.]{.todo}
 
 ::: demo
 -   open one in RStudio
@@ -437,6 +422,8 @@ Julie:
 
 ::: aside
 Julie: summary slide and transition
+
+Reprise from NASA Openscapes - find the common - reuse existing - contribute to fill gaps - foster a learning culture
 :::
 
 ## Summary
