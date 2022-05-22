@@ -18,7 +18,7 @@ editor: visual
 -   Theme: collaborating
 
 ::: aside
-Julie: So excited to be here. I am a log-time and prolific user of RMarkdown, and Quarto and love how out-of-the box they are; I can use them for communicating about research, teaching, and collaborating using mostly the defaults. This as you'll see has been helping me push and blur the boundaries of environmental science, open source, and teaching.
+Julie: So excited to be here. I am a log-time and prolific user of RMarkdown, and Quarto and love how out-of-the box they are; I can use them for communicating about research, teaching, and collaborating using mostly the defaults. This as you'll see has been helping me push and blur the boundaries of environmental science, open source, and teaching. What I'll share today is work with Openscapes colleagues and builds from so many mentors: RLadies, etc
 :::
 
 ## Hi, I'm Mine
