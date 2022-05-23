@@ -1,5 +1,5 @@
 ---
-title: "reimagine +<br>collaborate +<br>share<br>with Quarto"
+title: "reimagine +<br>collaborate +<br>share with<br>Quarto"
 subtitle: "Temporary URL: [https://mine-cetinkaya-rundel.github.io/quarto-keynote](https://mine-cetinkaya-rundel.github.io/quarto-keynote)"
 format: 
   revealjs: 
@@ -302,59 +302,61 @@ Mine: Add summary before handover
 :::
 
 ::: notes
-Julie: What Mine just showed was really powerful for me - once I saw what I could do for my current needs, I saw new ways to reuse  and reimagine future ideas. 
+Julie: What Mine just showed was really powerful for me - once I saw what I could do for my current needs, I saw new ways to reuse and reimagine future ideas.
 :::
 
 ## What we do at Openscapes
 
-We help teams collaborate, upskill, become resilient. 
+We help teams collaborate, upskill, become resilient.
 
 ![](images/horst_pew_tools_practice_mindset.jpg){fig-align="center" width="40%"}
 
-
-::: aside
-Julie: I started off saying that I'm leading Openscapes, but you likely have no idea what that is or actually looks like day to day...
-We create a learning culture, break down silos and loneliness
-creating space - people; creating place - tech 
-**Better science for future us**
-
+::: notes
+Julie: I started off saying that I'm leading Openscapes, but you likely have no idea what that is or actually looks like day to day... We create a learning culture, break down silos and loneliness creating space - people; creating place - tech **Better science for future us**
 :::
 
 ## Open science as a movement
 
-*placeholder slide* - why this matters. Collaborate with people sooner.
+*placeholder slide* - why this matters. Collaborate with people sooner, co-create/reuse not reinvent
 
 ![](images/all-we-can-save-screenshot.png){fig-align="center" width="20%"}
 
 ::: aside
-Julie:
+Julie: 3 ways we've been seeing this:
 :::
 
-## Reimagining - First websites
+## Reimagining - websites & blogs
+
+**Share your ideas earlier** - A way to welcome folks to join you
+
+not limited to a final publication
 
 ::: illustration
-**Image:** Openscapes website (blogdown), Lesson Series 
+**Image:** Openscapes website (blogdown), Lesson Series?
 :::
 
 ::: aside
 As we were getting started, knew we could share as we built out the idea
 :::
 
-## 3 big things
+## Reimagining - books
 
-1. Share your ideas earlier - A way to welcome folks to join you
-2. Reuse: create-once-use-often
-3. Build inclusion into your daily work - documentation, onboarding
+**Reuse: create-once-use-often**
 
-**This is exciting for coders. Also important for folks who don't code or don't identify as coders.** 
+*Placeholder image:*
 
-::: aside
+![](images/mentors-screenshot.png)
+
+::: notes
 Julie: Co-create-once-use-often. less reinventing; focus time on the science.
 
 seeing this enabled with NASA and quarto - but also NOAA Fisheries: https://rverse-tutorials.github.io/RWorkflow-NWFSC-2022/index.html
 :::
 
-## Reimagining - Onboarding
+## Reimagine culture
+
+**Build inclusion into your daily work** - onboarding
+
 
 ::: illustration
 **Image:** Fay Lab Manual
@@ -362,17 +364,22 @@ seeing this enabled with NASA and quarto - but also NOAA Fisheries: https://rver
 
 [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
 
+Prev examples are really exciting for coders. Also important for folks who don't code or don't identify as coders.
+
 
 ::: aside
-Julie: This is another way this manifests: Onboarding (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs. little things. Create a learning culture. We've borrowed this idea for Approach Guide
-Book websites to collaborate on? Not really how we thought about things before
+Julie: This is another way this manifests: Onboarding (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs. little things. Create a learning culture. We've borrowed this idea for Approach Guide Book websites to collaborate on? Not really how we thought about things before
 :::
 
-## Reuse - Approach Guide
+## Reimagine - All together now
 
-[Openscapes Approach Guide](https://openscapes.github.io/approach-guide/) (inspired by Gavin)
+::: illustration
+image: [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/), revisit NASA Openscapes 
+:::
 
-
+1.  Share your ideas earlier (can I see it? yes) - Series book (existed openly even before was fully dev'd) Create a learning culture
+1.  Reuse: create-once-use-often. less reinventing; focus your time on the science.
+1.  bring inclusion into your daily work (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs
 
 
 ## DEMO: Visual editor
@@ -381,19 +388,16 @@ Book websites to collaborate on? Not really how we thought about things before
 
 ::: demo
 -   open project in RStudio
--   Visual Editor - friendly for non-coders. Reimagine who participates
+-   Visual Editor - friendly for non-coders. Reimagine who participates. 
+- Show tips: "I learned this from Mine while we were preparing our slides"
 :::
 
 ::: aside
 Julie: Culture of trust, less reinventing. Meets someone like me where they are and supports them. (Revisit from useR) Not necessarily for existing/experienced users to change their ways but to create an opportunity for including others...
 :::
 
+## Openscapes: reimagining with Quarto 
 
-## Openscapes: reimagining with Quarto {.smaller}
-
-1.  share earlier (can I see it? yes) - Series book (existed openly even before was fully dev'd) Create a learning culture
-2.  bring inclusion into your daily practice (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs
-3.  Reuse: create-once-use-often. less reinventing; focus your time on the science.
 
 ::: aside
 Julie: summary slide and transition
