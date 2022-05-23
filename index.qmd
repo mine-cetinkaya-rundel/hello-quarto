@@ -301,107 +301,23 @@ Mine: Add summary before handover
 **Illustration / animation:** Quarto logo with one quadrant showing the words "Quarto enables new ways of reuse + reimagining" and the others grayed out.
 :::
 
-## Use quarto to be creative about emerging needs/new goals
-
-::: illustration
-[TO DO: Add idea for image/illustration]{.todo}
-:::
-
-::: aside
-Julie: I started off saying that I'm leading OpenScapes, you might have no idea what that actually looks like day to day...
-
-enabling sharing and organization across tooling and people (like Mine just showed) means it's easier to reuse and reimagine.
-
-(creating new problems/solutions because quarto exists)- new ways of thinking that aren't standard practices. Book websites to collaborate on? Not really how we thought about things before
-
-this really shows up with Openscapes
+::: notes
+Julie: What Mine just showed was really powerful for me - once I saw what I could do for my current needs, I saw new ways to reuse  and reimagine future ideas. 
 :::
 
 ## What we do at Openscapes
 
-**Engage mentors • Empower research teams • Scale open practices**
+We help teams collaborate, upskill, become resilient. 
 
--   people infrastructure - creating space.
+![](images/horst_pew_tools_practice_mindset.jpg){fig-align="center" width="40%"}
 
--   tech infrastructure - creating place.
-
-Create a learning culture, break down silos and loneliness, strengthen the open movement
 
 ::: aside
-Julie: we help teams collaborate, upskill, become resilient. 3 big things:
-:::
+Julie: I started off saying that I'm leading Openscapes, but you likely have no idea what that is or actually looks like day to day...
+We create a learning culture, break down silos and loneliness
+creating space - people; creating place - tech 
+**Better science for future us**
 
-## Share your ideas earlier
-
-A way to welcome folks to join you
-
-::: illustration
-**Image:** Openscapes website (currently blogdown), and Series book [Openscapes Lesson Series](https://openscapes.github.io/series/)
-:::
-
-::: aside
-Julie: RMarkdown, and now quarto, have played a huge role in the origins of openscapes. Like we were saying with the NASA Mentors, I could see what's possible, I had a way to share. share earlier (can I see it? yes) - Share your ideas - This helps you get help, join forces. It could be in the form of a book This is true whether you're within a small team too
-:::
-
-## Build inclusion into your daily work
-
-::: illustration
-**Image:** Fay Lab Manual
-:::
-
-[Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
-
-[Openscapes Approach Guide](https://openscapes.github.io/approach-guide/) (inspired by Gavin)
-
-::: aside
-Julie: This is another way this manifests: Onboarding (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs. little things. Create a learning culture. We've borrowed this idea for Approach Guide
-:::
-
-## Reuse: create-once-use-often
-
-::: illustration
-**Image:** Placeholder - NMFS-Openscapes?
-
-![](images/mentors-screenshot.png){fig-align="center" width="20%"}
-:::
-
-::: aside
-Julie: Co-create. create-once-use-often. less reinventing; focus your time on the science.
-
-seeing this enabled with NASA and quarto - but also NOAA Fisheries: https://rverse-tutorials.github.io/RWorkflow-NWFSC-2022/index.html
-:::
-
-## Fostering a culture of reuse {.smaller}
-
-::: columns
-::: {.column width="30%"}
--   Interoperability (language, tooling, people) --\>
--   Enabling collaborations, transferrable skills
--   Can collaborate with people sooner.
--   Tooling that makes things easy can help be culture change
--   Tooling \> culture change bc repro and sharing
-:::
-
-::: {.column width="70%"}
-![](images/horst_pew_tools_practice_mindset.jpg){fig-align="center" width="50%"}
-:::
-:::
-
-::: aside
-Julie: Openscapes helps teams develop practices that are underpinned by tools. Quarto creates "place"
-:::
-
-## DEMO: Showcase culture of reuse
-
-[TO DO: Replace with screen recording.]{.todo}
-
-::: demo
--   open one in RStudio
--   Visual Editor - friendly for non-coders. Reimagine who participates
-:::
-
-::: aside
-Julie: Culture of trust, less reinventing. Meets someone like me where they are and supports them. (Revisit from useR) Not necessarily for existing/experienced users to change their ways but to create an opportunity for including others...
 :::
 
 ## Open science as a movement
@@ -413,6 +329,65 @@ Julie: Culture of trust, less reinventing. Meets someone like me where they are 
 ::: aside
 Julie:
 :::
+
+## Reimagining - First websites
+
+::: illustration
+**Image:** Openscapes website (blogdown), Lesson Series 
+:::
+
+::: aside
+As we were getting started, knew we could share as we built out the idea
+:::
+
+## 3 big things
+
+1. Share your ideas earlier - A way to welcome folks to join you
+2. Reuse: create-once-use-often
+3. Build inclusion into your daily work - documentation, onboarding
+
+**This is exciting for coders. Also important for folks who don't code or don't identify as coders.** 
+
+::: aside
+Julie: Co-create-once-use-often. less reinventing; focus time on the science.
+
+seeing this enabled with NASA and quarto - but also NOAA Fisheries: https://rverse-tutorials.github.io/RWorkflow-NWFSC-2022/index.html
+:::
+
+## Reimagining - Onboarding
+
+::: illustration
+**Image:** Fay Lab Manual
+:::
+
+[Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
+
+
+::: aside
+Julie: This is another way this manifests: Onboarding (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs. little things. Create a learning culture. We've borrowed this idea for Approach Guide
+Book websites to collaborate on? Not really how we thought about things before
+:::
+
+## Reuse - Approach Guide
+
+[Openscapes Approach Guide](https://openscapes.github.io/approach-guide/) (inspired by Gavin)
+
+
+
+
+## DEMO: Visual editor
+
+[TO DO: Replace with screen recording.]{.todo}
+
+::: demo
+-   open project in RStudio
+-   Visual Editor - friendly for non-coders. Reimagine who participates
+:::
+
+::: aside
+Julie: Culture of trust, less reinventing. Meets someone like me where they are and supports them. (Revisit from useR) Not necessarily for existing/experienced users to change their ways but to create an opportunity for including others...
+:::
+
 
 ## Openscapes: reimagining with Quarto {.smaller}
 
@@ -520,4 +495,24 @@ The following slides won't be in the final talk
 
 ::: notes
 Julie: We think about open science as landscape of open data, tooling, and communities, with many existing paths forward, as well as opportunities to create new paths together. Our main focus is to empower research teams. A lot of people feel stuck, like these sad animals in the bottom left, or are working alone, like the little hermit crab, with the landscape just out of view. We help folks find common parts of their work and come together as teams and identify their trailhead so they can safely navigate this landscape, and help each other and welcome others as they go.
+:::
+
+## Fostering a culture of reuse {.smaller}
+
+::: columns
+::: {.column width="30%"}
+-   Interoperability (language, tooling, people) --\>
+-   Enabling collaborations, transferrable skills
+-   Can collaborate with people sooner.
+-   Tooling that makes things easy can help be culture change
+-   Tooling \> culture change bc repro and sharing
+:::
+
+::: {.column width="70%"}
+![](images/horst_pew_tools_practice_mindset.jpg){fig-align="center" width="50%"}
+:::
+:::
+
+::: aside
+Julie: Openscapes helps teams develop practices that are underpinned by tools. Quarto creates "place"
 :::
