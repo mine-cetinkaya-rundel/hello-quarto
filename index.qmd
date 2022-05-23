@@ -18,7 +18,10 @@ editor: visual
 -   Theme: collaborating
 
 ::: aside
-Julie: So excited to be here. I am a long-time and prolific user of RMarkdown, and Quarto and love how out-of-the box they are; I can use them for communicating about research, teaching, and collaborating using mostly the defaults. This as you'll see has been helping me push and blur the boundaries of environmental science, open source, and teaching. What I'll share today is a huge team-effort with many colleagues, that also builds from many folks in the R and open science communities.
+Julie: So excited to be here.
+I am a long-time and prolific user of RMarkdown, and Quarto and love how out-of-the box they are; I can use them for communicating about research, teaching, and collaborating using mostly the defaults.
+This as you'll see has been helping me push and blur the boundaries of environmental science, open source, and teaching.
+What I'll share today is a huge team-effort with many colleagues, that also builds from many folks in the R and open science communities.
 :::
 
 ## Hi, I'm Mine
@@ -30,7 +33,8 @@ Julie: So excited to be here. I am a long-time and prolific user of RMarkdown, a
 -   Theme: authoring and education
 
 ::: aside
-Mine: I remember vividly the first time I've heard of knitr at useR 2012 and sitting in the audience and starting to convert my teaching materials to use it while the keynote was still going on. I'll call this a success if a few of you are firing up a Quarto project right now to see what all the hype is about.
+Mine: I remember vividly the first time I've heard of knitr at useR 2012 and sitting in the audience and starting to convert my teaching materials to use it while the keynote was still going on.
+I'll call this a success if a few of you are firing up a Quarto project right now to see what all the hype is about.
 :::
 
 ## Outline
@@ -58,7 +62,9 @@ Mine: I remember vividly the first time I've heard of knitr at useR 2012 and sit
 :::
 
 ::: aside
-Mine: Will talk about left side. Julie: Will talk about right side. Both: share demos and stories.
+Mine: Will talk about left side.
+Julie: Will talk about right side.
+Both: share demos and stories.
 :::
 
 # Quarto is for people who love R Markdown
@@ -74,14 +80,15 @@ Mine: Will talk about left side. Julie: Will talk about right side. Both: share 
 :::
 
 ::: aside
-Mine: It combines/unifies some "down" packages. It also brings in Jupyter and other languages (Python, Julia) and provides that functionality even if you're not coming from the R ecosystem.
+Mine: It combines/unifies some "down" packages.
+It also brings in Jupyter and other languages (Python, Julia) and provides that functionality even if you're not coming from the R ecosystem.
 :::
 
 ## DEMO: Flexibility in the formats
 
-[TO DO: Replace contents of this slide with screen recording.]{.todo}
-
 ::: demo
+**This will be replaced with screen recording.**
+
 -   Take .Rmd and change extension to .qmd
     -   The .Rmd will already have a table and a plot, palmerpenguins
     -   Knit it, then change to .qmd. Knit again
@@ -92,32 +99,37 @@ Mine: It combines/unifies some "down" packages. It also brings in Jupyter and ot
 :::
 
 ::: aside
-Mine: [TO DO: Create screen recording and write script.]{.todo}
+Mine: ...
 :::
 
 ## Knit vs render?
 
 ::: illustration
-**Illustration:** A graphic and a arrow pointing at a high-level where it's different.
+**Illustration:** A graphic and a arrow pointing at where they're different, at a high level.
 
-Rmd -\> knitr -\> pandoc -- R package (rmarkdown) doing the orchestration
-
-Qmd -\> knitr/jupyter -\> pandoc -- Quarto CLI doing the orchestration
+-   Rmd -\> knitr -\> pandoc: R package (rmarkdown) doing the orchestration
+-   Qmd -\> knitr/jupyter -\> pandoc: Quarto CLI doing the orchestration
 :::
 
 ::: aside
 Mine: A common first question is "how are R Markdown and Quarto different, under the hood, particularly given the rename of the file just works?"
 :::
 
-## Story: Flexibility of moving between formats makes time for other things... {.smaller}
+## Moving between "things" is easy\* {.small}
 
--   teaching background
--   teaching winter course - anecdote from art history student?
--   Why is this interesting, is it diff from teaching Rmd? easier, harder? Not different?
--   diff formats within R (web, slides, course web) I go between the formats a lot (Rmd 8 ways)
+*\*but don't call things "easy", need a better adjective...*
+
+Teaching: creating materials and teaching the tools
+
+-   Moving between formats within Quarto is easy: Often need to deliver same/similar content in different formats (documents, slides, book, website) and it's super helpful when transitioning requires minimal futzing around with source code (like Rmd 8 ways...)
+-   Moving from R Markdown to Quarto is easy
+    -   Is teaching Quarto different from teaching R Markdown? Easier / harder / **not different**?
+    -   Potential anecdote: Art history student writing thesis in Quarto. One semester to thesis writing a much less steep learning curve...
 
 ::: aside
-Mine: As an educator, two things are of upmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats (like documents to slides to websites to books). Over the last year of using Quarto for everything, I've felt like I've finally found the tool that lets me go from one to the other with minimal futzing around with my source code. This has helped me focus my time on my content, which has been a huge win.
+Mine: As an educator, two things are of utmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats (like documents to slides to websites to books).
+Over the last year of using Quarto for everything, I've felt like I've finally found the tool that lets me go from one to the other with minimal futzing around with my source code.
+This has helped me focus my time on my content, which has been a huge win.
 :::
 
 ## Handover
@@ -150,7 +162,8 @@ Supporting NASA Earth science research teams' migration to the cloud
 :::
 
 ::: aside
-Julie: I'm excited to share this story of our NASA Openscapes project, where we are helping NASA support research teams migrating to analysis in the cloud as they migrate their earthdata satellite imagery to the cloud. Co-lead: Erin Robinson
+Julie: I'm excited to share this story of our NASA Openscapes project, where we are helping NASA support research teams migrating to analysis in the cloud as they migrate their earthdata satellite imagery to the cloud.
+Co-lead: Erin Robinson
 :::
 
 ## Quarto helps streamline teamwork
@@ -160,9 +173,11 @@ Julie: I'm excited to share this story of our NASA Openscapes project, where we 
 :::
 
 ::: aside
-Julie: this is the first Quarto site we ever made, started in spring 2021. It's beautiful.
+Julie: this is the first Quarto site we ever made, started in spring 2021.
+It's beautiful.
 
-Streamlines teamwork: we came together from across silos, with different skills, comfort with coding, different coding language, different tech. Quarto let us see an end-goal in our mind, and then work in one place, and learn to contribute with confidence.
+Streamlines teamwork: we came together from across silos, with different skills, comfort with coding, different coding language, different tech.
+Quarto let us see an end-goal in our mind, and then work in one place, and learn to contribute with confidence.
 
 I want to talk about streamlining teamwork in 2 ways: interoperating with tech, and interoperating with people.
 :::
@@ -198,14 +213,15 @@ aka collaboration
 :::
 
 ::: aside
-Julie: collaboration with J.J. & the quarto team \<\> NASA Openscapes.
+Julie: collaboration with J.J.
+& the quarto team \<\> NASA Openscapes.
 :::
 
 ## DEMO: Flexibility in the tooling
 
-[TO DO: Replace with screen recording.]{.todo}
-
 ::: demo
+**This will be replaced with screen recording.**
+
 -   Render Mine's example site in JupyterHub, quarto preview
 -   Add `.ipynb`, workflow (code: palmerpenguins in python?)
 -   `quarto convert` to .qmd
@@ -214,7 +230,7 @@ Julie: collaboration with J.J. & the quarto team \<\> NASA Openscapes.
 :::
 
 ::: aside
-Julie:
+Julie: ...
 :::
 
 ## NASA Openscapes and Quarto
@@ -243,44 +259,45 @@ Julie: summary following demo to transition to Mine
 
 ## Use Quarto to accomplish existing goals {.smaller}
 
--   Teaching: Consistent and transparent/obvious org across course websites and materials
--   Writing: Book - R4DS
--   Research: Journal articles
+How academics share their teaching resources/ new avenues for publishing:
+
+-   Tooling that makes it easy to share what you do with the world on the web is incredibly *useful* -- if it's not easy to make a course website, you won't.
+-   It's *useful* to the world -- Open sharing of knowledge, other people can learn from and reuse.
+-   It's [useful]{.underline} to you -- It's a way of getting credit for your work, and when it comes time for annual review/promotion materials, it's easy to say "here is everything I created".
+
+::: aside
+Mine: I started off introducing myself as a prof and educator, and so you probably have an idea of what my responsibilities look like, but you might not know my practices.
+Teaching, writing, and research are three things I do as an educator, and I can do it all with Quarto in ways that look very similar under the hood but very different in output.
+(Maybe add PPT anecdote here.)
+:::
+
+## Different on the outside, similar on the inside
 
 ::: illustration
-**Image:** Screenshots of each next to each other on top row, folder organization of each on the bottom row. Top looks different, bottom looks very similar.
+**Image:** Screenshots of each next to each other on top row, folder organization of each on the bottom row.
+Top looks different, bottom looks very similar.
+
+-   Teaching: Course website with obvious folders
+-   Writing: Book - R4DS
+-   Research: Journal articles
 :::
 
 ::: aside
-Mine: I started off introducing myself as a prof and educator, and so you probably have an idea of what I do day to day, but what that looks like in practice... you might know my responsibilities but you might not know my practices... maybe add PPT anecdote here... Teaching, writing, and research are three things I do as an educator, and I can do it all with Quarto in ways that look very similar under the hood but very different in output.
+Mine: And last 10% to tweak it for your context...
 :::
 
-## some title... {.smaller}
-
-How academics share their teaching resources/ new avenues for publishing
-
--   If it's not easy to make a course website, you won't
--   Tooling that makes it easy to share with the world on the web
--   Open sharing of knowledge. Other people can just take and benefit from and it's a new way of getting credit
--   When it comes time for annual review/promotion materials, it's easy to say "here is everything I created"
--   Last 10% to tweak it for your context
-
-::: aside
-Mine: Might merge with previous slide for a longer story
-:::
-
-## DEMO: File architecture, books {.smaller}
-
-[TO DO: Replace contents of this slide with screen recording.]{.todo}
+## DEMO: File architecture, books
 
 ::: demo
+**This will be replaced with screen recording.**
+
 -   Short - "a few things I've learned transitioning Rmd -\> quarto"
 -   Change `_bookdown.yml` to `_quarto.yml` - maybe...
--   My bookdown H1 headers were markdown `#Like This`; quarto book will build but the rest of the headers don't show up on the right TOC. Change to yaml `title: Like This`. Also will look right in the viewer.
+-   My bookdown H1 headers were markdown `# Like This`; quarto book will build but the rest of the headers don't show up on the right TOC. Change to yaml `title: Like This`. Also will look right in the viewer.
 :::
 
 ::: aside
-Mine: [TO DO: Create screen recording and write script.]{.todo}
+Mine: ...
 :::
 
 ## Summary...
@@ -317,7 +334,8 @@ Julie: I started off saying that I'm leading Openscapes, but you likely have no 
 
 ## Open science as a movement
 
-*placeholder slide* - why this matters. Collaborate with people sooner, co-create/reuse not reinvent
+*placeholder slide* - why this matters.
+Collaborate with people sooner, co-create/reuse not reinvent
 
 ![](images/all-we-can-save-screenshot.png){fig-align="center" width="20%"}
 
@@ -348,7 +366,8 @@ As we were getting started, knew we could share as we built out the idea
 ![](images/mentors-screenshot.png)
 
 ::: notes
-Julie: Co-create-once-use-often. less reinventing; focus time on the science.
+Julie: Co-create-once-use-often.
+less reinventing; focus time on the science.
 
 seeing this enabled with NASA and quarto - but also NOAA Fisheries: https://rverse-tutorials.github.io/RWorkflow-NWFSC-2022/index.html
 :::
@@ -357,15 +376,14 @@ seeing this enabled with NASA and quarto - but also NOAA Fisheries: https://rver
 
 **Build inclusion into your daily work** - onboarding
 
-
 ::: illustration
 **Image:** Fay Lab Manual
 :::
 
 [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
 
-Prev examples are really exciting for coders. Also important for folks who don't code or don't identify as coders.
-
+Prev examples are really exciting for coders.
+Also important for folks who don't code or don't identify as coders.
 
 ::: aside
 Julie: This is another way this manifests: Onboarding (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs. little things. Create a learning culture. We've borrowed this idea for Approach Guide Book websites to collaborate on? Not really how we thought about things before
@@ -374,30 +392,30 @@ Julie: This is another way this manifests: Onboarding (make the implicit explici
 ## Reimagine - All together now
 
 ::: illustration
-image: [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/), revisit NASA Openscapes 
+image: [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/), revisit NASA Openscapes
 :::
 
 1.  Share your ideas earlier (can I see it? yes) - Series book (existed openly even before was fully dev'd) Create a learning culture
-1.  Reuse: create-once-use-often. less reinventing; focus your time on the science.
-1.  bring inclusion into your daily work (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs
-
+2.  Reuse: create-once-use-often. less reinventing; focus your time on the science.
+3.  bring inclusion into your daily work (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs
 
 ## DEMO: Visual editor
 
-[TO DO: Replace with screen recording.]{.todo}
-
 ::: demo
--   open project in RStudio
--   Visual Editor - friendly for non-coders. Reimagine who participates. 
-- Show tips: "I learned this from Mine while we were preparing our slides"
+**This will be replaced with screen recording.**
+
+-   Open project in RStudio
+-   Visual Editor - friendly for non-coders. Reimagine who participates.
+-   Show tips: "I learned this from Mine while we were preparing our slides"
 :::
 
 ::: aside
-Julie: Culture of trust, less reinventing. Meets someone like me where they are and supports them. (Revisit from useR) Not necessarily for existing/experienced users to change their ways but to create an opportunity for including others...
+Julie: Culture of trust, less reinventing.
+Meets someone like me where they are and supports them.
+(Revisit from useR) Not necessarily for existing/experienced users to change their ways but to create an opportunity for including others...
 :::
 
-## Openscapes: reimagining with Quarto 
-
+## Openscapes: reimagining with Quarto
 
 ::: aside
 Julie: summary slide and transition
@@ -446,7 +464,8 @@ Julie: We've gone through these, but we have so much more to say, we'll just nee
 
 2.  Works with Shiny - that's all to say
 
-3.  Quarto pub? What it accomplishes \| what it looks like
+3.  Quarto pub?
+    What it accomplishes \| what it looks like
 
 4.  Yaml completion in chunk options
 
@@ -474,10 +493,9 @@ Julie: We've gone through these, but we have so much more to say, we'll just nee
 -   Tooling culture change bc repro and sharing
 -   Quarto could help bring about culture change across languages
 
-# Quarto examples and resources
+# Examples and resources {.smaller}
 
-## some title... {.smaller}
-
+-   Quarto docs
 -   Mine's Toronto talk
 -   Julie's Quarto tutorial (building from 2016 Rmd tutorial)
 -   Sample sites, books, etc.
@@ -498,7 +516,10 @@ The following slides won't be in the final talk
 ![](images/horst_openscapes_champions.jpg){fig-align="center" width="100%"}
 
 ::: notes
-Julie: We think about open science as landscape of open data, tooling, and communities, with many existing paths forward, as well as opportunities to create new paths together. Our main focus is to empower research teams. A lot of people feel stuck, like these sad animals in the bottom left, or are working alone, like the little hermit crab, with the landscape just out of view. We help folks find common parts of their work and come together as teams and identify their trailhead so they can safely navigate this landscape, and help each other and welcome others as they go.
+Julie: We think about open science as landscape of open data, tooling, and communities, with many existing paths forward, as well as opportunities to create new paths together.
+Our main focus is to empower research teams.
+A lot of people feel stuck, like these sad animals in the bottom left, or are working alone, like the little hermit crab, with the landscape just out of view.
+We help folks find common parts of their work and come together as teams and identify their trailhead so they can safely navigate this landscape, and help each other and welcome others as they go.
 :::
 
 ## Fostering a culture of reuse {.smaller}
@@ -518,5 +539,6 @@ Julie: We think about open science as landscape of open data, tooling, and commu
 :::
 
 ::: aside
-Julie: Openscapes helps teams develop practices that are underpinned by tools. Quarto creates "place"
+Julie: Openscapes helps teams develop practices that are underpinned by tools.
+Quarto creates "place"
 :::
