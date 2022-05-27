@@ -37,6 +37,26 @@ Mine: I remember vividly the first time I've heard of knitr at useR 2012 and sit
 I'll call this a success if a few of you are firing up a Quarto project right now to see what all the hype is about.
 :::
 
+## Why Quarto?
+
+### Unifies & extends RMarkdown ecosystem
+
+Inputs in multiple languages
+
+Outputs in multiple formats
+
+All going through the same machinery
+
+Illustration that we make: with quarto logo in the middle, which then grows and peels back
+
+-   Rethink the things that evolved organically across RMarkdown for 10 years. \"Mosaic\" idea. Things that have been \"unified\" in quarto
+
+-   Mara: Quarto has more \"guardrails\" for users - accessibility and inclusion centered in the design
+
+::: callout-note
+next up: our outline how we unpack this for you
+:::
+
 ## Outline
 
 ::: illustration
@@ -79,6 +99,12 @@ Both: share demos and stories.
 **Illustration:** Many "down" hex logos on one side, Quarto logo and some indication of other languages on the other side.
 :::
 
+-   5 or 6 things that were in diff formats
+
+-   Side-by-side with quarto vs Rmd
+
+    -   Enumerage: tabsets, code-folding, highlighting. 
+
 ::: aside
 Mine: It combines/unifies some "down" packages.
 It also brings in Jupyter and other languages (Python, Julia) and provides that functionality even if you're not coming from the R ecosystem.
@@ -96,6 +122,7 @@ It also brings in Jupyter and other languages (Python, Julia) and provides that 
 -   Change output format to yml slides
 -   Add a \_quarto.yml, render to website
     -   *To hand-off to Julie: (a tiny website)*
+-   yaml completion and yaml errors
 :::
 
 ::: aside
@@ -173,8 +200,8 @@ Co-lead: Erin Robinson
 :::
 
 ::: aside
-Julie: this is the first Quarto site we ever made, started in spring 2021.
-It's beautiful.
+
+Julie: this is the first Quarto site we ever made, started in spring 2021. It's beautiful. Automatic beautiful TOC on the right side
 
 Streamlines teamwork: we came together from across silos, with different skills, comfort with coding, different coding language, different tech.
 Quarto let us see an end-goal in our mind, and then work in one place, and learn to contribute with confidence.
@@ -216,6 +243,8 @@ aka collaboration
 Julie: collaboration with J.J.
 & the quarto team \<\> NASA Openscapes.
 :::
+
+## Quotes/etc
 
 ## DEMO: Flexibility in the tooling
 
@@ -297,7 +326,9 @@ Mine: And last 10% to tweak it for your context...
 :::
 
 ::: aside
-Mine: ...
+Mine: [TO DO: Create screen recording and write script.]{.todo}
+
+Visual Editor: Mine's "this functionality exists" vs Julie's "this is designed to be inviting"
 :::
 
 ## Summary...
@@ -331,6 +362,18 @@ We help teams collaborate, upskill, become resilient.
 ::: notes
 Julie: I started off saying that I'm leading Openscapes, but you likely have no idea what that is or actually looks like day to day... We create a learning culture, break down silos and loneliness creating space - people; creating place - tech **Better science for future us**
 :::
+
+## What is Open science
+
+Potential framing:
+
+if you are already into open science, this helps you execute this
+
+this tool can also be a motivator to get engaged
+
+Tracy: Intersection with open science an open source? There\'s more emphasis on open science and this is the way science should be done. All these things about open up your process \> one of the challenges have been tools that allow you to easily do these things the things. These allow you to do thie
+
+Personal story: Mine and I met at an rOpenSci event, the community has a lot to do with that, keep crossing paths, RLadies. It motivates the open science convo or wraps it up/enables it. Open science not just products - it's the process/collab. Quarto enables both.
 
 ## Open science as a movement
 
@@ -382,8 +425,11 @@ seeing this enabled with NASA and quarto - but also NOAA Fisheries: https://rver
 
 [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
 
-Prev examples are really exciting for coders.
-Also important for folks who don't code or don't identify as coders.
+
+Prev examples are really exciting for coders. Also important for folks who don't code or don't identify as coders.
+
+Make the implicit explicit - writing things down
+
 
 ::: aside
 Julie: This is another way this manifests: Onboarding (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs. little things. Create a learning culture. We've borrowed this idea for Approach Guide Book websites to collaborate on? Not really how we thought about things before
@@ -402,18 +448,26 @@ image: [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/)
 ## DEMO: Visual editor
 
 ::: demo
-**This will be replaced with screen recording.**
-
--   Open project in RStudio
+-   open project in RStudio
 -   Visual Editor - friendly for non-coders. Reimagine who participates.
 -   Show tips: "I learned this from Mine while we were preparing our slides"
+-   Images, Tables
+-   Call-outs
+-   DOIs
 :::
 
 ::: aside
-Julie: Culture of trust, less reinventing.
-Meets someone like me where they are and supports them.
-(Revisit from useR) Not necessarily for existing/experienced users to change their ways but to create an opportunity for including others...
+Julie: Culture of trust, less reinventing. Meets someone like me where they are and supports them. (Revisit from useR) Not necessarily for existing/experienced users to change their ways but to create an opportunity for including others...
+
+-   Mara: Quarto has more \"guardrails\" for users - more friendly for sometone who hasn\'t worked in this environment before \> maybe up in the visual editor part/
+
+::: aside
+Visual Editor: Mine's "this functionality exists" vs Julie's "this is designed to be inviting"
+
+You've already seen bits and pieces of the visual editor. it's not just a bag of tricks, it's an inviting environment/ more than the sum of its parts
 :::
+:::
+
 
 ## Openscapes: reimagining with Quarto
 
@@ -477,13 +531,13 @@ Julie: We've gone through these, but we have so much more to say, we'll just nee
 
 8.  Table \> 2 tables next to each other
 
-9.  Chalkboard on slides
+9.  Table in the margin
 
-10. Blog posts not running earlier posts
+10. Chalkboard on slides
 
 11. multiplex: Slides / scroll for audience
 
-12. [TO DO: Add one more]{.todo}
+12. Downlit (link directly to mutate function documentation packagedown)
 :::
 
 ## Coda
@@ -493,7 +547,10 @@ Julie: We've gone through these, but we have so much more to say, we'll just nee
 -   Tooling culture change bc repro and sharing
 -   Quarto could help bring about culture change across languages
 
-# Examples and resources {.smaller}
+# Quarto examples and resources
+
+## Call to Action: try it out! {.smaller}
+
 
 -   Quarto docs
 -   Mine's Toronto talk
