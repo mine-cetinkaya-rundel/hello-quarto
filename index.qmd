@@ -33,6 +33,10 @@ Julie: So excited to be here. I am a long-time and prolific user of RMarkdown, a
 Mine: I remember vividly the first time I've heard of knitr at useR 2012 and sitting in the audience and starting to convert my teaching materials to use it while the keynote was still going on. I'll call this a success if a few of you are firing up a Quarto project right now to see what all the hype is about.
 :::
 
+## Why Quarto?
+
+### Unifies & extends RMarkdown ecosystem
+
 ## Outline
 
 ::: illustration
@@ -357,7 +361,6 @@ seeing this enabled with NASA and quarto - but also NOAA Fisheries: https://rver
 
 **Build inclusion into your daily work** - onboarding
 
-
 ::: illustration
 **Image:** Fay Lab Manual
 :::
@@ -366,6 +369,7 @@ seeing this enabled with NASA and quarto - but also NOAA Fisheries: https://rver
 
 Prev examples are really exciting for coders. Also important for folks who don't code or don't identify as coders.
 
+Make the implicit explicit - writing things down
 
 ::: aside
 Julie: This is another way this manifests: Onboarding (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs. little things. Create a learning culture. We've borrowed this idea for Approach Guide Book websites to collaborate on? Not really how we thought about things before
@@ -374,13 +378,12 @@ Julie: This is another way this manifests: Onboarding (make the implicit explici
 ## Reimagine - All together now
 
 ::: illustration
-image: [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/), revisit NASA Openscapes 
+image: [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/), revisit NASA Openscapes
 :::
 
 1.  Share your ideas earlier (can I see it? yes) - Series book (existed openly even before was fully dev'd) Create a learning culture
-1.  Reuse: create-once-use-often. less reinventing; focus your time on the science.
-1.  bring inclusion into your daily work (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs
-
+2.  Reuse: create-once-use-often. less reinventing; focus your time on the science.
+3.  bring inclusion into your daily work (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs
 
 ## DEMO: Visual editor
 
@@ -388,16 +391,15 @@ image: [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/)
 
 ::: demo
 -   open project in RStudio
--   Visual Editor - friendly for non-coders. Reimagine who participates. 
-- Show tips: "I learned this from Mine while we were preparing our slides"
+-   Visual Editor - friendly for non-coders. Reimagine who participates.
+-   Show tips: "I learned this from Mine while we were preparing our slides"
 :::
 
 ::: aside
 Julie: Culture of trust, less reinventing. Meets someone like me where they are and supports them. (Revisit from useR) Not necessarily for existing/experienced users to change their ways but to create an opportunity for including others...
 :::
 
-## Openscapes: reimagining with Quarto 
-
+## Openscapes: reimagining with Quarto
 
 ::: aside
 Julie: summary slide and transition
