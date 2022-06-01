@@ -9,8 +9,6 @@ format:
 editor: visual
 ---
 
-# Intro
-
 ## Hi, I'm Julie
 
 -   Long-time user of R Markdown, and also Quarto
@@ -37,9 +35,26 @@ Mine: I remember vividly the first time I've heard of knitr at useR 2012 and sit
 I'll call this a success if a few of you are firing up a Quarto project right now to see what all the hype is about.
 :::
 
-## Why Quarto?
+## Why Quarto? (1/2)
 
 ### Unifies & extends RMarkdown ecosystem
+
+-   Unifies: Rethink the things that evolved organically across RMarkdown for 10 years. \"Mosaic\" idea. Things that have been \"unified\" in quarto
+
+-   Extends: doesn’t have a dependency or requirement for R; developed to be multilingual, beginning with R, Python, Javascript, and Julia, with the idea that it will work even for languages that don’t yet exist.
+  - Extends: Has more \"guardrails\" for users - accessibility and inclusion centered in the design (Mara)
+  
+::: notes
+Quarto combines the functionality of R Markdown, bookdown, distill, xaringian, etc into a single consistent system with “batteries included” that reflects everything we’ve learned from R Markdown over the past 10 years. In addition, many new features are available including extensions for cross-references, figure panels, callouts, advanced page layout, and more. While it is a “new” system, it should also be noted that it is highly compatible with existing content: you can render most R Markdown documents and Jupyter notebooks unmodified with Quarto. J.J. will discuss the philosophy and design of the system, demonstrate its capabilities, and talk about future directions for development.
+:::
+
+## Why Quarto? (2/2)
+
+A new open-source scientific and technical publishing system. The goal is to make the process of creating and collaborating on scientific and technical documents dramatically better.
+
+::: illustration
+Mine graphic: with quarto logo in the middle, which then grows and peels back
+:::
 
 Inputs in multiple languages
 
@@ -47,13 +62,8 @@ Outputs in multiple formats
 
 All going through the same machinery
 
-Illustration that we make: with quarto logo in the middle, which then grows and peels back
 
--   Rethink the things that evolved organically across RMarkdown for 10 years. \"Mosaic\" idea. Things that have been \"unified\" in quarto
-
--   Mara: Quarto has more \"guardrails\" for users - accessibility and inclusion centered in the design
-
-::: callout-note
+::: aside
 next up: our outline how we unpack this for you
 :::
 
