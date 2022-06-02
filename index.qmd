@@ -39,18 +39,26 @@ I'll call this a success if a few of you are firing up a Quarto project right no
 
 ### Unifies & extends RMarkdown ecosystem
 
--   Unifies: Rethink the things that evolved organically across RMarkdown for 10 years. \"Mosaic\" idea. Things that have been \"unified\" in quarto
+-   Unifies: Rethink the things that evolved organically across RMarkdown for 10 years.
+    "Mosaic" idea.
+    Things that have been "unified" in quarto
 
--   Extends: doesn’t have a dependency or requirement for R; developed to be multilingual, beginning with R, Python, Javascript, and Julia, with the idea that it will work even for languages that don’t yet exist.
-  - Extends: Has more \"guardrails\" for users - accessibility and inclusion centered in the design (Mara)
-  
+-   Extends: doesn't have a dependency or requirement for R; developed to be multilingual, beginning with R, Python, Javascript, and Julia, with the idea that it will work even for languages that don't yet exist.
+
+-   Extends: Has more "guardrails" for users - accessibility and inclusion centered in the design (Mara)
+
 ::: notes
-Quarto combines the functionality of R Markdown, bookdown, distill, xaringian, etc into a single consistent system with “batteries included” that reflects everything we’ve learned from R Markdown over the past 10 years. In addition, many new features are available including extensions for cross-references, figure panels, callouts, advanced page layout, and more. While it is a “new” system, it should also be noted that it is highly compatible with existing content: you can render most R Markdown documents and Jupyter notebooks unmodified with Quarto. J.J. will discuss the philosophy and design of the system, demonstrate its capabilities, and talk about future directions for development.
+Quarto combines the functionality of R Markdown, bookdown, distill, xaringian, etc into a single consistent system with "batteries included" that reflects everything we've learned from R Markdown over the past 10 years.
+In addition, many new features are available including extensions for cross-references, figure panels, callouts, advanced page layout, and more.
+While it is a "new" system, it should also be noted that it is highly compatible with existing content: you can render most R Markdown documents and Jupyter notebooks unmodified with Quarto.
+J.J.
+will discuss the philosophy and design of the system, demonstrate its capabilities, and talk about future directions for development.
 :::
 
 ## Why Quarto? (2/2)
 
-A new open-source scientific and technical publishing system. The goal is to make the process of creating and collaborating on scientific and technical documents dramatically better.
+A new open-source scientific and technical publishing system.
+The goal is to make the process of creating and collaborating on scientific and technical documents dramatically better.
 
 ::: illustration
 Mine graphic: with quarto logo in the middle, which then grows and peels back
@@ -61,7 +69,6 @@ Inputs in multiple languages
 Outputs in multiple formats
 
 All going through the same machinery
-
 
 ::: aside
 next up: our outline how we unpack this for you
@@ -210,8 +217,9 @@ Co-lead: Erin Robinson
 :::
 
 ::: aside
-
-Julie: this is the first Quarto site we ever made, started in spring 2021. It's beautiful. Automatic beautiful TOC on the right side
+Julie: this is the first Quarto site we ever made, started in spring 2021.
+It's beautiful.
+Automatic beautiful TOC on the right side
 
 Streamlines teamwork: we came together from across silos, with different skills, comfort with coding, different coding language, different tech.
 Quarto let us see an end-goal in our mind, and then work in one place, and learn to contribute with confidence.
@@ -381,9 +389,15 @@ if you are already into open science, this helps you execute this
 
 this tool can also be a motivator to get engaged
 
-Tracy: Intersection with open science an open source? There\'s more emphasis on open science and this is the way science should be done. All these things about open up your process \> one of the challenges have been tools that allow you to easily do these things the things. These allow you to do thie
+Tracy: Intersection with open science an open source?
+There's more emphasis on open science and this is the way science should be done.
+All these things about open up your process \> one of the challenges have been tools that allow you to easily do these things the things.
+These allow you to do thie
 
-Personal story: Mine and I met at an rOpenSci event, the community has a lot to do with that, keep crossing paths, RLadies. It motivates the open science convo or wraps it up/enables it. Open science not just products - it's the process/collab. Quarto enables both.
+Personal story: Mine and I met at an rOpenSci event, the community has a lot to do with that, keep crossing paths, RLadies.
+It motivates the open science convo or wraps it up/enables it.
+Open science not just products - it's the process/collab.
+Quarto enables both.
 
 ## Open science as a movement
 
@@ -435,11 +449,10 @@ seeing this enabled with NASA and quarto - but also NOAA Fisheries: https://rver
 
 [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
 
-
-Prev examples are really exciting for coders. Also important for folks who don't code or don't identify as coders.
+Prev examples are really exciting for coders.
+Also important for folks who don't code or don't identify as coders.
 
 Make the implicit explicit - writing things down
-
 
 ::: aside
 Julie: This is another way this manifests: Onboarding (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs. little things. Create a learning culture. We've borrowed this idea for Approach Guide Book websites to collaborate on? Not really how we thought about things before
@@ -467,17 +480,19 @@ image: [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/)
 :::
 
 ::: aside
-Julie: Culture of trust, less reinventing. Meets someone like me where they are and supports them. (Revisit from useR) Not necessarily for existing/experienced users to change their ways but to create an opportunity for including others...
+Julie: Culture of trust, less reinventing.
+Meets someone like me where they are and supports them.
+(Revisit from useR) Not necessarily for existing/experienced users to change their ways but to create an opportunity for including others...
 
--   Mara: Quarto has more \"guardrails\" for users - more friendly for sometone who hasn\'t worked in this environment before \> maybe up in the visual editor part/
+-   Mara: Quarto has more "guardrails" for users - more friendly for sometone who hasn't worked in this environment before \> maybe up in the visual editor part/
 
 ::: aside
 Visual Editor: Mine's "this functionality exists" vs Julie's "this is designed to be inviting"
 
-You've already seen bits and pieces of the visual editor. it's not just a bag of tricks, it's an inviting environment/ more than the sum of its parts
+You've already seen bits and pieces of the visual editor.
+it's not just a bag of tricks, it's an inviting environment/ more than the sum of its parts
 :::
 :::
-
 
 ## Openscapes: reimagining with Quarto
 
@@ -560,7 +575,6 @@ Julie: We've gone through these, but we have so much more to say, we'll just nee
 # Quarto examples and resources
 
 ## Call to Action: try it out! {.smaller}
-
 
 -   Quarto docs
 -   Mine's Toronto talk
