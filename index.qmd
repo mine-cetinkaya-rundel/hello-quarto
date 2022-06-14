@@ -1,6 +1,6 @@
 ---
-title: "reimagine +<br>collaborate +<br>share with<br>Quarto"
-subtitle: "Temporary URL: [https://mine-cetinkaya-rundel.github.io/quarto-keynote](https://mine-cetinkaya-rundel.github.io/quarto-keynote)"
+title: "Hello Quarto"
+subtitle: "teach • collaborate • share • reimagine"
 format: 
   revealjs: 
     theme: style.scss
@@ -430,7 +430,7 @@ And share ideas early like Openscapes original. Teaching culture.
 
 ## Create place
 
-Quarto, (w jupyerhib and GitHub)
+Quarto, (w jupyerhib and GitHub) \> Multi-lingual:: big part of NASA story. Tool that makes it easier for diff languages. you might be a beginner or advanced. You can write a pretty beautiful lab manual/book. Bringing togeter to one place.
 
 Create-once-use-often
 
@@ -441,13 +441,11 @@ Create place & shared workflows
 Reimagining - books
 
 ::: notes
-
 Julie: Co-create-once-use-often. less reinventing; focus time on the science.
 
 seeing this enabled with NASA and quarto - but also NOAA Fisheries: https://rverse-tutorials.github.io/RWorkflow-NWFSC-2022/index.html
 
 Catalina quote: "I still get kudos"
-
 :::
 
 ## Make the implicit explicit
@@ -494,7 +492,7 @@ As we were getting started, knew we could share as we built out the idea
 
 Takes time to learn and do, open science must be part of people's paid work. Amazing what folks can do together. Across backgrounds, skills expertise.
 
-Learning culture.
+Learning culture. Inclusion important. trust. etc. Tooling and culture
 
 Examples: Slides from Amy Steiker and Josh London. Learning. messy.
 
@@ -507,6 +505,10 @@ image: [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/)
 1.  Share your ideas earlier (can I see it? yes) - Series book (existed openly even before was fully dev'd) Create a learning culture
 2.  Reuse: create-once-use-often. less reinventing; focus your time on the science.
 3.  bring inclusion into your daily work (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs
+
+## Leadup to demo
+
+I've already talked about the language aspect, let me show you the tooling aspect with the visual editor
 
 ## DEMO: Visual editor
 
