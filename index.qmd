@@ -1,6 +1,6 @@
 ---
 title: "Hello Quarto"
-subtitle: "teach • collaborate • share • reimagine <br><br> temporary url: <https://mine-cetinkaya-rundel.github.io/hello-quarto/#/title-slide>"
+subtitle: "share • collaborate • teach • reimagine <br><br> temporary url: <https://mine-cetinkaya-rundel.github.io/hello-quarto/#/title-slide>"
 format: 
   revealjs: 
     theme: style.scss
@@ -87,7 +87,7 @@ Quarto combines the functionality of R Markdown, bookdown, distill, xaringian, e
 Julie: Will talk about left side, focused on stories from people who love RMarkdown (starting with herself!). I'll talk about right side, focused on stories from people who do not know RMarkdown. Both: share demos and stories.
 :::
 
-# Quarto is for people who love R Markdown / PROPOSAL: swap for "Share"
+# Share
 
 ::: illustration
 **Illustration / animation:** Quarto logo with one quadrant showing the words "Quarto is for people who love R Markdown" and the others grayed out.
@@ -188,19 +188,28 @@ Long-time RMarkdown user
 
 rstats changed my life - Better science in less time, Kinder science
 
+Openscapes logo, Mozilla, UCSB?
+
 ::: notes
 Julie: about me
-I built Openscapes with Erin Robinson
+I built Openscapes with Erin Robinson after launching it with a fellowship from Mozilla
+Maybe 
 :::
 
 ## Openscapes {background-image="images/horst_openscapes_champions.jpg" background-size="600px"}
 
 ::: notes
-Julie: In the open data science landscape, there are many paths forward, as well as opportunities to create new paths together. But a lot of us feel stuck, like these sad animals in the bottom left, or are working alone, like the little hermit crab, with the landscape just out of view. Through the Champions program we will help you explore and navigate these pathways; you'll find common approaches with your team as you identify your trailhead and safely navigate this landscape, and help each other and welcome others as you go.
+Julie: 
+In the open data science landscape, there are many paths forward, as well as opportunities to create new paths together. But a lot of us feel stuck, like these sad animals in the bottom left, or are working alone, like the little hermit crab, with the landscape just out of view. Through the Champions program we will help you explore and navigate these pathways; you'll find common approaches with your team as you identify your trailhead and safely navigate this landscape, and help each other and welcome others as you go.
 We mentor and developed and have iterated a whole flywheel for culture change
 :::
 
-## Openscapes Flywheel?
+## Quote from Adyan Rios, 
+National Oceanographic and Atmospheric Administration
+
+> "We're fisheries scientists, we know what it's like to be on a boat in rough seas. It's important that you keep the boat afloat, AND get out of the storm. Openscapes helps teams steer out of the storm of forwarded emails with 37 versions of the same Excel file and to the calmer waters of open science, R and GitHub"
+
+[picture of Ady!] 
 
 # Openscapes \<\> Quarto story begins with NASA
 
@@ -209,7 +218,8 @@ We mentor and developed and have iterated a whole flywheel for culture change
 And helping researchers using NASA Earthdata transition analytical workflows to the Cloud
 
 ::: notes
-Julie: Erin comes from the NASA community, connected Openscapes approach with needs she knew at NASA
+Julie: The Openscapes Quarto story begins with NASA
+Erin comes from the NASA community, connected Openscapes approach with needs she knew at NASA
 Earth science community is heavily Python oriented
 And you'll notice that I'm an R user not Python, and I'm not Earth Science
 I won't lie, I was super intimidated, feeling like I was out of my league. Like a squid out of water, and specifically, in outerspace. 
@@ -217,7 +227,7 @@ I won't lie, I was super intimidated, feeling like I was out of my league. Like 
 The nicest people - zoom picture? But a lot of new-ness, scary. 
 :::
 
-## But I had a secret 
+## But I had a secret
 
 My life had been changed by RMarkdown
 
@@ -227,7 +237,7 @@ Experience and confidence built up over years (out of the box!)
 
 ## Quarto let me bring my secret to Python/NASA 
 
-I had been collaborating with J.J., we were I believe the first external testers
+Collaborating with J.J., we were I believe the first external testers
 
 Quarto dev team support
 
