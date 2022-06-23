@@ -225,7 +225,7 @@ I launched Openscapes with RMarkdown - blogdown website, bookdown curriculum, di
 
 Experience and confidence built up over years (out of the box!)
 
-## Quarto let be bring my secret to Python/NASA 
+## Quarto let me bring my secret to Python/NASA 
 
 I had been collaborating with J.J., we were I believe the first external testers
 
