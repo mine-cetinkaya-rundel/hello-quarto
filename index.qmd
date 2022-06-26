@@ -407,18 +407,23 @@ Mine: Add summary before handover
 Julie: What Mine just showed was really powerful for me - once I saw what I could do for my current needs, I saw new ways to reuse and reimagine future ideas. I built Openscapes because of what what I saw was possible with RMarkdown, and it has only increased and extended because of Quarto. Let me tell you about Openscapes, and what our work looks like day to day
 :::
 
-## We've been learning a lot about helping teams reimagine
+## Reimagining science
 
-Quarto really helps underscore these points
+beyond publications, beyond code & data: websites, blogs, shiny apps...
 
-Learning new tech is about behavior change, culture change
+beyond silos, domains, borders, languages: sharing, collaboration...
 
-Reducing friction so folks focus their time on their work/science: less reinventing 
+open web...
 
-(set stories up for visual editor demo)
+culture change
 
+actionable change (stories/example)
 
-## Open science is a movement
+::: notes
+Julie:
+:::
+
+## Open science as a movement
 
 -   (It's about products (access to data, code, publications))
 
@@ -438,20 +443,42 @@ if you are already into open science, open source tools like Quarto helps you ex
 There's more emphasis on open science and this is the way science should be done. All these things about open up your process \> one of the challenges have been tools that allow you to easily do these things the things. These allow you to do thie
 :::
 
-# Here's what we've learned:
 
+## We've been learning a lot through helping teams reimagine
 
 Important for new & seasoned coders, and folks who don't identify as coders.
 
+Learning new tech is about behavior change, culture change
+
+Reducing friction so folks focus their time on their work/science: less reinventing 
+
+Quarto really helps underscore these points: Tooling and culture  
+
+(set stories up for visual editor demo)
+
+## Create space
+
+Necessary part of reimagining: Time.
+
+Learning culture. Inclusion, psychological safety, trust. Empathy. Growth Mindset.
+
+Don't need to have a plan, just you want to do better. make the space.
+
+Takes time to learn and do, amazing what folks can do together. Across backgrounds, skills, expertise.
+
+Managers at NASA, NOAA, faculty at universities. Supporting people's time to learn. open science must be part of people's paid work.
+
+NOAA Cohort right now with 9 Supervisors participating. 
+
 ::: notes
-Julie: Friday ideas (email to myself)
-
-Creates place (w jupyerhib and GitHub)
-
-Write things down - Gavin and approach and earth data cookbook
-
-And share ideas early like Openscapes original. Teaching culture.
+Learning. messy.
+Quarto Slides from Amy Steiker and Josh London. [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/)?
 :::
+
+::: notes
+This might be dated now 1. Share your ideas earlier (can I see it? yes) - Series book (existed openly even before was fully dev'd) Create a learning culture 2. Reuse: create-once-use-often. less reinventing; focus your time on the science. 3. bring inclusion into your daily work (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs
+:::
+
 
 ## Create place
 
@@ -510,25 +537,6 @@ Reimagine culture.
 Julie: This is another way this manifests: Onboarding (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs. little things. Create a learning culture. We've borrowed this idea for Approach Guide Book websites to collaborate on? Not really how we thought about things before
 :::
 
-## Create space. <br>Necessary part of all this: Time.
-
-Takes time to learn and do, open science must be part of people's paid work. Amazing what folks can do together. Across backgrounds, skills expertise.
-
-Learning culture. Inclusion, psychological safety trust. etc. Tooling and culture
-
-Examples: 
-
-::: illustration
-image: Quarto Slides from Amy Steiker and Josh London. [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/)?
-:::
-
-::: notes
- Learning. messy.
-:::
-
-::: notes
-This might be dated now 1. Share your ideas earlier (can I see it? yes) - Series book (existed openly even before was fully dev'd) Create a learning culture 2. Reuse: create-once-use-often. less reinventing; focus your time on the science. 3. bring inclusion into your daily work (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs
-:::
 
 ## Leadup to demo
 
@@ -557,9 +565,9 @@ You've already seen bits and pieces of the visual editor. it's not just a bag of
 :::
 :::
 
-## Openscapes: reimagining with Quarto
+## Amanda Gorman Quote
 
-::: aside
+::: notes
 Julie: summary slide and transition
 
 Reprise from NASA Openscapes - find the common - reuse existing - contribute to fill gaps - foster a learning culture
