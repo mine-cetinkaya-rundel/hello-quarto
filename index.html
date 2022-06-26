@@ -328,7 +328,8 @@
 <p>Hello, Quarto?</p>
 </div>
 <aside class="notes">
-<p>Julie: We’re excited to be here and to introduce you to Quarto. But also, why Quarto? what are the motivations? In the next hour we’ll share how: [animate] Quarto is for people who love R Markdown Quarto is for people who don’t know R Markdown</p>
+<p>Julie: We’re excited to be here and to introduce you to Quarto. But also, [animate]:</p>
+<p>why Quarto? what are the motivations? In the next hour we’ll share how: [animate] Quarto is for people who love R Markdown Quarto is for people who don’t know R Markdown</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -347,16 +348,25 @@
 <p>Hello, Quarto?</p>
 </div>
 <div class="{fragment}">
-<ul>
-<li>Quarto is for people who love R Markdown</li>
-</ul>
+<p>Quarto is for people who love R Markdown</p>
 </div>
 <div class="{fragment}">
-<ul>
-<li>Quarto is for people who don’t know R Markdown</li>
-</ul>
+<p>Quarto is for people who don’t know R Markdown</p>
 </div>
 
+<aside class="notes">
+<p>So what does quarto do?</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 <aside><div>
 <p>(playing around with animation &amp; fragments, will refine if we like it!)</p>
 </div></aside></section>
@@ -372,12 +382,7 @@
 </ul>
 </div>
 <aside class="notes">
-<p>Julie: Quarto unifies &amp; extends the RMarkdown ecosystem. It builds on 10 years of insight from RMarkdown It’s a new open-source scientific and technical publishing system. The goal is to make the process of creating and collaborating on scientific and technical documents dramatically better. - Inputs in multiple languages - Outputs in multiple formats - All going through the same machinery</p>
-<p>Older notes: - Extends: doesn’t have a dependency or requirement for R; developed to be multilingual, beginning with R, Python, Javascript, and Julia, with the idea that it will work even for languages that don’t yet exist.</p>
-<ul>
-<li>Extends: Has more “guardrails” for users - accessibility and inclusion centered in the design (Mara)</li>
-</ul>
-<p>Quarto combines the functionality of R Markdown, bookdown, distill, xaringian, etc into a single consistent system with “batteries included” that reflects everything we’ve learned from R Markdown over the past 10 years. In addition, many new features are available including extensions for cross-references, figure panels, callouts, advanced page layout, and more. While it is a “new” system, it should also be noted that it is highly compatible with existing content: you can render most R Markdown documents and Jupyter notebooks unmodified with Quarto. J.J. will discuss the philosophy and design of the system, demonstrate its capabilities, and talk about future directions for development.</p>
+<p>Julie: Quarto unifies &amp; extends the RMarkdown ecosystem. It is a new open-source scientific and technical publishing system. The goal is to make the process of creating and collaborating on scientific and technical documents dramatically better. It builds on 10 years of insight from RMarkdown - Inputs in multiple languages - Outputs in multiple formats - All going through the same machinery</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -392,6 +397,11 @@
 </section>
 <section id="hello-quarto" class="slide level2">
 <h2>Hello, Quarto!</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/horst-lcr-penguins-4.jpg" width="386"></p>
+</figure>
+</div>
 <div class="illustration">
 <p><strong>Illustration:</strong> Presented as 4 quadrants in the Quarto logo</p>
 <div class="columns">
@@ -406,10 +416,20 @@
 </div>
 </div>
 </div>
-
-<aside><div>
+<aside class="notes">
 <p>Julie: We’ll introduce Quarto to you in four acts: share, collaborate, teach, reimagine. Mine will talk about left side, focused on stories from people who love RMarkdown (starting with herself!). I’ll talk about right side, focused on stories from people who do not know RMarkdown. Both: share demos and stories.</p>
-</div></aside></section>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
 <section>
 <section id="share" class="title-slide slide level1 center">
 <h1>Share</h1>
@@ -522,11 +542,10 @@
 <h2>About Julie</h2>
 <p>(maybe a photo)</p>
 <p>I’m a marine ecologist &gt; data scientist &gt; open science champion</p>
-<p>rstats changed my life - Better science in less time (we learned the hard way), Kinder science</p>
+<p>rstats changed my life - Better science, Kinder science refs</p>
 <p>Long-time RMarkdown user - I launched Openscapes with RMarkdown (blogdown website, bookdown curriculum, distill blog events page). Out of the box!</p>
-<p>Mozilla, UCSB?</p>
 <aside class="notes">
-<p>Julie: about me transition: I launched Openscapes in 2018 with the goal to help other research teams</p>
+<p>Julie: I’m a marine ecologist &gt; data scientist &gt; open science champion A lot of this change is because the R community changed my life; my research team learned the hard way that we couldn’t reproduce our own work with our default approaches to data analysis and collaboration. RMarkdown and the tidyverse played an underpinning role in our transition to better science And this all led me to shifting my career to helping other research teams transition too transition: I launched Openscapes with the goal to help other research teams, and in partnership with Erin Robinson who brought the plan for scaling and sustainability, we’ve radically iterated and turned it into what it is today</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -545,7 +564,9 @@
 <p>We’ve worked with 70+ teams</p>
 <p>maybe logos of groups we’ve worked with?</p>
 <aside class="notes">
-<p>My partner Erin Robinson and I built Openscapes - I launched it in 2018 and Erin brought the plan for scaling and sustainability, and together we’ve radically iterated and rapidly tested and disrupted. We have a shared vision for supporting research teams</p>
+<p>We mentor research teams to transition to inclusive open data science workflows</p>
+<p>We’ve worked with 70+ teams</p>
+<p>And what we’re doing is said beautifully by Dr.&nbsp;Adyan Rios</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -563,10 +584,10 @@
 <blockquote>
 <p>“We’re fisheries scientists, we know that when we’re in rough seas, it’s important that you keep the ship afloat, AND get out of the storm. Openscapes helps teams steer out of the storm of forwarded emails with 37 versions of the same Excel file and to the calmer waters of open science, and collaborations, using tools like R”</p>
 </blockquote>
-<p>- Adyan Rios, National Oceanographic and Atmospheric Administration</p>
+<p>- Dr.&nbsp;Adyan Rios, National Oceanographic and Atmospheric Administration</p>
 <p>[picture of Ady!]</p>
 <aside class="notes">
-<p>We help teams notice how they are currently working, introduce them to open data science ways, and support them with their peers “you can’t unsee it” - Eli Holmes</p>
+<p>Julie: [read quote] We help teams notice how they are currently working, introduce them to open data science ways, and support them with their peers “you can’t unsee it” - Dr.&nbsp;Eli Holmes</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -585,7 +606,7 @@
 <p>🚀🌏</p>
 <p><br> <a href="https://nasa-openscapes.github.io">NASA-Openscapes</a>: helping researchers using NASA Earthdata transition analytical workflows to the Cloud</p>
 <aside class="notes">
-<p>Julie: The Openscapes Quarto story begins with NASA. This was our first project with Erina nd me, Erin comes from the NASA community, connected Openscapes approach with needs she knew at NASA Remotely-sensed satellite imagery used to track pollution, agriculture, etc. Very different data and challenges Earth science community is heavily Python oriented And you’ll notice that I’m an R user not Python, and I’m not Earth Science I won’t lie, I was super intimidated, feeling like I was out of my league. Like a fish out of water, and specifically, in outerspace.</p>
+<p>Julie: The Openscapes Quarto story begins with NASA. This was our first project with Erin and me, Erin comes from the NASA community, connected Openscapes approach with needs she knew at NASA Remotely-sensed satellite imagery used to track pollution, agriculture, etc. Very different data and challenges Earth science community is heavily Python oriented And you’ll notice that I’m an R user not Python, and I’m not Earth Science I won’t lie, I was super intimidated, feeling like I was out of my league. Like a fish out of water, and specifically, in outerspace.</p>
 <p>The nicest people - zoom picture? But a lot of new-ness, scary.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -601,14 +622,13 @@
 </section>
 <section id="but-i-had-a-secret" class="slide level2">
 <h2>But I had a secret</h2>
-<p>My life had been changed by RMarkdown</p>
+<p>I’d seen what was possible with RMarkdown</p>
 <p>Experience and confidence built up over years</p>
 </section>
 <section id="quarto-let-me-bring-my-secret-to-pythonnasa" class="slide level2">
 <h2>Quarto let me bring my secret to Python/NASA</h2>
-<p>Collaborating with J.J., we were I believe the first external testers</p>
-<p>Quarto dev team support</p>
-<p>NASA Mentors saw it and were willing to go for it (growth mindset)</p>
+<p>Collaborating with J.J. and the Quarto dev team</p>
+<p>NASA Mentors saw it and were willing to go for it</p>
 </section>
 <section id="earthdata-cloud-cookbook" class="slide level2">
 <h2>Earthdata Cloud Cookbook</h2>
@@ -618,9 +638,7 @@
 <p>creating collections</p>
 <p>orientation</p>
 <aside class="notes">
-<p>Julie: this is the first Quarto site we ever made, started in spring 2021. It’s beautiful. Automatic beautiful TOC on the right side</p>
-<p>Streamlines teamwork: we came together from across silos, with different skills, comfort with coding, different coding language, different tech. Quarto let us see an end-goal in our mind, and then work in one place, and learn to contribute with confidence.</p>
-<p>I want to talk about streamlining teamwork in 2 ways: interoperating with tech, and interoperating with people.</p>
+<p>Julie: this is the first Quarto site we ever made, started in spring 2021. It’s beautiful. It’s a collection of how to guides and tutorials - we could organize what we had and make placeholders for where we saw gaps as we developed them together. It helped us all come together as a team, from across silos, with different skills, comfort with coding, different coding language, different tech. Quarto let us see an end-goal in our mind, and then work in one place, and learn to contribute with confidence.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -639,26 +657,41 @@
 <p><strong>Image:</strong> Screenshot of quarto Hackathon site</p>
 </div>
 <p>Catalina quote: share with participants ahead of time</p>
+<aside class="notes">
+<p>Julie:</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="interoperability-enables-collaboration" class="slide level2">
-<h2>Interoperability enables collaboration</h2>
+<section id="interoperability-collaboration" class="slide level2">
+<h2>Interoperability &amp; collaboration</h2>
 <p>Combining different file types</p>
 <div class="illustration">
 <p><strong>Image:</strong> Screenshot of portion of <code>_quarto.yml</code>: .ipynbs, .rmds, .qmds</p>
 </div>
-
-<aside><div>
-<p>Julie: language compatibility - using quarto with a python-heavy crowd I’m able to build from what I’ve learned with R and share with the python crowd (flexibility in the tooling) <em>Julie TODO: add HLS .Rmd</em></p>
-</div></aside></section>
-<section id="interoperability-enables-collaboration-2" class="slide level2">
-<h2>Interoperability enables collaboration (2)</h2>
-<div class="illustration">
-<p><strong>Image:</strong> Screenshot .qmd with python and R code</p>
-</div>
-
-<aside><div>
-<p>Julie: language compatibility - using quarto to support researchers early - first dev is in python but not limited</p>
-</div></aside></section>
+<aside class="notes">
+<p>Julie:</p>
+<p>language compatibility <em>Julie TODO: add HLS .Rmd</em></p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
 <section id="demo-flexibility-in-the-tooling" class="slide level2">
 <h2>DEMO: Flexibility in the tooling</h2>
 <div class="demo">
@@ -671,10 +704,20 @@
 <li>Mention: You install Quarto with a CLI, (like git) so you can work with whatever tooling you want</li>
 </ul>
 </div>
-
-<aside><div>
+<aside class="notes">
 <p>Julie: …</p>
-</div></aside></section>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
 <section id="handover-1" class="slide level2">
 <h2>Handover</h2>
 <div class="illustration">
@@ -745,7 +788,7 @@
 <section id="reimagine" class="title-slide slide level1 center">
 <h1>Reimagine</h1>
 <div class="illustration">
-<p><strong>Illustration / animation:</strong> Quarto logo with one quadrant showing the words “Quarto enables new ways of reuse + reimagining” and the others grayed out.</p>
+<p><strong>Illustration / animation:</strong> Quarto logo with one quadrant showing the words “Reimagine” and the others grayed out.</p>
 </div>
 <aside class="notes">
 <p>Julie: What Mine just showed was really powerful for me - once I saw what I could do for my current needs, I saw new ways to reuse and reimagine future ideas. I built Openscapes because of what what I saw was possible with RMarkdown, and it has only increased and extended because of Quarto. Let me tell you about Openscapes, and what our work looks like day to day</p>
@@ -761,23 +804,36 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="weve-been-learning-a-lot-about-helping-teams-reimagine" class="slide level2">
-<h2>We’ve been learning a lot about helping teams reimagine</h2>
-<p>Quarto really helps underscore these points</p>
-<p>Learning new tech is about behavior change, culture change</p>
-<p>Reducing friction so folks focus their time on their work/science: less reinventing</p>
-<p>(set stories up for visual editor demo)</p>
+<section id="reimagining-science" class="slide level2">
+<h2>Reimagining science</h2>
+<p>beyond publications, beyond code &amp; data: websites, blogs, shiny apps…</p>
+<p>beyond silos, domains, borders, languages: sharing, collaboration…</p>
+<p>open web…</p>
+<p>culture change</p>
+<p>actionable change (pandemic)</p>
+<aside class="notes">
+<p>Julie:</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="open-science-is-a-movement" class="slide level2">
-<h2>Open science is a movement</h2>
+<section id="open-science-as-a-movement" class="slide level2">
+<h2>Open science as a movement</h2>
 <ul>
 <li><p>(It’s about products (access to data, code, publications))</p></li>
 <li><p>It’s about process. Workflows. People. Daily habits. Culture. Open source tooling.</p></li>
-<li><p><a href="https://blogs.scientificamerican.com/observations/open-software-means-kinder-science/">Open software means kinder science</a> (Lowndes 2019, Scientific American)</p></li>
 </ul>
 <p>It’s the way science should be done, but who can participate? Both from a tech and culture perspective</p>
-<p>Hugely inspired by Climate Justice, Get Out the Vote movements, rOpenSci, RStudio, RLadies, Mozilla</p>
-<p>Urgency. why this matters. Collaborate with people sooner, co-create/reuse not reinvent. Connect the skills to the values with the urgency.</p>
+<p>Hugely inspired by Climate Justice, Get Out the Vote movements</p>
+<p>Urgency: Why this matters. Collaborate with people sooner, co-create/reuse not reinvent. Connect the skills to the values with the urgency.</p>
 <aside class="notes">
 <p>if you are already into open science, open source tools like Quarto helps you execute open science. And if you’re not already into open science, open source tools like Quarto can be an entryway and motivator to get engaged</p>
 <p>There’s more emphasis on open science and this is the way science should be done. All these things about open up your process &gt; one of the challenges have been tools that allow you to easily do these things the things. These allow you to do thie</p>
@@ -792,16 +848,38 @@
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-</section></section>
-<section>
-<section id="heres-what-weve-learned" class="title-slide slide level1 center">
-<h1>Here’s what we’ve learned:</h1>
+</section>
+<section id="weve-been-learning-a-lot-through-helping-teams-reimagine" class="slide level2">
+<h2>We’ve been learning a lot through helping teams reimagine</h2>
+<p>Tackling challenges in new ways means new tech, new habits, new culture.</p>
 <p>Important for new &amp; seasoned coders, and folks who don’t identify as coders.</p>
+<p>Reducing friction so folks focus their time on their work/science: less reinventing</p>
+<p>Quarto really helps underscore these points</p>
+<p>(set stories up for visual editor demo)</p>
+</section>
+<section id="create-space" class="slide level2">
+<h2>Create space</h2>
+<p>Necessary part of reimagining: Time.</p>
+<p>Learning culture. Inclusion, psychological safety, trust. Empathy. Growth Mindset.</p>
+<p>Don’t need to have a plan, just you want to do better. make the space.</p>
+<p>Takes time to learn and do, amazing what folks can do together. Across backgrounds, skills, expertise.</p>
+<p>Managers at NASA, NOAA, faculty at universities. Supporting people’s time to learn. open science must be part of people’s paid work.</p>
+<p>NOAA Cohort right now with 9 Supervisors participating.</p>
 <aside class="notes">
-<p>Julie: Friday ideas (email to myself)</p>
-<p>Creates place (w jupyerhib and GitHub)</p>
-<p>Write things down - Gavin and approach and earth data cookbook</p>
-<p>And share ideas early like Openscapes original. Teaching culture.</p>
+<p>Learning. messy. Quarto Slides from Amy Steiker and Josh London. <a href="https://openscapes.github.io/approach-guide/">Openscapes Approach Guide</a>?</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside class="notes">
+<p>This might be dated now 1. Share your ideas earlier (can I see it? yes) - Series book (existed openly even before was fully dev’d) Create a learning culture 2. Reuse: create-once-use-often. less reinventing; focus your time on the science. 3. bring inclusion into your daily work (make the implicit explicit) - Gavin manual “Redefining relationships -blurred lines not frontstage/backstage, co-create, &amp; update onboarding docs</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -816,7 +894,7 @@
 </section>
 <section id="create-place" class="slide level2">
 <h2>Create place</h2>
-<p>Quarto, (w jupyerhub and GitHub) &gt; Multi-lingual:: big part of NASA story. Tool that makes it easier for diff languages. you might be a beginner or advanced. You can write a beautiful lab manual/book. Bringing together to one place.</p>
+<p>Quarto, (JupyterHub, GitHub)</p>
 <p>Reuse: Create-once-use-often</p>
 <p>Reimagining - books</p>
 <div class="illustration">
@@ -868,44 +946,8 @@
 <div class="illustration">
 <p><strong>Image:</strong> <a href="https://thefaylab.github.io/lab-manual/">Gavin Fay lab manual</a></p>
 </div>
-<p>Reimagine culture.</p>
 <aside class="notes">
 <p>Julie: This is another way this manifests: Onboarding (make the implicit explicit) - Gavin manual “Redefining relationships -blurred lines not frontstage/backstage, co-create, &amp; update onboarding docs. little things. Create a learning culture. We’ve borrowed this idea for Approach Guide Book websites to collaborate on? Not really how we thought about things before</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="create-space.-necessary-part-of-all-this-time." class="slide level2">
-<h2>Create space. <br>Necessary part of all this: Time.</h2>
-<p>Takes time to learn and do, open science must be part of people’s paid work. Amazing what folks can do together. Across backgrounds, skills expertise.</p>
-<p>Learning culture. Inclusion, psychological safety trust. etc. Tooling and culture</p>
-<p>Examples:</p>
-<div class="illustration">
-<p>image: Quarto Slides from Amy Steiker and Josh London. <a href="https://openscapes.github.io/approach-guide/">Openscapes Approach Guide</a>?</p>
-</div>
-<aside class="notes">
-<p>Learning. messy.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside class="notes">
-<p>This might be dated now 1. Share your ideas earlier (can I see it? yes) - Series book (existed openly even before was fully dev’d) Create a learning culture 2. Reuse: create-once-use-often. less reinventing; focus your time on the science. 3. bring inclusion into your daily work (make the implicit explicit) - Gavin manual “Redefining relationships -blurred lines not frontstage/backstage, co-create, &amp; update onboarding docs</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -928,53 +970,85 @@
 <ul>
 <li>open project in RStudio</li>
 <li>Visual Editor - friendly for non-coders. Reimagine who participates.</li>
+<li>Also nice for markdown-savvy writers</li>
 <li>Show tips: “I learned this from Mine while we were preparing our slides”</li>
 <li>Images, Tables</li>
 <li>Call-outs</li>
 <li>DOIs</li>
 </ul>
 </div>
-
-<aside><div>
-<p>Julie: Culture of trust, less reinventing. Meets someone like me where they are and supports them. (Revisit from useR) Not necessarily for existing/experienced users to change their ways but to create an opportunity for including others…</p>
+<aside class="notes">
+<p>Julie:</p>
 <ul>
 <li>Mara: Quarto has more “guardrails” for users - more friendly for sometone who hasn’t worked in this environment before &gt; maybe up in the visual editor part/</li>
 </ul>
-<div class="aside">
-<p>Visual Editor: Mine’s “this functionality exists” vs Julie’s “this is designed to be inviting”</p>
-<p>You’ve already seen bits and pieces of the visual editor. it’s not just a bag of tricks, it’s an inviting environment/ more than the sum of its parts</p>
-</div>
-</div><div>
-<p>Visual Editor: Mine’s “this functionality exists” vs Julie’s “this is designed to be inviting”</p>
-<p>You’ve already seen bits and pieces of the visual editor. it’s not just a bag of tricks, it’s an inviting environment/ more than the sum of its parts</p>
-</div></aside></section>
-<section id="openscapes-reimagining-with-quarto" class="slide level2">
-<h2>Openscapes: reimagining with Quarto</h2>
-
-<aside><div>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="all-we-can-save-quote" class="slide level2">
+<h2>All We Can Save Quote</h2>
+<blockquote>
+<p>“ ‘We’ speaks to the collective, to collaboration, to community, to the relational work at hand. Addressing the climate crisis…will take everyone. ‘We’ speaks to justice, to how we do the work that needs doing and whose contributions are valued. We cannot, we must not, go it alone” - Ayana Elizabeth Johnson &amp; Katharine Wilkinson</p>
+</blockquote>
+<aside class="notes">
 <p>Julie: summary slide and transition</p>
 <p>Reprise from NASA Openscapes - find the common - reuse existing - contribute to fill gaps - foster a learning culture</p>
-</div></aside></section>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
 <section id="summary-1" class="slide level2">
 <h2>Summary</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/horst-lcr-penguins-4.jpg" width="386"></p>
+</figure>
+</div>
 <div class="illustration">
-<p><strong>Illustration:</strong> Presented as 4 quadrants in the Quarto logo with SCUBA Penguins breathing/getting ready for Quarto.</p>
+<p><strong>Illustration:</strong> Presented as 4 quadrants in the Quarto logo</p>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>Quarto is for people who love R Markdown.</strong> <br></p>
+<p><strong>Share.</strong> <br></p>
 <p><br></p>
-<p><strong>Quarto enables new ways of sharing + organization.</strong></p>
+<p><strong>Teach.</strong></p>
 </div><div class="column" style="width:50%;">
-<p><strong>Quarto is for people who don’t know R Markdown.</strong></p>
+<p><strong>Collaborate.</strong></p>
 <p><br></p>
-<p><strong>Quarto enables new ways of reuse + reimagining.</strong></p>
+<p><strong>Reimagine.</strong></p>
 </div>
 </div>
 </div>
-
-<aside><div>
-<p>Julie: We’ve gone through these, but we have so much more to say, we’ll just need to do it a lot more quickly…</p>
-</div></aside></section></section>
+<aside class="notes">
+<p>Mine: We’ve gone through these, but we have so much more to say, we’ll just need to do it a lot more quickly…</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
 <section>
 <section id="so-much-more-to-say" class="title-slide slide level1 center">
 <h1>So much more to say…</h1>
@@ -1021,7 +1095,8 @@
 <ul>
 <li>Quarto docs</li>
 <li>Mine’s Toronto talk</li>
-<li>Julie’s Quarto tutorial (building from 2016 Rmd tutorial)</li>
+<li>Julie’s Quarto tutorial</li>
+<li>Openscapes Community Call</li>
 <li>Sample sites, books, etc.
 <ul>
 <li>mine’s course sites</li>
@@ -1035,10 +1110,6 @@
 <section>
 <section id="cutting-room-floor" class="title-slide slide level1 center">
 <h1>Cutting room floor</h1>
-
-</section>
-<section id="section-2" class="slide level2">
-<h2></h2>
 <p>The following slides won’t be in the final talk</p>
 </section>
 <section id="champions-landscape" class="slide level2">
