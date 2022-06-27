@@ -105,7 +105,7 @@ Both: share demos and stories.
 **Illustration / animation:** Quarto logo with one quadrant showing the words "Share" and the others grayed out.
 :::
 
-## PROPOSAL: Mine and her work (a few slides)
+## Mine and her work (a few slides)
 
 (maybe a photo of you?)
 
