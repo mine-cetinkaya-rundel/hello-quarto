@@ -46,7 +46,7 @@ Quarto is for people who don't know R Markdown
 So what does quarto do?
 :::
 
-## Quarto unifies & extends the RMarkdown ecosystem
+## Quarto unifies & extends the RMarkdown ecosystem {.julie}
 
 A new open-source scientific and technical publishing system.
 The goal is to make the process of creating and collaborating on scientific and technical documents dramatically better.
@@ -68,29 +68,7 @@ It builds on 10 years of insight from RMarkdown - Inputs in multiple languages -
 
 ## Hello, Quarto!
 
-![](images/horst-lcr-penguins-4.jpg){fig-align="center" width="386"}
-
-::: illustration
-**Illustration:** Presented as 4 quadrants in the Quarto logo
-
-::: columns
-::: {.column width="50%"}
-**Share** <br>
-
-<br>
-
-**Teach**
-:::
-
-::: {.column width="50%"}
-**Collaborate**
-
-<br>
-
-**Reimagine**
-:::
-:::
-:::
+![](images/quadrants-overview.gif){fig-alt="An outline for the talk. Quarto logo with the words share, collaborate, teach, and reimagine." fig-align="center"}
 
 ::: notes
 Julie: We'll introduce Quarto to you in four acts: share, collaborate, teach, reimagine.
@@ -101,9 +79,7 @@ Both: share demos and stories.
 
 # Share
 
-::: illustration
-**Illustration / animation:** Quarto logo with one quadrant showing the words "Share" and the others grayed out.
-:::
+![](images/quadrants-share.gif){fig-align="center" width="480"}
 
 ## Mine and her work (a few slides)
 
@@ -189,9 +165,7 @@ This has helped me focus my time on my content, which has been a huge win.
 
 # Collaborate
 
-::: illustration
-**Illustration / animation:** Quarto logo with one quadrant showing the words "Collaborate" and the others grayed out.
-:::
+![](images/quadrants-collaborate.gif){fig-align="center"}
 
 ::: notes
 Julie: Thanks Mine...
@@ -288,7 +262,6 @@ It helped us all come together as a team, from across silos, with different skil
 Quarto let us see an end-goal in our mind, and then work in one place, and learn to contribute with confidence.
 :::
 
-
 ## Interoperability & collaboration
 
 Combining different file types
@@ -327,9 +300,7 @@ Julie: ...
 
 # Teach
 
-::: illustration
-**Illustration / animation:** Quarto logo with one quadrant showing the words "Quarto enables new ways of sharing & organization" and the others grayed out.
-:::
+![](images/quadrants-teach.gif){fig-align="center"}
 
 ## Use Quarto to accomplish existing goals {.smaller}
 
@@ -390,9 +361,7 @@ Mine: Add summary before handover
 
 # Reimagine
 
-::: illustration
-**Illustration / animation:** Quarto logo with one quadrant showing the words "Reimagine" and the others grayed out.
-:::
+![](images/quadrants-reimagine.gif){fig-align="center"}
 
 ::: notes
 Julie: What Mine just showed was really powerful for me - once I saw what I could do for my current needs, I saw new ways to reuse and reimagine future ideas.
@@ -457,22 +426,29 @@ Reducing friction so folks focus their time on their work/science: less reinvent
 
 ## Create space
 
-Prioritize time. 
+Prioritize time.
 
 Build trust, psychological safety, inclusion
 
-Ask how people work, where they're stuck, what they know. 
+Ask how people work, where they're stuck, what they know.
 
-Foster a learning culture. And a teaching culture. Empathy. Growth Mindset. Meet people where they are.
+Foster a learning culture.
+And a teaching culture.
+Empathy.
+Growth Mindset.
+Meet people where they are.
 
 ::: illustration
 **Image:** Seaside Chats, Surf sessions
 :::
 
 ::: notes
-Learning. messy.
-Don't need to have a plan, just you want to do better. make the space.
-Takes time to learn and do, amazing what folks can do together. Across backgrounds, skills, expertise.
+Learning.
+messy.
+Don't need to have a plan, just you want to do better.
+make the space.
+Takes time to learn and do, amazing what folks can do together.
+Across backgrounds, skills, expertise.
 
 Managers at NASA, NOAA, faculty at universities.
 Supporting people's time to learn.
@@ -494,7 +470,7 @@ bring inclusion into your daily work (make the implicit explicit) - Gavin manual
 
 ## Create place
 
-Quarto has been really key for us with NASA Openscapes (also JupyterHub, GitHub, Google Docs) 
+Quarto has been really key for us with NASA Openscapes (also JupyterHub, GitHub, Google Docs)
 
 Where we put things, what contributing looks like
 
@@ -504,7 +480,8 @@ Where we put things, what contributing looks like
 
 Catalina quote: share with participants ahead of time, "I still get kudos"
 
-Reuse: Create-once-use-often. Reused 10x since
+Reuse: Create-once-use-often.
+Reused 10x since
 
 ::: notes
 Julie:
@@ -515,7 +492,6 @@ Julie: Co-create-once-use-often.
 less reinventing; focus time on the science.
 
 seeing this enabled with NASA and quarto - but also NOAA Fisheries: https://rverse-tutorials.github.io/RWorkflow-NWFSC-2022/index.html
-
 :::
 
 ## Share ideas earlier
@@ -548,7 +524,6 @@ Make the implicit explicit - writing things down
 Julie: This is another way this manifests: Onboarding (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs. little things. Create a learning culture. We've borrowed this idea for Approach Guide Book websites to collaborate on? Not really how we thought about things before
 :::
 
-
 ## DEMO: Visual editor
 
 Leverage tooling that reduces barriers
@@ -571,12 +546,12 @@ Julie:
 
 ## Reimagining together
 
-All We Can Save: 
+All We Can Save:
 
-> “ ‘We’ speaks to the collective, to collaboration, to community, to the relational work at hand. Addressing the climate crisis...will take everyone. 
+> " 'We' speaks to the collective, to collaboration, to community, to the relational work at hand. Addressing the climate crisis...will take everyone.
 
-> ‘We’ speaks to justice, to how we do the work that needs doing and whose contributions are valued. We cannot, we must not, go it alone”
-- Ayana Elizabeth Johnson & Katharine Wilkinson, 
+> 'We' speaks to justice, to how we do the work that needs doing and whose contributions are valued.
+> We cannot, we must not, go it alone" - Ayana Elizabeth Johnson & Katharine Wilkinson,
 
 ::: notes
 Julie: summary slide and transition
