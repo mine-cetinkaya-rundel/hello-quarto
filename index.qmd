@@ -81,7 +81,7 @@ Both: share demos and stories.
 
 ![](images/quadrants-share.gif){fig-align="center" width="480"}
 
-## Hello, Mine!
+##  {style="background-color: #405772;"}
 
 ![](images/mine-penguin-nametag.png){fig-alt="Penguin with nametag that says \"Mine\"" fig-align="center"}
 
@@ -126,14 +126,14 @@ It also brings in Jupyter and other languages (Python, Julia) and provides that 
 -   Take .Rmd and change extension to .qmd
     -   The .Rmd will already have a table and a plot, palmerpenguins
     -   Knit it, then change to .qmd. Knit again
-    -   Note code chunk options (or other high-level differences)
+    -   Note code chunk options, YAML completion, YAML errors (or other high-level differences)
 -   Change output format to yml slides
--   Add a \_quarto.yml, render to website
+-   Add a `_quarto.yml`, render to website
     -   *To hand-off to Julie: (a tiny website)*
 -   yaml completion and yaml errors
 :::
 
-::: aside
+::: notes
 Mine: ...
 :::
 
@@ -146,7 +146,7 @@ Mine: ...
 -   Qmd -\> knitr/jupyter -\> pandoc: Quarto CLI doing the orchestration
 :::
 
-::: aside
+::: notes
 Mine: A common first question is "how are R Markdown and Quarto different, under the hood, particularly given the rename of the file just works?"
 :::
 
@@ -181,7 +181,7 @@ This has helped me focus my time on my content, which has been a huge win.
 Julie: Thanks Mine...
 :::
 
-## Hello, Julie!
+##  {style="background-color: #aa512e;"}
 
 ![](images/julie-penguin-nametag.png){fig-alt="Penguin with nametag that says \"Julie\"" fig-align="center"}
 
@@ -633,7 +633,7 @@ Mine: We've gone through these, but we have so much more to say, we'll just need
 
 11. multiplex: Slides / scroll for audience
 
-12. Downlit (link directly to mutate function documentation packagedown)
+12. Downlit (link directly to mutate function documentation pkgdown)
 :::
 
 ## Coda
