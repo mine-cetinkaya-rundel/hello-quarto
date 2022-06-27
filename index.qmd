@@ -640,15 +640,15 @@ Mine: We've gone through these, but we have so much more to say, we'll just need
 
 7.  Table in the margin
 
-8. Chalkboard on slides
+8.  Chalkboard on slides
 
-9. multiplex: Slides / scroll for audience
+9.  multiplex: Slides / scroll for audience
 
 10. Downlit (link directly to mutate function documentation pkgdown)
 
-11.  Include xaringan slides in Quarto project with resources
+11. Include xaringan slides in Quarto project with resources
 
-12.  ~~Informative yaml errors~~ (mention in teaching, replace with sth else)
+12. `quarto publish`
 :::
 
 ## Coda
