@@ -646,7 +646,7 @@ Mine: We've gone through these, but we have so much more to say, we'll just need
 
 10. Downlit (link directly to mutate function documentation pkgdown)
 
-11.  ~~Yaml completion in chunk options~~ (mention in first part, replace with sth else)
+11.  Include xaringan slides in Quarto project with resources
 
 12.  ~~Informative yaml errors~~ (mention in teaching, replace with sth else)
 :::
