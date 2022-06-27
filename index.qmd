@@ -38,7 +38,7 @@ Quarto is for people who love R Markdown
 Quarto is for people who don't know R Markdown
 :::
 
-::: aside
+::: notes
 (playing around with animation & fragments, will refine if we like it!)
 :::
 
@@ -113,7 +113,7 @@ So an authoring system that allows for multiple types of outputs from a single s
 
     -   Enumerage: tabsets, code-folding, highlighting. 
 
-::: aside
+::: notes
 Mine: It combines/unifies some "down" packages.
 It also brings in Jupyter and other languages (Python, Julia) and provides that functionality even if you're not coming from the R ecosystem.
 :::
@@ -161,7 +161,7 @@ Teaching: creating materials and teaching the tools
     -   Is teaching Quarto different from teaching R Markdown? Easier / harder / **not different**?
     -   Potential anecdote: Art history student writing thesis in Quarto. One semester to thesis writing a much less steep learning curve...
 
-::: aside
+::: notes
 Mine: As an educator, two things are of utmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats (like documents to slides to websites to books).
 Over the last year of using Quarto for everything, I've felt like I've finally found the tool that lets me go from one to the other with minimal futzing around with my source code.
 This has helped me focus my time on my content, which has been a huge win.
@@ -322,7 +322,7 @@ How academics share their teaching resources/ new avenues for publishing:
 -   It's *useful* to the world -- Open sharing of knowledge, other people can learn from and reuse.
 -   It's [useful]{.underline} to you -- It's a way of getting credit for your work, and when it comes time for annual review/promotion materials, it's easy to say "here is everything I created".
 
-::: aside
+::: notes
 Mine: I started off introducing myself as a prof and educator, and so you probably have an idea of what my responsibilities look like, but you might not know my practices.
 Teaching, writing, and research are three things I do as an educator, and I can do it all with Quarto in ways that look very similar under the hood but very different in output.
 (Maybe add PPT anecdote here.)
@@ -339,7 +339,7 @@ Top looks different, bottom looks very similar.
 -   Research: Journal articles
 :::
 
-::: aside
+::: notes
 Mine: And last 10% to tweak it for your context...
 :::
 
@@ -353,7 +353,7 @@ Mine: And last 10% to tweak it for your context...
 -   My bookdown H1 headers were markdown `# Like This`; quarto book will build but the rest of the headers don't show up on the right TOC. Change to yaml `title: Like This`. Also will look right in the viewer.
 :::
 
-::: aside
+::: notes
 Mine: [TO DO: Create screen recording and write script.]{.todo}
 
 Visual Editor: Mine's "this functionality exists" vs Julie's "this is designed to be inviting"
@@ -361,7 +361,7 @@ Visual Editor: Mine's "this functionality exists" vs Julie's "this is designed t
 
 ## Summary...
 
-::: aside
+::: notes
 Mine: Add summary before handover
 :::
 
@@ -689,7 +689,7 @@ We help folks find common parts of their work and come together as teams and ide
 :::
 :::
 
-::: aside
+::: notes
 Julie: Openscapes helps teams develop practices that are underpinned by tools.
 Quarto creates "place"
 :::
@@ -730,7 +730,7 @@ Our roles:
 -   Changed my work-life and my life-life
 -   Theme: collaborating
 
-::: aside
+::: notes
 Julie: So excited to be here.
 I am a long-time and prolific user of RMarkdown, and Quarto and love how out-of-the box they are; I can use them for communicating about research, teaching, and collaborating using mostly the defaults.
 This as you'll see has been helping me push and blur the boundaries of environmental science, open source, and teaching.
@@ -745,7 +745,7 @@ What I'll share today is a huge team-effort with many colleagues, that also buil
 
 -   Theme: authoring and education
 
-::: aside
+::: notes
 Mine: I remember vividly the first time I've heard of knitr at useR 2012 and sitting in the audience and starting to convert my teaching materials to use it while the keynote was still going on.
 I'll call this a success if a few of you are firing up a Quarto project right now to see what all the hype is about.
 :::
