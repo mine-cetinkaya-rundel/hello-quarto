@@ -288,17 +288,6 @@ It helped us all come together as a team, from across silos, with different skil
 Quarto let us see an end-goal in our mind, and then work in one place, and learn to contribute with confidence.
 :::
 
-## 2021 Cloud Hackathon
-
-::: illustration
-**Image:** Screenshot of quarto Hackathon site
-:::
-
-Catalina quote: share with participants ahead of time
-
-::: notes
-Julie:
-:::
 
 ## Interoperability & collaboration
 
@@ -464,24 +453,26 @@ Important for new & seasoned coders, and folks who don't identify as coders.
 
 Reducing friction so folks focus their time on their work/science: less reinventing
 
-Quarto really helps underscore these points
-
-(set stories up for visual editor demo)
+**Quarto really helps underscore these points**
 
 ## Create space
 
-Necessary part of reimagining: Time.
+Prioritize time. 
 
-Learning culture.
-Inclusion, psychological safety, trust.
-Empathy.
-Growth Mindset.
+Build trust, psychological safety, inclusion
 
-Don't need to have a plan, just you want to do better.
-make the space.
+Ask how people work, where they're stuck, what they know. 
 
-Takes time to learn and do, amazing what folks can do together.
-Across backgrounds, skills, expertise.
+Foster a learning culture. And a teaching culture. Empathy. Growth Mindset. Meet people where they are.
+
+::: illustration
+**Image:** Seaside Chats, Surf sessions
+:::
+
+::: notes
+Learning. messy.
+Don't need to have a plan, just you want to do better. make the space.
+Takes time to learn and do, amazing what folks can do together. Across backgrounds, skills, expertise.
 
 Managers at NASA, NOAA, faculty at universities.
 Supporting people's time to learn.
@@ -489,11 +480,7 @@ open science must be part of people's paid work.
 
 NOAA Cohort right now with 9 Supervisors participating.
 
-::: notes
-Learning.
-messy.
-Quarto Slides from Amy Steiker and Josh London.
-[Openscapes Approach Guide](https://openscapes.github.io/approach-guide/)?
+Necessary part of reimagining: Time.
 :::
 
 ::: notes
@@ -507,14 +494,20 @@ bring inclusion into your daily work (make the implicit explicit) - Gavin manual
 
 ## Create place
 
-Quarto, (JupyterHub, GitHub)
+Quarto has been really key for us with NASA Openscapes (also JupyterHub, GitHub, Google Docs) 
 
-Reuse: Create-once-use-often
-
-Reimagining - books
+Where we put things, what contributing looks like
 
 ::: illustration
-**Image:** nasa-openscapes.github.io?
+**Image:** Screenshot of quarto 2021 Cloud Hackathon site
+:::
+
+Catalina quote: share with participants ahead of time, "I still get kudos"
+
+Reuse: Create-once-use-often. Reused 10x since
+
+::: notes
+Julie:
 :::
 
 ::: notes
@@ -523,21 +516,16 @@ less reinventing; focus time on the science.
 
 seeing this enabled with NASA and quarto - but also NOAA Fisheries: https://rverse-tutorials.github.io/RWorkflow-NWFSC-2022/index.html
 
-Catalina quote: "I still get kudos"
 :::
 
 ## Share ideas earlier
 
-Collaborative and teaching culture.
+not limited to a final publication
 
-websites & blogs
-
-not limited to a final publication (comfortable with imperfect)
-
-Catalina's quote: comfortable sharing open work
+Catalina's quote: comfortable sharing open work, imperfect
 
 ::: illustration
-**Image:** nmfs-openscapes?
+**Image:** Amy's Quarto Slides from .ipynb
 :::
 
 ::: notes
@@ -554,15 +542,16 @@ Make the implicit explicit - writing things down
 **Image:** [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
 :::
 
+> "Prospective students in my research group say how much they appreciate the lab manual and it's a reason they want to work with us" - Dr. Gavin Fay
+
 ::: notes
 Julie: This is another way this manifests: Onboarding (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs. little things. Create a learning culture. We've borrowed this idea for Approach Guide Book websites to collaborate on? Not really how we thought about things before
 :::
 
-## Leadup to demo
-
-I've already talked about the language aspect, let me show you the tooling aspect with the visual editor
 
 ## DEMO: Visual editor
+
+Leverage tooling that reduces barriers
 
 ::: demo
 -   open project in RStudio
@@ -571,7 +560,7 @@ I've already talked about the language aspect, let me show you the tooling aspec
 -   Show tips: "I learned this from Mine while we were preparing our slides"
 -   Images, Tables
 -   Call-outs
--   DOIs
+-   Citations: DOIs
 :::
 
 ::: notes
@@ -580,9 +569,14 @@ Julie:
 -   Mara: Quarto has more "guardrails" for users - more friendly for sometone who hasn't worked in this environment before \> maybe up in the visual editor part/
 :::
 
-## All We Can Save Quote
+## Reimagining together
 
-> " 'We' speaks to the collective, to collaboration, to community, to the relational work at hand. Addressing the climate crisis...will take everyone. 'We' speaks to justice, to how we do the work that needs doing and whose contributions are valued. We cannot, we must not, go it alone" - Ayana Elizabeth Johnson & Katharine Wilkinson
+All We Can Save: 
+
+> “ ‘We’ speaks to the collective, to collaboration, to community, to the relational work at hand. Addressing the climate crisis...will take everyone. 
+
+> ‘We’ speaks to justice, to how we do the work that needs doing and whose contributions are valued. We cannot, we must not, go it alone”
+- Ayana Elizabeth Johnson & Katharine Wilkinson, 
 
 ::: notes
 Julie: summary slide and transition
