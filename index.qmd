@@ -1,6 +1,6 @@
 ---
 title: "Hello Quarto"
-subtitle: "share • collaborate • teach • reimagine <br><br> temporary url: <https://mine-cetinkaya-rundel.github.io/hello-quarto/#/title-slide>"
+subtitle: "share • collaborate • teach • reimagine <br><br> temporary url: <https://mine-cetinkaya-rundel.github.io/hello-quarto/>"
 format: 
   revealjs: 
     theme: style.scss
