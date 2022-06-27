@@ -752,19 +752,6 @@ This as you'll see has been helping me push and blur the boundaries of environme
 What I'll share today is a huge team-effort with many colleagues, that also builds from many folks in the R and open science communities.
 :::
 
-## Hi, I'm Mine
-
--   Also a long-time user of R Markdown and of Quarto
-
--   [TO DO: Add one more bullet point]{.todo}
-
--   Theme: authoring and education
-
-::: notes
-Mine: I remember vividly the first time I've heard of knitr at useR 2012 and sitting in the audience and starting to convert my teaching materials to use it while the keynote was still going on.
-I'll call this a success if a few of you are firing up a Quarto project right now to see what all the hype is about.
-:::
-
 ## NASA Openscapes
 
 Supporting research teams using NASA Earthdata as they migrate analytical workflows to the Cloud
