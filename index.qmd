@@ -81,7 +81,19 @@ Both: share demos and stories.
 
 ##  {style="background-color: #405772;"}
 
+::: columns
+::: {.column width="40%"}
 ![](images/mine-penguin-nametag.png){fig-alt="Penguin with nametag that says \"Mine\"" fig-align="center"}
+:::
+
+::: {.column width="60%"}
+::: {style="color: white;"}
+-   I'm an educator
+-   I spend more of my time writing *things* to share than anything else
+-   One system that allows me to output to multiple formats is not just a time saver, but essential
+:::
+:::
+:::
 
 ::: notes
 Thanks Julie!
@@ -181,20 +193,23 @@ Julie: Thanks Mine...
 
 ##  {style="background-color: #aa512e;"}
 
-![](images/julie-penguin-nametag.png){fig-alt="Penguin with nametag that says \"Julie\"" fig-align="center"}
+::: columns
+::: {.column width="60%"}
+-   I'm a marine ecologist \> data scientist \> open science champion
+-   rstats changed my life - Better science, Kinder science refs
+-   Long-time RMarkdown user - Launched Openscapes w/ RMarkdown (blogdown website, bookdown curriculum, distill blog events page). Out of the box!
+:::
 
-(maybe a photo)
-
-I'm a marine ecologist \> data scientist \> open science champion
-
-rstats changed my life - Better science, Kinder science refs
-
-Long-time RMarkdown user - I launched Openscapes with RMarkdown (blogdown website, bookdown curriculum, distill blog events page).
-Out of the box!
+::: {.column width="40%"}
+![](images/julie-penguin-nametag.png){fig-alt="Penguin with nametag that says \"Julie\"" fig-align="center" width="500"}
+:::
+:::
 
 ::: notes
+::: columns
 Julie: I'm a marine ecologist \> data scientist \> open science champion A lot of this change is because the R community changed my life; my research team learned the hard way that we couldn't reproduce our own work with our default approaches to data analysis and collaboration.
 RMarkdown and the tidyverse played an underpinning role in our transition to better science And this all led me to shifting my career to helping other research teams transition too transition: I launched Openscapes with the goal to help other research teams, and in partnership with Erin Robinson who brought the plan for scaling and sustainability, we've radically iterated and turned it into what it is today
+:::
 :::
 
 ## Openscapes
