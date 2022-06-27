@@ -68,7 +68,7 @@ It builds on 10 years of insight from RMarkdown - Inputs in multiple languages -
 
 ## Hello, Quarto!
 
-![](images/quadrants-overview.gif){fig-alt="An outline for the talk. Quarto logo with the words share, collaborate, teach, and reimagine." fig-align="center"}
+![](images/quadrants-overview.gif){fig-alt="An outline for the talk. Quarto logo with the words share, collaborate, teach, and reimagine." fig-align="center" width="800"}
 
 ::: notes
 Julie: We'll introduce Quarto to you in four acts: share, collaborate, teach, reimagine.
