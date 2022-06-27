@@ -81,15 +81,25 @@ Both: share demos and stories.
 
 ![](images/quadrants-share.gif){fig-align="center" width="480"}
 
-## Mine and her work (a few slides)
+## Hello, Mine!
 
-(maybe a photo of you?)
+![](images/mine-penguin-nametag.png){fig-alt="Penguin with nametag that says \"Mine\"" fig-align="center"}
 
-I'm a professor, teacher, and creator...
+::: notes
+Thanks Julie!
 
-I share everything openly
+I remember vividly the first time I've heard of knitr at useR 2012 and sitting in the audience and starting to convert my teaching materials to use it while the keynote was still going on.
 
-(open science intro here? maybe focused on open artifacts (and Julie could reiterate, focused on open practice (\~slide 35)))
+I'll call this a success if a few of you are firing up a Quarto project right now to see what all the hype is about.
+
+I'm very excited to have this opportunity to talk to you about Quarto, which I've had the opportunity to live and breathe over the last year.
+I am an educator -- a developer educator at RStudio and a professor at Duke.
+The word educator might make you think I'm in front of students, perhaps lecturing 24/7 but in reality I spend more of my time in front of my computer authoring and creating materials to share with the world: share with my students, share with my fellow educators, and share with anyone interested in learning the things I'm teaching.
+Sometimes I'm writing a slide deck for a talk, sometimes creating a website for a course, sometimes writing books, sometimes journal articles.
+Whatever it is that I create, I share them all openly - that is, with an open license that allows for free use and reuse and adaptation.
+More often than not I'm thinking "web first" to ease open sharing and wider reach, but I also still live in the confines of traditional journal publishing and academia, which means I regularly need to create PDFs as well.
+So an authoring system that allows for multiple types of outputs from a single source is not only a time saver, but basically essential for me to carry on my existence.
+:::
 
 ## Next generation R Markdown
 
@@ -171,7 +181,9 @@ This has helped me focus my time on my content, which has been a huge win.
 Julie: Thanks Mine...
 :::
 
-## About Julie
+## Hello, Julie!
+
+![](images/julie-penguin-nametag.png){fig-alt="Penguin with nametag that says \"Julie\"" fig-align="center"}
 
 (maybe a photo)
 
