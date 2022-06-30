@@ -17,7 +17,7 @@ Hello, Quarto?
 
 ::: notes
 Julie: We're excited to be here and to introduce you to Quarto.
-But also, \[animate\]:
+But also, \[animate\]: we know there are questions about this.
 
 why Quarto?
 what are the motivations?
@@ -207,7 +207,8 @@ Julie: Thanks Mine...
 
 ::: notes
 ::: columns
-Julie: I'm a marine ecologist \> data scientist \> open science champion A lot of this change is because the R community changed my life; my research team learned the hard way that we couldn't reproduce our own work with our default approaches to data analysis and collaboration.
+Julie: I'm a marine ecologist \> data scientist \> open science champion 
+A lot of this change is because the R community changed my life; my research team learned the hard way that we couldn't reproduce our own work with our default approaches to data analysis and collaboration.
 RMarkdown and the tidyverse played an underpinning role in our transition to better science And this all led me to shifting my career to helping other research teams transition too transition: I launched Openscapes with the goal to help other research teams, and in partnership with Erin Robinson who brought the plan for scaling and sustainability, we've radically iterated and turned it into what it is today
 :::
 :::
