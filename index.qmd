@@ -83,10 +83,12 @@ Both: share demos and stories.
 
 ::: columns
 ::: {.column width="40%"}
-![](images/mine-penguin-nametag.png){fig-alt="Penguin with nametag that says \"Mine\"" fig-align="center"}
+<br><br> ![](images/mine-penguin-nametag.png){fig-alt="Penguin with nametag that says \"Mine\"" fig-align="center"}
 :::
 
 ::: {.column width="60%"}
+<br><br>
+
 ::: {style="color: white;"}
 -   I'm an educator
 -   I spend more of my time writing *things* to share than anything else
@@ -113,19 +115,12 @@ So an authoring system that allows for multiple types of outputs from a single s
 
 ## Next generation R Markdown
 
-::: illustration
-**Illustration:** Many "down" hex logos on one side, Quarto logo and some indication of other languages on the other side.
-:::
-
--   5 or 6 things that were in diff formats
-
--   Side-by-side with quarto vs Rmd
-
-    -   Enumerage: tabsets, code-folding, highlighting. 
+![](images/rmd-to-quarto.gif){fig-align="center"}
 
 ::: notes
 Mine: It combines/unifies some "down" packages.
 It also brings in Jupyter and other languages (Python, Julia) and provides that functionality even if you're not coming from the R ecosystem.
+Beyond unification, Quarto also makes available attractive and handy features like tabsets, code-folding, syntax highlighting, etc. consistently across the various outputs.
 :::
 
 ## DEMO: Flexibility in the formats
@@ -160,16 +155,12 @@ Mine: ...
 Mine: A common first question is "how are R Markdown and Quarto different, under the hood, particularly given the rename of the file just works?"
 :::
 
-## Moving between "things" is easy\* {.small}
+## Moving between "things" is ~~easy~~ straightforward
 
-*\*but don't call things "easy", need a better adjective...*
+Moving between formats within Quarto is straightforward
 
-Teaching: creating materials and teaching the tools
-
--   Moving between formats within Quarto is easy: Often need to deliver same/similar content in different formats (documents, slides, book, website) and it's super helpful when transitioning requires minimal futzing around with source code (like Rmd 8 ways...)
--   Moving from R Markdown to Quarto is easy
-    -   Is teaching Quarto different from teaching R Markdown? Easier / harder / **not different**?
-    -   Potential anecdote: Art history student writing thesis in Quarto. One semester to thesis writing a much less steep learning curve...
+-   Often need to deliver same/similar content in different formats (documents, slides, book, website)
+-   It's super helpful when transitioning requires minimal futzing around with source code (like Rmd 8 ways...)
 
 ::: notes
 Mine: As an educator, two things are of utmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats (like documents to slides to websites to books).
@@ -177,10 +168,12 @@ Over the last year of using Quarto for everything, I've felt like I've finally f
 This has helped me focus my time on my content, which has been a huge win.
 :::
 
-## Handover
+## 
+
+![](images/horst-lcr-penguins-4.jpg){fig-align="center"}
 
 ::: illustration
-**Illustration / animation:** Throw the Quarto ball to the other side.
+**Animation:** Version of this where the ball is flying to the other side.
 :::
 
 # Collaborate
@@ -318,10 +311,12 @@ language compatibility *Julie TODO: add HLS .Rmd*
 Julie: ...
 :::
 
-## Handover
+## 
+
+![](images/horst-lcr-penguins-4.jpg){fig-align="center"}
 
 ::: illustration
-**Illustration / animation:** Throw the Quarto ball to the other side.
+**Animation:** Version of this where the ball is flying to the other side.
 :::
 
 # Teach
@@ -373,16 +368,23 @@ Mine: [TO DO: Create screen recording and write script.]{.todo}
 Visual Editor: Mine's "this functionality exists" vs Julie's "this is designed to be inviting"
 :::
 
-## Summary...
+## Moving between "things" is ~~easy~~ straightforward
+
+Moving from R Markdown to Quarto is straightforward:
+
+-   Is teaching Quarto different from teaching R Markdown? Easier / harder / **not different**?
+-   Potential anecdote: Art history student writing thesis in Quarto. One semester to thesis writing a much less steep learning curve...
 
 ::: notes
-Mine: Add summary before handover
+Mine: ...
 :::
 
-## Handover
+## 
+
+![](images/horst-lcr-penguins-4.jpg){fig-align="center"}
 
 ::: illustration
-**Illustration / animation:** Throw the Quarto ball to the other side.
+**Animation:** Version of this where the ball is flying to the other side.
 :::
 
 # Reimagine
@@ -631,23 +633,23 @@ Mine: We've gone through these, but we have so much more to say, we'll just need
 3.  Quarto pub?
     What it accomplishes \| what it looks like
 
-4.  Yaml completion in chunk options
+4.  Freeze \> blog posts, jupyter notebooks
 
-5.  Informative yaml errors
+5.  Each book chapter starting in a fresh session opening as you'd expect them to
 
-6.  Freeze \> blog posts, jupyter notebooks
+6.  Table \> 2 tables next to each other
 
-7.  Each book chapter starting in a fresh session opening as you'd expect them to
+7.  Table in the margin
 
-8.  Table \> 2 tables next to each other
+8.  Chalkboard on slides
 
-9.  Table in the margin
+9.  multiplex: Slides / scroll for audience
 
-10. Chalkboard on slides
+10. Downlit (link directly to mutate function documentation pkgdown)
 
-11. multiplex: Slides / scroll for audience
+11. Include xaringan slides in Quarto project with resources
 
-12. Downlit (link directly to mutate function documentation pkgdown)
+12. `quarto publish`
 :::
 
 ## Coda
@@ -749,19 +751,6 @@ Julie: So excited to be here.
 I am a long-time and prolific user of RMarkdown, and Quarto and love how out-of-the box they are; I can use them for communicating about research, teaching, and collaborating using mostly the defaults.
 This as you'll see has been helping me push and blur the boundaries of environmental science, open source, and teaching.
 What I'll share today is a huge team-effort with many colleagues, that also builds from many folks in the R and open science communities.
-:::
-
-## Hi, I'm Mine
-
--   Also a long-time user of R Markdown and of Quarto
-
--   [TO DO: Add one more bullet point]{.todo}
-
--   Theme: authoring and education
-
-::: notes
-Mine: I remember vividly the first time I've heard of knitr at useR 2012 and sitting in the audience and starting to convert my teaching materials to use it while the keynote was still going on.
-I'll call this a success if a few of you are firing up a Quarto project right now to see what all the hype is about.
 :::
 
 ## NASA Openscapes
