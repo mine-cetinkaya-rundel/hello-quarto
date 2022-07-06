@@ -325,7 +325,7 @@ Reusing and co-creating shared teaching resources about Earthdata, Cloud, etc, a
 These are wonderful people. But Earth Science, NASA, Cloud, Python, I won't lie, I was super intimidated, and feeling disoriented, like a fish out of water, or like a fish in outerspace.
 :::
 
-## ![](images/horst-starwars-rey.png){width=80%}
+## But I had superpowers {.julie} ![](images/horst-starwars-rey.png){width=80%}
 
 
 [maybe replace swirl: RMarkdown to Quarto?]{.absolute bottom=50 right=100 width="400" .question}
@@ -374,6 +374,12 @@ Julie:
 
 language compatibility *Julie TODO: add HLS .Rmd*
 :::
+
+## Reuse for 10+ workshops {.julie}
+
+Screenshot
+
+Catalina: I still get kudos
 
 ## DEMO {.julie}
 
