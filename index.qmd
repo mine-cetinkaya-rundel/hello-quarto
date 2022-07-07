@@ -9,44 +9,42 @@ format:
 editor: visual
 ---
 
-##  {auto-animate="true"}
+## [Julie Notes for Title Slide]
 
-::: {style="margin-top: 200px; font-size: 3em; color: #75AADB;"}
-Hello, Quarto?
+Can I have notes for title slide?
+
+::: notes
+Julie: Thank you so much, We're excited to be here! Mine and I have been using Quarto for the last year now, and we're excited for the opportunity to talk about how it improves the way we share, collaborate, teach, and reimagine. In short, we're excited to introduce you to Quarto. 
+:::
+
+# Hello, Quarto?
+
+::: notes
+Julie: But also, \[animate\]: we know there are questions about this. Why Quarto? what are the motivations? 
+:::
+
+
+# {auto-animate="true"}
+
+::: {style="margin-top: 150px; font-size: 3em; color: #75AADB;"}
+**Quarto unifies & extends the RMarkdown ecosystem**
 :::
 
 ::: notes
-Julie: We're excited to be here and to introduce you to Quarto. But also, \[animate\]: we know there are questions about this.
-
-why Quarto? what are the motivations? In the next hour we'll share how: \[animate\] Quarto is for people who love R Markdown Quarto is for people who don't know R Markdown
+Quarto unifies & extends the RMarkdown ecosystem. In unifying the RMarkdown ecosystem, it means that Quarto is for people who love RMarkdown. And in extending the RMarkdown ecosystem, it means that Quarto is for people who don't know R Markdown
 :::
 
 ##  {auto-animate="true"}
 
-::: {style="margin-top: 190px; color: #75AADB"}
-Hello, Quarto?
+::: {style="margin-top: 50px; color: #75AADB"}
+**Quarto unifies & extends the RMarkdown ecosystem**
 :::
 
 ::: {fragment}
-Quarto is for people who love R Markdown
+**A new open-source scientific and technical publishing system.** The goal is to make the process of creating and collaborating on scientific and technical documents dramatically better.
 :::
 
-::: {fragment}
-Quarto is for people who don't know R Markdown
-:::
-
-::: notes
-(playing around with animation & fragments, will refine if we like it!)
-:::
-
-::: notes
-So what does quarto do?
-:::
-
-## Quarto unifies & extends the RMarkdown ecosystem {.julie}
-
-A new open-source scientific and technical publishing system. The goal is to make the process of creating and collaborating on scientific and technical documents dramatically better.
-
+:::fragment
 ::: illustration
 Illustration:
 
@@ -54,15 +52,22 @@ Illustration:
 -   Outputs in multiple formats (PDFs, websites, word, slides)
 -   All going through the same machinery (Quarto logo)
 :::
+:::
 
 ::: notes
-Julie: Quarto unifies & extends the RMarkdown ecosystem. It is a new open-source scientific and technical publishing system. The goal is to make the process of creating and collaborating on scientific and technical documents dramatically better. It builds on 10 years of insight from RMarkdown - Inputs in multiple languages - Outputs in multiple formats - All going through the same machinery
+Julie: Quarto is a new open-source scientific and technical publishing system. The goal is to make the process of creating and collaborating on scientific and technical documents dramatically better. 
+
+It builds on 10 years of insight from RMarkdown 
+
+- Inputs in multiple languages 
+- Outputs in multiple formats 
+- All going through the same machinery
 :::
 
 ## Hello, Quarto! {background-video="images/quadrants-overview.mp4"}
 
 ::: notes
-Julie: We'll introduce Quarto to you in four acts: share, collaborate, teach, reimagine. Mine will talk about left side, focused on stories from people who love RMarkdown (starting with herself!). I'll talk about right side, focused on stories from people who do not know RMarkdown. Both: share demos and stories.
+Julie: We'll introduce you to Quarto with stories and demos in four acts: share, collaborate, teach, reimagine. Mine will talk about left side, focused on how Quarto unifies the RMarkdown ecosystem. I'll talk about the right side, focused on how Quarto extends the RMarkdown ecosystem. Over to you, Mine!
 :::
 
 # Share
@@ -166,70 +171,56 @@ Julie: Thanks Mine...
 
 ##  {style="background-color: #aa512e;"}
 
+::: columns
 ::: {.column width="40%"}
 ![](images/julie-penguin-nametag.png){fig-alt="Penguin with nametag that says \"Julie\"" fig-align="center" width="500"}
 :::
 
-::: notes
-::: columns
-Julie: I'm a marine ecologist \> data scientist \> open science champion A lot of this change is because the R community changed my life; my research team learned the hard way that we couldn't reproduce our own work with our default approaches to data analysis and collaboration. RMarkdown and the tidyverse played an underpinning role in our transition to better science in less time and this all led me to shifting my career away from research and towards supporting research teams to transition to better science too.
+::: {.column width="60%"}
+(add images: OHI, R, Mozilla, Erin, Openscapes)
 :::
-:::
-
-## {background-image="images/openscapes_hex.png" background-position="center" background-size="38%"}
-
-**TODO: Photo of Erin**
-
-::: fragment
-
-[Champions Program]{.absolute bottom=150 right=100 width="200"}
 :::
 
 
 ::: notes
-I launched Openscapes to help research teams transition to inclusive open data science workflows. This started as first only the Champions Program where we mentor research teams
+Julie: I'm a marine ecologist and I direct a program called Openscapes to support research teams transitioning to modern and inclusive open data science workflows.
 
-We've worked with 70+ teams
+It's an understatement to say that the R community changed my life; My path can be summarized in these 5 images: 
 
-And what we're doing is said beautifully by Dr. Adyan Rios
+The Ocean Health Index, where my marine ecology research team learned the hard way that we couldn't reproduce our own work with our default approaches to data analysis and collaboration.
+
+R (RMarkdown and the tidyverse) completely played an underpinning role in our transition to better science in less time 
+
+A Mozilla Fellowship helped me launch Openscapes and shift my career away from research and towards supporting research teams 
+
+And Erin Robinson partnered developed it into a sustainable and scalable model 
 :::
 
-
-## {background-image="images/openscapes_hex.png" background-position="center" background-size="38%"}
-
+## Openscapes approach {.julie}
 
 
-[**Deliver** the Champions Program]{.absolute bottom=150 right=100 width="200"}
+![](images/horst_pew_tools_practice_mindset.jpg){.absolute bottom=0 left=0 width="600" .smaller}
 
 ::: fragment
-[**Sensemaking**: transform and iterate]{.absolute bottom=0 right=450 width="200"}
+::: {.absolute bottom=0 right=0 width="400" .smaller}
+- Create space & place
+- Meet people where they are
+- Find the common
+- Psychological safety & growth mindsets
+- Open culture: teaching, learning, reuse, imperfect
+- Make implicit explicit
+- Share ideas earlier
+:::
 :::
 
-::: fragment
-[**Inspire** open mindsets]{.absolute bottom=150 right=680 width="200"}
+::: footer
+[openscapes.org/approach](https://openscapes.org/approach)
 :::
-
-
-::: fragment
-[**Develop** mentors]{.absolute bottom=400 right=680 width="200"}
-:::
-
-::: fragment
-[**Invest** in open curric]{.absolute bottom=550 right=450 width="200"}
-:::
-
-::: fragment
-[**Attract** research teams]{.absolute bottom=400 right=100 width="200"}
-:::
-
 
 ::: notes
-But when Erin Robinson joined Openscapes she brought expertise in scaling programs and making them sustainable. She introduced this idea of the Flywheel of the steps needed to really create lasting culture change. 
-
-It involves focusing beyond delivering the Champions program; and how there is a whole series of steps that interplay...
-
 Transition - we've worked with 70+ research teams, and what this looks like for them is said beautifully by Dr. Adyan Rios:
 :::
+
 
 ## ![](images/adyan_rios.jpeg){.absolute bottom="0" left="10" width="200"}
 
@@ -241,23 +232,15 @@ Transition - we've worked with 70+ research teams, and what this looks like for 
 Julie: \[read quote\] We help teams notice how they are currently working, introduce them to open data science ways, and support them with their peers "you can't unsee it" - Dr. Eli Holmes
 :::
 
-## Ileana quote? {.julie}
-
-["I was so empowered by ideas from Openscapes that I'm now supporting Black marine scientists with open data science" \- Ileana Fenwick, University of North Carolina]{.quote} 
-
-Picture of Ileana
-
-
-# Our Quarto story begins with NASA {.julie}
+# Openscapes' Quarto story begins with NASA {.julie}
 
 🚀🌏
 
-<br> [NASA-Openscapes](https://nasa-openscapes.github.io): helping researchers using NASA Earthdata transition analytical workflows to the Cloud
-
 ::: notes
-Julie: The Openscapes Quarto story begins with NASA. And this is a really wonderful story about collaboration. 
+Our Quarto story begins with NASA. Let me give you some background here about NASA and our project.
+In 1960, the United States put its first Earth-observing environmental satellite into orbit around the planet. Over the decades, these satellites have provided invaluable information, and the vantage point of space has provided new perspectives on Earth. 
 
-Erin comes from the NASA community with a really deep connection to data communities, and knows their needs and challenges. She connected Openscapes with a 3-year opportunity to help researchers using NASA Earthdata to transition their analytical workflows to the Cloud.
+These images are collected across space and time and help us understand floodplains, etc
 
 Let me share with you some of the images of Earth that NASA creates from remotely-sensed satellite imagery, because it's so beautiful. 
 
@@ -296,48 +279,44 @@ networks across the stark, arid landscape.
 page 148
 :::
 
-## {background-video="images/R_beach_ball_flat_360p.mp4"}
-
-::: notes
-These images come from NASA Satellites, which produce many different types of Earthdata. These 
-
-**Research with Earthdata is complex and different**
-
-used to track pollution, agriculture, etc. 
-
-This kind of data also brings different challenges Earth science community is familiar with that I as a marine ecologist am not. This community is also more heavily Python oriented
-
-Research teams Ladies of Landsat working with the Navajo Nation around water and drought; a new research team, SASSIE investigating salinity and stratification at the sea ice edge; and a team from Mt. Siani interested in bringing together earth observations+reproducible machine learning to advance health air quality and epidemiology.
-:::
 
 ## NASA-Openscapes {.julie}
 
-[NASA-Openscapes](https://nasa-openscapes.github.io): helping researchers using NASA Earthdata transition analytical workflows to the Cloud
+Supporting researchers using NASA Earthdata as they transition analytical workflows to the Cloud
 
-Developing a Mentor community across NASA Data Centers
+![](images/2021-NASA-Openscapes-Mentors-Photoshop.png){width="60%" fig-align="center"}
 
-**TODO: photo of NASA Mentors**
-
-::: notes
-Erin and I were working with these mentors. 
-Reusing and co-creating shared teaching resources about Earthdata, Cloud, etc, all in Python. 
-
-These are wonderful people. But Earth Science, NASA, Cloud, Python, I won't lie, I was super intimidated, and feeling disoriented, like a fish out of water, or like a fish in outerspace.
+::: footer
+[nasa-openscapes.github.io](https://nasa-openscapes.github.io)
 :::
 
-## But I had superpowers {.julie} ![](images/horst-starwars-rey.png){width=80%}
+::: notes
+Our project with NASA is to support researchers using NASA Earthdata as they transition analytical workflows to the Cloud
+
+Mentor community.
+
+NASA is Erin's community, but this was all very new and intimidating to me. But there were a lot of new things to me: Earth Science is a new research domain asking questions I am not familiar with with data I'm not familiar with, cloud computing is new to me, and working with NASA was also incredibly intimidating.
+transition: And also: 
+:::
+
+# challenge: python
+
+::: notes
+a huge challenge for me. I'm an R person. In my role I wasn't going to learn python, but I needed to be able to interoperate and lead.
+:::
+
+
+## ![](images/horst-starwars-rey.png){width=100%}
 
 
 [maybe replace swirl: RMarkdown to Quarto?]{.absolute bottom=50 right=100 width="400" .question}
 
 ::: notes
-But I had a superpower
-I'd seen what was possible with RMarkdown
-
-Experience and confidence built up over years
+But I've always felt like I had a superpower, like I had the Force from Star Wars, and that's because I knew RMarkdown. I  
+I'd seen what was possible and built experience and confidence over years
 :::
 
-## Quarto superpowers for NASA {.julie}
+## Quarto superpowers for python {.julie}
 
 Collaborating with J.J. and the Quarto dev team
 
@@ -496,6 +475,8 @@ actionable change (pandemic)
 Julie:
 :::
 
+# Our Quarto story continues with the open science movement {.julie}
+
 ## Open science as a movement {.julie}
 
 -   (It's about products (access to data, code, publications))
@@ -517,85 +498,58 @@ if you are already into open science, open source tools like Quarto helps you ex
 There's more emphasis on open science and this is the way science should be done. All these things about open up your process \> one of the challenges have been tools that allow you to easily do these things the things. These allow you to do thie
 :::
 
+# images
+
+rOpenSci, Mozilla?
+All We Can Save, 
+Tara, 
+NOAA, FDD?
+
+A story
+
+# quote
+
+Peng & Parker?
+Wood?
+Holmes? Can't unsee it, you want it, you want to help others have it too
+
 ## We've been learning a lot through helping teams reimagine {.julie}
 
+
+![](images/horst_pew_tools_practice_mindset.jpg){.absolute bottom=0 left=0 width="600" .smaller}
+
+::: {.absolute bottom=0 right=0 width="400" .smaller}
+- Create space & place
+- Build real relationships, trust, safety
+- Find the common
+- Model open culture: learn, teach, reuse, iterate (imperfect)
+- **Meet people where they are**
+- **Share ideas earlier**
+- **Make the implicit explicit**
+:::
+
+::: footer
+[openscapes.org/approach](https://openscapes.org/approach)
+:::
+
+::: notes
 Tackling challenges in new ways means new tech, new habits, new culture.
 
 Important for new & seasoned coders, and folks who don't identify as coders.
 
 Reducing friction so folks focus their time on their work/science: less reinventing
 
-**Quarto really helps underscore these points**
-
-["Tee up concrete story for demo (visual editor)..."]{.todo}
-
-## Create space
-
-Prioritize time.
-
-Build trust, psychological safety, inclusion
-
-Ask how people work, where they're stuck, what they know.
-
-Foster a learning culture. And a teaching culture. Empathy. Growth Mindset. Meet people where they are.
-
-::: illustration
-**Image:** nmfs-openscapes.github.io: Seaside Chats, Surf sessions
 :::
 
-::: notes
-Learning. messy. Don't need to have a plan, just you want to do better. make the space. Takes time to learn and do, amazing what folks can do together. Across backgrounds, skills, expertise.
+## story
 
-Managers at NASA, NOAA, faculty at universities. Supporting people's time to learn. open science must be part of people's paid work.
+FayLab > Ileana & Stef
 
-NOAA Cohort right now with 9 Supervisors participating.
 
-Necessary part of reimagining: Time.
-:::
+# identifying as "a coder"
 
-::: notes
-This might be dated now 1. Share your ideas earlier (can I see it? yes) - Series book (existed openly even before was fully dev'd) Create a learning culture 2. Reuse: create-once-use-often. less reinventing; focus your time on the science. 3. bring inclusion into your daily work (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs
-:::
-
-## Create place
-
-Quarto has been really key for us with NASA Openscapes (also JupyterHub, GitHub, Google Docs)
-
-Where we put things, what contributing looks like
-
-::: illustration
-**Image:** Screenshot of quarto 2021 Cloud Hackathon site
-:::
-
-Catalina quote: share with participants ahead of time, "I still get kudos"
-
-Reuse: Create-once-use-often. Reused 10x since
-
-::: notes
-Julie:
-:::
-
-::: notes
-Julie: Co-create-once-use-often. less reinventing; focus time on the science.
-
-seeing this enabled with NASA and quarto - but also NOAA Fisheries: https://rverse-tutorials.github.io/RWorkflow-NWFSC-2022/index.html
-:::
-
-## Share ideas earlier
-
-not limited to a final publication
-
-Catalina's quote: comfortable sharing open work, imperfect
-
-::: illustration
-**Image:** Amy's Quarto Slides from .ipynb
-:::
-
-::: notes
-As we were getting started, knew we could share as we built out the idea
-:::
-
-## Find the common
+## more story
+screenshots
 
 ## Make the implicit explicit
 
@@ -612,6 +566,7 @@ Make the implicit explicit - writing things down
 ::: notes
 Julie: This is another way this manifests: Onboarding (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs. little things. Create a learning culture. We've borrowed this idea for Approach Guide Book websites to collaborate on? Not really how we thought about things before
 :::
+
 
 ## DEMO: Visual editor
 
@@ -677,39 +632,7 @@ Reprise from NASA Openscapes - find the common - reuse existing - contribute to 
 Mine: We've gone through these, but we have so much more to say, we'll just need to do it a lot more quickly...
 :::
 
-# So much more to say...
 
-## "12 more things we didn't get to showcase" {.smaller}
-
-::: illustration
-**Illustration / animation:** Penguin juggling, excitement.
-:::
-
-::: small
-1.  "Diagram feature" maybe code \| output
-
-2.  Works with Shiny - that's all to say
-
-3.  Quarto pub? What it accomplishes \| what it looks like
-
-4.  Freeze \> blog posts, jupyter notebooks
-
-5.  Each book chapter starting in a fresh session opening as you'd expect them to
-
-6.  Table \> 2 tables next to each other
-
-7.  Table in the margin
-
-8.  Chalkboard on slides
-
-9.  multiplex: Slides / scroll for audience
-
-10. Downlit (link directly to mutate function documentation pkgdown)
-
-11. Include xaringan slides in Quarto project with resources
-
-12. `quarto publish`
-:::
 
 ## Coda
 
@@ -765,7 +688,7 @@ Julie: We think about open science as landscape of open data, tooling, and commu
 Julie: Openscapes helps teams develop practices that are underpinned by tools. Quarto creates "place"
 :::
 
-## Openscapes approach
+## Openscapes approach {.julie}
 
 ::: columns
 ::: {.column width="50%"}
@@ -874,3 +797,179 @@ Streamlines teamwork
 -   shared vision: code and text together beautifully
 -   interoperability with tech
 -   interoperability with people
+
+## {background-image="images/openscapes_hex.png" background-position="center" background-size="38%"}
+
+**TODO: Photo of Erin**
+
+::: fragment
+
+[Champions Program]{.absolute bottom=150 right=100 width="200"}
+:::
+
+
+::: notes
+I launched Openscapes to help research teams transition to inclusive open data science workflows. This started as first only the Champions Program where we mentor research teams
+
+We've worked with 70+ teams
+
+And what we're doing is said beautifully by Dr. Adyan Rios
+:::
+
+
+## {background-image="images/openscapes_hex.png" background-position="center" background-size="38%"}
+
+
+
+[**Deliver** the Champions Program]{.absolute bottom=150 right=100 width="200"}
+
+::: fragment
+[**Sensemaking**: transform and iterate]{.absolute bottom=0 right=450 width="200"}
+:::
+
+::: fragment
+[**Inspire** open mindsets]{.absolute bottom=150 right=680 width="200"}
+:::
+
+
+::: fragment
+[**Develop** mentors]{.absolute bottom=400 right=680 width="200"}
+:::
+
+::: fragment
+[**Invest** in open curric]{.absolute bottom=550 right=450 width="200"}
+:::
+
+::: fragment
+[**Attract** research teams]{.absolute bottom=400 right=100 width="200"}
+:::
+
+
+::: notes
+But when Erin Robinson joined Openscapes she brought expertise in scaling programs and making them sustainable. She introduced this idea of the Flywheel of the steps needed to really create lasting culture change. 
+
+It involves focusing beyond delivering the Champions program; and how there is a whole series of steps that interplay...
+
+Transition - we've worked with 70+ research teams, and what this looks like for them is said beautifully by Dr. Adyan Rios:
+:::
+
+## {background-video="images/R_beach_ball_flat_360p.mp4"}
+
+## Create space 
+
+Prioritize time.
+
+Build trust, psychological safety, inclusion
+
+Ask how people work, where they're stuck, what they know.
+
+Foster a learning culture. And a teaching culture. Empathy. Growth Mindset. Meet people where they are.
+
+::: illustration
+**Image:** nmfs-openscapes.github.io: Seaside Chats, Surf sessions
+:::
+
+::: notes
+Learning. messy. Don't need to have a plan, just you want to do better. make the space. Takes time to learn and do, amazing what folks can do together. Across backgrounds, skills, expertise.
+
+Managers at NASA, NOAA, faculty at universities. Supporting people's time to learn. open science must be part of people's paid work.
+
+NOAA Cohort right now with 9 Supervisors participating.
+
+Necessary part of reimagining: Time.
+:::
+
+::: notes
+This might be dated now 1. Share your ideas earlier (can I see it? yes) - Series book (existed openly even before was fully dev'd) Create a learning culture 2. Reuse: create-once-use-often. less reinventing; focus your time on the science. 3. bring inclusion into your daily work (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs
+:::
+
+## Create place
+
+Quarto has been really key for us with NASA Openscapes (also JupyterHub, GitHub, Google Docs)
+
+Where we put things, what contributing looks like
+
+::: illustration
+**Image:** Screenshot of quarto 2021 Cloud Hackathon site
+:::
+
+Catalina quote: share with participants ahead of time, "I still get kudos"
+
+Reuse: Create-once-use-often. Reused 10x since
+
+::: notes
+Julie:
+:::
+
+::: notes
+Julie: Co-create-once-use-often. less reinventing; focus time on the science.
+
+seeing this enabled with NASA and quarto - but also NOAA Fisheries: https://rverse-tutorials.github.io/RWorkflow-NWFSC-2022/index.html
+:::
+
+## Share ideas earlier
+
+not limited to a final publication
+
+Catalina's quote: comfortable sharing open work, imperfect
+
+::: illustration
+**Image:** Amy's Quarto Slides from .ipynb
+:::
+
+::: notes
+As we were getting started, knew we could share as we built out the idea
+:::
+
+## Find the common
+
+## Make the implicit explicit
+
+Make the implicit explicit - writing things down
+
+**Build inclusion into your daily work** - onboarding
+
+::: illustration
+**Image:** [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
+:::
+
+> "Prospective students in my research group say how much they appreciate the lab manual and it's a reason they want to work with us" - Dr. Gavin Fay
+
+::: notes
+Julie: This is another way this manifests: Onboarding (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs. little things. Create a learning culture. We've borrowed this idea for Approach Guide Book websites to collaborate on? Not really how we thought about things before
+:::
+
+
+# So much more to say...
+
+## "12 more things we didn't get to showcase" {.smaller}
+
+::: illustration
+**Illustration / animation:** Penguin juggling, excitement.
+:::
+
+::: small
+1.  "Diagram feature" maybe code \| output
+
+2.  Works with Shiny - that's all to say
+
+3.  Quarto pub? What it accomplishes \| what it looks like
+
+4.  Freeze \> blog posts, jupyter notebooks
+
+5.  Each book chapter starting in a fresh session opening as you'd expect them to
+
+6.  Table \> 2 tables next to each other
+
+7.  Table in the margin
+
+8.  Chalkboard on slides
+
+9.  multiplex: Slides / scroll for audience
+
+10. Downlit (link directly to mutate function documentation pkgdown)
+
+11. Include xaringan slides in Quarto project with resources
+
+12. `quarto publish`
+:::
