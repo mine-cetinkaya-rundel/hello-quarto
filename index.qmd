@@ -487,21 +487,23 @@ beyond silos, domains, borders, languages: sharing, collaboration...
 
 -   (It's about products (access to data, code, publications))
 
--   It's about process. Workflows. People. Daily habits. Culture. Open source tooling. Sharing earlier, learning from mistakes
-
-["Perfection is colonial, when worring that you’re going to get it wrong holds you back from trying, that erases - Ta7talíya Michelle Nahanee of the Squamish Nation]{.quote}
-
+-   It's about process. Workflows. People. Daily habits. Culture. Open source tools.
 
 Hugely inspired by Climate Justice, Get Out the Vote movements
 
 Urgency: Why this matters. Collaborate with people sooner, co-create/reuse not reinvent. Connect the skills to the values with the urgency.
 
 ::: notes
+Reimagining science means approaching open science as a movement. Yes, open science is about products, but it's also about process. It's about daily habits and workflows, and really inspecting who is included, in terms of tech and culture. And who is safe to participate and share and how to make sure this is part of paid work and not extra that deepens inequality. 
+
 It's the way science should be done, but who can participate? Both from a tech and culture perspective
 
 if you are already into open science, open source tools like Quarto helps you execute open science. And if you're not already into open science, open source tools like Quarto can be an entryway and motivator to get engaged
 
 There's more emphasis on open science and this is the way science should be done. All these things about open up your process \> one of the challenges have been tools that allow you to easily do these things the things. These allow you to do thie
+
+["Perfection is colonial, when worring that you’re going to get it wrong holds you back from trying, that erases - Ta7talíya Michelle Nahanee of the Squamish Nation]{.quote}
+
 :::
 
 # ![](images/holmes_early_adopters.png)
