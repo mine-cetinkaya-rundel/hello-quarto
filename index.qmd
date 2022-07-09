@@ -225,7 +225,7 @@ Transition - we've worked with 70+ research teams, and many of them have been ma
 
 **TODO Background: Ocean photo with ship**
 
-["As fisheries scientists, we know that when we're in rough seas: it's important to keep the ship afloat AND get out of the storm. Openscapes helps teams steer out of the storm of forwarded emails with 37 versions of the same Excel file and to the calmer waters of open science and meaningful collaboration, using tools like R" <br> \- Adyan Rios, NOAA Fisheries]{.absolute top=290 right=0 width=800 .quote}
+["As fisheries scientists, we know that when we're in rough seas: it's important to keep the ship afloat AND get out of the storm. Openscapes helps teams steer out of the storm of forwarded emails with 37 versions of the same Excel file and to the calmer waters of open science and meaningful collaboration, using tools like R" <br> \- Adyan Rios, NOAA Fisheries (Southeast)]{.absolute top=290 right=0 width=800 .quote}
 
 ::: notes
 Julie: As fisheries scientists, we know that when we're in rough seas: it's important to keep the ship afloat AND get out of the storm. Openscapes helps teams steer out of the storm of forwarded emails with 37 versions of the same Excel file and to the calmer waters of open science and meaningful collaboration, using tools like R. 
@@ -269,7 +269,9 @@ Earth As Art p 102 https://www.nasa.gov/pdf/703154main_earth_art-ebook.pdf
 :::
 
 ::: notes
-Researchers that use NASA Earthdata are called Earth scientists or geoscientists and they research questions like xxx
+Earth scientists and geoscientists use images like these to understand complext problems like how drought is affecting land use and agriculture, how long-range transport of wind and dust affects urban health. This means they 
+to do really data-intensive analysis through time and space 
+
 The Terra satellite captured this image of wadis in southeastern Jordan in 2001. The Arabic word wadi means a gulley or riverbed
 that is usually dry except after drenching, seasonal rains. In this image, meandering wadis have combined to form dense, branching
 networks across the stark, arid landscape. 
@@ -302,6 +304,7 @@ transition: And also:
 # NASA Earth scientists use python 😬
 
 ::: notes
+Many NASA Earth scientists use python, and that is a big focus of the current development
 a huge challenge for me. I'm an R person. In my role I wasn't going to learn python, but I needed to be able to advise and interoperate to support a team of python users
 :::
 
@@ -453,7 +456,7 @@ Mine: ...
 Julie: What Mine just showed was really powerful for me - once I saw what I could do for my current needs, I saw new ways to reuse and reimagine future ideas. I built Openscapes because of what what I saw was possible with RMarkdown, and it has only increased and extended because of Quarto. Let me tell you about Openscapes, and what our work looks like day to day
 :::
 
-# Reimagining science {.julie}
+# Reimagine science {.julie}
 
 ::: fragment
 TODO screenshots: websites, blogs, shiny apps...
@@ -464,7 +467,7 @@ TODO images: sharing, collaboration...
 :::
 
 ::: fragment
-TODO images(?) open web...
+TODO images(?) open science, open web...
 :::
 
 ::: fragment
@@ -484,9 +487,9 @@ beyond silos, domains, borders, languages: sharing, collaboration...
 
 -   (It's about products (access to data, code, publications))
 
--   It's about process. Workflows. People. Daily habits. Culture. Open source tooling.
+-   It's about process. Workflows. People. Daily habits. Culture. Open source tooling. Sharing earlier, learning from mistakes
 
-["Who is safe to participate in open science?" - Tara Robertson]{.quote}
+["Perfection is colonial, when worring that you’re going to get it wrong holds you back from trying, that erases - Ta7talíya Michelle Nahanee of the Squamish Nation]{.quote}
 
 
 Hugely inspired by Climate Justice, Get Out the Vote movements
@@ -501,57 +504,82 @@ if you are already into open science, open source tools like Quarto helps you ex
 There's more emphasis on open science and this is the way science should be done. All these things about open up your process \> one of the challenges have been tools that allow you to easily do these things the things. These allow you to do thie
 :::
 
-## We've been learning a lot through helping teams reimagine {.julie}
-teams, supervisors, Openscapes mentors, how
-we continue to learn too. don't have all the answers, can't do this alone
+# ![](images/holmes_early_adopters.png)
 
+["people feel frustrated, they're siloed, they might not meet with their team regularly or even think that they're on a team, like they don't know what's going on. Need new skills but don't have space to learn new things. Openscapes helps us design ways to build real relationships, learn together, and collaborate better, and do better science for our communities and stakeholders" - Eli Holmes, NOAA Fisheries (Northwest)]{.quote}
 
-::: columns
-::: {.column width="50%"}
-**Approach:**
-
-- Create space & place
-- Build trust, safety
-- Find the common
-- Model open culture: learn, teach, reuse
+::: notes
+This quote from Eli Holmes, who has been both a mentor with us with marine scientists and a learner with NASA Cloud workshops.
 :::
 
-::: {.column width="50%"}
-<br>
+
+## Helping scientists reimagine {.julie}
+
+New ways of tackling challenges means new tech, new habits, new culture. "Slowing down to speed up."
+
+Importance of teams, supervisors, learning culture.
+
+::: fragment
+::: columns
+::: {.column width="45%"}
+**Openscapes Approach**
+
+- Create space & place
+- Build trust & psychological safety
+- Find the common
+- Foster open culture: learn, teach, reuse, growth mindset <!--- model --->
+:::
+
+::: {.column width="55%"}
 
 - Meet people where they are
-- Share ideas earlier, imperfect, messy
+- Prioritize inclusion in daily work <!---design into --->
+- Introduce tech intentionally
+- Share ideas earlier; imperfect
 - Make the implicit explicit
 :::
 :::
+:::
+
 
 ::: footer
 [openscapes.org/approach](https://openscapes.org/approach)
 :::
 
 ::: notes
-Quarto shows up for us in a lot of these places, but I wanted to just focus on these last three specifically: our approach guide. 
+We've been learning a lot through helping teams reimagine
+Particularly the importance of teams and helping people find their teams, and the role of supervisors as part of those teams. Learning culture 
+how we continue to learn too. don't have all the answers, can't do this alone
 
-Tackling challenges in new ways means new tech, new habits, new culture.
+These are some key parts of our mentoring approach that I don't have time to get into deeply here. But Quarto shows up for us in a lot of these places, but I wanted to just focus on these last three specifically: our approach guide. 
 
 Important for new & seasoned coders, and folks who don't identify as coders.
 
 Reducing friction so folks focus their time on their work/science: less reinventing
-
-
-Eli "people feel frustrated, they're siloed, they might not meet with their team regularly or even think that they're on a team, like they don't know what's going on. Don't have space to learn new things. Openscapes helps us design ways to build real relationships, learn together, and collaborate better"
-
 :::
 
-# Diverse teams often don't all identify as "coders" 😬
+## Openscapes Mentors
+
+ESIP crew
+
+# Blurring lines between "coders" and "non-coders"
+Collaboration across new and seasoned coders
+Many folks don't identify as coders 
+
+Identities
+Different "coder" comfort levels within teams 😬😎
+Handing off /// 
 
 # ![](images/horst_openscapes_champions_trailhead.jpg)
 
 TODO: Add penguins, both colors (remove background?)
 
-## TODO outline screenshot ![](images/openscapes-approach-guide.png){width="80%"}
+## Writing things down for future us ![](images/openscapes-approach-guide.png){width="80%"}
+
+documentation > teaching/onboarding resources
 
 ::: notes
+TODO outline screenshot
 - As Erin and I were building Openscapes, needed to write things down. For us, for scaling, and to give visibilty and value to the work we're doing, which is a really powerful interface between coaching, mentoring, facilitating, project management, community engagement, and modern tech, data science, cloud computing and big data, for environmental change.
 - Quarto gave us that place; I'd made many books before but included code
 - Lowered the barrier. Installed RStudio, used the Visual Editor together. before she learned how to code, and may have given her that confidence she needed - has since learned R, Python, and Matlab
@@ -563,14 +591,18 @@ TODO: Add penguins, both colors (remove background?)
 
 reimagining who contributes and/or codes
 
-## Collaborate across coding abilities {.julie}
+## Skillbuilding through collaboration {.julie}
+<!--- Empowering And collaboration across coding abilities --->
 
-::: illustration
-**Image:** Screenshot of portion of `_quarto.yml`: all .mds/.qmds?
-:::
+![](images/quarto_commits_aholder1){.absolute top=100 left=0 width="450"}
 
+![](images/quarto_commits_erinmr){.absolute top=200 left=0 width="450"}
 
-## Make the implicit explicit
+![](images/quarto_commits_stefaniebutland){.absolute top=70 right=50 width="450"}
+
+![](images/quarto_commits_ileanaf){.absolute bottom=0 right=50 width="450"}
+
+## Making the implicit explicit
 
 Make the implicit explicit - writing things down
 
@@ -957,8 +989,6 @@ Catalina's quote: comfortable sharing open work, imperfect
 ::: notes
 As we were getting started, knew we could share as we built out the idea
 :::
-
-## Find the common
 
 ## Make the implicit explicit
 
