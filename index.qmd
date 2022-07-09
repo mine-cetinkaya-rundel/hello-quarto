@@ -332,9 +332,7 @@ Julie: this is the first Quarto site we ever made. It's beautiful, right out of 
 It's a collection of how to guides and tutorials - we could organize what we had and make placeholders for where we saw gaps as we developed them together. It helped us all come together as a team, from across silos, with different skills, comfort with coding, different coding language, different tech. Quarto let us see an end-goal in our mind, and then work in one place, and learn to contribute with confidence.
 :::
 
-## `_quarto.yml` - Cookbook {.julie}
-
-Collaborating across coding languages
+## Collaborate across coding languages {.julie}
 
 ::: illustration
 **Image:** Screenshot of portion of `_quarto.yml`: .ipynbs, .rmds, .qmds
@@ -504,25 +502,27 @@ There's more emphasis on open science and this is the way science should be done
 :::
 
 ## We've been learning a lot through helping teams reimagine {.julie}
+teams, supervisors, Openscapes mentors, how
+we continue to learn too. don't have all the answers, can't do this alone
 
 
-:::{.absolute bottom=0 left=0 width="600" .smaller}
-teams, supervisors, informal group of mentors
-a way we continute to learn too. don't have all the answers, can't do this alone
-
-:::
-
-::: {.absolute bottom=0 right=0 width="400" .smaller}
+::: columns
+::: {.column width="50%"}
 **Approach:**
 
 - Create space & place
 - Build trust, safety
 - Find the common
 - Model open culture: learn, teach, reuse
+:::
+
+::: {.column width="50%"}
+<br>
+
 - Meet people where they are
 - Share ideas earlier, imperfect, messy
 - Make the implicit explicit
-
+:::
 :::
 
 ::: footer
@@ -543,12 +543,13 @@ Eli "people feel frustrated, they're siloed, they might not meet with their team
 
 :::
 
-## Been able to apply this to ourselves too
+# Diverse teams often don't all identify as "coders" 😬
 
+# ![](images/horst_openscapes_champions_trailhead.jpg)
 
-# Not everyone identifies as "a coder" 😬
+TODO: Add penguins, both colors (remove background?)
 
-## Approach Guide
+## TODO outline screenshot ![](images/openscapes-approach-guide.png){width="80%"}
 
 ::: notes
 - As Erin and I were building Openscapes, needed to write things down. For us, for scaling, and to give visibilty and value to the work we're doing, which is a really powerful interface between coaching, mentoring, facilitating, project management, community engagement, and modern tech, data science, cloud computing and big data, for environmental change.
@@ -560,11 +561,9 @@ Eli "people feel frustrated, they're siloed, they might not meet with their team
 - As our documentation grew, Thinking about Modular lessons - our intro to Quarto websites tutorial is stand-alone, small. but linked from Approach Guide and from NASA Cookbook.
 :::
 
-reimagining what you can do with code and as a coder
+reimagining who contributes and/or codes
 
-## `_quarto.yml` - Approach Guide {.julie}
-
-Collaborating across coding abilities (comforts/familiarities?)
+## Collaborate across coding abilities {.julie}
 
 ::: illustration
 **Image:** Screenshot of portion of `_quarto.yml`: all .mds/.qmds?
