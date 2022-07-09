@@ -455,25 +455,34 @@ Mine: ...
 Julie: What Mine just showed was really powerful for me - once I saw what I could do for my current needs, I saw new ways to reuse and reimagine future ideas. I built Openscapes because of what what I saw was possible with RMarkdown, and it has only increased and extended because of Quarto. Let me tell you about Openscapes, and what our work looks like day to day
 :::
 
-## Reimagining science {.julie}
+# Reimagining science {.julie}
 
-beyond publications, beyond code & data: websites, blogs, shiny apps...
-
-beyond silos, domains, borders, languages: sharing, collaboration...
-
-open web...
-
-culture change
-
-actionable change (pandemic)
-
-["Once you see it, you can't un-see it. And you want it." - Dr. Eli Holmes, NOAA Fisheries]{.quote}
-
-::: notes
-Julie:
+::: fragment
+TODO screenshots: websites, blogs, shiny apps...
 :::
 
-## Open science as a movement {.julie}
+::: fragment
+TODO images: sharing, collaboration...
+:::
+
+::: fragment
+TODO images(?) open web...
+:::
+
+::: fragment
+culture change & actionable change (pandemic)
+:::
+
+::: fragment
+["Once you see it, you can't un-see it. And you want it." - Dr. Eli Holmes, NOAA Fisheries]{.quote}
+:::
+
+::: notes
+Julie: reimagining science means going beyond publications, beyond code & data: websites, blogs, shiny apps...
+beyond silos, domains, borders, languages: sharing, collaboration...
+:::
+
+# Open science <br>as a movement {.julie}
 
 -   (It's about products (access to data, code, publications))
 
