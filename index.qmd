@@ -182,22 +182,23 @@ Mine: As an educator, two things are of utmost importance for me about the tools
 Julie: Thanks Mine...
 :::
 
-##  {style="background-color: #aa512e;"}
+##
 
 ::: columns
-::: {.column width="40%"}
-![](images/julie-penguin-nametag.png){fig-alt="Penguin with nametag that says \"Julie\"" fig-align="center" width="500"}
+::: {.column width="30%"}
+![](images/julie-penguin-nametag.png){fig-alt="Penguin with nametag that says \"Julie\"" fig-align="center" width="250"}
 :::
 
-::: {.column width="60%"}
-TODO: think about this slide and intro more, move some to my intro bio
-(add images: OHI, R, Mozilla, Erin, Openscapes)
+::: {.column width="70%"}
+![](images/lowndes_venn.png)
 :::
 :::
 
 
 ::: notes
-Julie: TODO REWORK I'm a marine ecologist and I lead a program called Openscapes to support research teams transitioning to modern and inclusive open data science workflows.
+Julie: If there are 3 ways to describe me and what I do, it is that I'm an environmental scientist at the intersection of actionable science, data science, and open science, and where i shine is through mentoring, teaching, and community empowerment. 
+
+I've made this my job through Openscapes
 
 It's an understatement to say that the R community changed my life; My path can be summarized in these 5 images: 
 
@@ -210,6 +211,78 @@ A Mozilla Fellowship helped me launch Openscapes and shift my career away from r
 And Erin Robinson partnered developed it into a sustainable and scalable model 
 :::
 
+## Openscapes Origins
+Moving from lonely research to open science & teamwork
+
+:::: {.columns}
+
+::: {.column width="20%"}
+![](images/OHI-hex.png)
+:::
+
+::: {.column width="50%"}
+![](images/ods-community-logos.png)
+:::
+
+::: {.column width="30%"}
+![](images/metadata_game_changers_logo.png)
+:::
+::::
+
+Community-taught, team-practiced
+
+::: notes
+Openscapes about moving from lonely research to open science and teamwork is really based on my experience as a researcher, moving from lonely individual research to finding my teams and being empowered by open science. 
+
+So the main origins for Openscapes come from the OHI and the R community, these folks are my mentors, my Yodas. Learning open data science from these communities and the practicing them as a team has been game-changing for the way I think about what’s possible with science. 
+
+So I’ll give a brief background about these origins of openscapes
+:::
+
+
+## Openscapes Approach {.smaller}
+
+![](images/horst_pew_tools_practice_mindset.jpg){fig-align="left" width="50%"}
+
+::: {.absolute bottom=0 right=0 width="520"}
+- **Researcher-centered, focused on teams.**
+Practice and feel safe working openly with yourself and your team; then ease into more.
+
+- **Create space & place to explore & learn.**  Cohort Calls, Seaside Chats, Co-Working; GitHub, R, Python, Quarto, Google Drive, Slack; Efficiency & Inclusion Tips.
+
+- **Cultivate relationships & real connections.**
+Welcoming folks w/ diverse backgrounds; meeting where they are; skills to empower immediate work; kinder science.
+
+- **Open culture: Learning, teaching, iterating.** 
+Not a checklist - a continual practice. Imperfect, messy. Takes time.
+:::
+
+
+
+::: notes
+We mentor environmental and Earth science teams
+government, non-profit, and academic groups Openscapes is about better science for future us. We help teams transition to inclusive open science workflows This is visualized: We mentor teams to better tackle their questions by modernizing shared practices, underpinned by existing tools.
+
+-   Mentor, facilitator, teacher, coach, community organizer
+
+-   Project lead, tech infrastructure setup
+
+-   Merger (and creator) of merge conflicts
+
+-   Open source advocate
+
+-   Researcher advocate
+
+Julie: We mentor teams We create a learning culture, break down silos and loneliness creating space - people; creating place - tech **Better science for future us**
+
+For reimagining habits and culture change
+
+Openscapes helps research teams Collab around data. Tech diffs, experience. Inclusion, behavior change.
+
+Called open science (like nmfs intro)
+:::
+
+
 ## ![](images/horst_openscapes_champions.jpg){fig-align="center" width="100%"}
 
 ![](images/openscapes_hex.png){.absolute top="0" width="15%"}
@@ -220,16 +293,30 @@ Julie: We think about open science as landscape of open data, tooling, and commu
 Transition - we've worked with 70+ research teams, and many of them have been marine ecologists. What this looks like for them is said beautifully by Adyan Rios, where she says -
 :::
 
-
 ## ![](images/adyan_rios.jpeg){.absolute bottom="0" left="10" width="200"}
 
-**TODO Background: Ocean photo with ship**
+["As fisheries scientists, we know that when we're in rough seas: it's important to keep the ship afloat AND get out of the storm. <br> Openscapes helps teams steer out of the storm of email chains with 37 versions of the same attachment and to the calmer waters of open science and meaningful collaboration, using tools like R" <br> \- Adyan Rios, NOAA Fisheries (Southeast)]{.quote}
 
-["As fisheries scientists, we know that when we're in rough seas: it's important to keep the ship afloat AND get out of the storm. Openscapes helps teams steer out of the storm of forwarded emails with 37 versions of the same Excel file and to the calmer waters of open science and meaningful collaboration, using tools like R" <br> \- Adyan Rios, NOAA Fisheries (Southeast)]{.absolute top=290 right=0 width=800 .quote}
+TODO: swap photo for ship
+
+::: fragment
+::: {.absolute bottom=0 right=0 width="520"}
+- 11 Cohorts: 75+ teams
+- Gov, academic, non-profit 
+- Primarily marine, R users
+:::
+:::
 
 ::: notes
 Julie: As fisheries scientists, we know that when we're in rough seas: it's important to keep the ship afloat AND get out of the storm. Openscapes helps teams steer out of the storm of forwarded emails with 37 versions of the same Excel file and to the calmer waters of open science and meaningful collaboration, using tools like R. 
+
 We mentor these teams and help them find that trailhead as they start to explore existing pathways in that open science landscape.
+:::
+
+
+::: notes
+We work directly with researchers, mentoring them to help them collaborate and incorporate existing open source software into their analytical workflows
+Most of these teams so far have been marine and environmental researchers, who largely use R. 
 :::
 
 # Openscapes' Quarto story begins with NASA {.julie}
@@ -269,8 +356,7 @@ Earth As Art p 102 https://www.nasa.gov/pdf/703154main_earth_art-ebook.pdf
 :::
 
 ::: notes
-Earth scientists and geoscientists use images like these to understand complext problems like how drought is affecting land use and agriculture, how long-range transport of wind and dust affects urban health. This means they 
-to do really data-intensive analysis through time and space 
+Earth scientists and geoscientists use images like these to understand complex problems like how drought is affecting land use and agriculture, how long-range transport of wind and dust affects urban health. This means they to do really data-intensive analysis through time and space 
 
 The Terra satellite captured this image of wadis in southeastern Jordan in 2001. The Arabic word wadi means a gulley or riverbed
 that is usually dry except after drenching, seasonal rains. In this image, meandering wadis have combined to form dense, branching
@@ -278,22 +364,44 @@ networks across the stark, arid landscape.
 page 148
 :::
 
+## NASA Earthdata Cloud
+
+NASA Earthdata is migrating to the cloud. HUGE effort, tech and culture
+
+::: notes
+Huge effort on the back-end for NASA engineers. And huge workflow shifts for researchers, who have been using the download approach for their whole careers. Cloud approaches will require much more programmatic access rather than map- and menu-based 
+:::
 
 ## NASA-Openscapes {.julie .smaller}
 
-Supporting researchers using NASA Earthdata transitioning workflows to the Cloud
+Develop a cross-NASA Mentor community; support Mentors in creating and teaching a common set of Earthdata tutorials that they'll iterate for specific science examples
 
-![](images/2021-NASA-Openscapes-Mentors-Photoshop.png){width="60%" fig-align="center"}
+<br>
+![](images/2021-NASA-Openscapes-Mentors-Photoshop.png){width="50%" fig-align="left"}
 
-::: {.absolute bottom=100 right=0 width="200"}
-Year 1 Mentors!
+::: {.absolute bottom=100 right=0 width="450"}
+
+![](images/horst_landscape_mentors.png)
+
+**Focus on finding the common, teaching culture, contributing as part of their jobs**
+
+- Carpentries Instructor Training
+- 2i2c JupyterHub & AWS Credits
+- NASA-Openscapes GitHub Org
+
 :::
+
+::: {.absolute top=0 right=0 width="20"}
+TODO logos
+:::
+
 
 ::: footer
 [nasa-openscapes.github.io](https://nasa-openscapes.github.io)
 :::
 
 ::: notes
+Following [ESDSWG Slide 6](https://docs.google.com/presentation/d/1jtiku5yOTzBtW2vT1-qwZPri_O2Bc_uzXNebIoKGLMg/edit#slide=id.g12499b49c18_0_1509)
 Our project with NASA is to support researchers who use NASA Earthdata like you've just seen as they transition analytical workflows to the Cloud. There are a lot of moving pieces to this and we are so lucky to work with amazing NASA staff across NASA Data Centers. We've helped create a Mentor community of these amazing people you see here.
 
 Transition: But I'll tell you something about this project - 
@@ -324,13 +432,14 @@ TODO: add quarto penguins - both colors? [remove background except for the stone
 Quarto let me bring my superpower to Python/NASA. I had been collaborating with J.J. Allaire for several years about RMarkdown, and I knew that he was working on something called quarto that could interface between R and Python. As the NASA Openscapes project got going in Spring 2021 I asked if we could use it. Both J.J. and the quarto dev team and the NASA mentors were willing to take this on together, and we became the first external-to-RStudio users of Quarto. It's been just an incredible collaboration: we've been able to use Quarto to interface between R and Python worlds and also contribute to some of the design of Quarto based on our needs and use.
 :::
 
-## TODO: outline screenshot ![](images/earthdata-cloud-cookbook.png){width="80%"}
+## ![](images/earthdata-cloud-cookbook.png){width="80%"}
 
 ::: footer
 [nasa-openscapes.github.io/earthdata-cloud-cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook)
 :::
 
 ::: notes
+TODO: outline screenshot
 Julie: this is the first Quarto site we ever made. It's beautiful, right out of the box with the default settings.
 It's a collection of how to guides and tutorials - we could organize what we had and make placeholders for where we saw gaps as we developed them together. It helped us all come together as a team, from across silos, with different skills, comfort with coding, different coding language, different tech. Quarto let us see an end-goal in our mind, and then work in one place, and learn to contribute with confidence.
 :::
@@ -457,22 +566,13 @@ Julie: What Mine just showed was really powerful for me - once I saw what I coul
 :::
 
 # Reimagine science {.julie}
+Leveraging the open web to share, collaborate, and teach
 
-::: fragment
-TODO screenshots: websites, blogs, shiny apps...
-:::
+[Peng and Parker quote]{.quote}
 
-::: fragment
-TODO images: sharing, collaboration...
-:::
+TODO screenshots: 3 tiled websites, blogs, shiny apps...
 
-::: fragment
-TODO images(?) open science, open web...
-:::
-
-::: fragment
-culture change & actionable change (pandemic)
-:::
+transition: but reimagaing is not only about open science as products to share, it's about process as well. 
 
 ::: fragment
 ["Once you see it, you can't un-see it. And you want it." - Dr. Eli Holmes, NOAA Fisheries]{.quote}
@@ -483,22 +583,32 @@ Julie: reimagining science means going beyond publications, beyond code & data: 
 beyond silos, domains, borders, languages: sharing, collaboration...
 :::
 
-# Open science <br>as a movement {.julie}
+## Open science as a process
 
--   (It's about products (access to data, code, publications))
+inclusion
 
--   It's about process. Workflows. People. Daily habits. Culture. Open source tools.
+## Open science as a movement {.julie}
 
-Hugely inspired by Climate Justice, Get Out the Vote movements
+::: fragment
+Inspired by the climate movement: 
+~[](images/all_we_can_save_venn.jpg~
+:::
 
-Urgency: Why this matters. Collaborate with people sooner, co-create/reuse not reinvent. Connect the skills to the values with the urgency.
+::: fragment
+["What are you good at? Do that. Do that in the service of climate" - Ayana Elizabeth Johnson, All We Can Save^[All We Can Save references: https://twitter.com/allwecansave/status/1372939917861474308,  https://twitter.com/juliesquid/status/1362573772096593923, https://www.allwecansave.earth/]]{.quote}
+:::
 
 ::: notes
-Reimagining science means approaching open science as a movement. Yes, open science is about products, but it's also about process. It's about daily habits and workflows, and really inspecting who is included, in terms of tech and culture. And who is safe to participate and share and how to make sure this is part of paid work and not extra that deepens inequality. 
+Reimagining science means approaching open science as a movement. Talk of open science is often about products, but it's also about process. It's about daily habits and workflows, and really interrogating who is included, in terms of tech and culture. And who is safe to participate and share and how to make sure this is part of paid work and not extra that deepens inequality. 
 
 It's the way science should be done, but who can participate? Both from a tech and culture perspective
 
+We are so inspired by folks in the open science movement, TODO from NASEM, data providers, open source software developers, teachers, RSEs, community managers,including many of you who are here. 
+
+And beyond Open Science, we are hugely inspired by Climate Justice, Get Out the Vote movements thinking about how to onboard and welcome new people to the movment, + open web
+
 if you are already into open science, open source tools like Quarto helps you execute open science. And if you're not already into open science, open source tools like Quarto can be an entryway and motivator to get engaged
+Urgency: Why this matters. Collaborate with people sooner, co-create/reuse not reinvent. Connect the skills to the values with the urgency.
 
 There's more emphasis on open science and this is the way science should be done. All these things about open up your process \> one of the challenges have been tools that allow you to easily do these things the things. These allow you to do thie
 
@@ -506,7 +616,11 @@ There's more emphasis on open science and this is the way science should be done
 
 :::
 
-# ![](images/holmes_early_adopters.png)
+## Images - marine researchers in the field
+Helping environmental and Earth science researchers connect their work to the movement
+
+## [](images/holmes_early_adopters.png) 
+<!---Support & connect early adopters--->
 
 ["people feel frustrated, they're siloed, they might not meet with their team regularly or even think that they're on a team, like they don't know what's going on. Need new skills but don't have space to learn new things. Openscapes helps us design ways to build real relationships, learn together, and collaborate better, and do better science for our communities and stakeholders" - Eli Holmes, NOAA Fisheries (Northwest)]{.quote}
 
@@ -514,6 +628,18 @@ There's more emphasis on open science and this is the way science should be done
 This quote from Eli Holmes, who has been both a mentor with us with marine scientists and a learner with NASA Cloud workshops.
 :::
 
+# We can collaborate across coding comfort levels 😎
+People can be siloed: "coders", "non-coders" 😬
+
+::: notes
+Collaboration across new and seasoned coders
+Many folks don't identify as coders 
+
+Identities
+Different "coder" comfort levels within teams 😎
+Handing off /// 
+There's a lot of assumptions > deepen feelings of isolation and hinder progress
+:::
 
 ## Helping scientists reimagine {.julie}
 
@@ -553,6 +679,8 @@ We've been learning a lot through helping teams reimagine
 Particularly the importance of teams and helping people find their teams, and the role of supervisors as part of those teams. Learning culture 
 how we continue to learn too. don't have all the answers, can't do this alone
 
+We have an approach that we're iterating
+
 These are some key parts of our mentoring approach that I don't have time to get into deeply here. But Quarto shows up for us in a lot of these places, but I wanted to just focus on these last three specifically: our approach guide. 
 
 Important for new & seasoned coders, and folks who don't identify as coders.
@@ -560,25 +688,22 @@ Important for new & seasoned coders, and folks who don't identify as coders.
 Reducing friction so folks focus their time on their work/science: less reinventing
 :::
 
-## Openscapes Mentors
-
-ESIP crew
-
-# Blurring lines between "coders" and "non-coders"
-Collaboration across new and seasoned coders
-Many folks don't identify as coders 
-
-Identities
-Different "coder" comfort levels within teams 😬😎
-Handing off /// 
-
 # ![](images/horst_openscapes_champions_trailhead.jpg)
 
 TODO: Add penguins, both colors (remove background?)
 
-## Writing things down for future us ![](images/openscapes-approach-guide.png){width="80%"}
+## Openscapes Mentors
 
-documentation > teaching/onboarding resources
+ESIP crew
+
+## Onboarding future us
+
+Documentation as teaching resources
+
+![](images/openscapes-approach-guide.png){width="80%"}
+
+
+
 
 ::: notes
 TODO outline screenshot
@@ -594,6 +719,7 @@ TODO outline screenshot
 reimagining who contributes and/or codes
 
 ## Skillbuilding through collaboration {.julie}
+
 <!--- Empowering And collaboration across coding abilities --->
 
 ![](images/quarto_commits_aholder1){.absolute top=100 left=0 width="450"}
@@ -604,7 +730,19 @@ reimagining who contributes and/or codes
 
 ![](images/quarto_commits_ileanaf){.absolute bottom=0 right=50 width="450"}
 
-## Making the implicit explicit
+::: footer
+TODO tighten screenshots, add yml
+:::
+
+## Peer learning (?)
+Screenshot of Visual Editor
+
+## Modularizing documentation
+Modular
+
+screenshot: Quarto website tutorial
+
+## Prioritizing inclusive culture
 
 Make the implicit explicit - writing things down
 
@@ -643,16 +781,13 @@ Julie:
 
 ## Reimagining together
 
-All We Can Save:
-
-> " 'We' speaks to the collective, to collaboration, to community, to the relational work at hand. Addressing the climate crisis...will take everyone.
-
-> 'We' speaks to justice, to how we do the work that needs doing and whose contributions are valued. We cannot, we must not, go it alone" - Ayana Elizabeth Johnson & Katharine Wilkinson
+["Addressing the climate crisis...will take everyone. We cannot, we must not, go it alone" - Ayana Elizabeth Johnson & Katharine Wilkinson, All We Can Save]{.quote}
 
 ::: notes
 Julie: summary slide and transition
 
 Reprise from NASA Openscapes - find the common - reuse existing - contribute to fill gaps - foster a learning culture
+
 :::
 
 ## Summary
@@ -823,37 +958,6 @@ Our goals:
 Julie: I'm excited to share this story of our NASA Openscapes project, where we are helping NASA support research teams migrating to analysis in the cloud as they migrate their earthdata satellite imagery to the cloud. Co-lead: Erin Robinson NASA-Openscapes is a collaboration between Openscapes and NASA to support research teams using NASA Earthdata as they migrate analytical workflows to the cloud. It includes developing a mentor community across NASA Earth data centers in order to support researchers,
 :::
 
-## Openscapes: better science for future us
-
-::: {#openscapes-toc layout-ncol="2"}
-![](images/horst_pew_tools_practice_mindset.jpg){fig-align="center" width="100%"}
-
-We mentor environmental and Earth science teams
-
-Roles
-:::
-
-::: notes
-government, non-profit, and academic groups Openscapes is about better science for future us. We help teams transition to inclusive open science workflows This is visualized: We mentor teams to better tackle their questions by modernizing shared practices, underpinned by existing tools.
-
--   Mentor, facilitator, teacher, coach, community organizer
-
--   Project lead, tech infrastructure setup
-
--   Merger (and creator) of merge conflicts
-
--   Open source advocate
-
--   Researcher advocate
-
-Julie: We mentor teams We create a learning culture, break down silos and loneliness creating space - people; creating place - tech **Better science for future us**
-
-For reimagining habits and culture change
-
-Openscapes helps research teams Collab around data. Tech diffs, experience. Inclusion, behavior change.
-
-Called open science (like nmfs intro)
-:::
 
 ## Openscapes {background-image="images/horst_openscapes_champions.jpg" background-size="600px"}
 
