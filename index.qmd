@@ -64,6 +64,8 @@ Julie: Quarto is a new open-source scientific and technical publishing system. T
 -   Inputs in multiple languages
 -   Outputs in multiple formats
 -   All going through the same machinery
+
+The interplay of how tools influence culture and vice versa is really exciting to me here: there is a really strong culture of reuse and teaching in the R community, driven by RMarkdown and excited for this in Python too
 :::
 
 ## Hello, Quarto! {background-video="images/quadrants-overview.mp4"}
@@ -215,8 +217,8 @@ I've made this my job through Openscapes
 
 **Better science for future us**:
 
--   more open, reproducible, efficient, diverse, equitable, inclusive, kind
--   for ourselves, teams, communities in the next hour, week, decades
+-   more open, reproducible, efficient, diverse, inclusive, kind
+-   for ourselves, teams, communities, in next hour, week, decades
 
 ::: notes
 Openscapes is about better science for future us. I launched Openscapes based on my experiences as a researcher transitioning to better science, and with my partner Erin Robinson of Metadata GameChangers have built it into a sustainable and scalable program that we're really excited about.
@@ -228,11 +230,11 @@ We focus on Better science for future us, which we think of as
 \[[Our path to better science (Lowndes *et al.* 2017)](https://www.nature.com/articles/s41559-017-0160)\]
 :::
 
-## Openscapes Approach
+## Openscapes Approach {.julie}
 
 We mentor teams to better tackle their Q's by modernizing shared practices, underpinned by existing tools.
 
-![](images/horst_pew_tools_practice_mindset.jpg){fig-align="center" width="60%"}
+![](images/horst_pew_tools_practice_mindset.jpg){fig-align="center" width="50%"}
 
 ::: notes
 We help teams transition to inclusive open data science workflows We mentor teams to better tackle their questions by modernizing shared practices, underpinned by existing tools.\
@@ -281,12 +283,6 @@ We work directly with researchers, mentoring them to help them collaborate and i
 Openscapes' Quarto story begins with NASA. It's amazing to say that out loud, especially here on this stage. So there's some more context to provide here.
 :::
 
-##  {background-video="images/R_beach_ball_flat_360p.mp4"}
-
-::: notes
-First of all, NASA is known for exploring Space, but an important part of that is to help understand our own Planet Earth. In 1960, the United States put its first Earth-observing environmental satellite into orbit around the planet.
-:::
-
 ##  {background-image="images/earth_art_baltic.png"}
 
 ::: aside
@@ -310,6 +306,13 @@ and how dry riverbeds handle seasonal flooding in Jordan Earth scientists use im
 
 TODO footnote page 148
 :::
+
+##  {background-video="images/R_beach_ball_flat_360p.mp4"}
+
+::: notes
+First of all, NASA is known for exploring Space, but an important part of that is to help understand our own Planet Earth. In 1960, the United States put its first Earth-observing environmental satellite into orbit around the planet.
+:::
+
 
 ## Earthdata is migrating to the Cloud
 
@@ -450,6 +453,8 @@ Transition: so let me show you what this looks like from Jupyter.
 
 -   Render Mine's example site in JupyterHub, quarto preview
 -   Add `.ipynb`, workflow (code: palmerpenguins in python?)
+-   freeze by default with Jupyter Notebooks
+-   Add a table in the margin
 -   `quarto convert` to .qmd
 -   Open in VS Code, show `.qmd` (cmd-shift-k to render \[attention to other tool chains available\])
 -   Mention: You install Quarto with a CLI, (like git) so you can work with whatever tooling you want
@@ -651,7 +656,7 @@ Importance of teams, supervisors, learning culture.
 Peer-learning
 
 
-## Collaborating across coding abilities {.julie}
+## Collaborating across coding skills {.julie}
 TODO screenshot Visual Editor
 
 ::: notes
@@ -866,7 +871,7 @@ The following slides won't be in the final talk
 Julie: Openscapes helps teams develop practices that are underpinned by tools. Quarto creates "place"
 :::
 
-## Openscapes approach {.julie}
+## Openscapes Approach {.julie}
 
 ::: columns
 ::: {.column width="50%"}
