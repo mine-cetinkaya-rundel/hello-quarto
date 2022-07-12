@@ -210,13 +210,21 @@ I've made my job this, if you want more backstory you can see this talk, link.
 
 :::
 
-## Openscapes is a movement that meets teams where they are and helps them see what's possible to be resilient through open science.
+## ![](images/openscapes_hex.png){.absolute top="0" width="15%"}
 
-![](images/openscapes_hex.png){.absolute top="0" width="15%"}
+<br>
+<br>
+<br>
+<br>
+
+### Openscapes is a movement that meets teams where they are and helps them see what's possible and be resilient through open science.
+
+
 
 ## ![](images/horst_openscapes_champions.jpg){fig-align="center" width="100%"}
 
 ![](images/openscapes_hex.png){.absolute top="0" width="15%"}
+
 ::: notes
 THIS IS WHAT THE MOVEMENT LOOKS LIKE
 We help people move from lonely science like the animals on bott left isolated scientist see themselves as part of their team and explore this landscape that so many of you have created
@@ -226,10 +234,11 @@ We've helped 11 cohorts and 75 teams, most who have been marine science teams wh
 
 ## Marine pic
 
-::: fragment
+
 w transparent background:
+
 ["As fisheries scientists, we know that when we're in rough seas: it's important to keep the ship afloat AND get out of the storm. <br> Openscapes helps teams steer out of the storm of email chains with 37 versions of the same attachment and to the calmer waters of open science and meaningful collaboration, using tools like R" <br> - Adyan Rios, NOAA Fisheries (Southeast)]{.quote}
-:::
+
 
 
 ::: notes
@@ -297,7 +306,7 @@ Develop a cross-NASA Mentor community to create and teach a common set of Earthd
 ![](images/horst_landscape_mentors.png)
 
 **Focus on finding the common, teaching culture, contributing as part of their jobs**
-MAYBE SWAP THIS SECTION FOR OTHER APPROACH PTS
+Importance of teams, supervisors, peer-learning culture.
 
 -   Carpentries Instructor Training
 -   2i2c JupyterHub & AWS Credits
@@ -337,14 +346,16 @@ But luckily, Quarto was emerging right when I needed it. I had been collaboratin
 ## Collaborate across coding languages {.julie}
 
 ::: illustration
-**Image:** `_quarto.yml`: Only `.ipynbs`, `.mds`
+**Image:** `_quarto.yml`: `.ipynbs`, with `.rmds`
 :::
 
 ::: notes
 Quarto enables us to collab across coding languages. We could use Quarto in a way that I was familiar with through RMarkdown, but include all different filetypes like you see here. This kind of language compatibility really helped us collaborate across languages.
+
+And this has also have dividends because while I said that the Earth science community is python-heavy what we've learned the more we work with researcher teams and Mentors is that there is a significant R community and we're set up to support them in the same place because of Quarto
 :::
 
-## Cookbook ![](images/earthdata-cloud-cookbook.png){width="80%" fig-align="center"}
+## ![](images/earthdata-cloud-cookbook.png){width="80%" fig-align="center"}
 
 ::: footer
 [nasa-openscapes.github.io/earthdata-cloud-cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook)
@@ -352,22 +363,10 @@ Quarto enables us to collab across coding languages. We could use Quarto in a wa
 
 ::: notes
 TODO: outline screenshot Julie: this is the first Quarto site we ever made. It's beautiful, right out of the box with the default settings. This cookbook s a collection of how-to guides and tutorials made by the NASA Openscapes Mentors. Having a place to work together helped us all come together as a team, from across silos, with different skills, comfort with coding, different coding language, different tech and really create something together. Quarto let us see an end-goal in our mind, and then work in one place, and learn to contribute with confidence.
+
+So let me show you what this looks like in Jupyter - 
 :::
 
-## Collaborate across coding languages {.julie}
-
-::: illustration
-**Image:** `_quarto.yml`: `.ipynbs`, with `.rmds`
-:::
-
-::: notes
-:::
-
-## ![](images/horst_rey_ds_digital.png)
-
-::: notes
-And this has also have dividends because We knkow that working with with more resaercher teams that there is a significant R community and we're able to support them because of Quarto
-:::
 
 ## DEMO {.julie}
 
@@ -469,84 +468,104 @@ Mine: ...
 Julie: What Mine just showed was really powerful for me - once I saw what I could do for my current needs, I saw new ways to reuse and reimagine future ideas. I built Openscapes because of what what I saw was possible with RMarkdown, and it has only increased and extended because of Quarto. Let me tell you about Openscapes, and what our work looks like day to day
 :::
 
-## landscape reprise?
-
-Reimagine science / open science
+## ![](images/horst_rey_ds_digital.png)
 
 ::: notes
+So Corte has really powerful for sharing and collaborating and teaching it's like a super power. and it's really important to think about what we do with it
+:::
+
+## Open science as a movement
+landscape reprise?
+
+
+::: notes
+We think about this in terms of open science as a movement. So in addition to the academic products we can make more easily with cortau, thinking about what else we can do. 
+
+AND/OR
+
 So much of what we do with Openscapes is being inspired by what is possible in this landscape and welcoming more science teams to be a part of it. 
 Our inspiration comes from open science communities in R and NASA and python
 :::
 
 ## All We Can Save
 
-Who's safe to participate in open science? - Tara Robertson
+To change everything, we need everyone
 
 ::: notes
-And also from other places like the Climate Justice movement, and Get out the vote. We are continually learning how to be more inclusive
+Because we take inspiration from the climate movements and the get out the vote movements thinking about this as not only products but a whole process and thinking about who is participating and the richness that we gain when more people participate. 
+
+And right now there are gaps.
 :::
 
-# These problems are big.
+# These problems are big 😬
 
-We need people with different backgrounds and experiences to be able to work together 
+Gap between what's possible and who can participate.
 
-venn diagram? "this is such a simplified view of the work ahead.
+There's no one big fix. There's many little things. We'll show you 4 with Quarto
 
 ::: notes 
-THE PROBLEMS ARE BIG
-we have to work across languages, across domains. 
+These problems are big 😬
+
+Gap between what's possible and who can participate.
+
+We need people with different backgrounds and experiences to be able to work together. We can't be siloed in like domains, languages or coding abilities 
+
+New ways of tackling challenges means new tech, new habits, new culture. 
+
+It means asking: "Who's safe to participate in open science?" - Tara Robertson
+
+It means "Slowing down to speed up."
 :::
 
-# Gap between what's possible and who can participate.
-
-We can't be siloed into our coding comfort
-
-New ways of tackling challenges means new tech, new habits, new culture. "Slowing down to speed up."
-
+# Quarto Penguin
 
 ::: notes
+Grappling with this is another way we've seen Quarto shine
+Onboard folks from different coding abilities to using Quarto. Collaboration across new and seasoned coders Many folks don't identify as coders
+
+Identities Different "coder" comfort levels within teams 😎 Handing off /// There's a lot of assumptions \> deepen feelings of isolation and hinder progress
+I'll show you 4 ways. 
 :::
 
-# Quarto
-
-But this is also an opportunity for tools like Quarto
-
-# Make the implicit explicit
+## Make the implicit explicit
 
 A way to build inclusion into your daily work. 
 
 Write things down - and in a welcoming way. 
 
-::: notes
-One of the ways you welcome people is making the implicit explicit
-Make the implicit explicit - this builds trust and psych safety. 
-
+::: fragment
+::: illustration
+**Image:** [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
 :::
 
-# Gavin Lab manual
+> "Prospective students in my research group say how much they appreciate the lab manual and it's a reason they want to work with us" - Dr. Gavin Fay
+::: 
 
-Something that Gavin Fay's lab has done is to write their lab manual that puts their values forward. This was a way to 
+::: notes
+One of the ways you welcome people is making the implicit explicit
+Write things down - and in a welcoming way. 
 
-Really hopeful how Quarto can help
+Something that Gavin Fay's lab has done is to write their lab manual that puts their values forward. This was a way to builds trust and psych safety. 
+:::
 
-## Learning through contributing {.julie}
+## Collaborate across coding skills {.julie} 
 
-<!--- Empowering And collaboration across coding abilities --->
 
-![](images/quarto_commits_aholder1){.absolute top="100" left="0" width="450"}
-
-![](images/quarto_commits_erinmr){.absolute top="200" left="0" width="450"}
+Fay Lab Transition to Quarto
+Experimenting with Visual Editor, which I'll demo in a moment
 
 ![](images/quarto_commits_stefaniebutland){.absolute top="70" right="50" width="450"}
 
 ![](images/quarto_commits_ileanaf){.absolute bottom="0" right="50" width="450"}
 
-::: footer
-TODO tighten screenshots, add yml
+::: notes
+
+Transition - We brought this idea to NASA
 :::
 
+## Upskill through contributing
 
-# We brought this idea to NASA
+Open science as a process
 
 its not just products, it's people and process
 
@@ -557,7 +576,7 @@ This is an important part of the ANSA Story: they didn't have a way to make the 
 Our experience with RMarkdown and experience writing things down
 :::
 
-## Quarto as a reusable resource {.julie}
+## Reuse not reinvent {.julie}
 
 ::: illustration
 **Illustration:** Screenshot of several other quarto sites and slides
@@ -590,44 +609,8 @@ Where NASA: making the implicit explicit and and Quarto coming together at the r
 Mentors were python based, know we can't be language agnostic
 Quarto helped us prioritized inclusion in daily work. 
 
-
 + beautiful NASA imagery with All we can save quote.
 We want to grow this movement and we're looking for more mentors, we need all of us 
-:::
-
-## Also ideas
-
-Importance of teams, supervisors, learning culture.
-
-Peer-learning
-
-## Collaborating across coding skills {.julie}
-
-
-## We've also been experimenting with the Visual Editor
-TODO screenshot Visual Editor
-
-::: notes
-We've been using the Visual Editor as a way to onboard folks from different coding abilities to using Quarto. Collaboration across new and seasoned coders Many folks don't identify as coders
-
-Identities Different "coder" comfort levels within teams 😎 Handing off /// There's a lot of assumptions \> deepen feelings of isolation and hinder progress
-:::
-
-
-## Prioritizing inclusive culture
-
-Make the implicit explicit - writing things down
-
-**Build inclusion into your daily work** - onboarding
-
-::: illustration
-**Image:** [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
-:::
-
-> "Prospective students in my research group say how much they appreciate the lab manual and it's a reason they want to work with us" - Dr. Gavin Fay
-
-::: notes
-Julie: This is another way this manifests: Onboarding (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs. little things. Create a learning culture. We've borrowed this idea for Approach Guide Book websites to collaborate on? Not really how we thought about things before
 :::
 
 ## DEMO: Visual editor
