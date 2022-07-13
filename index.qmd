@@ -7,6 +7,8 @@ format:
     theme: style.scss
     multiplex: true
     transition: fade
+    width: 1600
+    height: 900
 editor: visual
 # Julie title slide speaker notes: 
 # Thank you so much, We're excited to be here! Mine and I have both been using Quarto for the last year; she has been teaching with it since its earliest days and my Openscapes team is the first external users of Quarto. As Mine and I have experimented with it in our own work we realize we love it, and we're thrilled to introduce and welcome you to Quarto. 
@@ -15,7 +17,11 @@ editor: visual
 # Hello, Quarto?
 
 ::: notes
-Julie: But also, we know you have questions. We did too. What is Quarto? Why Quarto? And how does it relate to RMarkdown and to other tools you already use and workflows you already have? 
+Julie: But also, we know you have questions.
+We did too.
+What is Quarto?
+Why Quarto?
+And how does it relate to RMarkdown and to other tools you already use and workflows you already have?
 Transition: Well -
 :::
 
@@ -26,7 +32,7 @@ Transition: Well -
 :::
 
 ::: notes
-Quarto unifies & extends the RMarkdown ecosystem. 
+Quarto unifies & extends the RMarkdown ecosystem.
 :::
 
 ##  {auto-animate="true"}
@@ -44,11 +50,11 @@ Quarto unifies & extends the RMarkdown ecosystem.
 :::
 
 ::: notes
-It unifies the RMarkdown ecosystem by reducing little points of friction, so that websites, books, and slides all have a common approach. 
+It unifies the RMarkdown ecosystem by reducing little points of friction, so that websites, books, and slides all have a common approach.
 
-And it extends the RMarkdown ecosystem as a friendly way for code and text to be published in the same place with tools that interoperates with how they already work. 
+And it extends the RMarkdown ecosystem as a friendly way for code and text to be published in the same place with tools that interoperates with how they already work.
 
-Transition: It builds on 10 years of insight from RMarkdown - 
+Transition: It builds on 10 years of insight from RMarkdown -
 :::
 
 ## Quarto is a new open-source scientific & technical <br>publishing system.
@@ -68,7 +74,7 @@ Illustration:
 :::
 
 ::: notes
-Julie: Quarto is a new open-source scientific and technical publishing system. 
+Julie: Quarto is a new open-source scientific and technical publishing system.
 The goal is to make the process of creating and collaborating on scientific and technical documents dramatically better.
 It handles inputs in multiple languages, and outputs in multiple formats, all going through the same machinery.
 
@@ -80,7 +86,9 @@ The interplay of how tools influence culture and vice versa is really exciting t
 ![](images/quadrants-overview.mp4){fig-align="center"}
 
 ::: notes
-Julie: In our talk, we'll introduce you to Quarto with stories and demos. Mine will describe her experiences about sharing and teaching with Quarto, focusing on how it unifies the RMarkdown ecosystem. I'll share my experiences collaborating and reimagining with Quarto, focused on how it extends the RMarkdown ecosystem.
+Julie: In our talk, we'll introduce you to Quarto with stories and demos.
+Mine will describe her experiences about sharing and teaching with Quarto, focusing on how it unifies the RMarkdown ecosystem.
+I'll share my experiences collaborating and reimagining with Quarto, focused on how it extends the RMarkdown ecosystem.
 :::
 
 ## Hello, Quarto!
@@ -90,30 +98,18 @@ Julie: In our talk, we'll introduce you to Quarto with stories and demos. Mine w
 ### 🔗 [rstd.io/hello-quarto](https://rstd.io/hello-quarto)
 
 ::: notes
-Julie: And, as you may have suspected, these slides are indeed made with Quarto. If you'd like to follow along, go to this url and follow along with us. Over to you, Mine!
+Julie: And, as you may have suspected, these slides are indeed made with Quarto.
+If you'd like to follow along, go to this url and follow along with us.
+Over to you, Mine!
 :::
 
 # Share
 
 ![](images/quadrants-share.gif){fig-align="center" width="480"}
 
-##  {style="background-color: #405772;"}
+##  {background-color="#405772"}
 
-::: columns
-::: {.column width="40%"}
-<br><br> ![](images/mine-penguin-nametag.png){fig-alt="Penguin with nametag that says \"Mine\"" fig-align="center"}
-:::
-
-::: {.column width="60%"}
-<br><br>
-
-::: {style="color: white;"}
--   I'm an educator
--   I spend more of my time writing *things* to share than anything else
--   One system that allows me to output to multiple formats is not just a time saver, but essential
-:::
-:::
-:::
+![](images/mine-penguin-nametag.png){fig-alt="Penguin with nametag that says \"Mine\"" fig-align="center"}
 
 ::: notes
 Thanks Julie!
@@ -122,7 +118,13 @@ I remember vividly the first time I've heard of knitr at useR 2012 and sitting i
 
 I'll call this a success if a few of you are firing up a Quarto project right now to see what all the hype is about.
 
-I'm very excited to have this opportunity to talk to you about Quarto, which I've had the opportunity to live and breathe over the last year. I am an educator -- a developer educator at RStudio and a professor at Duke. The word educator might make you think I'm in front of students, perhaps lecturing 24/7 but in reality I spend more of my time in front of my computer authoring and creating materials to share with the world: share with my students, share with my fellow educators, and share with anyone interested in learning the things I'm teaching. Sometimes I'm writing a slide deck for a talk, sometimes creating a website for a course, sometimes writing books, sometimes journal articles. Whatever it is that I create, I share them all openly - that is, with an open license that allows for free use and reuse and adaptation. More often than not I'm thinking "web first" to ease open sharing and wider reach, but I also still live in the confines of traditional journal publishing and academia, which means I regularly need to create PDFs as well. So an authoring system that allows for multiple types of outputs from a single source is not only a time saver, but basically essential for me to carry on my existence.
+I'm very excited to have this opportunity to talk to you about Quarto, which I've had the opportunity to live and breathe over the last year.
+I am an educator -- a developer educator at RStudio and a professor at Duke.
+The word educator might make you think I'm in front of students, perhaps lecturing 24/7 but in reality I spend more of my time in front of my computer authoring and creating materials to share with the world: share with my students, share with my fellow educators, and share with anyone interested in learning the things I'm teaching.
+Sometimes I'm writing a slide deck for a talk, sometimes creating a website for a course, sometimes writing books, sometimes journal articles.
+Whatever it is that I create, I share them all openly - that is, with an open license that allows for free use and reuse and adaptation.
+More often than not I'm thinking "web first" to ease open sharing and wider reach, but I also still live in the confines of traditional journal publishing and academia, which means I regularly need to create PDFs as well.
+So an authoring system that allows for multiple types of outputs from a single source is not only a time saver, but basically essential for me to carry on my existence.
 :::
 
 ## Next generation R Markdown
@@ -130,7 +132,11 @@ I'm very excited to have this opportunity to talk to you about Quarto, which I'v
 ![](images/rmd-to-quarto.gif){fig-align="center"}
 
 ::: notes
-Mine: It combines/unifies some "down" packages. It also brings in Jupyter and other languages (Python, Julia) and provides that functionality even if you're not coming from the R ecosystem. Beyond unification, Quarto also makes available attractive and handy features like tabsets, code-folding, syntax highlighting, etc. consistently across the various outputs.
+Mine: It combines/unifies some "down" packages.
+It also brings in Jupyter and other languages (Python, Julia) and provides that functionality even if you're not coming from the R ecosystem.
+Beyond unification, Quarto also makes available attractive and handy features like tabsets, code-folding, syntax highlighting, etc. consistently across the various outputs.
+
+QUESTION for Julie: Are you already saying this?
 :::
 
 ## DEMO: Flexibility in the formats
@@ -173,7 +179,9 @@ Moving between formats within Quarto is straightforward
 -   It's super helpful when transitioning requires minimal futzing around with source code (like Rmd 8 ways...)
 
 ::: notes
-Mine: As an educator, two things are of utmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats (like documents to slides to websites to books). Over the last year of using Quarto for everything, I've felt like I've finally found the tool that lets me go from one to the other with minimal futzing around with my source code. This has helped me focus my time on my content, which has been a huge win.
+Mine: As an educator, two things are of utmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats (like documents to slides to websites to books).
+Over the last year of using Quarto for everything, I've felt like I've finally found the tool that lets me go from one to the other with minimal futzing around with my source code.
+This has helped me focus my time on my content, which has been a huge win.
 :::
 
 ## 
@@ -185,7 +193,6 @@ Mine: As an educator, two things are of utmost importance for me about the tools
 :::
 
 # Collaborate
-
 
 ![](images/quadrants-collaborate.gif){fig-align="center"}
 
@@ -206,24 +213,24 @@ Julie: Thanks Mine...
 :::
 
 ::: notes
-Julie: I am a squid scientist by training, and I work at the intersection of actionable environmental science, data science, and open science. What I absolutely love doing is mentoring, teaching, and empowering communities. 
+Julie: I am a squid scientist by training, and I work at the intersection of actionable environmental science, data science, and open science.
+What I absolutely love doing is mentoring, teaching, and empowering communities.
 
-I've made this my job through Openscapes. I've been able to find this intersection and nurture this passion through so many mentors and colleagues who I value so much. (if you want more backstory you can see this talk, link.)
+I've made this my job through Openscapes.
+I've been able to find this intersection and nurture this passion through so many mentors and colleagues who I value so much.
+(if you want more backstory you can see this talk, link.)
 
 And Openscapes aims to provide a welcome for other teams to do the same.
 :::
 
 ## ![](images/openscapes_hex.png){.absolute top="0" width="15%"}
 
-<br>
-<br>
-<br>
-<br>
+<br> <br> <br> <br>
 
-### Openscapes is a movement that meets research teams where they are and helps build resilience through open science. 
+### Openscapes is a movement that meets research teams where they are and helps build resilience through open science.
 
 ::: notes
-Openscapes is a movement that meets teams where they are and helps them see what's possible and be resilient through open science. 
+Openscapes is a movement that meets teams where they are and helps them see what's possible and be resilient through open science.
 :::
 
 ## ![](images/horst_openscapes_champions.jpg){fig-align="center" width="100%"}
@@ -231,27 +238,30 @@ Openscapes is a movement that meets teams where they are and helps them see what
 ![](images/openscapes_hex.png){.absolute top="0" width="15%"}
 
 ::: notes
-Julie: This is what the movement looks like. We think of open science as this beautiful landscape full of tools and community, with many paths forward. But it can be out-of-view for many researchers, who are siloed and struggling to work with data and software in a meaningful way.
+Julie: This is what the movement looks like.
+We think of open science as this beautiful landscape full of tools and community, with many paths forward.
+But it can be out-of-view for many researchers, who are siloed and struggling to work with data and software in a meaningful way.
 
 We help researchers move from lonely science like the animals on bottom left isolated scientist see themselves as part of their team and explore this landscape together.
 
-We've now helped 11 cohorts and 75 teams take steps together, most who have been marine science teams who use R.  
+We've now helped 11 cohorts and 75 teams take steps together, most who have been marine science teams who use R.\
+
 Transition: This is one example of an outcome of that -
 :::
 
-## Marine pic 
+## Marine pic
 
 ["As fisheries scientists, we know that when we're in rough seas: it's important to keep the ship afloat AND get out of the storm. Openscapes helps teams steer out of the storm of email chains with 37 versions of the same attachment and to the calmer waters of open science and meaningful collaboration, using tools like R" <br> - Adyan Rios, NOAA Fisheries (Southeast)]{.quote}
 
-OR? 
+OR?
 
-Through Openscapes I learned I wasn't alone and found commonalities with my team. I'm able to code collaborative with my own team more efficiently, I just helped another team since my code is on GitHub!
-
+Through Openscapes I learned I wasn't alone and found commonalities with my team.
+I'm able to code collaborative with my own team more efficiently, I just helped another team since my code is on GitHub!
 
 ::: notes
-"As fisheries scientists, we know that when we're in rough seas: it's important to keep the ship afloat AND get out of the storm. <br> Openscapes helps teams steer out of the storm of forwarded emails that we're all so familiar with, and into calmer waters." 
+"As fisheries scientists, we know that when we're in rough seas: it's important to keep the ship afloat AND get out of the storm. <br> Openscapes helps teams steer out of the storm of forwarded emails that we're all so familiar with, and into calmer waters."
 
-The curriculum provdes this welcoming onramp for teams to see whats possible Tog with Erin we've brought together Openscapes and NASA Our goal is more resilient teams. 
+The curriculum provdes this welcoming onramp for teams to see whats possible Tog with Erin we've brought together Openscapes and NASA Our goal is more resilient teams.
 
 I developed this welcoming trail head ...
 :::
@@ -263,8 +273,11 @@ I developed this welcoming trail head ...
 With Erin, with NASA
 
 ::: notes
-Helping people find their their team is a big focus of Openscapes. And I needed a team too. 
-Erin Robinson joined Openscapes as my partner and our story starts with bringing NASA and Openscapes together. We had a shared vision for the Openscapes movement and supporting researchers to make true change. And Erin had worked with NASA for 15 years and saw that could apply the Openscapes approach to a big effort with NASA Earthdata.
+Helping people find their their team is a big focus of Openscapes.
+And I needed a team too.
+Erin Robinson joined Openscapes as my partner and our story starts with bringing NASA and Openscapes together.
+We had a shared vision for the Openscapes movement and supporting researchers to make true change.
+And Erin had worked with NASA for 15 years and saw that could apply the Openscapes approach to a big effort with NASA Earthdata.
 :::
 
 ##  {background-video="images/R_beach_ball_flat_360p.mp4"}
@@ -295,7 +308,8 @@ Researchers download data and analyze locally.
 **NASA staff collaborate across Data Centers to support.**
 
 ::: notes
-NASA Earthdata is migrating to the Cloud. This has been a tremendous effort over years from all corners of NASA. 
+NASA Earthdata is migrating to the Cloud.
+This has been a tremendous effort over years from all corners of NASA.
 
 Traditionally, these data are stored by 12 different data centers and researchers download the data in order to analyze it locally.
 
@@ -315,8 +329,7 @@ Develop a cross-NASA Mentor community to create and teach a common set of Earthd
 ::: {.absolute bottom="100" right="0" width="450"}
 ![](images/horst_landscape_mentors.png)
 
-**Focus on finding the common, teaching culture, contributing as part of their jobs**
-Importance of teams, supervisors, peer-learning culture.
+**Focus on finding the common, teaching culture, contributing as part of their jobs** Importance of teams, supervisors, peer-learning culture.
 
 -   Carpentries Instructor Training
 -   2i2c JupyterHub & AWS Credits
@@ -336,21 +349,31 @@ Our NASA-Openscapes project is to develop a cross-data center Mentor community t
 
 Over the last year we've worked with just amazing engineers and user support staff to learn and co-create this together.
 
-We've focused on finding the common needs across all Mentors, creating a teaching culture, and having them contribute to shared resources as part of their jobs. On that note thank managers and leadership from all different levels of NASA who have supported their staff in making this transition themselves.
+We've focused on finding the common needs across all Mentors, creating a teaching culture, and having them contribute to shared resources as part of their jobs.
+On that note thank managers and leadership from all different levels of NASA who have supported their staff in making this transition themselves.
 
-We've done a lot in the last year. But in those early days, this was all very new and intimidating to me. While Erin has been a part of the NASA community for the last decade, I was unfamiliar with Earth science as a research domain, the types of data NASA works with, not to mention cloud infrastructure that is evolving rapidly. Transition: And a fourth big thing that was challenging -
+We've done a lot in the last year.
+But in those early days, this was all very new and intimidating to me.
+While Erin has been a part of the NASA community for the last decade, I was unfamiliar with Earth science as a research domain, the types of data NASA works with, not to mention cloud infrastructure that is evolving rapidly.
+Transition: And a fourth big thing that was challenging -
 :::
 
 # NASA Earth scientists use python 😬
 
 ::: notes
-NASA Earth scientists largely use python. And jupyter notebooks. This was a new world to me that we needed to figure out how to navigate. Erin and my role was not to learn python from the ground up, we but we needed to be able to support teams of python users and advise them and interoperate with them. This was really intimidating to me.
+NASA Earth scientists largely use python.
+And jupyter notebooks.
+This was a new world to me that we needed to figure out how to navigate.
+Erin and my role was not to learn python from the ground up, we but we needed to be able to support teams of python users and advise them and interoperate with them.
+This was really intimidating to me.
 :::
 
 # Quarto penguin
 
 ::: notes
-But luckily, Quarto was emerging right when I needed it. I had been collaborating with J.J. Allaire and knew Quarto was on the horizon. 
+But luckily, Quarto was emerging right when I needed it.
+I had been collaborating with J.J.
+Allaire and knew Quarto was on the horizon.
 :::
 
 ## Collaborate across coding languages {.julie}
@@ -360,7 +383,9 @@ But luckily, Quarto was emerging right when I needed it. I had been collaboratin
 :::
 
 ::: notes
-Quarto enables us to collab across coding languages. We could use Quarto in a way that I was familiar with through RMarkdown, but include all different filetypes like you see here. This kind of language compatibility really helped us collaborate across languages.
+Quarto enables us to collab across coding languages.
+We could use Quarto in a way that I was familiar with through RMarkdown, but include all different filetypes like you see here.
+This kind of language compatibility really helped us collaborate across languages.
 
 And this has also have dividends because while I said that the Earth science community is python-heavy what we've learned the more we work with researcher teams and Mentors is that there is a significant R community and we're set up to support them in the same place because of Quarto
 :::
@@ -372,11 +397,14 @@ And this has also have dividends because while I said that the Earth science com
 :::
 
 ::: notes
-TODO: outline screenshot Julie: this is the first Quarto site we ever made. It's beautiful, right out of the box with the default settings. This cookbook s a collection of how-to guides and tutorials made by the NASA Openscapes Mentors. Having a place to work together helped us all come together as a team, from across silos, with different skills, comfort with coding, different coding language, different tech and really create something together. Quarto let us see an end-goal in our mind, and then work in one place, and learn to contribute with confidence.
+TODO: outline screenshot Julie: this is the first Quarto site we ever made.
+It's beautiful, right out of the box with the default settings.
+This cookbook s a collection of how-to guides and tutorials made by the NASA Openscapes Mentors.
+Having a place to work together helped us all come together as a team, from across silos, with different skills, comfort with coding, different coding language, different tech and really create something together.
+Quarto let us see an end-goal in our mind, and then work in one place, and learn to contribute with confidence.
 
-So let me show you what this looks like in Jupyter - 
+So let me show you what this looks like in Jupyter -
 :::
-
 
 ## DEMO {.julie}
 
@@ -390,7 +418,7 @@ So let me show you what this looks like in Jupyter -
 -   `quarto convert` to .qmd
 -   Open in VS Code, show `.qmd` (cmd-shift-k to render \[attention to other tool chains available\])
 -   Mention: You install Quarto with a CLI, (like git) so you can work with whatever tooling you want
-- Demo:::Being able to work in this way together share ideas earlier
+-   Demo:::Being able to work in this way together share ideas earlier
 :::
 
 ::: notes
@@ -418,13 +446,16 @@ How academics share their teaching resources/ new avenues for publishing:
 -   It's [useful]{.underline} to you -- It's a way of getting credit for your work, and when it comes time for annual review/promotion materials, it's easy to say "here is everything I created".
 
 ::: notes
-Mine: I started off introducing myself as a prof and educator, and so you probably have an idea of what my responsibilities look like, but you might not know my practices. Teaching, writing, and research are three things I do as an educator, and I can do it all with Quarto in ways that look very similar under the hood but very different in output. (Maybe add PPT anecdote here.)
+Mine: I started off introducing myself as a prof and educator, and so you probably have an idea of what my responsibilities look like, but you might not know my practices.
+Teaching, writing, and research are three things I do as an educator, and I can do it all with Quarto in ways that look very similar under the hood but very different in output.
+(Maybe add PPT anecdote here.)
 :::
 
 ## Different on the outside, similar on the inside
 
 ::: illustration
-**Image:** Screenshots of each next to each other on top row, folder organization of each on the bottom row. Top looks different, bottom looks very similar.
+**Image:** Screenshots of each next to each other on top row, folder organization of each on the bottom row.
+Top looks different, bottom looks very similar.
 
 -   Teaching: Course website with obvious folders
 -   Writing: Book - R4DS
@@ -475,13 +506,15 @@ Mine: ...
 ![](images/quadrants-reimagine.gif){fig-align="center"}
 
 ::: notes
-Julie: 
+Julie:
 :::
 
 ## ![](images/horst_rey_ds_digital.png)
 
 ::: notes
-So Quarto has really powerful for sharing and collaborating and teaching it's like a super power. and it's really important to think about what we do with it. When we think of reimagining with Quarto it's about joining people across silos, etc.......
+So Quarto has really powerful for sharing and collaborating and teaching it's like a super power.
+and it's really important to think about what we do with it.
+When we think of reimagining with Quarto it's about joining people across silos, etc.......
 :::
 
 ## All We Can Save
@@ -489,7 +522,7 @@ So Quarto has really powerful for sharing and collaborating and teaching it's li
 To change everything, we need everyone
 
 ::: notes
-Because we take inspiration from the climate movements and the get out the vote movements thinking about this as not only products but a whole process and thinking about who is participating and the richness that we gain when more people participate. 
+Because we take inspiration from the climate movements and the get out the vote movements thinking about this as not only products but a whole process and thinking about who is participating and the richness that we gain when more people participate.
 
 And right now there are gaps.
 :::
@@ -498,16 +531,19 @@ And right now there are gaps.
 
 Gap between what's possible and who can participate.
 
-There's no one big fix. There's many little things. We'll show you 4 with Quarto
+There's no one big fix.
+There's many little things.
+We'll show you 4 with Quarto
 
-::: notes 
+::: notes
 These problems are big 😬
 
 Gap between what's possible and who can participate.
 
-We need people with different backgrounds and experiences to be able to work together. We can't be siloed in like domains, languages or coding abilities 
+We need people with different backgrounds and experiences to be able to work together.
+We can't be siloed in like domains, languages or coding abilities
 
-New ways of tackling challenges means new tech, new habits, new culture. 
+New ways of tackling challenges means new tech, new habits, new culture.
 
 It means asking: "Who's safe to participate in open science?" - Tara Robertson
 
@@ -517,19 +553,17 @@ It means "Slowing down to speed up."
 # Quarto Penguin
 
 ::: notes
-Grappling with this is another way we've seen Quarto shine
-Onboard folks from different coding abilities to using Quarto. Collaboration across new and seasoned coders Many folks don't identify as coders
+Grappling with this is another way we've seen Quarto shine Onboard folks from different coding abilities to using Quarto.
+Collaboration across new and seasoned coders Many folks don't identify as coders
 
-Identities Different "coder" comfort levels within teams 😎 Handing off /// There's a lot of assumptions \> deepen feelings of isolation and hinder progress
-I'll show you 4 ways. 
+Identities Different "coder" comfort levels within teams 😎 Handing off /// There's a lot of assumptions \> deepen feelings of isolation and hinder progress I'll show you 4 ways.
 :::
-
 
 ## Make the implicit explicit
 
-A way to build inclusion into your daily work. 
+A way to build inclusion into your daily work.
 
-Write things down - and in a welcoming way. 
+Write things down - and in a welcoming way.
 
 ::: fragment
 ::: illustration
@@ -537,26 +571,25 @@ Write things down - and in a welcoming way.
 :::
 
 > "Prospective students in my research group say how much they appreciate the lab manual and it's a reason they want to work with us" - Dr. Gavin Fay
-::: 
+:::
 
 ::: notes
-One of the ways you welcome people is making the implicit explicit
-Write things down - and in a welcoming way. 
+One of the ways you welcome people is making the implicit explicit Write things down - and in a welcoming way.
 
-Something that Gavin Fay's lab has done is to write their lab manual that puts their values forward. This was a way to builds trust and psych safety. 
+Something that Gavin Fay's lab has done is to write their lab manual that puts their values forward.
+This was a way to builds trust and psych safety.
 :::
 
 ## Onboard learners as contributors
 
-
-one way of inclusion is making opps for contributing while learning Prioritizing and clarity. Every choice is deliberate. Designed.
-
-
+one way of inclusion is making opps for contributing while learning Prioritizing and clarity.
+Every choice is deliberate.
+Designed.
 
 This is the part of the cookbook that is the contributing section - and it links out to some more modular sites that we've iterated as we go - we've approached documentation just like you would with making modular code and functions.
 
 ::: notes
-Transition - Something we've been experimenting with is 
+Transition - Something we've been experimenting with is
 :::
 
 ## Reuse (& extend/credit!) not reinvent {.julie}
@@ -582,18 +615,14 @@ Luis site?
 [Catalina quote: I still get kudos]{.quote}
 
 ::: notes
-It enables reuse, builds resilience in teams and people
-They were siloed, they weren't making the implicit explicit
-Quarto gave us a place to make it explicit and find the common. 
+It enables reuse, builds resilience in teams and people They were siloed, they weren't making the implicit explicit Quarto gave us a place to make it explicit and find the common.
 And it's positioned us so it's not language-specific
 
-Where NASA: making the implicit explicit and and Quarto coming together at the right time - we didn't know what was possible. 
+Where NASA: making the implicit explicit and and Quarto coming together at the right time - we didn't know what was possible.
 
-Mentors were python based, know we can't be language agnostic
-Quarto helped us prioritized inclusion in daily work. 
+Mentors were python based, know we can't be language agnostic Quarto helped us prioritized inclusion in daily work.
 
-+ beautiful NASA imagery with All we can save quote.
-We want to grow this movement and we're looking for more mentors, we need all of us 
+-   beautiful NASA imagery with All we can save quote. We want to grow this movement and we're looking for more mentors, we need all of us
 :::
 
 ## Reuse not reinvent {.julie}
@@ -606,10 +635,9 @@ Open science as a practice/process not just products
 
 Catalina quote - braver (share imperfect) - cookbook reprise?
 
- foster a learning culture
- 
-its not just products, it's people and process
+foster a learning culture
 
+its not just products, it's people and process
 
 ## DEMO: Visual editor
 
@@ -635,16 +663,14 @@ Julie:
 
 ![](images/all_we_can_save_venn.jpg){fig-align="left" width="50%"}
 
-
 ::: {.absolute bottom="0" left="0" width="1000"}
 ["Addressing the climate crisis...will take everyone. We cannot, we must not, go it alone" - Ayana Elizabeth Johnson & Katharine Wilkinson, All We Can Save]{.quote}
 :::
 
 ::: notes
-Julie: Leave you one last venn diagram 
+Julie: Leave you one last venn diagram
 
 Reprise from NASA Openscapes - find the common - reuse existing - contribute to fill gaps - foster a learning culture
-
 :::
 
 ## Summary
@@ -742,7 +768,8 @@ The following slides won't be in the final talk
 :::
 
 ::: notes
-Julie: Openscapes helps teams develop practices that are underpinned by tools. Quarto creates "place"
+Julie: Openscapes helps teams develop practices that are underpinned by tools.
+Quarto creates "place"
 :::
 
 ## Openscapes Approach {.julie}
@@ -782,7 +809,10 @@ Our roles:
 -   Theme: collaborating
 
 ::: notes
-Julie: So excited to be here. I am a long-time and prolific user of RMarkdown, and Quarto and love how out-of-the box they are; I can use them for communicating about research, teaching, and collaborating using mostly the defaults. This as you'll see has been helping me push and blur the boundaries of environmental science, open source, and teaching. What I'll share today is a huge team-effort with many colleagues, that also builds from many folks in the R and open science communities.
+Julie: So excited to be here.
+I am a long-time and prolific user of RMarkdown, and Quarto and love how out-of-the box they are; I can use them for communicating about research, teaching, and collaborating using mostly the defaults.
+This as you'll see has been helping me push and blur the boundaries of environmental science, open source, and teaching.
+What I'll share today is a huge team-effort with many colleagues, that also builds from many folks in the R and open science communities.
 :::
 
 ## NASA Openscapes
@@ -806,13 +836,18 @@ Our goals:
 :::
 
 ::: notes
-Julie: I'm excited to share this story of our NASA Openscapes project, where we are helping NASA support research teams migrating to analysis in the cloud as they migrate their earthdata satellite imagery to the cloud. Co-lead: Erin Robinson NASA-Openscapes is a collaboration between Openscapes and NASA to support research teams using NASA Earthdata as they migrate analytical workflows to the cloud. It includes developing a mentor community across NASA Earth data centers in order to support researchers,
+Julie: I'm excited to share this story of our NASA Openscapes project, where we are helping NASA support research teams migrating to analysis in the cloud as they migrate their earthdata satellite imagery to the cloud.
+Co-lead: Erin Robinson NASA-Openscapes is a collaboration between Openscapes and NASA to support research teams using NASA Earthdata as they migrate analytical workflows to the cloud.
+It includes developing a mentor community across NASA Earth data centers in order to support researchers,
 :::
 
 ## Openscapes {background-image="images/horst_openscapes_champions.jpg" background-size="600px"}
 
 ::: notes
-Julie: In the open data science landscape, there are many paths forward, as well as opportunities to create new paths together. But a lot of us feel stuck, like these sad animals in the bottom left, or are working alone, like the little hermit crab, with the landscape just out of view. Through the Champions program we will help you explore and navigate these pathways; you'll find common approaches with your team as you identify your trailhead and safely navigate this landscape, and help each other and welcome others as you go. We mentor and developed and have iterated a whole flywheel for culture change
+Julie: In the open data science landscape, there are many paths forward, as well as opportunities to create new paths together.
+But a lot of us feel stuck, like these sad animals in the bottom left, or are working alone, like the little hermit crab, with the landscape just out of view.
+Through the Champions program we will help you explore and navigate these pathways; you'll find common approaches with your team as you identify your trailhead and safely navigate this landscape, and help each other and welcome others as you go.
+We mentor and developed and have iterated a whole flywheel for culture change
 :::
 
 ## Quarto enables interoperability and collaboration
@@ -830,7 +865,8 @@ Streamlines teamwork
 :::
 
 ::: notes
-I launched Openscapes to help research teams transition to inclusive open data science workflows. This started as first only the Champions Program where we mentor research teams
+I launched Openscapes to help research teams transition to inclusive open data science workflows.
+This started as first only the Champions Program where we mentor research teams
 
 We've worked with 70+ teams
 
@@ -862,7 +898,8 @@ And what we're doing is said beautifully by Dr. Adyan Rios
 :::
 
 ::: notes
-But when Erin Robinson joined Openscapes she brought expertise in scaling programs and making them sustainable. She introduced this idea of the Flywheel of the steps needed to really create lasting culture change.
+But when Erin Robinson joined Openscapes she brought expertise in scaling programs and making them sustainable.
+She introduced this idea of the Flywheel of the steps needed to really create lasting culture change.
 
 It involves focusing beyond delivering the Champions program; and how there is a whole series of steps that interplay...
 
@@ -877,16 +914,27 @@ Build trust, psychological safety, inclusion
 
 Ask how people work, where they're stuck, what they know.
 
-Foster a learning culture. And a teaching culture. Empathy. Growth Mindset. Meet people where they are.
+Foster a learning culture.
+And a teaching culture.
+Empathy.
+Growth Mindset.
+Meet people where they are.
 
 ::: illustration
 **Image:** nmfs-openscapes.github.io: Seaside Chats, Surf sessions
 :::
 
 ::: notes
-Learning. messy. Don't need to have a plan, just you want to do better. make the space. Takes time to learn and do, amazing what folks can do together. Across backgrounds, skills, expertise.
+Learning.
+messy.
+Don't need to have a plan, just you want to do better.
+make the space.
+Takes time to learn and do, amazing what folks can do together.
+Across backgrounds, skills, expertise.
 
-Managers at NASA, NOAA, faculty at universities. Supporting people's time to learn. open science must be part of people's paid work.
+Managers at NASA, NOAA, faculty at universities.
+Supporting people's time to learn.
+open science must be part of people's paid work.
 
 NOAA Cohort right now with 9 Supervisors participating.
 
@@ -894,7 +942,12 @@ Necessary part of reimagining: Time.
 :::
 
 ::: notes
-This might be dated now 1. Share your ideas earlier (can I see it? yes) - Series book (existed openly even before was fully dev'd) Create a learning culture 2. Reuse: create-once-use-often. less reinventing; focus your time on the science. 3. bring inclusion into your daily work (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs
+This might be dated now 1.
+Share your ideas earlier (can I see it? yes) - Series book (existed openly even before was fully dev'd) Create a learning culture 2.
+Reuse: create-once-use-often.
+less reinventing; focus your time on the science.
+3.
+bring inclusion into your daily work (make the implicit explicit) - Gavin manual "Redefining relationships -blurred lines not frontstage/backstage, co-create, & update onboarding docs
 :::
 
 ## Create place
@@ -909,14 +962,16 @@ Where we put things, what contributing looks like
 
 Catalina quote: share with participants ahead of time, "I still get kudos"
 
-Reuse: Create-once-use-often. Reused 10x since
+Reuse: Create-once-use-often.
+Reused 10x since
 
 ::: notes
 Julie:
 :::
 
 ::: notes
-Julie: Co-create-once-use-often. less reinventing; focus time on the science.
+Julie: Co-create-once-use-often.
+less reinventing; focus time on the science.
 
 seeing this enabled with NASA and quarto - but also NOAA Fisheries: https://rverse-tutorials.github.io/RWorkflow-NWFSC-2022/index.html
 :::
@@ -962,11 +1017,14 @@ Julie: This is another way this manifests: Onboarding (make the implicit explici
 
 -   **Cultivate relationships & real connections.** Welcoming folks w/ diverse backgrounds; meeting where they are; skills to empower immediate work; kinder science.
 
--   **Open culture: Learning, teaching, iterating.** Not a checklist - a continual practice. Imperfect, messy. Takes time.
+-   **Open culture: Learning, teaching, iterating.** Not a checklist - a continual practice.
+    Imperfect, messy.
+    Takes time.
 :::
 
 ::: notes
-TODO We mentor teams We mentor environmental and Earth science teams government, non-profit, and academic groups Openscapes is about better science for future us. We help teams transition to inclusive open science workflows This is visualized: We mentor teams to better tackle their questions by modernizing shared practices, underpinned by existing tools.
+TODO We mentor teams We mentor environmental and Earth science teams government, non-profit, and academic groups Openscapes is about better science for future us.
+We help teams transition to inclusive open science workflows This is visualized: We mentor teams to better tackle their questions by modernizing shared practices, underpinned by existing tools.
 
 -   Mentor, facilitator, teacher, coach, community organizer
 
@@ -982,7 +1040,9 @@ Julie: We mentor teams We create a learning culture, break down silos and loneli
 
 For reimagining habits and culture change
 
-Openscapes helps research teams Collab around data. Tech diffs, experience. Inclusion, behavior change.
+Openscapes helps research teams Collab around data.
+Tech diffs, experience.
+Inclusion, behavior change.
 
 Called open science (like nmfs intro)
 :::
@@ -992,7 +1052,12 @@ Called open science (like nmfs intro)
 ![](images/openscapes_hex.png){.absolute top="0" width="15%"}
 
 ::: notes
-Julie: We think about open science as landscape of open data, tooling, and communities, with many existing paths forward, as well as opportunities to create new paths together. Our main focus is to empower research teams. A lot of people feel stuck, like these sad animals in the bottom left, or are working alone, like the little hermit crab, with the landscape just out of view. We help folks find common parts of their work and come together as teams and identify their trailhead so they can safely navigate this landscape, and help each other and welcome others as they go. "that's Erin and me" Transition - we've worked with 70+ research teams, and many of them have been marine ecologists. What this looks like for them is said beautifully by Adyan Rios, where she says -
+Julie: We think about open science as landscape of open data, tooling, and communities, with many existing paths forward, as well as opportunities to create new paths together.
+Our main focus is to empower research teams.
+A lot of people feel stuck, like these sad animals in the bottom left, or are working alone, like the little hermit crab, with the landscape just out of view.
+We help folks find common parts of their work and come together as teams and identify their trailhead so they can safely navigate this landscape, and help each other and welcome others as they go.
+"that's Erin and me" Transition - we've worked with 70+ research teams, and many of them have been marine ecologists.
+What this looks like for them is said beautifully by Adyan Rios, where she says -
 :::
 
 # So much more to say...
@@ -1008,7 +1073,8 @@ Julie: We think about open science as landscape of open data, tooling, and commu
 
 2.  Works with Shiny - that's all to say
 
-3.  Quarto pub? What it accomplishes \| what it looks like
+3.  Quarto pub?
+    What it accomplishes \| what it looks like
 
 4.  Freeze \> blog posts, jupyter notebooks
 
@@ -1029,19 +1095,15 @@ Julie: We think about open science as landscape of open data, tooling, and commu
 12. `quarto publish`
 :::
 
+## Collaborate across coding skills {.julie}
 
-## Collaborate across coding skills {.julie} 
-
-
-Fay Lab Transition to Quarto
-Experimenting with Visual Editor, which I'll demo in a moment
+Fay Lab Transition to Quarto Experimenting with Visual Editor, which I'll demo in a moment
 
 ![](images/quarto_commits_stefaniebutland){.absolute top="70" right="50" width="450"}
 
 ![](images/quarto_commits_ileanaf){.absolute bottom="0" right="50" width="450"}
 
 ::: notes
-
 Transition - We brought this idea to NASA
 :::
 
@@ -1076,7 +1138,12 @@ Julie: summary slide and transition
 
 Reprise from NASA Openscapes - find the common - reuse existing - contribute to fill gaps - foster a learning culture
 
-We've spent a lot of time over these past years thinking of how can reimagine. Here is what i'm brining into the space of Quarto. Here are 3 things where Q helps LIZ trying to map the bullets to the green ring. , trying to shoehorn these list into those topics, not the best way to think about these ideas in concert with each other A lot going on on one slide.
+We've spent a lot of time over these past years thinking of how can reimagine.
+Here is what i'm brining into the space of Quarto.
+Here are 3 things where Q helps LIZ trying to map the bullets to the green ring.
+, trying to shoehorn these list into those topics, not the best way to think about these ideas in concert with each other A lot going on on one slide.
 
-one way of inclusion is making opps for contributing while learning Prioritizing and clarity. Every choice is deliberate. Designed.
+one way of inclusion is making opps for contributing while learning Prioritizing and clarity.
+Every choice is deliberate.
+Designed.
 :::
