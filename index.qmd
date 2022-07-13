@@ -132,11 +132,9 @@ So an authoring system that allows for multiple types of outputs from a single s
 ![](images/rmd-to-quarto.gif){fig-align="center"}
 
 ::: notes
-Mine: It combines/unifies some "down" packages.
+Mine: Julie mentioned it unified so let's dig a bit more into what that means... It combines/unifies some "down" packages.
 It also brings in Jupyter and other languages (Python, Julia) and provides that functionality even if you're not coming from the R ecosystem.
 Beyond unification, Quarto also makes available attractive and handy features like tabsets, code-folding, syntax highlighting, etc. consistently across the various outputs.
-
-QUESTION for Julie: Are you already saying this?
 :::
 
 ## DEMO: Flexibility in the formats
@@ -519,10 +517,9 @@ When we think of reimagining with Quarto it's about thinking differently and bey
 
 ## "To change everything, we need everyone"
 
-- Ayana Elizabeth Johnson
+-   Ayana Elizabeth Johnson
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
 ![](images/allwecansave.jpg)
 :::
@@ -530,10 +527,11 @@ When we think of reimagining with Quarto it's about thinking differently and bey
 ::: {.column width="50%"}
 "Who is safe to participate? Who is included and supported? Who feels like they belong?" - Tara Robertson
 :::
-::::
+:::
 
 ::: notes
-We take so much inspiration from the climate and climate justice movements, like All We Can Save. We're learning from these leaders and from diversity, equity, and inclusion leaders who press the questions "Who is safe to participate?"
+We take so much inspiration from the climate and climate justice movements, like All We Can Save.
+We're learning from these leaders and from diversity, equity, and inclusion leaders who press the questions "Who is safe to participate?"
 :::
 
 # These problems are big 😬
@@ -554,14 +552,16 @@ Gap between what's possible and who can participate.
 We need people with different backgrounds and experiences to be able to work together.
 We can't be siloed in like domains, languages or coding abilities
 
-There's no one big fix that's going to come and save us. It's many little things. It's up to us to act intentionally as individuals and collectively. 
-
+There's no one big fix that's going to come and save us.
+It's many little things.
+It's up to us to act intentionally as individuals and collectively.
 :::
 
 # Quarto Penguin
 
 ::: notes
-Quarto has definitely played a role in how we reimagine. I talked before about how it's removed barriers for people across coding languages to collaborate, and it's also removing barriers of different coding comfort levels. 
+Quarto has definitely played a role in how we reimagine.
+I talked before about how it's removed barriers for people across coding languages to collaborate, and it's also removing barriers of different coding comfort levels.
 
 We'll show you 4 with Quarto
 :::
