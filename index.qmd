@@ -323,7 +323,7 @@ So this is a big project. And a lot of it was new to me. While Erin had a decade
 NASA Earth scientists largely use python. And jupyter notebooks. These are things I didn't know My role was not to learn python from the ground-up, but I needed to be able to collaborate with and support python users. And this was a particuarly intimdating part for me personally.
 :::
 
-# Quarto penguin
+# {background-image="images/horst_penguins_telescope.png" background-size="contain"}
 
 ::: notes
 But luckily, Quarto was emerging right when we needed it. I had been collaborating with J.J. Allaire for the past years and knew Quarto was on the horizon.
@@ -479,7 +479,8 @@ We see the Open science movement as part of the broader movement for climate jus
 ("To change everything, we need everyone")
 :::
 
-## Gap between what's possible and who can participate
+## Gap between what's possible and who can participate 
+### maybe this can be said on following slide?
 
 <br>
 
