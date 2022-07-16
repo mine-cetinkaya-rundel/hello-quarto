@@ -292,6 +292,9 @@ Develop a cross-NASA Mentor community to create and teach a common set of Earthd
 
 **Focus on finding the common, peer-learning & teaching culture, contributing as part of their jobs.**
 
+2i2c JupyterHub, AWS Credits
+Carpentries Instructor Training
+
 <br>
 
 **Importance of leadership support and empowered, connected early adopters.**
@@ -341,6 +344,8 @@ Quarto enables us to collab across coding languages. We could use Quarto in a wa
 
 ## Screenshot: RStudio IDE, VSCode, Jupyter...
 
+-   Mention: You install Quarto with a CLI, (like git) so you can work with whatever tooling you want
+
 ::: notes
 And part of that is that we can all use the tools we're comfortable with as we contribute. So we could focus on upskilling around common pieces like Quarto and GitHub, but we didn't need to upset or shift everyone's software workflows, we could weave Quarto into existing workflows.
 
@@ -364,14 +369,6 @@ So let me show you what this looks like in Jupyter -
 ::: demo
 **This will be replaced with screen recording.**
 
--   Render Mine's example site in JupyterHub, quarto preview
--   Add `.ipynb`, workflow (code: palmerpenguins in python?)
--   freeze by default with Jupyter Notebooks
--   Add a table in the margin
--   `quarto convert` to .qmd
--   Open in VS Code, show `.qmd` (cmd-shift-k to render \[attention to other tool chains available\])
--   Mention: You install Quarto with a CLI, (like git) so you can work with whatever tooling you want
--   Demo:::Being able to work in this way together share ideas earlier
 :::
 
 ::: notes
@@ -459,7 +456,7 @@ Mine: ...
 Julie:
 :::
 
-## ![](images/horst_rey_ds_digital.png){background-size="80%"}
+## ![](images/horst_rey_quarto.png){background-size="80%"}
 
 ::: notes
 So Quarto has really powerful for all these reasons we've been sharing - it's like a super power. it's really important to think about what we do with that power. When we think of reimagining it's about thinking bigger than our own individual superpowers and what we can do together
@@ -527,36 +524,69 @@ Urgent need to welcome more people
 # Quarto Penguin
 
 ::: notes
-Quarto has definitely played a role in how we reimagine and welcome more people to transitions that can be intimidating
+With Openscapes, Quarto is helping us get to places in reimagined ways. it's helped us welcome more people to transitions that can be intimidating
 
 . I talked before about how it's removed barriers for people across coding languages to collaborate, but as we reimagine what's possible Quarto's role is removing barriers of different coding comfort levels.
 
 So I wanted to tell you a **story emphasizing how to build inclusion into your daily work**
-
-\~16:12:58 know as possible. and that you know, it's also set us up, because, you know, while originally the mentors were python primarily python based, you know, we've now met a lot of research teams and 16:13:14 mentors who are part of the our community and you know we we just know that we can't be language agnostic you know, in court show prioritized inclusion and day that they work and and it'll allow\~
 :::
 
 ## Make the implicit explicit
+*Build inclusion into your daily work*
 
 <br>
 
-Write things down - and in a welcoming way.
+:::: {.columns}
 
+::: {.column width="40%"}
 ::: illustration
 **Screenshot:** [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
 :::
+:::
 
-> "Prospective students in my research group say how much they appreciate the lab manual and it's a reason they want to work with us" - Dr. Gavin Fay
+::: {.column width="60%"}
+> "Prospective students in my research group say how much they appreciate the lab manual and it's a reason they want to work with us. I got an email just yesterday that said 'I can tell the lab is a friendly, engaging, and positive learning environment' " - Dr. Gavin Fay
+
+:::
+::::
+
+
 
 ::: notes
 One of the ways you welcome people is making the implicit explicit
 
-Write things down is a big part of building inclusion, so that there's not hidden curriculum or and that you don't assume what people know and are comfortable with
+Writing things down is a way to build inclusion, so that there's not hidden curriculum or and that you don't assume what people know and are comfortable with
 
-Something that Gavin Fay's lab has done is to write their lab manual that puts their values forward. This was a way to builds trust and psych safety, which has built resilience in his teams, and was particuarly important as they onboarded new members remotely early in the Pandemic
+Something that Gavin Fay's lab has done is to write their lab manual that puts their values forward. This was a way to builds trust and psych safety, which has built resilience in his teams, and was particuarly important as they onboarded new members remotely early in the Pandemic. 
+
+Another benefit too is that it reduces emails bc often instead of asking questions people know to look in the lab manual, and when there are questions that aren't covered there, they are added to this shared resource rather than being lost in an email thread with two people.
+(Point people to where it lives - remember that our expectations for how we run our meetings is documented here)
+
+"“From reading the Fay lab resources, I can tell the lab is a friendly, engaging, and positive learning environment, which sounds ideal to begin my postgraduate journey surrounded by
+like-minded scientists. Throughout my academic journey so far, I have aimed to emphasise
+teamwork, communication and community within my work and studies….”
 :::
 
-## We brought this idea to nasa
+## Onboard learners as contributors
+Onboard and maintain the documentation and the community together
+
+It means "Slowing down to speed up."
+
+evolved: Lucy: "if you find something broken let us know"
+Angelia: "if you find something broken let's screenshare and teach you how to fix it". Did this from the browser first, set up the GA so it's published
+Now when someone contributes their change is integrated straight away with the GA
+
+<br>
+
+
+
+
+<br> <br>
+
+
+## Reuse (and credit!) good ideas 
+
+We brought this idea to nasa
 
 ::: illustration
 screenshot: Cookbook contributor page
@@ -590,9 +620,11 @@ Transition - Something we've been experimenting with is
 
 --->
 ```
-## Create reusable resources
+## Tailor/Iterate for specific audiences 
 
-Reuse (& extend/credit!) not reinvent
+empathy
+
+Reuses not reinvent
 
 ::: illustration
 **Illustration:** Screenshot of several other quarto sites and slides
@@ -630,15 +662,12 @@ Mentors were python based, know we can't be language agnostic Quarto helped us p
 -   beautiful NASA imagery with All we can save quote. We want to grow this movement and we're looking for more mentors, we need all of us
 :::
 
-## Create reusable ideas {.julie}
 
-Approach Guide - modeled after Faylab. Onboarding learners as contributors
+## Reuse good ideas (reprise!)
 
-<br>
+onboard learners - Stef Ileana anna screenshots
 
 NMFS Openscapes modeled after NASA
-
-<br> <br>
 
 experimenting using Visual Editor, let me show you some things we've learned in this workflow
 
@@ -647,10 +676,11 @@ experimenting using Visual Editor, let me show you some things we've learned in 
 
 Leverage tooling that reduces barriers
 
-::: demo
--   open project in RStudio
 -   Visual Editor - friendly for non-coders. Reimagine who participates.
 -   Also nice for markdown-savvy writers
+
+::: demo
+-   open project in RStudio
 -   Show tips: "I learned this from Mine while we were preparing our slides"
 -   Images, Tables
 -   Call-outs
@@ -673,8 +703,6 @@ Open science as a way to work.
 
 its not just products, it's people and process
 
-It means "Slowing down to speed up."
-
 It's a spectrum, not all-or-nothing
 
 
@@ -688,7 +716,7 @@ Julie: Leave you one last venn diagram
 
 Reprise from NASA Openscapes - find the common - reuse existing - contribute to fill gaps - foster a learning culture
 
-![](images/all_we_can_save_venn.jpg){fig-align="left" width="50%"}
+[](images/all_we_can_save_venn.jpg){fig-align="left" width="50%"}
 :::
 
 ## Summary
