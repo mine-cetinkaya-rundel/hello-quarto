@@ -10,6 +10,7 @@ format:
     width: 1600
     height: 900
 editor: visual
+image: images/horst_penguins_telescope.png # hmm revisit 
 # Julie title slide speaker notes: 
 # Thank you so much, We're excited to be here! Mine and I have both been using Quarto for the last year; she has been teaching with it since its earliest days and my Openscapes team is the first external users of Quarto. As Mine and I have experimented with it in our own work we realize we love it, and we're thrilled to introduce and welcome you to Quarto. 
 ---
@@ -167,11 +168,7 @@ Mine: As an educator, two things are of utmost importance for me about the tools
 
 ## 
 
-![](images/horst-lcr-penguins-4.jpg){fig-align="center"}
-
-::: illustration
-**Animation:** Version of this where the ball is flying to the other side.
-:::
+![](images/horst_quarto_meteor.png){fig-align="center"}
 
 # Collaborate
 
@@ -377,11 +374,9 @@ Julie: ...
 
 ## 
 
-![](images/horst-lcr-penguins-4.jpg){fig-align="center"}
+![](images/horst_quarto_meteor_transparent){fig-align="center"}
 
-::: illustration
-**Animation:** Version of this where the ball is flying to the other side.
-:::
+
 
 # Teach
 
@@ -442,11 +437,7 @@ Mine: ...
 
 ## 
 
-![](images/horst-lcr-penguins-4.jpg){fig-align="center"}
-
-::: illustration
-**Animation:** Version of this where the ball is flying to the other side.
-:::
+![](images/horst_quarto_meteor.png){fig-align="center"}
 
 # Reimagine
 
