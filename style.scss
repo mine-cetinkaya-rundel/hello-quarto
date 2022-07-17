@@ -13,11 +13,19 @@ details>summary {
   font-size: 0.75em;
 }
 
+.reveal .h1center h1 {
+  text-align: center;
+}
+
+.reveal .h3center h3 {
+  text-align: center;
+}
+
 .reveal .julie h2 {
   color: #FF744E;
 }
 
-.quote { /*-- julie note: not final! I am not good with css/color but wanted to have something --*/
+.reveal .quote { /*-- julie note: not final! I am not good with css/color but wanted to have something --*/
   color: #FF744E;
   background-color: #FAE3E3;
   font-style: italic;

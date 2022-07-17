@@ -54,7 +54,7 @@ Quarto unifies & extends the RMarkdown ecosystem. @baker2015
 ::: notes
 It unifies the RMarkdown ecosystem by reducing little points of friction, so that websites, books, and slides all have a common approach.
 
-And it extends the RMarkdown ecosystem as a friendly way for code and text to be published in the same place with tools that interoperates with how they already work.
+And it extends the RMarkdown ecosystem as a friendly way for code and text to be published in the same place with tools that interoperate with how you already work.
 
 Transition: It builds on 10 years of insight from RMarkdown -
 :::
@@ -168,19 +168,17 @@ Moving between formats within Quarto is straightforward
 Mine: As an educator, two things are of utmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats (like documents to slides to websites to books). Over the last year of using Quarto for everything, I've felt like I've finally found the tool that lets me go from one to the other with minimal futzing around with my source code. This has helped me focus my time on my content, which has been a huge win.
 :::
 
-## 
-
-![](images/horst_quarto_meteor.png){fig-align="center"}
-
-#  {background-image="images/horst_penguins_telescope.png" background-size="contain"}
-
-
-# Collaborate
-
-![](images/quadrants-collaborate.gif){fig-align="center"}
+# Collaborate {background-image="images/horst_quarto_meteor.png" background-size="contain"}
 
 ::: notes
-Julie: Thanks Mine...
+Mine: now over to you Julie
+:::
+
+# {background-image="images/horst_penguins_telescope.png" background-size="contain"}
+
+
+::: notes
+Julie: Thanks Mine, let's next talk about Collaborating with Quarto
 :::
 
 ## 
@@ -192,60 +190,47 @@ Julie: Thanks Mine...
 ::: notes
 Julie: I am a marine ecologist by training, and now I work at the intersection of actionable environmental science, data science, and open source. What I absolutely love doing is mentoring, teaching, and empowering communities, having learned from so many of you who are here or listening today.
 
-I've made this my job through Openscapes.
-
-Openscapes aims to provide a welcome for other researchers to be a part of these communitites too.
+I've made this my job through Openscapes, to help welcome more researchers to be empowered as well.
 :::
 
-## ![](images/openscapes_hex.png){.absolute top="0" width="15%"}
-
-<br> <br> <br> <br>
-
-### [A movement that meets research teams where they are <br>and helps build resilience through open science.]{.absolute top="10" right="20"}
-
-::: notes
-Openscapes is a movement that meets teams where they are and helps them see what's possible and be resilient through open science.
-:::
-
-## ![](images/horst_openscapes_champions.jpg){fig-align="center" width="100%" fig-alt="Illustration of a grassy field by an ocean, there’s a river that meanders from the midground to the background on the right hand side. There are mountains in the background. The Openscapes hex logo is in the top left hand corner. In the foreground there are many animals: hermit crab working alone on a laptop, a sad rabbit on a laptop under a raincloud, a frustrated skunk on a laptop under a raincloud. Just over a bush is another group of animals: a fox with a welcome sign stands with a hedgehog holding map brochures In front of a larger park map. The fox and hedgehog are in front of a group of animals: a heron, a squirrel, a mouse holding a notebook, a raccoon, a snake, and a quail. In the midground, there’s a turtle, deer, owl and beaver by the river that has stepping stone rocks across. A roadrunner, lizard, blue bird, and rabbit, are walking down a path together, one of the other paths is blocked by a log. There’s a rowboat on the edge of the water. In the background, a duck, turtle, red squirrel, fox, and raven are walking single file over a wooden bridge that crosses the river. Most of the animals have coloured bandanas tied around their necks and a few are wearing hats. Up in the sky, there’s a satellite."}
+## {background-image="images/horst_openscapes_champions.jpg" background-size="80%" fig-alt="Illustration of a grassy field by an ocean, there’s a river that meanders from the midground to the background on the right hand side. There are mountains in the background. The Openscapes hex logo is in the top left hand corner. In the foreground there are many animals: hermit crab working alone on a laptop, a sad rabbit on a laptop under a raincloud, a frustrated skunk on a laptop under a raincloud. Just over a bush is another group of animals: a fox with a welcome sign stands with a hedgehog holding map brochures In front of a larger park map. The fox and hedgehog are in front of a group of animals: a heron, a squirrel, a mouse holding a notebook, a raccoon, a snake, and a quail. In the midground, there’s a turtle, deer, owl and beaver by the river that has stepping stone rocks across. A roadrunner, lizard, blue bird, and rabbit, are walking down a path together, one of the other paths is blocked by a log. There’s a rowboat on the edge of the water. In the background, a duck, turtle, red squirrel, fox, and raven are walking single file over a wooden bridge that crosses the river. Most of the animals have coloured bandanas tied around their necks and a few are wearing hats. Up in the sky, there’s a satellite."}
 
 ![](images/openscapes_hex.png){.absolute top="0" width="15%"}
 
+[**A movement that meets research teams where they are <br>and helps build resilience through open science.**]{.absolute top="0" right="20"}
+
 ::: notes
-Julie: This is what this movement looks like. We think of open science as this beautiful landscape full of data, tools and community, with many existing paths forward. But it can be out-of-view for many researchers who are isolated and siloed and struggling to work with data and software in meaningful ways.
+Openscapes is a movement that meets teams where they are and helps them see what's possible and be resilient through open science.
 
-Openscapes helps researchers move from lonely science like the animals on bottom left and identify what their trailhead looks like so they explore and navigate this landscape together.
+This is what this movement looks like. We think of open science as this beautiful landscape full of data, tools and communities, with many existing paths forward. 
 
-We've now mentored over 75 research teams to take steps together, most who like me have been marine scientists who use R.\
+Our flagship program is a cohort-based mentorship program for research teams that helps researchers move from lonely science like the animals on bottom left where this landscape is just out of view and to a place where they can identify what their trailhead looks like so they explore and navigate this landscape safely together.
 
 Transition: This is one example of the impact for researchers -
 :::
 
-## Marine pic
-
-["As fisheries scientists, we know that when we're in rough seas: it's important to keep the ship afloat AND get out of the storm. Openscapes helps teams steer out of the storm of email chains with 37 versions of the same attachment and to the calmer waters of open science and meaningful collaboration, using tools like R" <br> - Adyan Rios, NOAA Fisheries (Southeast)]{.quote}
+## ["Openscapes helps researchers find their teams and steer out of the storm of email chains with 37 versions of the same attachment and to the calmer waters of open science and meaningful collaboration, using tools like R" <br> - Adyan Rios, NOAA Fisheries (Southeast)]{.quote} 
 
 ::: notes
-Adyan Rios says: "As fisheries scientists, we know that when we're in rough seas: it's important to keep the ship afloat AND get out of the storm. <br> Openscapes helps teams steer out of the storm of forwarded email chains with 37 versions of the same attachment and to the calmer waters of open science and meaningful collaboration, using tools like R"
+Helping researchers find their teams is a big outcome of Openscapes, as you see from this quote from Adyan Rios at NOAA Fisheries. 
 
-I love this quote is so great ...that storm of emails is something that's very emothive and I love the idea of meaningful collaboration.
-
-Helping people find their their team is a big focus of Openscapes. And I needed a team too.
+And I needed a team too.
 :::
 
-# NASA Openscapes logos
+# ![](images/NASA_logo.png){width="30%"} ![](images/openscapes_hex.png){width="20%"} {.h1center}
+
 
 ::: notes
-Erin Robinson joined Openscapes as my partner as we found each other and recognized a shared vision for the Openscapes movement and supporting researchers to make true change. Our story starts with bringing NASA and Openscapes together. And Erin had worked with NASA for 15 years and saw that could apply the Openscapes approach to a big effort with NASA Earthdata.
+Erin Robinson joined Openscapes as my partner and our story starts with bringing NASA and Openscapes together. Erin had worked with NASA for 15 years and saw that we could apply the Openscapes approach to a big effort with NASA Earthdata.
 :::
 
 ##  {background-video="images/R_beach_ball_flat_360p.mp4"}
 
 ::: notes
-NASA collects a lot of data about earth NASA sends rockets to space to explore In 1960, the United States put its first Earth-observing environmental satellite into orbit around the planet. So much data, really important research questions through space and time, and is particularly relevant for understanding the impacts of climate change
+NASA collects a lot of data about Earth. With many different satellite missions ongoing since 1960, data are collected and available for researchers to tackle really important questions through space and time, which is particularly relevant for understanding landuse change and drought and other impacts of climate change.
 :::
 
-## NASA Earthdata is migrating to the Cloud
+## NASA Earthdata is migrating to the Cloud {.julie}
 
 ::: columns
 ::: {.column width="30%"}
@@ -259,17 +244,15 @@ Researchers download <br>data and analyze locally.
 :::
 
 ::: {.column width="60%"}
-![](images/nasa_daacs_map.png){width="100%"}
+![](images/nasa_daacs_map.png){width="90%"}
 :::
 :::
-
-<br>
 
 ### The New Cloud Paradigm
 
-**Researchers will move their compute to the Cloud.**
+**Researchers will migrate their analytical workflows to the Cloud.**
 
-**NASA staff collaborate across Data Centers to support.**
+**NASA staff will collaborate across Data Centers to support researchers.**
 
 ::: notes
 NASA Earthdata is migrating to the Cloud. This has been a tremendous effort over years from all corners of NASA.
@@ -278,31 +261,39 @@ Traditionally, these data are stored by 12 different data centers and researcher
 
 The new paradigm is Researchers will move their compute to the Cloud, which requires much more programmatic access rather than map- and menu-based access.
 
-It also means that NASA staff needs to collaborate across Data Centers to support researchers with best practices for open data science.
+It also means that NASA staff needs to collaborate across Data Centers to support researchers with best practices in open science.
 
-And this is where Erin saw Openscapes comes in.
+And this is how NASA Openscapes came to be
 :::
 
 ## NASA-Openscapes {.julie}
 
-Develop a cross-NASA Mentor community to create and teach a common set of Earthdata tutorials to be iterated for specific research examples
+Develop a cross-NASA mentor community to create & teach common Earthdata Cloud tutorials that are then iterated for specific research examples
 
-<br> ![](images/2021-NASA-Openscapes-Mentors-Photoshop.png){width="50%" fig-align="left"}
+:::: {.columns}
 
-::: {.absolute bottom="100" right="0" width="600"}
-![](images/horst_landscape_mentors.png)
+::: {.column width="40%"}
+![](images/2021-NASA-Openscapes-Mentors-Photoshop.png)
 
-**Focus on finding the common, peer-learning & teaching culture, contributing as part of their jobs.**
+### ![](images/NASA_logo.png){width="30%"} ![](images/openscapes_hex.png){width="20%"} {.h3center}
 
-2i2c JupyterHub, AWS Credits Carpentries Instructor Training
+:::
+
+::: {.column width="60%"}
+![](images/horst_landscape_mentors.png){width="70%" fig-align="center}
+
+[**Focus on finding the common, peer-learning & teaching culture, contributing as part of their jobs.**]{text-align="center"}
+
+[2i2c JupyterHub • AWS Credits • Carpentries]{text-align="center"}
 
 <br>
 
-**Importance of leadership support and empowered, connected early adopters.**
+[**Successes = importance of leadership support + empowered, connected early adopters.**]{text-align="center"}
 :::
+::::
 
-::: {.absolute top="0" right="0" width="20"}
-TODO logos
+::: {.absolute top="0" right="0" width="250"}
+
 :::
 
 ::: footer
@@ -310,46 +301,25 @@ TODO logos
 :::
 
 ::: notes
-Our NASA-Openscapes project is to develop a cross-data center Mentor community to create and teach a common set of Earthdata tutorials that Mentors iterate for specific research examples.
+NASA-Openscapes is a 3-year project is to Develop a cross-NASA mentor community to create & teach common Earthdata Cloud tutorials that are then iterated for specific research examples
 
-Over the last year we've worked with just amazing group of NASA user support staff and engineers we've started onboarding a second year to this group as well.
+Since we started in early 2021 we've worked with just amazing group of NASA user support staff and engineers. We've supported them through finding the common needs across all Mentors, fostering a peer-learning and teaching culture, and having them contribute to shared activities as part of their jobs. And along with our mentorship we've also provided a 2i2c JupyterHub, AWS Cloud Credits, and Carpentries Instructor training.
 
-Our work started with on finding the common needs across all Mentors, creating a peer-learning and teaching culture, and having them contribute to shared activities as part of their jobs.
+As you'll see, this group has achieved a lot in the last year. And the successes of this project so far really speaks to the importance of leadership support plus empowered and connected early adopters. We've been really thankful to have both this top-down and grassroots level of support
 
-As you'll see, this group has acheived so much in the last year. And it really speaks to the importance of both leadership support which we've been so grateful to have across many levels of NASA, as well as empowered early adopters that can connect and grow
-
-So this is a big project. And a lot of it was new to me. While Erin had a decade of experience with the NASA community, I was unfamiliar with Earth science as a research domain, the types of satellite imagery data NASA works with, not to mention cloud infrastructure that is evolving rapidly. Transition: And a fourth big thing -
+Transition: So this is a big project. And while Erin had a decade of experience with the NASA community, when we started, a lot of it was new and frankly really intimidating to me. As a marine ecologist, I was unfamiliar with Earth science as a research domain, the types of satellite imagery data NASA works with, not to mention cloud infrastructure that is evolving rapidly. And as an R user a fourth big thing that was intimidating to me -
 :::
 
-# NASA Earth scientists use python 😬
+# NASA Earth scientists use python 😬 {.h1center}
 
 ::: notes
-NASA Earth scientists largely use python. And jupyter notebooks. These are things I didn't know My role was not to learn python from the ground-up, but I needed to be able to collaborate with and support python users. And this was a particuarly intimdating part for me personally.
+Many NASA Earth scientists use python. And Jupyter notebooks. And my role leading NASA Openscapes was not to learn python from the ground-up, but I needed to be able to collaborate with and support python users to create tutorials and teach
 :::
 
+## {background-image="images/horst_penguins_telescope.png" background-size="50%"}
 
 ::: notes
-But luckily, Quarto was emerging right when we needed it. I had been collaborating with J.J. Allaire for the past years and knew Quarto was on the horizon.
-:::
-
-## Collaborate across coding languages {.julie}
-
-::: illustration
-**Image:** `_quarto.yml`: `.ipynbs`, with `.rmds`
-:::
-
-::: notes
-Quarto enables us to collab across coding languages. We could use Quarto in a way that I was familiar with through RMarkdown, but include all different filetypes like you see here. Quarto has been fundamental to us collaborating across languages.
-:::
-
-## Screenshot: RStudio IDE, VSCode, Jupyter...
-
--   Mention: You install Quarto with a CLI, (like git) so you can work with whatever tooling you want
-
-::: notes
-And part of that is that we can all use the tools we're comfortable with as we contribute. So we could focus on upskilling around common pieces like Quarto and GitHub, but we didn't need to upset or shift everyone's software workflows, we could weave Quarto into existing workflows.
-
-And this has also have dividends because while I said that the Earth science community is python-heavy what we've learned the more we work with this NASA Cloud data we see there is a significant R community and we're positioned to support them with this workflow we've developed because of Quarto it's not language-specific
+But luckily, Quarto was emerging right when we needed it. I had been in touch with J.J. Allaire  and knew Quarto was on the horizon. We asked if we could use Quarto for NASA-Openscapes and he and the Quarto team and it became a really exciting collaboration, where the quarto team and the NASA mentors were really gracious with learning and using and developing this tool, and it is very cool that through our work we've been able to help with some of its design too.
 :::
 
 ## ![](images/earthdata-cloud-cookbook.png){width="80%" fig-align="center"}
@@ -359,12 +329,34 @@ And this has also have dividends because while I said that the Earth science com
 :::
 
 ::: notes
-TODO: outline screenshot Julie: this is the first Quarto site we ever made. It's beautiful, right out of the box with the default settings, which is how I roll. This cookbook s a collection of how-to guides and tutorials made by the NASA Openscapes Mentors. We were able to make this place very early on, and we could see our end-goal
-
-So let me show you what this looks like in Jupyter -
+Julie: this is the first Quarto site we ever made. It's beautiful, right out of the box with the default settings. This cookbook s a collection of how-to guides and tutorials made by the NASA Openscapes Mentors. We were able to make this place very early on, and we could see our end-goal
+Transition: And what's cool is that this quarto site is made up of many coding languages -
 :::
 
-## DEMO {.julie}
+## Collaborate across coding languages {.julie}
+
+::: illustration
+**Image:** `_quarto.yml`: `.ipynbs`, with `.rmds`
+:::
+
+::: notes
+In fact, it's mostly .ipynbs as you see in this simplifid view of our `_quarto.yml` file.
+Being able to make a collection of tutorials in different language and filetypes has been a huge benefit for us working together.
+:::
+
+## Screenshot: RStudio IDE, VSCode, Jupyter...
+
+
+::: notes
+And, we're all able to work in whatever tool we're already comfortable with as we contributed to this cookbook, which is possible since you install quarto as a command line too like git; it's not an R package or a python package. So with people working in their current tools and Quarto working in each case, we didn't need people to shift their software tools and instead could focus on upskilling around common pieces like Quarto and GitHub, but we didn't need to upset or shift everyone's software workflows, we could weave Quarto into existing workflows.
+
+And this has also have dividends because while I said that the Earth science community is python-heavy what we've learned the more we work with this NASA Cloud data we see there is a significant R community and we're positioned to support them with this workflow we've developed because of Quarto it's not language-specific
+
+Transition: So let me show you what this looks like in Jupyter -
+:::
+
+
+# DEMO: Quarto in JupyterLab
 
 ::: demo
 **This will be replaced with screen recording.**
@@ -378,9 +370,7 @@ Julie: ...
 
 ![](images/horst_quarto_meteor.png){fig-align="center"}
 
-# Teach
-
-![](images/quadrants-teach.gif){fig-align="center"}
+# Teach {background-image="images/horst_quarto_penguins_teach.png" background-size="contain"}
 
 ## Use Quarto to accomplish existing goals {.smaller}
 
@@ -408,7 +398,7 @@ Mine: I started off introducing myself as a prof and educator, and so you probab
 Mine: And last 10% to tweak it for your context...
 :::
 
-## DEMO: File architecture, books
+# Demo: File architecture, books
 
 ::: demo
 **This will be replaced with screen recording.**
@@ -435,9 +425,7 @@ Moving from R Markdown to Quarto is straightforward:
 Mine: ...
 :::
 
-## 
-
-![](images/horst_quarto_meteor.png){fig-align="center"}
+## Reimagine {background-image="images/horst_quarto_meteor.png" background-size="contain"}
 
 # {background-image="images/horst_penguin_quarto_dive.png" background-size="contain"}
 
@@ -445,7 +433,7 @@ Mine: ...
 Julie:
 :::
 
-## ![](images/horst_rey_quarto.png){background-size="80%"}
+## {background-image="images/horst_rey_quarto.png" background-size="contain"}
 
 ::: notes
 So Quarto has really powerful for all these reasons we've been sharing - it's like a super power. it's really important to think about what we do with that power. When we think of reimagining it's about thinking bigger than our own individual superpowers and what we can do together
@@ -496,7 +484,7 @@ We see the Open science movement as part of the broader movement for climate jus
 ::: notes
 :::
 
-# These problems are big 😬
+# These problems are big 😬 {.h1center}
 
 New ways of tackling challenges means new tech, new habits, new culture.
 
@@ -662,7 +650,7 @@ We've reused these good ideas in other Openscapes work, particuarly for onboardi
 With the fisheries and water folks who are more R based, we've been experimenting using Visual Editor, let me show you some things we've learned in this workflow..
 :::
 
-## DEMO: Visual editor
+## Demo: Quarto in the Visual Editor
 
 Leverage tooling that reduces barriers
 
@@ -734,6 +722,8 @@ Reprise from NASA Openscapes - find the common - reuse existing - contribute to 
 ::: notes
 Mine: We've gone through these, but we have so much more to say, we'll just need to do it a lot more quickly...
 :::
+
+# Thank you {background-image="images/horst_quarto_thankyou.png" background-size="contain"}
 
 ## Coda
 
