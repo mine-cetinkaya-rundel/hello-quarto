@@ -168,7 +168,7 @@ Moving between formats within Quarto is straightforward
 Mine: As an educator, two things are of utmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats (like documents to slides to websites to books). Over the last year of using Quarto for everything, I've felt like I've finally found the tool that lets me go from one to the other with minimal futzing around with my source code. This has helped me focus my time on my content, which has been a huge win.
 :::
 
-# Collaborate {background-image="images/horst_quarto_meteor.png" background-size="contain"}
+## Collaborate {background-image="images/horst_quarto_meteor.png" background-size="contain"}
 
 ::: notes
 Mine: now over to you Julie
@@ -316,7 +316,7 @@ Transition: So this is a big project. And while Erin had a decade of experience 
 Many NASA Earth scientists use python. And Jupyter notebooks. And my role leading NASA Openscapes was not to learn python from the ground-up, but I needed to be able to collaborate with and support python users to create tutorials and teach
 :::
 
-## {background-image="images/horst_penguins_telescope.png" background-size="50%"}
+## {background-image="images/horst_penguins_telescope.png" background-size="70%"}
 
 ::: notes
 But luckily, Quarto was emerging right when we needed it. I had been in touch with J.J. Allaire  and knew Quarto was on the horizon. We asked if we could use Quarto for NASA-Openscapes and he and the Quarto team and it became a really exciting collaboration, where the quarto team and the NASA mentors were really gracious with learning and using and developing this tool, and it is very cool that through our work we've been able to help with some of its design too.
@@ -427,7 +427,7 @@ Mine: ...
 
 ## Reimagine {background-image="images/horst_quarto_meteor.png" background-size="contain"}
 
-# {background-image="images/horst_penguin_quarto_dive.png" background-size="contain"}
+# {background-image="images/horst_quarto_penguins_dive.png" background-size="contain"}
 
 ::: notes
 Julie:
@@ -436,7 +436,7 @@ Julie:
 ## {background-image="images/horst_rey_quarto.png" background-size="contain"}
 
 ::: notes
-So Quarto has really powerful for all these reasons we've been sharing - it's like a super power. it's really important to think about what we do with that power. When we think of reimagining it's about thinking bigger than our own individual superpowers and what we can do together
+So like you've seen so far, Quarto like a super power. it's really important to think about what we do with this power. When we think of reimagining it's about thinking bigger than our own individual skills and what we can do together
 :::
 
 ## Open science as part of the climate movement {.julie background-image="images/earth_art_baltic.png" background-opacity="0.3"}
@@ -451,99 +451,80 @@ So Quarto has really powerful for all these reasons we've been sharing - it's li
 ::: {.column width="70%"}
 <br>
 
-**"'We' speaks to the collective, to collaboration, to community, to the relational work at hand. Addressing the climate crisis...will take everyone.**
+<br>
 
-**'We' speaks to justice, to how we do the work that needs doing and whose contributions are valued. We cannot, we must not, go it alone"**
-
--Ayana Elizabeth Johnson & Katharine Wilkinson
+["Addressing the climate crisis...will take everyone.<br>We cannot, we must not, go it alone" <br>- Ayana Elizabeth Johnson & Katharine Wilkinson, <br>All We Can Save]{.quote}
 :::
 :::
 
 ::: notes
-We see the Open science movement as part of the broader movement for climate justice and equity. We take so much inspiration groups like All We Can save, a collection edited by Ayana Elizabeth Johnson and Katharine Wilkinson that says "we cannot, we must not, go it alone."
+We see our work and open science as part of the broader movement for climate justice and equity. We take so much inspiration from groups like All We Can Save, who are amplifying stories of climate leaders and building this movement saying "we cannot, we must not, go it alone." 
 
-("To change everything, we need everyone")
+Transition: So there is this urgent need to collaborate to meet these kinds of global challenges - 
 :::
 
 ## Gap between what's possible and who can participate
 
-### maybe this can be said on following slide?
-
-<br>
-
-["People feel frustrated, they're siloed, they're not connected with their team, or even feel like they have a team. There are technical and cultural barriers - they need new skills but don't have space to learn new things." <br>- Eli Holmes, NOAA Fisheries (Northwest)]{.quote}
-
-<br>
-
-["Who is safe to participate?" - Tara Robertson]{.quote}
-
-::: notes
-"Who is safe to participate? Who is included and supported? Who feels like they belong?" - Tara Robertson
-:::
-
-::: notes
-:::
-
-# These problems are big 😬 {.h1center}
-
 New ways of tackling challenges means new tech, new habits, new culture.
+
+["Who is safe to participate?" - Tara Robertson, Diversity, Equity, and Inclusion Coach]{.quote}
+
+<br>
+
+
+::: notes
+But there is a Gap between what's possible and who can participate. These barriers are technical and cultural. New ways of tackling challenges means new tech, new habits, and new culture. But we also need to think about "Who is safe to participate? Who is included and supported? Who feels like they belong?" - Tara Robertson
+:::
+
+# These problems are big <br>😬 {.h1center}
 
 ::: notes
 These problems are big 😬
 
-There's no one big fix that's going to come and save us. It's many little things. It's up to us to act intentionally in our own activities and collectively.
-
-New ways of tackling challenges means new tech, new habits, new culture.
-
-Urgent need to welcome more people
+There's really no one big fix. But it's about many little things coming together. It's up to us to act intentionally in our own activities and welcome more people into collaborting together.
 :::
 
-#  (quarto)
+# {background-image="images/horst_quarto_penguins_dive.png" background-size="70%"}
 
 ::: notes
-With Openscapes, Quarto is helping us get to places in reimagined ways. it's helped us welcome more people to transitions that can be intimidating
+With Openscapes, Quarto is helping us get to places in reimagined ways. It's helped us welcome more people to transitions that can be intimidating
 
-. I talked before about how it's removed barriers for people across coding languages to collaborate, but as we reimagine what's possible Quarto's role is removing barriers of different coding comfort levels.
-
-So I wanted to tell you a **story emphasizing how to build inclusion into your daily work**
+So I wanted to tell you few ways we've been making the idea of Welcome actionable with Quarto
 :::
 
-## Make the implicit explicit
+## Make the implicit explicit {.julie}
 
 *Build inclusion into your daily work*
 
-<br>
-
 ::: columns
-::: {.column width="40%"}
-::: illustration
-**Screenshot:** [Gavin Fay lab manual](https://thefaylab.github.io/lab-manual/)
-:::
+::: {.column width="65%"}
+![](images/faylab-labmanual.png){width="80%"}
 :::
 
-::: {.column width="60%"}
-> "Prospective students in my research group say how much they appreciate the lab manual and it's a reason they want to work with us. I got an email just yesterday that said 'I can tell the lab is a friendly, engaging, and positive learning environment'" - Dr. Gavin Fay, University of Massachusetts Dartmouth
+::: {.column width="35%"}
+<br>
+<br>
+["Prospective students for my research group say how much they appreciate the lab manual and it's a reason they want to work with us." <br>- Dr. Gavin Fay, University of Massachusetts Dartmouth]{.quote}
 :::
 :::
 
 ::: notes
 One of the ways you welcome people is making the implicit explicit
 
-Writing things down is a way to build inclusion, so that there's not hidden curriculum or and that you don't assume what people know and are comfortable with
+Writing things down is a way to build inclusion into your daily work, so that there's not unspoken rules that can exclude people.
 
-Gavin Fay's lab at UMass Dartmouth was mentored through Openscapes adn they then went and wrote a public lab manual that puts their values forward. This was a way to builds trust and psych safety, which has built resilience in his teams, and was particuarly important as they had new members join their lab remotely during the Pandemic.
+Gavin Fay's lab at UMass Dartmouth was mentored through Openscapes and they then went and wrote a public lab manual that puts their values forward. This was a way to builds trust, psych safety, and resilience with the team, and was particuarly important as they had new members join their lab remotely during the Pandemic.
 
-Transition:
-
-\~Another benefit too is that it reduces emails bc often instead of asking questions people know to look in the lab manual, and when there are questions that aren't covered there, they are added to this shared resource rather than being lost in an email thread with two people. (Point people to where it lives - remember that our expectations for how we run our meetings is documented here) (lab-chat repo culture)\~
+Transition: And another form of Welcome that this lab manual enabled - 
 :::
 
-## Onboard learners as contributors
+## Onboard learners as contributors {.julie background-image="images/earth_art_jordan.png" background-opacity="0.3"}
 
 *Slowing down to speed up*
 
 <br>
 
+::: fragment
 ::: columns
 ::: {.column width="50%"}
 From:
@@ -557,48 +538,46 @@ To:
 "let's screenshare so you learn how to fix it".
 :::
 :::
-
-<br>
-
-::: fragment
-Importantly: doesn't assume skills in each other and reinforces a peer-learning and teaching culture.
 :::
 
 ::: notes
-Something they did to help welcome new lab members was to onboard them as learners and contributors. This meant slowing down to speed up, and was a nice long-term way to maintain the documentation and the community at the same time.
+They could onboard learners as contributors. This meant slowing down to speed up, and was a nice long-term way to maintain the documentation and the community at the same time.
 
-And their approach evolved. First it was "if you find something broken let us know" and the it was "let's teach you how to fix it together.
+What this looked like was that when new people joined the lab, they read the lab manual and were encouraged to edit it to, make clarifying edits, fix broken links, and add new content to help fill in any gaps. 
 
-Since new learners were often contributing from the browser, they also set up a GitHub Action so it's published immediately when someone contributes. That reminds me of the philosophy of teaching ggplot early, so that new contributors can see their change integrated straight away and feel excited about their accomplishments.
+And their approach to contributing evolved. First it was "if you find something broken let us know" and the it was "let's screenshare so you learn how to fix it yourself.
+
+New learners were often contributing from the browser, so they also set up a GitHub Action so it's published immediately when someone contributes and new contributors can see their change integrated straight away and feel excited about their accomplishments.
 :::
 
-## Reuse (and credit!) good ideas
 
-<br>
+## Reuse (and credit!) good ideas {.julie}
+*Open science as a way to work*
 
 ::: columns
-::: {.column width="40%"}
+::: {.column width="30%"}
+<br>
+<br>
 [Catalina quote: share ideas earlier, share imperfect work.]{.quote}
 :::
 
-::: {.column width="60%"}
-::: illustration
-screenshot: Cookbook contributor page
-:::
+::: {.column width="70%"}
+![](images/cookbook_contributing.png)
 :::
 :::
 
 ::: notes
-The next part of this story is to reuse good ideas. We loved how the FayLab made the implict explicit and brought that idea to NASA.
+Another way to welcome people is to reuse and credit and propogate good ideas. We loved how the FayLab made the implict explicit and brought that idea to NASA.
 
-As we were first dev'ing our Mentor community, there wasn't a place to make the implicit explicit. Quarto gave them that place - we put it as the contributor place right in the cookbook.
+One of the things here is that open science is a way to work. It's not just about products, it's about process. It's about people. 
 
-Catalina has said how Quarto has given her a place to share ideas earlier, comfortable sharing imperfect work and getting feedback
+As we were first dev'ing the NASA Mentor community, there wasn't a place to make the implicit explicit. Quarto gave them that place - this is the Cookbook you saw earlier but with the Contributing section expanded
 
-\~16:06:34 there's supporting researchers who are in this transition too, and quarto, you know, gave us a place and a space to make it explicit. 16:06:50 What was common, and you know and it's positioned us that we're not language specific.\~
+Catalina has said how Quarto has given her a place to share ideas earlier, comfortable sharing imperfect work and getting feedback. Having the space that Openscapes provides and that place that Quarto provided has been a really critical combination to be able to identify and act to support common needs.
 :::
 
-## Reuse good resources, empathize with audiences
+## Reuse existing resources, empathize with audiences {.julie}
+*Create once use often*
 
 <br>
 
@@ -617,20 +596,19 @@ Catalina has said how Quarto has given her a place to share ideas earlier, comfo
 <br>
 
 ::: notes
-Having gotten familiar with a collaborative workflow with Quarto, the Mentors then turned around and reused not only the tutorials they developed but the structure and presentation, in order to create Quarto sites for specific learning events they led together.
+Along with reusing good ideas, we need to reuse good resources, and always empathize with the specific audiences we're working with. 
 
-They got familiar with each other's work, they gave feedback, and when there was an emergency for one of the teachers the morning of the first workshop others were confidently able to step in to lead, since they were familiar with where everything was, how it worked, and how they had seen it taught. So building with intention and reusing rather reinventing builds resilience in teams and people
+Since they were familiar with a collaborative workflow with Quarto, they could turn around and reuse the tutorials they co-developed and tailor them to audiences' specific needs.
 
-Slides story with Amy
+These are two examples of a Hackthon event and slides for an invited talk that the mentors created last fall but there are 10 other examples I could have chosen.
 
-These are just 2 examples; these have now been reused 10+ times. Audience-specific, dev'd with empathy for that audience.
+Slides story with Amy - slides from an .pynb
 
 README: link to cookbook tutorials page.
 :::
 
-## Reuse good ideas (reprise!)
-
-<br>
+## Reuse good ideas (reprise!) {.julie}
+*italics*
 
 ::: columns
 ::: {.column width="40%"}
@@ -645,9 +623,26 @@ Screenshot: NMFS Openscapes
 :::
 
 ::: notes
-We've reused these good ideas in other Openscapes work, particuarly for onboarding learners as contributors as we've gotten to know Quarto more. It's cool to see NOAA reusing the ideas from NASA as well!
+It's worth mentioning again how important it is to reuse good ideas
 
-With the fisheries and water folks who are more R based, we've been experimenting using Visual Editor, let me show you some things we've learned in this workflow..
+We've been onboarding learners as contributors as we've gotten to know Quarto more. It's cool to see NOAA reusing the ideas from NASA as well!
+:::
+
+## Collaborate across coding comfort levels {.julie}
+*Don't assume skills, reinforce a peer-learning & teaching culture* 
+
+Screenshot: Visual Editor
+
+::: notes
+And throughout all of this is the idea that we can collaborate across coding comfort levels. 
+
+This is about not assuming technical skills, but creating an safe culture where they can say what they don't know and reinforce a peer-learning & teaching culture
+
+This is a screenshot of the new Visual Editor that is part of the RStudio IDE, and it's something we've been experimenting with more and more.
+
+Earlier I talked about how Quarto has removed barriers for people across coding languages like R and Python, but as we reimagine what's possible Quarto also has a role is removing barriers for people with different comfort levels around coding.
+
+Transition: Let me demo Quarto with the Visual editor - it's really exciting to blur those lines between who identifies as a coder or not using these tools collaboratively.
 :::
 
 ## Demo: Quarto in the Visual Editor
@@ -671,27 +666,42 @@ Julie:
 -   Mara: Quarto has more "guardrails" for users - more friendly for sometone who hasn't worked in this environment before \> maybe up in the visual editor part/
 :::
 
-## Reimagining together
+## Reimagining together {.smaller} 
 
-(NASA background image)
+:::: {.columns}
 
-<br>
+::: {.column width="40%"}
+So, earth, pale blue dot<br>
+We will fail you not.<br>
 
-Open science as a way to work.
+Just as we chose to go to the moon<br>
+We know it’s never too soon<br>
+To choose hope.<br>
+We choose to do more than cope<br>
+With climate change<br>
+We choose to end it—<br>
+We refuse to lose.<br>
+Together we do this and more<br>
+Not because it’s very easy or nice<br>
+But because it is necessary,<br>
+Because with every dawn we carry<br>
+the weight of the fate of this celestial body orbiting a star.<br>
+And as heavy as that weight sounded, it doesn’t hold us down,<br>
+But it keeps us grounded, steady, ready,<br>
+Because an environmental movement of this size<br>
+Is simply another form of an earthrise.<br>
 
-its not just products, it's people and process
-
-It's a spectrum, not all-or-nothing
-
-::: {.absolute bottom="0" left="0" width="1000"}
-Different quote: ["Addressing the climate crisis...will take everyone. We cannot, we must not, go it alone" - Ayana Elizabeth Johnson & Katharine Wilkinson, All We Can Save]{.quote}
+Excerpt from **Earthrise by Amanda Gorman**
 :::
 
-::: notes
-Julie: Leave you one last venn diagram
+::: {.column width="60%"}
+![](images/earthrise_nasa.jpg){fig-align="right"}
 
-Reprise from NASA Openscapes - find the common - reuse existing - contribute to fill gaps - foster a learning culture
+[Image: NASA, Apollo 8, 1968]{text-align="right"}
 :::
+::::
+ 
+
 
 ## Summary
 
@@ -723,7 +733,7 @@ Reprise from NASA Openscapes - find the common - reuse existing - contribute to 
 Mine: We've gone through these, but we have so much more to say, we'll just need to do it a lot more quickly...
 :::
 
-# Thank you {background-image="images/horst_quarto_thankyou.png" background-size="contain"}
+# Thank you {background-image="images/horst_quarto_penguins_thankyou.png" background-size="contain"}
 
 ## Coda
 
