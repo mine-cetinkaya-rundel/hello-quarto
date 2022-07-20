@@ -204,15 +204,13 @@ This has helped me focus my time on my content, which has been a huge win.
 Mine: now over to you Julie
 :::
 
-#  {background-image="images/horst_penguins_telescope.png" background-size="contain"}
+# {background-image="images/horst_penguins_telescope.png" background-size="contain"}
 
 ::: notes
 Julie: Thanks Mine, let's next talk about Collaborating with Quarto
 :::
 
-## 
-
-![](images/julie-penguin-nametag.png){.absolute fig-alt="Penguin with nametag that says \"Julie\"" top="0" width="25%"}
+## ![](images/julie-penguin-nametag.png){.absolute fig-alt="Penguin with nametag that says \"Julie\"" top="0" width="25%"}
 
 ![](images/lowndes_venn_science.svg){.absolute top="50" right="0" width="100%"}
 
@@ -233,6 +231,8 @@ Openscapes is a movement and a community that I launched and have built together
 Our flagship activity is mentoring research teams in environmental open data science.
 Since 2018 we've helped over 75 teams move from sad lonely workflows like the animals on bottom left and into this rich landscape full of open source software, data, and communities.
 Our role is welcome folks at the trailhead, meeting them where they are and helping them explore and navigate this landscape safely together.
+
+A big focus of Openscapes is helping researchers build psychologically safety within their teams, so that there is a strong culture of peer-learning and teaching, of asking questions, not assuming what people know or don't know, and trying to blur the lines of who can participate in technology.
 
 Transition: The story I'd like to tell you now is with NASA
 :::
@@ -256,16 +256,19 @@ And this is how NASA Openscapes came to be
 
 ::: columns
 ::: {.column width="50%"}
-<br> <br> <br> **Develop a cross-NASA mentor community**<br>to co-create and teach common tutorials<br> to support researchers with Earthdata Cloud
+
+<br>
+<br>
+<br>
+**Develop a cross-NASA mentor community<br>to co-create and teach common tutorials<br> to support researchers with Earthdata Cloud**
+
+[nasa-openscapes.github.io](https://nasa-openscapes.github.io)
+
 :::
 
 ::: {.column width="50%"}
 ![](images/2021-NASA-Openscapes-Mentors-Photoshop.png){width="80%"}
 :::
-:::
-
-::: footer
-[nasa-openscapes.github.io](https://nasa-openscapes.github.io)
 :::
 
 ::: notes
@@ -314,7 +317,12 @@ And quarto gave them a place to collab and present their work on a beautiful way
 
 ::: columns
 ::: {.column width="50%"}
-![](images/cloud_workshop_agu.png){width="80%"} ![](images/quarto_slides_steiker.png){width="80%"}
+
+![](images/cloud_workshop_agu.png){width="80%"} 
+![](images/quarto_slides_steiker.png){width="80%"}
+
+[Catalina quote: quarto helped me share sooner, comfortable with imperfect]{.quote}
+
 :::
 
 ::: {.column width="50%"}
@@ -334,32 +342,7 @@ Followed quickly by other iterations we were able to do with this same workflow
 Codifying this to the cookbook
 :::
 
-## Feeling psychologically safe to learn and teach
-
-::: {.quotebox-partial}
-Catalina quote: quarto helped me share sooner, comfortable with imperfect
-:::
-
-New ways of tackling challenges means new tech, new habits, new culture.
-
-::: notes
-Our team finally felt psych safe to participate, overcome rejection, github commits (Iksha)
-
-and closing gaps between Gap between what's possible and who can participate, assumptions
-
-OLD quote: "Who is safe to participate?" - Tara Robertson, Diversity, Equity, and Inclusion Coach
-
-a shared belief that team members will not be rejected or embarrassed for speaking up with their ideas, questions, or concerns
-
-Amy C. Edmondson is the Novartis Professor of Leadership and Management at Harvard Business School.
-
-But there is a Gap between what's possible and who can participate.
-New ways of tackling challenges means new tech, new habits, and new culture.
-But these barriers are technical and cultural.
-We also need to think about "Who is safe to participate? Who is included and supported? Who feels like they belong?" - Tara Robertson
-:::
-
-## Collaborating across coding languages
+## Collaborating across coding languages {.julie}
 
 ::: illustration
 **Image:** `_quarto.yml`: `.ipynbs`, with `.rmds`
@@ -393,41 +376,41 @@ Transition: So let me show you what this looks like in Jupyter -
 Julie: ...
 :::
 
-## NASA-Openscapes
+# ![](images/NASA_logo.png){width="18%"} ![](images/openscapes_hex.png){width="12%"}  {.h1center}
 
-[Develop a cross-NASA mentor community to create & teach common Earthdata Cloud tutorials that are then iterated for specific research examples]{.midi}
 
-::: columns
-::: {.column .centered width="40%"}
-![](images/2021-NASA-Openscapes-Mentors-Photoshop.png)
+:::: {.columns}
 
-![](images/NASA_logo.png){width="30%"} ![](images/openscapes_hex.png){width="20%"}
-:::
-
-::: {.column .centered width="60%"}
-![](images/horst_landscape_mentors.png){width="70%"}
-
-**Focus on finding the common, peer-learning & teaching culture, contributing as part of their jobs.**
+::: {.column width="50%"}
+**Develop a cross-NASA mentor community<br>to co-create and teach common tutorials<br> to support researchers with Earthdata Cloud**
 
 <br>
 
-**Successes = importance of leadership support + empowered, connected early adopters.**
-:::
-:::
+[**Space and place to find the common, establish a peer-learning & teaching culture, contribute as part of their jobs.**]{text-align="center"}
 
-::: {.absolute top="0" right="0" width="250"}
-:::
+<br>
 
-::: footer
+[**Importance of leadership + empowered, connected early adopters.**]{text-align="center"}
+
+
 [nasa-openscapes.github.io](https://nasa-openscapes.github.io)
 :::
+
+::: {.column width="50%"}
+
+![](images/2021-NASA-Openscapes-Mentors-Photoshop.png){width="80%"}
+:::
+
+::::
+
 
 ::: notes
 NASA-Openscapes is a 3-year project is to Develop a cross-NASA mentor community to create & teach common Earthdata Cloud tutorials that are then iterated for specific research examples
 
 Since we started in early 2021 we've worked with just amazing group of NASA user support staff and engineers.
 We've supported them through finding the common needs across all Mentors, fostering a peer-learning and teaching culture, and having them contribute to shared activities as part of their jobs.
-And along with our mentorship we've also provided a 2i2c JupyterHub, AWS Cloud Credits, and Carpentries Instructor training.
+
+Alignment
 
 As you'll see, this group has achieved a lot in the last year.
 And the successes of this project so far really speaks to the importance of leadership support plus empowered and connected early adopters.
@@ -439,11 +422,9 @@ As a marine ecologist, I was unfamiliar with Earth science as a research domain,
 And as an R user a fourth big thing that was intimidating to me -
 :::
 
-## 
+## Teach {background-image="images/horst_quarto_meteor.png" background-size="contain"}
 
-![](images/horst_quarto_meteor.png){fig-align="center"}
-
-# Teach {background-image="images/horst_quarto_penguins_teach.png" background-size="contain"}
+# {background-image="images/horst_quarto_penguins_teach.png" background-size="contain"}
 
 ## Use Quarto to accomplish existing goals {.smaller}
 
@@ -548,7 +529,7 @@ Transition: They describe that we have the solutions we need in terms of data, r
 And we are so inspired to rise to this moment.
 :::
 
-# Making the mosaic actionable
+# An actionable mosaic of voices
 
 *Building Welcome, inclusion, and empathy into our daily work*
 
@@ -569,6 +550,10 @@ quarto book mosaic: NOAA, NASA, EPA, logos
 :::
 
 ::: notes
+Within this mosaic of voices, there can be a divide between who is technical or not, and this gap is widening. To make this mosaic of voices actionable to tackle these big problems, we need strategies to close those gaps and blur those lines. 
+
+Openscapes has provided space for those voices to come together, Quarto gives them place to contribute and share.
+
 Making the mosaic of voices actionable has been a focus
 
 With Openscapes and Quarto we've been able to help this mosaic of voices actionable.
@@ -597,46 +582,17 @@ It's lowering the barriers and blurring lines.
 Here are a few stories: a few ways that this is happening
 :::
 
-# Making the mosaic actionable
 
-1.  Engage: Make the implicit explicit
-2.  Empower: Onboard learners as contributors
-3.  Amplify: Reuse (and credit!) good ideas
+# Making the mosaic actionable 
 
-## 1. Engage: Make the implicit explicit
+Engage: Make the implicit explicit
 
-*Document for a specific audience*
+Empower: Onboard learners as contributors 
 
-::: columns
-::: {.column width="65%"}
-![](images/faylab-labmanual.png){width="80%"}
-:::
+Amplify: Reuse (and credit!) good ideas
 
-::: {.column width="35%"}
-::: {.quotebox-partial}
-Prospective students for my research group say how much they appreciate the lab manual and it's a reason they want to work with us. \
-\
-Dr. Gavin Fay \
-University of Massachusetts Dartmouth
-:::
-:::
-:::
 
-::: notes
-One of the ways you welcome people is making the implicit explicit.
-This is about writing down the rules and expectations so that that people are set up to succeed.
-
-This helps people transition from being an outsider to part of the community
-
-Gavin Fay's lab at UMass Dartmouth is one of the marine science teams was mentored through Openscapes they then went and wrote a public lab manual that puts their values forward along with these rules and expectations.
-This was a way to builds trust, psych safety, and resilience with the team, and was particuarly important as they had new members join their lab remotely during the Pandemic.
-
-Transition: This then enabled a second form of Welcome -
-:::
-
-## 2. Empower: Onboard learners as contributors
-
-*Reinforce a peer-learning & teaching culture*
+## Collaborating across coding comfort levels
 
 ::: columns
 ::: {.column width="60%"}
@@ -648,6 +604,28 @@ Approach Guide, Quarto Website Tutorial?
 
 ![](images/quarto_commits_stefaniebutland1.png) ![](images/quarto_commits_stefaniebutland.png)
 :::
+:::
+
+
+## Contributing from our expertise & experiences {.julie}
+
+- coaching
+- facilitation
+- community engagment
+- Black marine science
+- project management
+
+
+::: notes
+One of the ways you welcome people is making the implicit explicit.
+This is about writing down the rules and expectations so that that people are set up to succeed.
+
+This helps people transition from being an outsider to part of the community
+
+Gavin Fay's lab at UMass Dartmouth is one of the marine science teams was mentored through Openscapes they then went and wrote a public lab manual that puts their values forward along with these rules and expectations.
+This was a way to builds trust, psych safety, and resilience with the team, and was particuarly important as they had new members join their lab remotely during the Pandemic.
+
+Transition: This then enabled a second form of Welcome -
 :::
 
 ::: notes
@@ -664,15 +642,18 @@ It's about people.
 
 Transition: So these examples so far have been about openly creating documentation for your team, which is a big part of reimagining how we work.
 And it's also an opportunity to extend this in other resources as well.
-:::
-
-## 3. Amplify: Reuse (and credit!) good ideas
 
 *Open science as a way to work*
 
-NOAA: Eli leading grassroots effort for open science at NOAA Fisheries.
-Participated in that Fall 2021 NASA Hackathon, bringing ideas here
 
+NOAA: Eli leading grassroots effort for open science at NOAA Fisheries. 
+
+
+
+ESIP blog
+:::
+
+(Participated in that Fall 2021 NASA Hackathon, bringing ideas here)
 ::: columns
 ::: {.column width="55%"}
 Collaborate across coding comfort levels
@@ -704,6 +685,8 @@ This is also a way to invest in and mantain this community resource.
 :::
 
 ## Removing barriers, blurring lines {background-image="images/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpg" background-opacity="0.3"}
+
+**New ways of tackling challenges means new tech, new habits, new culture.**
 
 Blurring between fed agencies, between researchers, between people who do and don't identify as coders, what lang you use, how technical you are
 
@@ -747,27 +730,6 @@ This is about not assuming technical skills, but creating an safe culture where 
 Transition: Let me demo Quarto with the Visual editor - it's really exciting to blur those lines between who identifies as a coder or not using these tools collaboratively.
 :::
 
-## Earthrise by Amanda Gorman {.smaller}
-
-::: columns
-::: {.column width="40%"}
-So, earth, pale blue dot<br> We will fail you not.<br>
-
-Just as we chose to go to the moon<br> We know it's never too soon<br> To choose hope.<br> We choose to do more than cope<br> With climate change<br> We choose to end it---<br> We refuse to lose.<br> Together we do this and more<br> Not because it's very easy or nice<br> But because it is necessary,<br> Because with every dawn we carry<br> the weight of the fate of this celestial body orbiting a star.<br> And as heavy as that weight sounded, it doesn't hold us down,<br> But it keeps us grounded, steady, ready,<br> Because an environmental movement of this size<br> Is simply another form of an earthrise.<br>
-:::
-
-::: {.column width="60%"}
-![](images/earthrise_nasa.jpg){fig-align="right"}
-
-[Image: NASA, Apollo 8, 1968]{text-align="right"}
-:::
-:::
-
-::: notes
-So following that demo I wanted to leave you with this quote from Earthrise by Amanda Gorman as a way to think think about reimagining together
-
-The more we can incorporate these practices that keep us grounded, steady, and ready
-:::
 
 ## Summary
 
@@ -810,7 +772,7 @@ Mine: We've gone through these, but we have so much more to say, we'll just need
 
 # Quarto examples and resources
 
-## Call to Action: try it out! {background-image="images/horst_rey_quarto.png" background-size="contain"}
+## Call to Action: try it out! 
 
 -   Quarto docs
 -   Mine's Toronto talk
@@ -822,5 +784,27 @@ Mine: We've gone through these, but we have so much more to say, we'll just need
     -   r4ds
     -   other slide decks from conf?
 -   Go here to find the source code for the things we built in the talk...
+
+## Earthrise by Amanda Gorman {.smaller}
+
+::: columns
+::: {.column width="40%"}
+Excerpted from [Earthrise full text and video](https://www.sierraclub.org/los-padres/blog/2021/02/earthrise-poem-amanda-gorman)
+
+<br>
+<br>
+
+So, earth, pale blue dot<br> We will fail you not.<br>
+
+Just as we chose to go to the moon<br> We know it's never too soon<br> To choose hope.<br> We choose to do more than cope<br> With climate change<br> We choose to end it---<br> We refuse to lose.<br> Together we do this and more<br> Not because it's very easy or nice<br> But because it is necessary,<br> Because with every dawn we carry<br> the weight of the fate of this celestial body orbiting a star.<br> And as heavy as that weight sounded, it doesn't hold us down,<br> But it keeps us grounded, steady, ready,<br> Because an environmental movement of this size<br> Is simply another form of an earthrise.<br>
+
+:::
+
+::: {.column width="60%"}
+![](images/earthrise_nasa.jpg){fig-align="right"}
+
+[Image: NASA, Apollo 8, 1968]{style="text-align: right;"}
+:::
+:::
 
 ## References
