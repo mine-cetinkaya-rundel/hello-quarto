@@ -113,6 +113,11 @@ I'll share my experiences collaborating and reimagining with Quarto, focused on 
 
 ### 🔗 [rstd.io/hello-quarto](https://rstd.io/hello-quarto)
 
+Artwork by Allison Horst
+
+References at the end
+
+
 ::: notes
 Julie: And, as you may have suspected, these slides are indeed made with Quarto.
 If you'd like to follow along, go to this url and follow along with us.
@@ -515,7 +520,9 @@ Julie:
 ##  {#open-science-as-part-of-the-climate-movement data-menu-title="Open science as part of the climate movement" background-image="images/earth_art_baltic.png" .center}
 
 ::: {.quotebox}
-To address our climate emergency, we must rapidly, radically reshape society. We need every solution and every solver. As the saying goes, to change everything, we need everyone. **What this moment calls for is a mosaic of voices** -- the full spectrum of idea and insights for how we can turn things around. \
+To address our climate emergency, we must rapidly, radically reshape society. We need every solution and every solver. As the saying goes, to change everything, we need everyone.
+
+**What this moment calls for is a mosaic of voices** -- the full spectrum of idea and insights for how we can turn things around. \
 \
 Ayana Elizabeth Johnson & Katharine Wilkinson \
 *All We Can Save*
@@ -529,9 +536,7 @@ Transition: They describe that we have the solutions we need in terms of data, r
 And we are so inspired to rise to this moment.
 :::
 
-# An actionable mosaic of voices
-
-*Building Welcome, inclusion, and empathy into our daily work*
+## An actionable mosaic of voices
 
 ::: fragment
 quarto book mosaic: NOAA, NASA, EPA, logos
@@ -583,7 +588,9 @@ Here are a few stories: a few ways that this is happening
 :::
 
 
-# Making the mosaic actionable 
+## An actionable mosaic of voices
+
+*Building inclusion, empathy, and openness into our daily work*
 
 Engage: Make the implicit explicit
 
@@ -592,28 +599,42 @@ Empower: Onboard learners as contributors
 Amplify: Reuse (and credit!) good ideas
 
 
+## Approach Guide, Quarto Website Tutorial
+
 ## Collaborating across coding comfort levels
 
-::: columns
-::: {.column width="60%"}
-Approach Guide, Quarto Website Tutorial?
-:::
+TODO: image: Erin commit
 
-::: {.column width="40%"}
-![](images/quarto_commits_aholder1.png){width="80%"} ![](images/quarto_commits_ileanaf0.png) ![](images/quarto_commits_ileanaf1.png)
+![](images/quarto_commits_aholder1.png){width="50%"} ![](images/quarto_commits_ileanaf0.png) ![](images/quarto_commits_ileanaf1.png)
 
 ![](images/quarto_commits_stefaniebutland1.png) ![](images/quarto_commits_stefaniebutland.png)
-:::
+
+
+
+## Contributing openly as a way to work {.julie}
+
+open mindsets
+
+::: {.quotebox-partial}
+Before Openscapes and Quarto I was hesitant to put unfinishied tutorials or how-to notes on an open platform but I've really come to appreciate this new open way of collaborating and developing in a way that lets others learn as well and lets us scale up our effort for teaching these concepts
+
+Quarto is a tool that enables u to open up and share our process and the artifacts of that open process in a way that's friendly to a broad range of data users
+
+- Catalina Oaida Taglialatela 
 :::
 
 
-## Contributing from our expertise & experiences {.julie}
+
+bring experiences
 
 - coaching
 - facilitation
 - community engagment
 - Black marine science
 - project management
+- Agile
+
+
 
 
 ::: notes
