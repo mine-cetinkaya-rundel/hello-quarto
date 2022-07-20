@@ -15,28 +15,24 @@ $link-color: #75AADB;
   font-family: 'Delius Unicase', cursive;
   color: #d2e3f3;
   font-size: 3em;
+  position: absolute;
+  top: -200%;
 }
 
 .reveal #title-slide .subtitle {
   font-family: 'Delius Unicase', cursive;
   color: #d2e3f3;
-  font-size: 1.5em;
-}
-
-.reveal #title-slide .subtitle a {
-  font-family: "Atkinson Hyperlegible", sans-serif;
-  color: #1C1C1C;
   font-size: 1.25em;
-  background-color: rgba(210, 227, 243, 0.5);
-  padding: 10px;
-  text-align: right;
+  position: absolute;
+  top: -100%;
 }
 
 .reveal #title-slide .author {
   color: #d2e3f3;
   text-align: right;
-  font-size: 150%;
-  margin-top: 600px;
+  font-size: 1.5em;
+  position: absolute;
+  top: 100%;
 }
 
 .reveal h1 {
@@ -45,11 +41,15 @@ $link-color: #75AADB;
   font-size: 2em;
 }
 
-.reveal #section-hello-quarto h1 {
-  margin-top: -500px;
+.reveal .section-title-top h1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
-.reveal #center {
+.reveal .centered {
   text-align: center;
 }
 
@@ -58,7 +58,7 @@ $link-color: #75AADB;
 }
 
 .reveal .midi {
-  font-size: 1.25em;
+  font-size: 1.2em;
 }
 
 
@@ -71,15 +71,22 @@ $link-color: #75AADB;
   text-align: center;
 }
 
-.reveal .julie h2 {
-  color: #FF744E;
+.reveal .slide .quotebox {
+  border: 2px solid #FFFFFF;
+  padding: 1em;
+  background: rgb(231, 231, 232, 0.9);
+  position: absolute;
+  left: 15%;
+  width: 70%;
+  color: #0F1620;
+  font-size: 1.1em;
 }
 
-.reveal .quote { /*-- julie note: not final! I am not good with css/color but wanted to have something --*/
-  color: #FF744E;
-  background-color: #FAE3E3;
-  font-style: italic;
-  text-align: center;
+.reveal .slide .quotebox-partial {
+  border: 2px solid #9fa1a5;
+  padding: 1em;
+  background: rgb(231, 231, 232, 0.9);
+  color: #0F1620;
 }
 
 .shout { /*-- julie note: also not final (or accessible)! Just wanted something that isn't normal text - altering Header3 could also work here --*/

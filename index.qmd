@@ -1,23 +1,25 @@
 ---
-title: "Hello Quarto"
-subtitle: "share • collaborate • teach • reimagine <br><br> [rstd.io/hello-quarto](https://rstd.io/hello-quarto)"
+pagetitle: "Hello Quarto"
+subtitle: "share • collaborate • teach • reimagine"
 author: "Mine Çetinkaya-Rundel <br> Julia Stewart Lowndes"
 format: 
   revealjs: 
     theme: style.scss
     multiplex: true
     transition: fade
+    chalkboard: true
     height: 900
     width: 1600
-    title-slide-attributes:
-      data-background-image: images/horst_penguins_telescope.png
+    fontcolor: "#262d36"
 editor: visual
 bibliography: references.bib
 # Julie title slide speaker notes: 
 # Thank you so much, We're excited to be here! Mine and I have both been using Quarto for the last year; she has been teaching with it since its earliest days and my Openscapes team is the first external users of Quarto. As Mine and I have experimented with it in our own work we realize we love it, and we're thrilled to introduce and welcome you to Quarto. 
 ---
 
-# Hello, Quarto? {#section-hello-quarto background-image="images/horst_quarto_meteor_transparent.png"}
+# Hello, Quarto! {.section-title-top background-image="images/horst_penguins_telescope.png"}
+
+# Hello, Quarto? {.section-title-top background-image="images/horst_quarto_meteor_transparent.png"}
 
 ::: notes
 Julie: But also, we know you have questions.
@@ -28,7 +30,7 @@ And how does it relate to R Markdown and to other tools you already use and work
 Transition: Well -
 :::
 
-##  {#center background-color="#0F1620" auto-animate="true"}
+##  {.centered-slide background-color="#0F1620" auto-animate="true"}
 
 ::: {style="margin-top: 150px; font-size: 3em; color: #75AADB;"}
 Quarto **unifies** and **extends** <br>the R Markdown ecosystem
@@ -39,7 +41,7 @@ Quarto unifies & extends the R Markdown ecosystem.
 @baker2015
 :::
 
-##  {#center background-color="#0F1620" auto-animate="true"}
+##  {.centered-slide background-color="#0F1620" auto-animate="true"}
 
 ::: {style="margin-top: 100px; font-size: 2.2em; color: #75AADB"}
 Quarto **unifies** and **extends** <br>the R Markdown ecosystem
@@ -47,7 +49,7 @@ Quarto **unifies** and **extends** <br>the R Markdown ecosystem
 
 <br>
 
-::: {.fragment .fade-up .large} 
+::: {.fragment .fade-up .large}
 **unifies** for people who love R Markdown
 :::
 
@@ -65,16 +67,16 @@ And it extends the R Markdown ecosystem as a friendly way for code and text to b
 Transition: It builds on 10 years of insight from R Markdown -
 :::
 
-##  {#center background-color="#0F1620" auto-animate="true"}
+##  {.centered-slide background-color="#0F1620" auto-animate="true"}
 
 ::: {style="margin-top: 100px; font-size: 3em; color: #75AADB;"}
-Quarto is a **new**, **open-source**,<br> **scientific**, and **technical**<br> publishing system
+Quarto is a **new**, **open-source**,<br> **scientific** and **technical**<br> publishing system
 :::
 
-##  {#center background-color="#0F1620" auto-animate="true"}
+##  {.centered-slide background-color="#0F1620" auto-animate="true"}
 
 ::: {style="margin-top: 50px; font-size: 2em; color: #75AADB"}
-Quarto is a **new**, **open-source**,<br> **scientific**, and **technical**<br> publishing system
+Quarto is a **new**, **open-source**,<br> **scientific** and **technical**<br> publishing system
 :::
 
 ::: {.fragment .fade-up .midi}
@@ -86,11 +88,13 @@ that makes the process of **creating** and **collaborating**<br>on scientific an
 :::
 
 ::: notes
-Julie: Quarto is a new open-source scientific and technical publishing system.
-The goal is to make the process of creating and collaborating on scientific and technical documents dramatically better.
-It handles inputs in multiple languages, and outputs in multiple formats, all going through the same machinery.
+**Julie**
 
-The interplay of how tools influence culture and vice versa is really exciting to me here: there is a really strong culture of reuse and teaching in the R community that has been driven by R Markdown and excited to interoperate with other languages too
+Quarto is a new open-source scientific and technical publishing system.
+
+\<\> The goal is to make the process of creating and collaborating on scientific and technical documents dramatically better.
+
+\<\> It handles inputs in multiple languages, and outputs in multiple formats, all going through the same machinery.
 :::
 
 ## Hello, Quarto!
@@ -119,7 +123,7 @@ Over to you, Mine!
 
 ![](images/quadrants-share.gif){fig-align="center" width="480"}
 
-##  {background-color="#405772"}
+##  {#this-is-an-id data-menu-title="Some title" background-color="#405772"}
 
 ![](images/mine-penguin-nametag.png){fig-alt="Penguin with nametag that says \"Mine\"" fig-align="center"}
 
@@ -330,9 +334,11 @@ Followed quickly by other iterations we were able to do with this same workflow
 Codifying this to the cookbook
 :::
 
-## Feeling psychologically safe to learn and teach {.julie}
+## Feeling psychologically safe to learn and teach
 
-<br> [Catalina quote: quarto helped me share sooner, comfortable with imperfect]{.quote}
+::: {.quotebox-partial}
+Catalina quote: quarto helped me share sooner, comfortable with imperfect
+:::
 
 New ways of tackling challenges means new tech, new habits, new culture.
 
@@ -341,7 +347,7 @@ Our team finally felt psych safe to participate, overcome rejection, github comm
 
 and closing gaps between Gap between what's possible and who can participate, assumptions
 
-OLD ["Who is safe to participate?" - Tara Robertson, Diversity, Equity, and Inclusion Coach]{.quote}
+OLD quote: "Who is safe to participate?" - Tara Robertson, Diversity, Equity, and Inclusion Coach
 
 a shared belief that team members will not be rejected or embarrassed for speaking up with their ideas, questions, or concerns
 
@@ -353,7 +359,7 @@ But these barriers are technical and cultural.
 We also need to think about "Who is safe to participate? Who is included and supported? Who feels like they belong?" - Tara Robertson
 :::
 
-## Collaborating across coding languages {.julie}
+## Collaborating across coding languages
 
 ::: illustration
 **Image:** `_quarto.yml`: `.ipynbs`, with `.rmds`
@@ -364,7 +370,7 @@ In fact, it's mostly .ipynbs as you see in this simplifid view of our `_quarto.y
 Being able to make a collection of tutorials in different language and filetypes has been a huge benefit for us working together.
 :::
 
-## Contributing from our current tools {.julie}
+## Contributing from our current tools
 
 Screenshot: RStudio IDE, VSCode, Jupyter...
 
@@ -387,25 +393,25 @@ Transition: So let me show you what this looks like in Jupyter -
 Julie: ...
 :::
 
-## NASA-Openscapes {.julie}
+## NASA-Openscapes
 
-Develop a cross-NASA mentor community to create & teach common Earthdata Cloud tutorials that are then iterated for specific research examples
+[Develop a cross-NASA mentor community to create & teach common Earthdata Cloud tutorials that are then iterated for specific research examples]{.midi}
 
 ::: columns
-::: {.column width="40%"}
+::: {.column .centered width="40%"}
 ![](images/2021-NASA-Openscapes-Mentors-Photoshop.png)
 
-### ![](images/NASA_logo.png){width="30%"} ![](images/openscapes_hex.png){width="20%"} {.h3center}
+![](images/NASA_logo.png){width="30%"} ![](images/openscapes_hex.png){width="20%"}
 :::
 
-::: {.column width="60%"}
-![](images/horst_landscape_mentors.png){width="70%" fig-align="\"center"}
+::: {.column .centered width="60%"}
+![](images/horst_landscape_mentors.png){width="70%"}
 
-[**Focus on finding the common, peer-learning & teaching culture, contributing as part of their jobs.**]{text-align="center"}
+**Focus on finding the common, peer-learning & teaching culture, contributing as part of their jobs.**
 
 <br>
 
-[**Successes = importance of leadership support + empowered, connected early adopters.**]{text-align="center"}
+**Successes = importance of leadership support + empowered, connected early adopters.**
 :::
 :::
 
@@ -522,21 +528,16 @@ I'll start off here with a Demo of using Quarto in the Visual Editor.
 ::: notes
 Julie:
 
--   Mara: Quarto has more "guardrails" for users - more friendly for sometone who hasn't worked in this environment before \> maybe up in the visual editor part/ Transition: So Quarto is really powerful for seasoned coders and Markdown users, as well as a friendly introduction for new coders. And that's important. I've showed you this awesome tech and I want to tie it back into our work with Openscapes -
+-   Mara: Quarto has more "guardrails" for users - more friendly for someone who hasn't worked in this environment before \> maybe up in the visual editor part/ Transition: So Quarto is really powerful for seasoned coders and Markdown users, as well as a friendly introduction for new coders. And that's important. I've showed you this awesome tech and I want to tie it back into our work with Openscapes -
 :::
 
-## Open science as part of the climate movement {.julie background-image="images/earth_art_baltic.png" background-opacity="0.3"}
+##  {#open-science-as-part-of-the-climate-movement data-menu-title="Open science as part of the climate movement" background-image="images/earth_art_baltic.png" .center}
 
-<br> <br>
-
-::: columns
-::: {.column width="30%"}
-![](images/allwecansave.jpg){fig-align="center"}
-:::
-
-::: {.column width="70%"}
-["To address our climate emergency, we must rapidly, radically reshape society. We need every solution and every solver. As the saying goes, to change everything, we need everyone. **What this moment calls for is a mosaic of voices** -- the full spectrum of idea and insights for how we can turn things around" <br>- Ayana Elizabeth Johnson & Katharine Wilkinson, <br>All We Can Save]{.quote}
-:::
+::: {.quotebox}
+To address our climate emergency, we must rapidly, radically reshape society. We need every solution and every solver. As the saying goes, to change everything, we need everyone. **What this moment calls for is a mosaic of voices** -- the full spectrum of idea and insights for how we can turn things around. \
+\
+Ayana Elizabeth Johnson & Katharine Wilkinson \
+*All We Can Save*
 :::
 
 ::: notes
@@ -602,7 +603,7 @@ Here are a few stories: a few ways that this is happening
 2.  Empower: Onboard learners as contributors
 3.  Amplify: Reuse (and credit!) good ideas
 
-## 1. Engage: Make the implicit explicit {.julie}
+## 1. Engage: Make the implicit explicit
 
 *Document for a specific audience*
 
@@ -612,7 +613,12 @@ Here are a few stories: a few ways that this is happening
 :::
 
 ::: {.column width="35%"}
-["Prospective students for my research group say how much they appreciate the lab manual and it's a reason they want to work with us." <br>- Dr. Gavin Fay, University of Massachusetts Dartmouth]{.quote}
+::: {.quotebox-partial}
+Prospective students for my research group say how much they appreciate the lab manual and it's a reason they want to work with us. \
+\
+Dr. Gavin Fay \
+University of Massachusetts Dartmouth
+:::
 :::
 :::
 
@@ -628,7 +634,7 @@ This was a way to builds trust, psych safety, and resilience with the team, and 
 Transition: This then enabled a second form of Welcome -
 :::
 
-## 2. Empower: Onboard learners as contributors {.julie}
+## 2. Empower: Onboard learners as contributors
 
 *Reinforce a peer-learning & teaching culture*
 
@@ -660,7 +666,7 @@ Transition: So these examples so far have been about openly creating documentati
 And it's also an opportunity to extend this in other resources as well.
 :::
 
-## 3. Amplify: Reuse (and credit!) good ideas {.julie}
+## 3. Amplify: Reuse (and credit!) good ideas
 
 *Open science as a way to work*
 
@@ -697,13 +703,19 @@ This is also a way to invest in and mantain this community resource.
 *Slowing down to speed up*
 :::
 
-# Removing barriers, blurring lines {.julie background-image="images/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpg" background-opacity="0.3"}
+## Removing barriers, blurring lines {background-image="images/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpg" background-opacity="0.3"}
 
 Blurring between fed agencies, between researchers, between people who do and don't identify as coders, what lang you use, how technical you are
 
 Mosiac of voices: we need everyone
 
-~["Addressing the climate crisis...will take everyone.]{.quote}~[<br>We cannot, we must not, go it alone" <br>- Ayana Elizabeth Johnson & Katharine Wilkinson, <br>All We Can Save]{.quote}
+::: {.quotebox-partial}
+Addressing the climate crisis... will take everyone.\
+We cannot, we must not, go it alone. \
+\
+Ayana Elizabeth Johnson & Katharine Wilkinson \
+*All We Can Save*
+:::
 
 ::: notes
 Just want to emphasize the power of removing barriers and blurring lines.
