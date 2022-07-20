@@ -1,26 +1,31 @@
 ---
 title: "Hello Quarto"
 subtitle: "share • collaborate • teach • reimagine <br><br> <https://rstd.io/hello-quarto>"
-footer: "[rstd.io/hello-quarto](https://rstd.io/hello-quarto)"
 format: 
   revealjs: 
     theme: style.scss
     multiplex: true
     transition: fade
-    width: 1600
-    height: 900
+    height: 1080
+    width: 1920
+    title-slide-attributes:
+      data-background-image: images/horst_penguins_telescope.png
+      data-background-size: contain
 editor: visual
-image: images/horst_penguins_telescope.png # hmm revisit 
 bibliography: references.bib
 # Julie title slide speaker notes: 
 # Thank you so much, We're excited to be here! Mine and I have both been using Quarto for the last year; she has been teaching with it since its earliest days and my Openscapes team is the first external users of Quarto. As Mine and I have experimented with it in our own work we realize we love it, and we're thrilled to introduce and welcome you to Quarto. 
-bibliography: references.bib
 ---
 
-# Hello, Quarto?
+# Hello, Quarto? {background-image="images/horst_quarto_telescope.png"}
 
 ::: notes
-Julie: But also, we know you have questions. As long-time RMarkdown users, Mine and I did too. What is Quarto? Why Quarto? And how does it relate to RMarkdown and to other tools you already use and workflows you already have? Transition: Well -
+Julie: But also, we know you have questions.
+As long-time RMarkdown users, Mine and I did too.
+What is Quarto?
+Why Quarto?
+And how does it relate to RMarkdown and to other tools you already use and workflows you already have?
+Transition: Well -
 :::
 
 #  {auto-animate="true"}
@@ -30,7 +35,8 @@ Julie: But also, we know you have questions. As long-time RMarkdown users, Mine 
 :::
 
 ::: notes
-Quarto unifies & extends the RMarkdown ecosystem. @baker2015
+Quarto unifies & extends the RMarkdown ecosystem.
+@baker2015
 :::
 
 ##  {auto-animate="true"}
@@ -76,7 +82,9 @@ Illustration:
 :::
 
 ::: notes
-Julie: Quarto is a new open-source scientific and technical publishing system. The goal is to make the process of creating and collaborating on scientific and technical documents dramatically better. It handles inputs in multiple languages, and outputs in multiple formats, all going through the same machinery.
+Julie: Quarto is a new open-source scientific and technical publishing system.
+The goal is to make the process of creating and collaborating on scientific and technical documents dramatically better.
+It handles inputs in multiple languages, and outputs in multiple formats, all going through the same machinery.
 
 The interplay of how tools influence culture and vice versa is really exciting to me here: there is a really strong culture of reuse and teaching in the R community that has been driven by RMarkdown and excited to interoperate with other languages too
 :::
@@ -86,7 +94,9 @@ The interplay of how tools influence culture and vice versa is really exciting t
 ![](images/quadrants-overview.mp4){fig-align="center"}
 
 ::: notes
-Julie: In our talk, we'll introduce you to Quarto with stories and demos. Mine will describe her experiences about sharing and teaching with Quarto, focusing on how it unifies the RMarkdown ecosystem. I'll share my experiences collaborating and reimagining with Quarto, focused on how it extends the RMarkdown ecosystem.
+Julie: In our talk, we'll introduce you to Quarto with stories and demos.
+Mine will describe her experiences about sharing and teaching with Quarto, focusing on how it unifies the RMarkdown ecosystem.
+I'll share my experiences collaborating and reimagining with Quarto, focused on how it extends the RMarkdown ecosystem.
 :::
 
 ## Hello, Quarto!
@@ -96,7 +106,9 @@ Julie: In our talk, we'll introduce you to Quarto with stories and demos. Mine w
 ### 🔗 [rstd.io/hello-quarto](https://rstd.io/hello-quarto)
 
 ::: notes
-Julie: And, as you may have suspected, these slides are indeed made with Quarto. If you'd like to follow along, go to this url and follow along with us. Over to you, Mine!
+Julie: And, as you may have suspected, these slides are indeed made with Quarto.
+If you'd like to follow along, go to this url and follow along with us.
+Over to you, Mine!
 :::
 
 # Share
@@ -114,7 +126,13 @@ I remember vividly the first time I've heard of knitr at useR 2012 and sitting i
 
 I'll call this a success if a few of you are firing up a Quarto project right now to see what all the hype is about.
 
-I'm very excited to have this opportunity to talk to you about Quarto, which I've had the opportunity to live and breathe over the last year. I am an educator -- a developer educator at RStudio and a professor at Duke. The word educator might make you think I'm in front of students, perhaps lecturing 24/7 but in reality I spend more of my time in front of my computer authoring and creating materials to share with the world: share with my students, share with my fellow educators, and share with anyone interested in learning the things I'm teaching. Sometimes I'm writing a slide deck for a talk, sometimes creating a website for a course, sometimes writing books, sometimes journal articles. Whatever it is that I create, I share them all openly - that is, with an open license that allows for free use and reuse and adaptation. More often than not I'm thinking "web first" to ease open sharing and wider reach, but I also still live in the confines of traditional journal publishing and academia, which means I regularly need to create PDFs as well. So an authoring system that allows for multiple types of outputs from a single source is not only a time saver, but basically essential for me to carry on my existence.
+I'm very excited to have this opportunity to talk to you about Quarto, which I've had the opportunity to live and breathe over the last year.
+I am an educator -- a developer educator at RStudio and a professor at Duke.
+The word educator might make you think I'm in front of students, perhaps lecturing 24/7 but in reality I spend more of my time in front of my computer authoring and creating materials to share with the world: share with my students, share with my fellow educators, and share with anyone interested in learning the things I'm teaching.
+Sometimes I'm writing a slide deck for a talk, sometimes creating a website for a course, sometimes writing books, sometimes journal articles.
+Whatever it is that I create, I share them all openly - that is, with an open license that allows for free use and reuse and adaptation.
+More often than not I'm thinking "web first" to ease open sharing and wider reach, but I also still live in the confines of traditional journal publishing and academia, which means I regularly need to create PDFs as well.
+So an authoring system that allows for multiple types of outputs from a single source is not only a time saver, but basically essential for me to carry on my existence.
 :::
 
 ## Next generation R Markdown
@@ -122,7 +140,9 @@ I'm very excited to have this opportunity to talk to you about Quarto, which I'v
 ![](images/rmd-to-quarto.gif){fig-align="center"}
 
 ::: notes
-Mine: Julie mentioned it unified so let's dig a bit more into what that means... It combines/unifies some "down" packages. It also brings in Jupyter and other languages (Python, Julia) and provides that functionality even if you're not coming from the R ecosystem. Beyond unification, Quarto also makes available attractive and handy features like tabsets, code-folding, syntax highlighting, etc. consistently across the various outputs.
+Mine: Julie mentioned it unified so let's dig a bit more into what that means... It combines/unifies some "down" packages.
+It also brings in Jupyter and other languages (Python, Julia) and provides that functionality even if you're not coming from the R ecosystem.
+Beyond unification, Quarto also makes available attractive and handy features like tabsets, code-folding, syntax highlighting, etc. consistently across the various outputs.
 :::
 
 ## DEMO: Flexibility in the formats
@@ -165,7 +185,9 @@ Moving between formats within Quarto is straightforward
 -   It's super helpful when transitioning requires minimal futzing around with source code (like Rmd 8 ways...)
 
 ::: notes
-Mine: As an educator, two things are of utmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats (like documents to slides to websites to books). Over the last year of using Quarto for everything, I've felt like I've finally found the tool that lets me go from one to the other with minimal futzing around with my source code. This has helped me focus my time on my content, which has been a huge win.
+Mine: As an educator, two things are of utmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats (like documents to slides to websites to books).
+Over the last year of using Quarto for everything, I've felt like I've finally found the tool that lets me go from one to the other with minimal futzing around with my source code.
+This has helped me focus my time on my content, which has been a huge win.
 :::
 
 ## Collaborate {background-image="images/horst_quarto_meteor.png" background-size="contain"}
@@ -229,7 +251,6 @@ We were learning how to leverage the cloud together. And we were able to bring q
 
 
 
-
 <br> <br>
 
 ### The New Cloud Paradigm
@@ -266,11 +287,6 @@ And this is how NASA Openscapes came to be
 :::
 
 ::::
-
-
-
-
-
 
 ::: footer
 [nasa-openscapes.github.io](https://nasa-openscapes.github.io)
@@ -312,8 +328,6 @@ We spent time working with the Mentors and developing
 
 ::: notes
 This Quarto site we made for the Fall 2021 Cloud Hackathon was where we really found traction in working together with the Mentors was dev'ing tutorials for the hackathon. 
-
-
 :::
 
 ## 
@@ -366,7 +380,8 @@ But there is a Gap between what's possible and who can participate. New ways of 
 :::
 
 ::: notes
-In fact, it's mostly .ipynbs as you see in this simplifid view of our `_quarto.yml` file. Being able to make a collection of tutorials in different language and filetypes has been a huge benefit for us working together.
+In fact, it's mostly .ipynbs as you see in this simplifid view of our `_quarto.yml` file.
+Being able to make a collection of tutorials in different language and filetypes has been a huge benefit for us working together.
 :::
 
 ## Contributing from our current tools {.julie}
@@ -374,7 +389,8 @@ In fact, it's mostly .ipynbs as you see in this simplifid view of our `_quarto.y
 Screenshot: RStudio IDE, VSCode, Jupyter...
 
 ::: notes
-And, we're all able to work in whatever tool we're already comfortable with as we contributed to this cookbook, which is possible since you install quarto as a command line too like git; it's not an R package or a python package. So with people working in their current tools and Quarto working in each case, we didn't need people to shift their software tools and instead could focus on upskilling around common pieces like Quarto and GitHub, but we didn't need to upset or shift everyone's software workflows, we could weave Quarto into existing workflows.
+And, we're all able to work in whatever tool we're already comfortable with as we contributed to this cookbook, which is possible since you install quarto as a command line too like git; it's not an R package or a python package.
+So with people working in their current tools and Quarto working in each case, we didn't need people to shift their software tools and instead could focus on upskilling around common pieces like Quarto and GitHub, but we didn't need to upset or shift everyone's software workflows, we could weave Quarto into existing workflows.
 
 And this has also have dividends because while I said that the Earth science community is python-heavy what we've learned the more we work with this NASA Cloud data we see there is a significant R community and we're positioned to support them with this workflow we've developed because of Quarto it's not language-specific
 
@@ -390,7 +406,6 @@ Transition: So let me show you what this looks like in Jupyter -
 ::: notes
 Julie: ...
 :::
-
 
 ## NASA-Openscapes {.julie}
 
@@ -426,14 +441,19 @@ Develop a cross-NASA mentor community to create & teach common Earthdata Cloud t
 ::: notes
 NASA-Openscapes is a 3-year project is to Develop a cross-NASA mentor community to create & teach common Earthdata Cloud tutorials that are then iterated for specific research examples
 
-Since we started in early 2021 we've worked with just amazing group of NASA user support staff and engineers. We've supported them through finding the common needs across all Mentors, fostering a peer-learning and teaching culture, and having them contribute to shared activities as part of their jobs. And along with our mentorship we've also provided a 2i2c JupyterHub, AWS Cloud Credits, and Carpentries Instructor training.
+Since we started in early 2021 we've worked with just amazing group of NASA user support staff and engineers.
+We've supported them through finding the common needs across all Mentors, fostering a peer-learning and teaching culture, and having them contribute to shared activities as part of their jobs.
+And along with our mentorship we've also provided a 2i2c JupyterHub, AWS Cloud Credits, and Carpentries Instructor training.
 
-As you'll see, this group has achieved a lot in the last year. And the successes of this project so far really speaks to the importance of leadership support plus empowered and connected early adopters. We've been really thankful to have both this top-down and grassroots level of support
+As you'll see, this group has achieved a lot in the last year.
+And the successes of this project so far really speaks to the importance of leadership support plus empowered and connected early adopters.
+We've been really thankful to have both this top-down and grassroots level of support
 
-Transition: So this is a big project. And while Erin had a decade of experience with the NASA community, when we started, a lot of it was new and frankly really intimidating to me. As a marine ecologist, I was unfamiliar with Earth science as a research domain, the types of satellite imagery data NASA works with, not to mention cloud infrastructure that is evolving rapidly. And as an R user a fourth big thing that was intimidating to me -
+Transition: So this is a big project.
+And while Erin had a decade of experience with the NASA community, when we started, a lot of it was new and frankly really intimidating to me.
+As a marine ecologist, I was unfamiliar with Earth science as a research domain, the types of satellite imagery data NASA works with, not to mention cloud infrastructure that is evolving rapidly.
+And as an R user a fourth big thing that was intimidating to me -
 :::
-
-
 
 ## 
 
@@ -450,13 +470,16 @@ How academics share their teaching resources/ new avenues for publishing:
 -   It's [useful]{.underline} to you -- It's a way of getting credit for your work, and when it comes time for annual review/promotion materials, it's easy to say "here is everything I created".
 
 ::: notes
-Mine: I started off introducing myself as a prof and educator, and so you probably have an idea of what my responsibilities look like, but you might not know my practices. Teaching, writing, and research are three things I do as an educator, and I can do it all with Quarto in ways that look very similar under the hood but very different in output. (Maybe add PPT anecdote here.)
+Mine: I started off introducing myself as a prof and educator, and so you probably have an idea of what my responsibilities look like, but you might not know my practices.
+Teaching, writing, and research are three things I do as an educator, and I can do it all with Quarto in ways that look very similar under the hood but very different in output.
+(Maybe add PPT anecdote here.)
 :::
 
 ## Different on the outside, similar on the inside
 
 ::: illustration
-**Image:** Screenshots of each next to each other on top row, folder organization of each on the bottom row. Top looks different, bottom looks very similar.
+**Image:** Screenshots of each next to each other on top row, folder organization of each on the bottom row.
+Top looks different, bottom looks very similar.
 
 -   Teaching: Course website with obvious folders
 -   Writing: Book - R4DS
@@ -494,12 +517,13 @@ Moving from R Markdown to Quarto is straightforward:
 Mine: ...
 :::
 
-## Reimagine {background-image="images/horst_quarto_meteor.png" background-size="contain"}  
+## Reimagine {background-image="images/horst_quarto_meteor.png" background-size="contain"}
 
 #  {background-image="images/horst_quarto_penguins_dive.png" background-size="contain"}
 
 ::: notes
-Julie: As you've seen, Quarto is so powerful to accomplish our existing goals. And, it's important to take some time to reimagine what's possible and how we interact with it.
+Julie: As you've seen, Quarto is so powerful to accomplish our existing goals.
+And, it's important to take some time to reimagine what's possible and how we interact with it.
 
 I'll start off here with a Demo of using Quarto in the Visual Editor.
 :::
@@ -539,11 +563,13 @@ Transition: So Quarto is really powerful for seasoned coders and Markdown users,
 :::
 
 ::: notes
-We see our work and open science as part of the broader climate movement. We take so much inspiration from groups like All We Can Save, who are amplifying stories of climate leadership and calling for reimagining on a huge scale, saying that we need every solution, and every solver.
+We see our work and open science as part of the broader climate movement.
+We take so much inspiration from groups like All We Can Save, who are amplifying stories of climate leadership and calling for reimagining on a huge scale, saying that we need every solution, and every solver.
+
 
 Transition: They describe that we have the solutions we need in terms of data, regenerative farming, renewable energy, redesigned mobility infrastructure, but that there is an urgent need to collaborate to meet these kinds of global challenges. And we are so inspired to rise to this moment.
-:::
 
+:::
 
 # Making the mosaic actionable 
 *Building Welcome, inclusion, and empathy into our daily work*
@@ -567,6 +593,7 @@ quarto book mosaic: NOAA, NASA, EPA, logos
 ::: notes
 Making the mosaic of voices actionable has been a focus
 
+
 With Openscapes and Quarto we've been able to help this mosaic of voices actionable. We've given space to build psychological safety and place to collaborate and share ideas. We've been helping people make transitions that can be intimidating.
 
 Over the last year there have been all these voices: NOAA, NASA, Fay Lab - mosiac of all these little books. They've enabled engagement, they've empowered learners as contributors and mentors as contributors to co-teach. We've empowered and scaled this good ideas
@@ -574,6 +601,7 @@ Over the last year there have been all these voices: NOAA, NASA, Fay Lab - mosia
 Each of these were developed building from the last, reusing good idea, focused on specific learners and including more people
 
 These groups are all addressing the climate emergency, and they're doing this more elegantly and collaboratively using Quarto. Quarto has giving us a mosaic of voices - Quarto let us bring these kinds of notebooks together.
+
 
 Growing the mosaic. 
 meeting people where they were
@@ -586,6 +614,7 @@ Thread that Openscapes is an integral part of this work; Quarto is a tool that's
 I don't want to say that quarto's going to save us but the way it's enabled us to come together and do big work is going to. It's lowering the barriers and blurring lines. 
 
 Here are a few stories: a few ways that this is happening
+
 :::
 
 # Making the mosaic actionable 
@@ -597,6 +626,7 @@ Here are a few stories: a few ways that this is happening
 
 ## 1. Engage: Make the implicit explicit {.julie}
 *Document for a specific audience*
+
 
 ::: columns
 ::: {.column width="65%"}
@@ -610,16 +640,19 @@ Here are a few stories: a few ways that this is happening
 :::
 
 ::: notes
-One of the ways you welcome people is making the implicit explicit. This is about writing down the rules and expectations so that that people are set up to succeed. 
+One of the ways you welcome people is making the implicit explicit.
+This is about writing down the rules and expectations so that that people are set up to succeed.
 
 This helps people transition from being an outsider to part of the community
 
-Gavin Fay's lab at UMass Dartmouth is one of the marine science teams was mentored through Openscapes they then went and wrote a public lab manual that puts their values forward along with these rules and expectations. This was a way to builds trust, psych safety, and resilience with the team, and was particuarly important as they had new members join their lab remotely during the Pandemic.
+Gavin Fay's lab at UMass Dartmouth is one of the marine science teams was mentored through Openscapes they then went and wrote a public lab manual that puts their values forward along with these rules and expectations.
+This was a way to builds trust, psych safety, and resilience with the team, and was particuarly important as they had new members join their lab remotely during the Pandemic.
 
 Transition: This then enabled a second form of Welcome -
 :::
 
 ## 2. Empower: Onboard learners as contributors {.julie}
+
 *Reinforce a peer-learning & teaching culture*
 
 ::: columns
@@ -668,13 +701,16 @@ Setup for more design together
 :::
 
 ::: notes
-To onboard learners as contributors. This is a really important part of reimagining and welcoming: it's about breaking out these models that are hierarchical and enfantilizing. 
+To onboard learners as contributors.
+This is a really important part of reimagining and welcoming: it's about breaking out these models that are hierarchical and enfantilizing.
 
-People might be learners in some situation and deep experts in others and it's important that there is space and place for them to contribute early as they join a team. 
+People might be learners in some situation and deep experts in others and it's important that there is space and place for them to contribute early as they join a team.
 
-It's been really exciting to see how Quarto has enabled collaboration across coding comfort levels. The idea of who is a coder...
+It's been really exciting to see how Quarto has enabled collaboration across coding comfort levels.
+The idea of who is a coder...
 
-The way we've see the Fay Lab do this is that part of this documentation is how to contribute if see a typo or a broken link or a gap, so that's a way for them to upskill, contribute early. This is also a way to invest in and mantain this community resource.
+The way we've see the Fay Lab do this is that part of this documentation is how to contribute if see a typo or a broken link or a gap, so that's a way for them to upskill, contribute early.
+This is also a way to invest in and mantain this community resource.
 
 *Slowing down to speed up*
 :::
@@ -685,7 +721,6 @@ The way we've see the Fay Lab do this is that part of this documentation is how 
 Blurring between fed agencies, between researchers, between people who do and don't identify as coders, what lang you use, how technical you are
 
 Mosiac of voices: we need everyone
-
 
 ~["Addressing\ the\ climate\ crisis...will\ take\ everyone.]{.quote}~[<br>We cannot, we must not, go it alone" <br>- Ayana Elizabeth Johnson & Katharine Wilkinson, <br>All We Can Save]{.quote}
 
@@ -703,14 +738,15 @@ Rivers - instead: patchwork of landuse. Landsat. Mosiac.
 
 This is just the beginning. There's so much more to write, so much more to do, we need the Earthrise quote. Do more than cop, grounded, steady, ready
 
-when it comes to who is a coder and not and how we value contribution. 
+when it comes to who is a coder and not and how we value contribution.
 
-The more we talk about this and role model what's possible, the more actionable we all become. 
+The more we talk about this and role model what's possible, the more actionable we all become.
 
-And throughout all of this is the idea that we can collaborate across coding comfort levels. It's been really neat to see how Quarto can not only reduce barriers across coding languages like python and R, but also differnt experience levels.
+And throughout all of this is the idea that we can collaborate across coding comfort levels.
+It's been really neat to see how Quarto can not only reduce barriers across coding languages like python and R, but also differnt experience levels.
 
-![](images/visual_editor.png){fig-align="center" width="70%"}
-This is a screenshot of the new Visual Editor that is part of the RStudio IDE, and it's something we've been experimenting with more and more. We've found this to be a really nice way to write prose even for those familiar with Markdown, but it's also a friendlier way for people to get to know the tools.
+![](images/visual_editor.png){fig-align="center" width="70%"} This is a screenshot of the new Visual Editor that is part of the RStudio IDE, and it's something we've been experimenting with more and more.
+We've found this to be a really nice way to write prose even for those familiar with Markdown, but it's also a friendlier way for people to get to know the tools.
 
 This is about not assuming technical skills, but creating an safe culture where they can say what they don't know and reinforce a peer-learning & teaching culture, and using tooling that is friendly for new and seasoned coders alike.
 
