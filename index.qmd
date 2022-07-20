@@ -394,7 +394,8 @@ NASA-Openscapes is a 3-year project is to Develop a cross-NASA mentor community 
 
 Since we started in early 2021 we've worked with just amazing group of NASA user support staff and engineers.
 We've supported them through finding the common needs across all Mentors, fostering a peer-learning and teaching culture, and having them contribute to shared activities as part of their jobs.
-And along with our mentorship we've also provided a 2i2c JupyterHub, AWS Cloud Credits, and Carpentries Instructor training.
+
+Alignment
 
 As you'll see, this group has achieved a lot in the last year.
 And the successes of this project so far really speaks to the importance of leadership support plus empowered and connected early adopters.
@@ -522,7 +523,7 @@ Transition: They describe that we have the solutions we need in terms of data, r
 
 :::
 
-# Making the mosaic actionable 
+# An actionable mosaic of voices
 *Building Welcome, inclusion, and empathy into our daily work*
 
 ::: fragment
@@ -542,6 +543,10 @@ quarto book mosaic: NOAA, NASA, EPA, logos
 :::
 
 ::: notes
+Within this mosaic of voices, there can be a divide between who is technical or not, and this gap is widening. To make this mosaic of voices actionable to tackle these big problems, we need strategies to close those gaps and blur those lines. 
+
+Openscapes has provided space for those voices to come together, Quarto gives them place to contribute and share.
+
 Making the mosaic of voices actionable has been a focus
 
 
