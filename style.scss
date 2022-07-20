@@ -45,6 +45,24 @@ $link-color: #75AADB;
   font-size: 2em;
 }
 
+.reveal #section-hello-quarto h1 {
+  margin-top: -500px;
+}
+
+.reveal #center {
+  text-align: center;
+}
+
+.reveal .large {
+  font-size: 1.5em;
+}
+
+.reveal .midi {
+  font-size: 1.25em;
+}
+
+
+
 .reveal .h1center h1 {
   text-align: center;
 }
