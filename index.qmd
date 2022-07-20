@@ -206,9 +206,7 @@ Mine: now over to you Julie
 Julie: Thanks Mine, let's next talk about Collaborating with Quarto
 :::
 
-## 
-
-![](images/julie-penguin-nametag.png){.absolute fig-alt="Penguin with nametag that says \"Julie\"" top="0" width="25%"}
+## ![](images/julie-penguin-nametag.png){.absolute fig-alt="Penguin with nametag that says \"Julie\"" top="0" width="25%"}
 
 ![](images/lowndes_venn_science.svg){.absolute top="50" right="0" width="100%"}
 
@@ -380,8 +378,6 @@ Julie: ...
 :::: {.columns}
 
 ::: {.column width="50%"}
-<br>
-
 **Develop a cross-NASA mentor community<br>to co-create and teach common tutorials<br> to support researchers with Earthdata Cloud**
 
 <br>
@@ -422,11 +418,9 @@ As a marine ecologist, I was unfamiliar with Earth science as a research domain,
 And as an R user a fourth big thing that was intimidating to me -
 :::
 
-## 
+## Teach {background-image="images/horst_quarto_meteor.png" background-size="contain"}
 
-![](images/horst_quarto_meteor.png){fig-align="center"}
-
-# Teach {background-image="images/horst_quarto_penguins_teach.png" background-size="contain"}
+# {background-image="images/horst_quarto_penguins_teach.png" background-size="contain"}
 
 ## Use Quarto to accomplish existing goals {.smaller}
 
@@ -599,32 +593,7 @@ Empower: Onboard learners as contributors
 Amplify: Reuse (and credit!) good ideas
 
 
-## 
-
-
-::: columns
-::: {.column width="65%"}
-![](images/faylab-labmanual.png){width="80%"}
-:::
-
-::: {.column width="35%"}
-["Prospective students for my research group say how much they appreciate the lab manual and it's a reason they want to work with us." <br>- Dr. Gavin Fay, University of Massachusetts Dartmouth]{.quote}
-:::
-:::
-
-::: notes
-One of the ways you welcome people is making the implicit explicit.
-This is about writing down the rules and expectations so that that people are set up to succeed.
-
-This helps people transition from being an outsider to part of the community
-
-Gavin Fay's lab at UMass Dartmouth is one of the marine science teams was mentored through Openscapes they then went and wrote a public lab manual that puts their values forward along with these rules and expectations.
-This was a way to builds trust, psych safety, and resilience with the team, and was particuarly important as they had new members join their lab remotely during the Pandemic.
-
-Transition: This then enabled a second form of Welcome -
-:::
-
-## 
+## Collaborating across coding comfort levels {.julie}
 
 ::: columns
 ::: {.column width="60%"}
@@ -636,6 +605,28 @@ Approach Guide, Quarto Website Tutorial?
 
 ![](images/quarto_commits_stefaniebutland1.png) ![](images/quarto_commits_stefaniebutland.png)
 :::
+:::
+
+
+## Contributing from our expertise & experiences {.julie}
+
+- coaching
+- facilitation
+- community engagment
+- Black marine science
+- project management
+
+
+::: notes
+One of the ways you welcome people is making the implicit explicit.
+This is about writing down the rules and expectations so that that people are set up to succeed.
+
+This helps people transition from being an outsider to part of the community
+
+Gavin Fay's lab at UMass Dartmouth is one of the marine science teams was mentored through Openscapes they then went and wrote a public lab manual that puts their values forward along with these rules and expectations.
+This was a way to builds trust, psych safety, and resilience with the team, and was particuarly important as they had new members join their lab remotely during the Pandemic.
+
+Transition: This then enabled a second form of Welcome -
 :::
 
 ::: notes
@@ -652,9 +643,6 @@ It's about people.
 
 Transition: So these examples so far have been about openly creating documentation for your team, which is a big part of reimagining how we work.
 And it's also an opportunity to extend this in other resources as well.
-:::
-
-## 
 
 *Open science as a way to work*
 
@@ -664,7 +652,7 @@ NOAA: Eli leading grassroots effort for open science at NOAA Fisheries.
 
 
 ESIP blog
-
+:::
 
 (Participated in that Fall 2021 NASA Hackathon, bringing ideas here)
 ::: columns
