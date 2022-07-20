@@ -2,15 +2,47 @@
 
 // fonts
 @import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap';
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase&display=swap');
 
 $font-family-sans-serif: "Atkinson Hyperlegible", sans-serif;
 $presentation-heading-color: #75AADB;
 $presentation-title-slide-text-align: "left";
+$link-color: #75AADB;
 
 /*-- scss:rules --*/
 
-details>summary {
-  font-size: 0.75em;
+.reveal #title-slide h1 {
+  font-family: 'Delius Unicase', cursive;
+  color: #d2e3f3;
+  font-size: 3em;
+}
+
+.reveal #title-slide .subtitle {
+  font-family: 'Delius Unicase', cursive;
+  color: #d2e3f3;
+  font-size: 1.5em;
+}
+
+.reveal #title-slide .subtitle a {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  color: #1C1C1C;
+  font-size: 1.25em;
+  background-color: rgba(210, 227, 243, 0.5);
+  padding: 10px;
+  text-align: right;
+}
+
+.reveal #title-slide .author {
+  color: #d2e3f3;
+  text-align: right;
+  font-size: 150%;
+  margin-top: 600px;
+}
+
+.reveal h1 {
+  font-family: 'Delius Unicase', cursive;
+  color: #75AADB;
+  font-size: 2em;
 }
 
 .reveal .h1center h1 {
@@ -30,12 +62,6 @@ details>summary {
   background-color: #FAE3E3;
   font-style: italic;
   text-align: center;
-}
-
-.todo {
-  color: red;
-  background-color: yellow;
-  font-style: italic;
 }
 
 .shout { /*-- julie note: also not final (or accessible)! Just wanted something that isn't normal text - altering Header3 could also work here --*/

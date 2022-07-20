@@ -1,6 +1,7 @@
 ---
 title: "Hello Quarto"
-subtitle: "share • collaborate • teach • reimagine <br><br> <https://rstd.io/hello-quarto>"
+subtitle: "share • collaborate • teach • reimagine <br><br> [rstd.io/hello-quarto](https://rstd.io/hello-quarto)"
+author: "Mine Çetinkaya-Rundel <br> Julia Stewart Lowndes"
 format: 
   revealjs: 
     theme: style.scss
@@ -10,7 +11,6 @@ format:
     width: 1920
     title-slide-attributes:
       data-background-image: images/horst_penguins_telescope.png
-      data-background-size: contain
 editor: visual
 bibliography: references.bib
 # Julie title slide speaker notes: 
@@ -65,20 +65,22 @@ And it extends the RMarkdown ecosystem as a friendly way for code and text to be
 Transition: It builds on 10 years of insight from RMarkdown -
 :::
 
-# Quarto is a new open-source scientific & technical <br>publishing system.
+#  {auto-animate="true"}
 
-::: fragment
-The goal is to make the process of creating and collaborating on scientific and technical documents dramatically better.
+::: {style="margin-top: 125px; font-size: 3em; color: #75AADB;"}
+Quarto is a new, open-source,<br> scientific, and technical<br> publishing system
+:::
+
+##  {auto-animate="true"}
+
+::: {style="margin-top: 100px; font-size: 2.2em; color: #75AADB"}
+Quarto is a new, open-source,<br> scientific, and technical<br> publishing system
 :::
 
 ::: fragment
-::: illustration
-Illustration:
+Goal: Make the process of creating and collaborating on scientific and technical documents dramatically better.
 
--   Inputs in multiple languages (R, Python, Julia)
--   Outputs in multiple formats (PDFs, websites, word, slides)
--   All going through the same machinery (Quarto logo)
-:::
+![](images/horst_quarto_schematic.png){fig-align="center"}
 :::
 
 ::: notes
