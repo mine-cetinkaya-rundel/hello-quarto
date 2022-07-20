@@ -234,37 +234,7 @@ NASA has been collecting unbelievable amounts of data about Earth since 1960. Th
 Historically, these data are stored by 12 different data centers around the US and researchers go to different data centers separately to download sometimes terrabytes of data to analyze it locally.
 
 Transition - Now, as a result of many years of the preparation they’re migrating these data to the Cloud. In anticipation and support of this, those 12 data centers are gearing up to support researchers transition their workflows to the Cloud too. 
-:::
-
-## NASA Stock migrating slide 
-NASA Earthdata is migrating to the Cloud {.julie}
-
-credit Justin
-or Slide 3: https://docs.google.com/presentation/d/1PI6bA8UIc4w9NcmxHXv9Aq7e9oeTh0PHivrGuOjGHXQ/edit#slide=id.g101239434f4_0_736 
-
-"Gearing up to support end users" - that's wehre Openscapes and NASA comes together bucause O supports researchers who are making this transition and they're in this space
-And the bad news is they're using python. They used python, I used R, lots of new stuff going for us. 
-
-We're helping support this mentor community, who are supporting researchers through this transition
-
-We were learning how to leverage the cloud together. And we were able to bring quarto into this story - add quarto logo 
-
-
-
-<br> <br>
-
-### The New Cloud Paradigm
-
-**Many researchers will migrate their analytical workflows to the Cloud.**
-
-**NASA staff will collaborate across Data Centers to support researchers.**
-
-::: notes
-NASA Earthdata is migrating to the Cloud. This has been a tremendous effort over years from all corners of NASA.
-
-The new paradigm is Researchers will move their compute to the Cloud, which requires much more programmatic access rather than 
-
-It also means that NASA staff needs to collaborate across Data Centers to support researchers with best practices in open science.
+(maybe just say this or have a slide)
 
 And this is how NASA Openscapes came to be
 :::
@@ -278,7 +248,7 @@ And this is how NASA Openscapes came to be
 <br>
 <br>
 <br>
-**Develop a cross-NASA mentor community<br>to co-create and teach common tutorials<br> for Earthdata Cloud**
+**Develop a cross-NASA mentor community<br>to co-create and teach common tutorials<br> to support researchers with Earthdata Cloud**
 :::
 
 ::: {.column width="50%"}
@@ -293,76 +263,85 @@ And this is how NASA Openscapes came to be
 :::
 
 ::: notes
-NASA-Openscapes is a 3-year project is to Develop a cross-NASA mentor community to create & teach common Earthdata Cloud tutorials that are then iterated for specific research examples
+NASA-Openscapes is a 3-year project is to Develop a cross-NASA mentor community to co-create and teach common tutorials to support researchers with Earthdata Cloud
 
-Since we started in early 2021 we've worked with just amazing group of NASA user support staff and engineers. We've supported them through finding the common needs across all Mentors, fostering a peer-learning and teaching culture, and having them contribute to shared activities as part of their jobs. And along with our mentorship we've also provided a 2i2c JupyterHub, AWS Cloud Credits, and Carpentries Instructor training.
+So this is a big project. Since we started in early 2021 we've been working with just amazing group of NASA user support staff and engineers. And while Erin had a decade of experience with the NASA community, a lot of it was new to me. I was unfamiliar with Earth science as a research domain, the types of satellite imagery data NASA works with, not to mention cloud infrastructure that is evolving rapidly. 
 
-As you'll see, this group has achieved a lot in the last year. And the successes of this project so far really speaks to the importance of leadership support plus empowered and connected early adopters. We've been really thankful to have both this top-down and grassroots level of support
-
-Transition: So this is a big project. And while Erin had a decade of experience with the NASA community, when we started, a lot of it was new and frankly really intimidating to me. As a marine ecologist, I was unfamiliar with Earth science as a research domain, the types of satellite imagery data NASA works with, not to mention cloud infrastructure that is evolving rapidly. And as an R user a fourth big thing that was intimidating to me -
+Transition: And as an R user a fourth big thing that was intimidating to me -
 :::
 
 
-
-
-# Many Earth scientists use python 😬 {.h1center}
+# Many Earth scientists use python <br>😬 {.h1center}
 
 ::: notes
-Many NASA Earth scientists use python for satellite data. And Jupyter notebooks. And my role leading NASA Openscapes was not to learn python from the ground-up, but I needed to be able to collaborate with and support python users to create tutorials and teach
-
-Big data, modeling data
+Many NASA Earth scientists use python, and that's where the tutorial development was focused. And my role leading NASA Openscapes was not to learn python from the ground-up, but I needed to be able to interoperate and collaborate with python users. 
+Transition: So I was feeling pretty intimidated about this. But if you know me, you know that - 
 :::
 
-##  {background-image="images/horst_rey_quarto.png" background-size="90%"}
+##  {background-image="images/horst_rey_quarto.png" background-size="85%"}
 
 ::: notes
-But luckily, Quarto was emerging right when we needed it and let me bring the expertise and confidence I had developed over nearly 10 years with RMarkdown over to the Python community. Quarto and gave us the place to bring this all together. 
-What happened is that I had been collaborating with J.J. Allaire for the past few years and I knew Quarto was on the horizon. asked if we could use Quarto for NASA-Openscapes and he and the Quarto team and it became a really exciting collaboration, where the quarto team and the NASA mentors were really gracious with learning and using and developing this tool, and it is very cool that through our work we've been able to help with some of its design too.
-We spent time working with the Mentors and developing 
+I feel like R and especially RMarkdown is a total superpower, I honestly I think differently about what's possible in science because of RMarkdown. Quarto let me bring that experience and confidence to NASA Openscapes. 
+
+I had been collaborating with J.J. Allaire for the past few years and I knew Quarto was emerging right when we needed it. I asked if we could use Quarto for NASA-Openscapes and this became a really exciting collaboration with the Quarto team and the NASA Mentors
 :::
 
 ## 
 ![](images/hackathon.png){width="80%" fig-align="center"}
 
-
-
 ::: notes
 This Quarto site we made for the Fall 2021 Cloud Hackathon was where we really found traction in working together with the Mentors was dev'ing tutorials for the hackathon. 
+
+Through Openscapes gave them space and they dev'd a community, psych safety, getting comfortable learning new things, sharing imperfect work,  giving feedback. And quarto gave them a place to collab and present their work on a beautiful way for learners.
 :::
 
 ## 
 
-![](images/quarto_slides_steiker.png) ![](images/ecostress.png){width="80%"}
+:::: {.columns}
 
+::: {.column width="50%"}
+![](images/cloud_workshop_agu.png){width="80%"} 
+![](images/quarto_slides_steiker.png){width="80%"}
+:::
+
+::: {.column width="50%"}
+<br>
+
+![](images/cookbook_contributing.png)
+:::
+
+::::
 
 ::: footer
 [nasa-openscapes.github.io/earthdata-cloud-cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook)
 :::
 
 ::: notes
-
 Followed quickly by other iterations we were able to do with this same workflow
 
 Codifying this to the cookbook
-
 :::
 
 ## Feeling psychologically safe to learn and teach {.julie}
 
+<br>
 [Catalina quote: quarto helped me share sooner, comfortable with imperfect]{.quote}
 
-screenshot of teaching?
 
+New ways of tackling challenges means new tech, new habits, new culture.
+
+
+
+
+::: notes
 Our team finally felt psych safe to participate, overcome rejection, github commits (Iksha)
 
 and closing gaps between Gap between what’s possible and who can participate, assumptions
 
-New ways of tackling challenges means new tech, new habits, new culture.
 
-["Who is safe to participate?" - Tara Robertson, Diversity, Equity, and Inclusion Coach]{.quote}
 
-::: notes
 OLD
+["Who is safe to participate?" - Tara Robertson, Diversity, Equity, and Inclusion Coach]{.quote}
 
 a shared belief that team members will not be rejected or embarrassed for speaking up with their ideas, questions, or concerns
 
@@ -422,8 +401,6 @@ Develop a cross-NASA mentor community to create & teach common Earthdata Cloud t
 ![](images/horst_landscape_mentors.png){width="70%" fig-align="\"center"}
 
 [**Focus on finding the common, peer-learning & teaching culture, contributing as part of their jobs.**]{text-align="center"}
-
-[2i2c JupyterHub • AWS Credits • Carpentries]{text-align="center"}
 
 <br>
 
