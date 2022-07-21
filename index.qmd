@@ -344,8 +344,6 @@ Now over to you Julie.
 # Collaborate {.section-title-top background-image="images/horst_penguins_telescope.png"}
 
 ::: notes
-**Julie:**
-
 Thanks Mine, let's next talk about Collaborating with Quarto
 :::
 
@@ -362,7 +360,6 @@ Thanks Mine, let's next talk about Collaborating with Quarto
 :::
 
 ::: notes
-**Julie:**
 As you heard earlier I work at the intersection of actionable environmental science, data science, and open science.
 What I absolutely love doing is mentoring, teaching, and empowering communities, having learned from so many of you who are here or listening today.
 
@@ -374,13 +371,11 @@ I've made this my job through Openscapes.
 ![](images/openscapes_hex.png){.absolute top="0" width="15%"}
 
 ::: notes
-**Julie:**
-
 Openscapes is a movement and a community that I launched and have built together with my partner Erin Robinson.
 
 Our flagship activity is mentoring research teams in environmental open data science.
 Since 2018 we've helped over 75 teams move from sad lonely workflows like the animals on bottom left and into this rich landscape full of open source software, data, and communities.
-Our role is welcome folks at the trailhead, meeting them where they are and helping them explore and navigate this landscape safely together.
+Our role is welcome folks at the trailhead, meeting them where they are and helping them explore existing pathways and reduce bushwacking and as they navigate this landscape safely together.
 
 :::
 
@@ -397,8 +392,6 @@ NOAA Southeast Fisheries Science Center
 :::
 
 ::: notes
-**Julie**
-
 This quote from Adyan Rios is one example 
 
 A big focus of Openscapes is helping researchers build psychologically safety within their teams, so that there is a strong culture of peer-learning and teaching, of asking questions, not assuming what people know or don't know, and trying to blur the lines of who can participate in technology.
@@ -409,8 +402,6 @@ A big focus of Openscapes is helping researchers build psychologically safety wi
 ##  {background-video="images/R_beach_ball_flat_360p.mp4"}
 
 ::: notes
-**Julie:**
-
 NASA has been collecting unbelievable amounts of data about Earth since 1960.
 These data are freely available and help researchers tackle really critical questions about our planet, which is only more relevant with the imapacts of climate change.
 
@@ -423,28 +414,24 @@ In anticipation and support of this, those 12 data centers are gearing up to sup
 And this is how NASA Openscapes came to be
 :::
 
-# ![](images/NASA_logo.png){width="18%"} ![](images/openscapes_hex.png){width="12%"} {.centered}
+## ![](images/NASA_logo.png){width="18%"} ![](images/openscapes_hex.png){width="12%"} {.centered}
 
 ::: columns
 ::: {.column width="50%"}
 <br> <br> <br> **Develop a cross-NASA mentor community**<br>to co-create and teach common tutorials<br> to support researchers with Earthdata Cloud
-
-[nasa-openscapes.github.io](https://nasa-openscapes.github.io)
 :::
 
 ::: {.column width="50%"}
 ![](images/2021-NASA-Openscapes-Mentors-Photoshop.png){width="80%"}
+
+[nasa-openscapes.github.io](https://nasa-openscapes.github.io)
 :::
 :::
 
 ::: notes
-**Julie:**
+NASA-Openscapes is a 3-year project that includes developing a cross-NASA mentor community to co-create and teach common tutorials to support researchers with Earthdata Cloud
 
-NASA-Openscapes is a 3-year project is to Develop a cross-NASA mentor community to co-create and teach common tutorials to support researchers with Earthdata Cloud
-
-So this is a big project.
-Since we started in early 2021 we've been working with just amazing group of NASA user support staff and engineers.
-And while Erin had a decade of experience with the NASA community, a lot of it was new to me.
+So this is a big project with a lot of moving pieces. And while Erin had a decade of experience with the NASA community, a lot of it was new to me.
 I was unfamiliar with Earth science as a research domain, the types of satellite imagery data NASA works with, not to mention cloud infrastructure that is evolving rapidly.
 
 <> And as an R user a fourth big thing that was intimidating to me -
@@ -463,11 +450,9 @@ Transition: So I was feeling pretty intimidated about this.
 But if you know me, you know that -
 :::
 
-##  {background-image="images/horst_rey_quarto.png"}
+##  {background-image="images/horst_rey_quarto.png" background-size="contain"}
 
 ::: notes
-**Julie:**
-
 I feel like R and especially R Markdown is a total superpower, I honestly I think differently about what's possible in science because of R Markdown.
 Quarto let me bring that experience and confidence to NASA Openscapes.
 
@@ -479,12 +464,10 @@ I asked if we could use Quarto for NASA-Openscapes and this became a really exci
 ## 
 
 ::: {.borderbox}
-![](images/hackathon.png){width="90%" fig-align="center"}
+![](images/hackathon.png){width="80%" fig-align="center"}
 :::
 
 ::: notes
-**Julie:**
-
 This Quarto site we made for the Fall 2021 Cloud Hackathon was where we really found traction in working together with the Mentors was dev'ing tutorials for the hackathon.
 
 Through Openscapes gave them space and they dev'd a community, psych safety, getting comfortable learning new things, sharing imperfect work, giving feedback.
@@ -513,17 +496,13 @@ And quarto gave them a place to collab and present their work on a beautiful way
 :::
 :::
 
-::: footer
-[nasa-openscapes.github.io/earthdata-cloud-cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook)
-:::
-
 ::: notes
 Followed quickly by other iterations we were able to do with this same workflow
 
 Codifying this to the cookbook
 :::
 
-## Collaborating across coding languages {.julie}
+## Collaborating across coding languages
 
 **Screenshot:** _quarto.yml: .ipynbs, with .rmds
 
@@ -556,45 +535,7 @@ Transition: So let me show you what this looks like in Jupyter -
 Julie: ...
 :::
 
-# ![](images/NASA_logo.png){width="18%"} ![](images/openscapes_hex.png){width="12%"} {.h1center}
 
-::: columns
-::: {.column width="50%"}
-**Develop a cross-NASA mentor community**<br>to co-create and teach common tutorials<br> to support researchers with Earthdata Cloud
-
-<br>
-
-[**Space and place to find the common, establish a peer-learning & teaching culture, contribute as part of their jobs.**]{text-align="center"}
-
-<br>
-
-[**Importance of leadership + empowered, connected early adopters.**]{text-align="center"}
-
-[nasa-openscapes.github.io](https://nasa-openscapes.github.io)
-:::
-
-::: {.column width="50%"}
-![](images/2021-NASA-Openscapes-Mentors-Photoshop.png){width="80%"}
-:::
-:::
-
-::: notes
-NASA-Openscapes is a 3-year project is to Develop a cross-NASA mentor community to create & teach common Earthdata Cloud tutorials that are then iterated for specific research examples
-
-Since we started in early 2021 we've worked with just amazing group of NASA user support staff and engineers.
-We've supported them through finding the common needs across all Mentors, fostering a peer-learning and teaching culture, and having them contribute to shared activities as part of their jobs.
-
-Alignment
-
-As you'll see, this group has achieved a lot in the last year.
-And the successes of this project so far really speaks to the importance of leadership support plus empowered and connected early adopters.
-We've been really thankful to have both this top-down and grassroots level of support
-
-Transition: So this is a big project.
-And while Erin had a decade of experience with the NASA community, when we started, a lot of it was new and frankly really intimidating to me.
-As a marine ecologist, I was unfamiliar with Earth science as a research domain, the types of satellite imagery data NASA works with, not to mention cloud infrastructure that is evolving rapidly.
-And as an R user a fourth big thing that was intimidating to me -
-:::
 
 ## Teach {background-image="images/horst_quarto_meteor.png" background-size="contain"}
 
@@ -708,7 +649,6 @@ Transition: They describe how there is not one single fix, but that there is so 
 
 ## An actionable mosaic of voices
 
-::: fragment
 quarto book screenshot mosaic
 
 -   approach guide
@@ -724,7 +664,6 @@ quarto book screenshot mosaic
 -   faylab
 -   nmfs-openscapes
 - josh slides
-:::
 
 ::: notes
 Over the last year there have been all these voices: NOAA, NASA, Fay Lab we've worked with - these groups are all addressing the climate emergency, and they're doing this more elegantly and collaboratively with Openscapes and Quarto.
@@ -735,45 +674,60 @@ Within this mosaic of voices, there is a range of technical skills, and it's imp
 To make this mosaic of voices actionable to tackle these big problems, we need strategies to close those gaps and blur those lines.
 
 I don't want to say that Openscapes and Quarto's going to save us but the way it's enabled us to come together and do big work is going to. It's lowering the barriers and blurring lines of who can contribute their ideas and insights.
+
+<> One story:
 :::
 
-## An actionable mosaic of voices
-(screenshot mosaic in background)
+## 
 
-*Building inclusion, empathy, and openness into our daily work*
+:::: {.columns}
 
-Engage: Make the implicit explicit
+::: {.column width="60%"}
+![](images/approach-guide.png){width="80%"}
+:::
 
-Empower: Onboard learners as contributors
+::: {.column width="40%"}
 
-Amplify: Reuse (and credit!) good ideas
+\
+
+***Building inclusion, empathy, and openness into our daily work***
+
+\
+
+**Engage:** Make the implicit explicit
+
+**Empower:** Onboard learners as contributors
+
+**Amplify:** Reuse (and credit!) good ideas
+:::
+
+::::
 
 ::: notes
-So what we've learned is that is that we've all been building inclusion, empathy, and openness into our daily work as part of this effort 
+The Openscapes Approach Guide is something we started developing as we worked with NASA Mentors as well as Mentors at NOAA Fisheries, Cal EPA, and academia
 
-They've enabled engagement through writing things down and making the implicit explicit, they've empowered learners as contributors and they've amplified and scaled this good ideas
+Quarto's given us a place to write down and codify how we've been learning to build inclusion, empathy and openness into our daily work, and they map on to how Openscapes focuses on engaging, empowering and amplifying people
 
-Each of these were developed building from the last, reusing good idea, focused on specific learners and including more people
+It's let us make the implicit explicit and shine light on the work that Mentors do to teach, facilitate, coach, and build community 
 
-Here are a few stories: a few ways that this is happening
-:::
+And it also is integral in onboarding new mentors, both because of the content within it, and also as a way to learn quarto while contributing to it this guide and updating links, etc 
 
-## Approach Guide & NASA & NMFS Openscapes
-screenshots
+And it's also a way to amplify good ideas. We borrowed this idea from the Fay Lab Manual at the University of Massachusetts Dartmouth, and are now seeing it at NOAA 
 
 ESIP blog
+:::
+
+## Screenshots
+faylab manual, NMFS-Openscapes, Quarto tutorial
 
 ::: notes
-As we've worked with NASA and the 75 marine science research teams, we've been writing down what we learn and how we work so that other groups can work with us and use this themselves.
 
-This is our Approach Guide, which Erin and I started developing and joined by others 
-NOAA EPA
-
+We're thinking about quarto sites like these analogous to R packages, where you develop it for a purpose and an audience and thpull out the common
 :::
 
 ## Collaborating across & leveling-up coding comfort levels
 
-![](images/quarto_commits_erinmr2_short.png)
+![](images/quarto_commits_erinmr2_short.png){width="40%"}
 ![](images/quarto_commits_aholder1.png){width="50%"} ![](images/quarto_commits_ileanaf0.png) ![](images/quarto_commits_ileanaf1.png)
 
 ![](images/quarto_commits_stefaniebutland1.png) ![](images/quarto_commits_stefaniebutland.png)
@@ -937,4 +891,48 @@ Just as we chose to go to the moon<br> We know it's never too soon<br> To choose
 :::
 :::
 
+## TO CUT ![](images/NASA_logo.png){width="18%"} ![](images/openscapes_hex.png){width="12%"} {.centered}
+
+::: columns
+::: {.column width="50%"}
+
+\
+\
+
+**Develop a cross-NASA mentor community**<br>to co-create and teach common tutorials<br> to support researchers with Earthdata Cloud
+
+\
+
+[**Importance of leadership + empowered, connected early adopters.**]{text-align="center"}
+:::
+
+::: {.column width="50%"}
+![](images/2021-NASA-Openscapes-Mentors-Photoshop.png){width="80%"}
+
+[nasa-openscapes.github.io](https://nasa-openscapes.github.io)
+:::
+:::
+
+::: notes
+The NASA Openscapes Mentors have achieved a lot in the last year.
+
+Since we started in early 2021 we've worked with just amazing group of NASA user support staff and engineers.
+We've supported them through finding the common needs across all Mentors, fostering a peer-learning and teaching culture, and having them contribute to shared activities as part of their jobs.
+
+Alignment
+
+
+And the successes of this project so far really speaks to the importance of leadership support plus empowered and connected early adopters.
+We've been really thankful to have both this top-down and grassroots level of support
+
+Transition: So this is a big project.
+And while Erin had a decade of experience with the NASA community, when we started, a lot of it was new and frankly really intimidating to me.
+As a marine ecologist, I was unfamiliar with Earth science as a research domain, the types of satellite imagery data NASA works with, not to mention cloud infrastructure that is evolving rapidly.
+And as an R user a fourth big thing that was intimidating to me -
+:::
+
+
 ## References
+
+
+
