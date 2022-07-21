@@ -46,24 +46,18 @@ $link-color: #75AADB;
   bottom: -40px;
 }
 
-.reveal .centered {
-  text-align: center;
+.reveal .section-title-top h1 {
+  font-family: 'Delius Unicase', cursive;
+  color: #75AADB;
+  font-size: 3em;
+  position: absolute; 
+  left: 20px; 
+  top: -400px
 }
 
-.reveal .large {
-  font-size: 1.5em;
-}
-
-.reveal .midi {
-  font-size: 1.2em;
-}
-
-.reveal .h1center h1 {
-  text-align: center;
-}
-
-.reveal .h3center h3 {
-  text-align: center;
+.reveal .display-url a {
+  font-size: 2.5em;
+  color: #d2e3f3;
 }
 
 .reveal .slide .quotebox {
@@ -84,6 +78,57 @@ $link-color: #75AADB;
   color: #0F1620;
 }
 
+
+.reveal .slide .quotebox {
+  border: 2px solid #FFFFFF;
+  padding: 1em;
+  background: rgb(231, 231, 232, 0.9);
+  position: absolute;
+  left: 15%;
+  width: 70%;
+  color: #0F1620;
+  font-size: 1.1em;
+}
+
+.reveal .slide .bulletbox {
+  padding: 0.5em;
+  height: 300px;
+}
+
+.reveal .slide .borderbox {
+  border: 1px solid #9fa1a5;
+}
+
+/* alignment */
+
+.reveal .centered {
+  text-align: center;
+}
+
+/* font sizes */
+
+.reveal .larger {
+  font-size: 3em;
+}
+
+.reveal .large {
+  font-size: 1.5em;
+}
+
+.reveal .midi {
+  font-size: 1.2em;
+}
+
+.reveal .small {
+  font-size: 0.75em;
+}
+
+/* unused */
+
+.reveal .h3center h3 {
+  text-align: center;
+}
+
 .shout { /*-- julie note: also not final (or accessible)! Just wanted something that isn't normal text - altering Header3 could also work here --*/
   color: teal; 
   font-size: 1.5em;
@@ -95,9 +140,6 @@ $link-color: #75AADB;
   font-style: italic;
 }
 
-.small {
-  font-size: 0.75em;
-}
 
 .reveal .slide .demo {
   border: 3px solid #c7cfcf;

@@ -7,7 +7,7 @@
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.0.28">
+  <meta name="generator" content="quarto-1.0.32">
 
   <title>Hello Quarto</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -22,25 +22,70 @@
     div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
-    div.csl-bib-body { }
-    div.csl-entry {
-      clear: both;
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
     }
-    .hanging div.csl-entry {
-      margin-left:2em;
-      text-indent:-2em;
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
     }
-    div.csl-left-margin {
-      min-width:2em;
-      float:left;
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #97947a;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #97947a;  padding-left: 4px; }
+    div.sourceCode
+      { color: #f8f8f2; background-color: #2b2b2b; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
     }
-    div.csl-right-inline {
-      margin-left:2em;
-      padding-left:1em;
-    }
-    div.csl-indent {
-      margin-left: 2em;
-    }
+    code span { color: #f8f8f2; } /* Normal */
+    code span.al { color: #dcc6e0; } /* Alert */
+    code span.an { color: #d4d0ab; } /* Annotation */
+    code span.at { color: #ffd700; } /* Attribute */
+    code span.bn { color: #dcc6e0; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #ffa07a; } /* ControlFlow */
+    code span.ch { color: #abe338; } /* Char */
+    code span.cn { color: #ffa07a; } /* Constant */
+    code span.co { color: #d4d0ab; } /* Comment */
+    code span.cv { color: #d4d0ab; font-style: italic; } /* CommentVar */
+    code span.do { color: #d4d0ab; font-style: italic; } /* Documentation */
+    code span.dt { color: #dcc6e0; } /* DataType */
+    code span.dv { color: #dcc6e0; } /* DecVal */
+    code span.er { color: #dcc6e0; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #f5ab35; } /* Float */
+    code span.fu { color: #ffd700; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #d4d0ab; } /* Information */
+    code span.kw { color: #ffa07a; } /* Keyword */
+    code span.op { color: #00e0e0; } /* Operator */
+    code span.ot { color: #ffa07a; } /* Other */
+    code span.pp { color: #dcc6e0; } /* Preprocessor */
+    code span.sc { color: #00e0e0; } /* SpecialChar */
+    code span.ss { color: #abe338; } /* SpecialString */
+    code span.st { color: #abe338; } /* String */
+    code span.va { color: #f5ab35; } /* Variable */
+    code span.vs { color: #abe338; } /* VerbatimString */
+    code span.wa { color: #d4d0ab; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css" id="theme">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -339,18 +384,14 @@
     <div class="slides">
 
 
-<section id="section" class="slide level2" data-background-image="images/horst_penguins_telescope.png">
+<section id="hello-quarto" class="slide level2" data-menu-title="Hello Quarto" data-background-image="images/horst_penguins_telescope.png">
 <h2></h2>
 <p><span class="custom-title">Hello Quarto</span></p>
 <p><span class="custom-subtitle">share • collaborate • teach • reimagine</span></p>
 <p><span class="custom-author">Mine Çetinkaya-Rundel <br> Julia Stewart Lowndes</span></p>
 <p><span class="custom-url"><a href="https://rstd.io/hello-quarto">rstd.io/hello-quarto</a></span></p>
-</section>
-<section>
-<section id="hello-quarto" class="title-slide slide level1 section-title-top center" data-background-image="images/horst_quarto_meteor_transparent.png">
-<h1>Hello, Quarto?</h1>
 <aside class="notes">
-<p>Julie: But also, we know you have questions. As long-time R Markdown users, Mine and I did too. What is Quarto? Why Quarto? And how does it relate to R Markdown and to other tools you already use and workflows you already have? Transition: Well -</p>
+<p><strong>Julie:</strong> Thank you so much, We’re excited to be here! Mine and I have both been using Quarto for the last year; she has been teaching with it since its earliest days and my Openscapes team is the first external users of Quarto. As Mine and I have experimented with it in our own work we realize we love it, and we’re thrilled to introduce and welcome you to Quarto.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -363,13 +404,31 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-1" class="slide level2 centered-slide" data-background-color="#0F1620" data-auto-animate="true">
+<section>
+<section id="hello-quarto-1" class="title-slide slide level1 section-title-top center" data-background-image="images/horst_quarto_meteor_transparent.png">
+<h1>Hello, Quarto?</h1>
+<aside class="notes">
+<p><strong>Julie:</strong> But also, we know you have questions. As long-time R Markdown users, Mine and I did too. What is Quarto? Why Quarto? And how does it relate to R Markdown and to other tools you already use and workflows you already have? &lt;&gt; Well -</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="unifies-extends-1" class="slide level2 centered" data-menu-title="Unifies and extends 1" data-background-color="#0F1620" data-auto-animate="true">
 <h2 data-id="quarto-animate-title"></h2>
 <div style="margin-top: 150px; font-size: 3em; color: #75AADB;">
 <p>Quarto <strong>unifies</strong> and <strong>extends</strong> <br>the R Markdown ecosystem</p>
 </div>
 <aside class="notes">
-<p>Quarto unifies &amp; extends the R Markdown ecosystem. <span class="citation" data-cites="baker2015">Baker (<a href="#/ref-baker2015" role="doc-biblioref" onclick="return false;">2015</a>)</span></p>
+<p><strong>Julie:</strong></p>
+<p>Quarto unifies &amp; extends the R Markdown ecosystem.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -382,7 +441,7 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-2" class="slide level2 centered-slide" data-background-color="#0F1620" data-auto-animate="true">
+<section id="unifies-extends-2" class="slide level2 centered" data-menu-title="Unifies and extends 2" data-background-color="#0F1620" data-auto-animate="true">
 <h2 data-id="quarto-animate-title"></h2>
 <div style="margin-top: 100px; font-size: 2.2em; color: #75AADB">
 <p>Quarto <strong>unifies</strong> and <strong>extends</strong> <br>the R Markdown ecosystem</p>
@@ -396,9 +455,10 @@
 <p><strong>extends</strong> for people who don’t know R Markdown</p>
 </div>
 <aside class="notes">
+<p><strong>Julie:</strong></p>
 <p>It unifies the R Markdown ecosystem by reducing little points of friction, so that websites, books, and slides all have a common approach.</p>
 <p>And it extends the R Markdown ecosystem as a friendly way for code and text to be published in the same place with tools that interoperate with how you already work.</p>
-<p>Transition: It builds on 10 years of insight from R Markdown -</p>
+<p>&lt;&gt; It builds on 10 years of insight from R Markdown -</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -411,13 +471,27 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-3" class="slide level2 centered-slide" data-background-color="#0F1620" data-auto-animate="true">
+<section id="publishing-system-1" class="slide level2 centered" data-menu-title="Publishing system 1" data-background-color="#0F1620" data-auto-animate="true">
 <h2 data-id="quarto-animate-title"></h2>
 <div style="margin-top: 100px; font-size: 3em; color: #75AADB;">
 <p>Quarto is a <strong>new</strong>, <strong>open-source</strong>,<br> <strong>scientific</strong> and <strong>technical</strong><br> publishing system</p>
 </div>
+<aside class="notes">
+<p><strong>Julie</strong></p>
+<p>Quarto is a new open-source scientific and technical publishing system.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="section-4" class="slide level2 centered-slide" data-background-color="#0F1620" data-auto-animate="true">
+<section id="publishing-system-2" class="slide level2 centered" data-menu-title="Publishing system 2" data-background-color="#0F1620" data-auto-animate="true">
 <h2 data-id="quarto-animate-title"></h2>
 <div style="margin-top: 50px; font-size: 2em; color: #75AADB">
 <p>Quarto is a <strong>new</strong>, <strong>open-source</strong>,<br> <strong>scientific</strong> and <strong>technical</strong><br> publishing system</p>
@@ -433,9 +507,7 @@
 </div>
 </div>
 <aside class="notes">
-<p><strong>Julie</strong></p>
-<p>Quarto is a new open-source scientific and technical publishing system.</p>
-<p>&lt;&gt; The goal is to make the process of creating and collaborating on scientific and technical documents dramatically better.</p>
+<p><strong>Julie</strong> The goal is to make the process of creating and collaborating on scientific and technical documents dramatically better.</p>
 <p>&lt;&gt; It handles inputs in multiple languages, and outputs in multiple formats, all going through the same machinery.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -449,15 +521,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="hello-quarto-1" class="slide level2">
-<h2>Hello, Quarto!</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><video data-src="images/quadrants-overview.mp4" controls=""><a href="images/quadrants-overview.mp4">Video</a></video></p>
-</figure>
-</div>
+<section id="outline-1" class="slide level2 centered" data-menu-title="Outline 1">
+<h2></h2>
+<p><img data-src="images/outline-1.png"></p>
 <aside class="notes">
-<p>Julie: In our talk, we’ll introduce you to Quarto with stories and demos. Mine will describe her experiences about sharing and teaching with Quarto, focusing on how it unifies the R Markdown ecosystem. I’ll share my experiences collaborating and reimagining with Quarto, focused on how it extends the R Markdown ecosystem.</p>
+<p><strong>Julie:</strong></p>
+<p>In our talk, we’ll introduce you to Quarto with stories and demos.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -470,14 +539,47 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="hello-quarto-2" class="slide level2">
-<h2>Hello, Quarto!</h2>
-<p><br><br></p>
-<h3 id="rstd.iohello-quarto">🔗 <a href="https://rstd.io/hello-quarto">rstd.io/hello-quarto</a></h3>
-<p>Artwork by Allison Horst</p>
-<p>References at the end</p>
+<section id="outline-2" class="slide level2 centered" data-menu-title="Outline 2">
+<h2></h2>
+<p><img data-src="images/outline-2.png"></p>
 <aside class="notes">
-<p>Julie: And, as you may have suspected, these slides are indeed made with Quarto. If you’d like to follow along, go to this url and follow along with us. Over to you, Mine!</p>
+<p><strong>Julie:</strong></p>
+<p>Mine will describe her experiences about sharing and teaching with Quarto, focusing on how it unifies the R Markdown ecosystem.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="outline-3" class="slide level2 centered" data-menu-title="Outline 3">
+<h2></h2>
+<p><img data-src="images/outline-3.png"></p>
+<aside class="notes">
+<p><strong>Julie:</strong></p>
+<p>I’ll share my experiences collaborating and reimagining with Quarto, focused on how it extends the R Markdown ecosystem.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="link-to-slides" class="slide level2" data-menu-title="Link to slides" data-background-image="images/horst_quarto_meteor.png">
+<h2></h2>
+<p><span class="display-url"><a href="https://rstd.io/hello-quarto">rstd.io/hello-quarto</a></span></p>
+<aside class="notes">
+<p><strong>Julie:</strong> And, as you may have suspected, these slides are indeed made with Quarto. If you’d like to follow along, go to this url and follow along with us. And before we get started, we’d like to thank Allison Horst for her beautiful artwork and the numerous folks whose work we’ll reference throughout the talk. You’ll be able to see all references at the end of our talk. Over to you, Mine!</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -491,18 +593,21 @@
       }</style></aside>
 </section></section>
 <section>
-<section id="share" class="title-slide slide level1 center">
+<section id="share" class="title-slide slide level1 section-title-top center">
 <h1>Share</h1>
-
-<img data-src="images/quadrants-share.gif" width="480" class="r-stretch quarto-figure-center"></section>
-<section id="this-is-an-id" class="slide level2" data-menu-title="Some title" data-background-color="#405772">
+<div class="illustration">
+<p><strong>Illustration:</strong> Request from Allison: Penguins sharing iceberg, looking through a single telescope together at the Quarto moon</p>
+</div>
+</section>
+<section id="share-intro" class="slide level2 center" data-menu-title="Share - Intro" data-background-color="#0F1620">
 <h2></h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/mine-penguin-nametag.png" alt="Penguin with nametag that says &quot;Mine&quot;"></p>
+<p><img data-src="images/horst_penguins_nametag_mine.png" alt="Penguin with nametag that says &quot;Mine&quot;" width="700"></p>
 </figure>
 </div>
 <aside class="notes">
+<p><strong>Mine:</strong></p>
 <p>Thanks Julie!</p>
 <p>I remember vividly the first time I’ve heard of knitr at useR 2012 and sitting in the audience and starting to convert my teaching materials to use it while the keynote was still going on.</p>
 <p>I’ll call this a success if a few of you are firing up a Quarto project right now to see what all the hype is about.</p>
@@ -519,15 +624,16 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="next-generation-r-markdown" class="slide level2">
-<h2>Next generation R Markdown</h2>
+<section id="r-markdown-ecosystem" class="slide level2" data-transition="zoom">
+<h2>R Markdown ecosystem</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/rmd-to-quarto.gif"></p>
+<p><img data-src="images/rmd_ecosystem.png"></p>
 </figure>
 </div>
 <aside class="notes">
-<p>Mine: Julie mentioned it unified so let’s dig a bit more into what that means… It combines/unifies some “down” packages. It also brings in Jupyter and other languages (Python, Julia) and provides that functionality even if you’re not coming from the R ecosystem. Beyond unification, Quarto also makes available attractive and handy features like tabsets, code-folding, syntax highlighting, etc. consistently across the various outputs.</p>
+<p><strong>Mine:</strong></p>
+<p>Julie mentioned unifying the R Markdown ecosystem so let’s dig a bit more into what that means… Think of all the packages from the R Markdown universe that many of you’ve come to love and rely on over the years. Each package addresses a different need and offers a different output: for example, you can use blogdown or distill for creating websites and blogs, bookdown for writing a book, rticles for writing journal articles, etc.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -540,27 +646,98 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="demo-flexibility-in-the-formats" class="slide level2">
-<h2>DEMO: Flexibility in the formats</h2>
+<section id="next-generation-r-markdown" class="slide level2" data-transition="zoom">
+<h2>Next generation R Markdown</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/horst_quarto_ball.png" width="900"></p>
+</figure>
+</div>
+<aside class="notes">
+<p><strong>Mine:</strong></p>
+<p>Quarto unifies the functionality from a wide range of packages from the R Markdown ecosystem, building on Pandoc on the technical side and years of experience developing, maintaining, and tweaking these packages as well as community feedback on the human side.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="next-generation-r-markdown-1" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Next generation R Markdown</h2>
+<div class="columns">
+<div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/horst_quarto_ball-1_4.png" width="50"> Consistent implementation of attractive and handy features across outputs: tabsets, code-folding, syntax highlighting, etc.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/horst_quarto_ball-2_4.png" width="50"> More accessible defaults as well as better support for accessibility</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/horst_quarto_ball-3_4.png" width="50"> Guardrails, particularly helpful for new learners: YAML completion, informative syntax errors, etc.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/horst_quarto_ball-4_4.png" width="50"> Support for other languages like Python, Julia, Observable, and more via Jupyter engine for executable code chunks.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div>
+</div>
+<aside class="notes">
+<p><strong>Mine:</strong> Beyond unification, Quarto also offers</p>
+<p>&lt;&gt; consistent implementation of attractive and handy features across outputs such as tabsets, code-folding, and syntax highlighting</p>
+<p>&lt;&gt; more accessible defaults as well as better support for creating accessibile documents</p>
+<p>&lt;&gt; guardrails that are particularly helpful for new learners like YAML completion and informative syntax errors</p>
+<p>&lt;&gt; and perhaps most excitingly for those who are not coming from the R ecosystem, Quarto offers support for other languages like Python, Julia, Observable, and more via the Jupyter engine, in addition to knitr, for executable code chunks</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="demo-1" class="slide level2" data-menu-title="Demo 1">
+<h2></h2>
 <div class="demo">
-<p><strong>This will be replaced with screen recording.</strong></p>
-<ul>
-<li>Take .Rmd and change extension to .qmd
-<ul>
-<li>The .Rmd will already have a table and a plot, palmerpenguins</li>
-<li>Knit it, then change to .qmd. Knit again</li>
-<li>Note code chunk options, YAML completion, YAML errors (or other high-level differences)</li>
-</ul></li>
-<li>Change output format to yml slides</li>
-<li>Add a <code>_quarto.yml</code>, render to website
-<ul>
-<li><em>To hand-off to Julie: (a tiny website)</em></li>
-</ul></li>
-<li>yaml completion and yaml errors</li>
-</ul>
+<p>DEMO 1</p>
 </div>
 <aside class="notes">
-<p>Mine: …</p>
+<p><strong>Mine:</strong></p>
+<p>Alright, that’s enough talking. Let’s dive in and see what all the fuss is about!</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -573,17 +750,14 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="knit-vs-render" class="slide level2">
-<h2>Knit vs render?</h2>
+<section id="under-the-hood" class="slide level2">
+<h2>Under the hood</h2>
 <div class="illustration">
-<p><strong>Illustration:</strong> A graphic and a arrow pointing at where they’re different, at a high level.</p>
-<ul>
-<li>Rmd -&gt; knitr -&gt; pandoc: R package (R Markdown) doing the orchestration</li>
-<li>Qmd -&gt; knitr/jupyter -&gt; pandoc: Quarto CLI doing the orchestration</li>
-</ul>
+<p><strong>Illustration:</strong> Request from Allison: Diagram at https://mine-cetinkaya-rundel.github.io/hello-quarto-sdssg/#/running-code</p>
 </div>
 <aside class="notes">
-<p>Mine: A common first question is “how are R Markdown and Quarto different, under the hood, particularly given the rename of the file just works?”</p>
+<p><strong>Mine:</strong></p>
+<p>A common first question is “how are R Markdown and Quarto different, under the hood, particularly given the rename of the file just works?” The main difference is that with R Markdown, the R package rmarkdown does the heavy lifting of the orchestration of going from source code (the Rmd file) to output, using knitr for evaluating the code chunks. With Quarto, the Quarto command line interface (or CLI, for short) does the orchestration of processing executable code chunks with either knitr or jupyter and then converting the resulting markdown file to the desired output. While this is technically impressive, I’ll be honest, it’s not necessarily what sparked my interest in Quarto in the first place.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -598,13 +772,24 @@
 </section>
 <section id="moving-between-things-is-easy-straightforward" class="slide level2">
 <h2>Moving between “things” is <del>easy</del> straightforward</h2>
-<p>Moving between formats within Quarto is straightforward</p>
-<ul>
-<li>Often need to deliver same/similar content in different formats (documents, slides, book, website)</li>
-<li>It’s super helpful when transitioning requires minimal futzing around with source code (like Rmd 8 ways…)</li>
-</ul>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><br></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Lesson 1"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> html</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><br></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Lesson 1"</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> revealjs</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/horst_quarto_basketball_spin.png"></p>
+</figure>
+</div>
+</div>
+</div>
 <aside class="notes">
-<p>Mine: As an educator, two things are of utmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats (like documents to slides to websites to books). Over the last year of using Quarto for everything, I’ve felt like I’ve finally found the tool that lets me go from one to the other with minimal futzing around with my source code. This has helped me focus my time on my content, which has been a huge win.</p>
+<p><strong>Mine:</strong> What did spark my interest was how easy, or, let’s not say easy, I don’t like that word in reference to any new technology, but how straightforward it is with Quarto to move between “things”. As an educator, two things are of utmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats (like documents to slides to websites to books). Over the last year of using Quarto for everything, I’ve felt like I’ve finally found the tool that lets me go from one to the other with minimal futzing around with my source code. This has helped me focus my time on my content, which has been a huge win.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -617,10 +802,11 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="collaborate" class="slide level2" data-background-image="images/horst_quarto_meteor.png" data-background-size="contain">
-<h2>Collaborate</h2>
+<section id="pass-to-collaborate" class="slide level2" data-background-image="images/horst_quarto_meteor.png">
+<h2></h2>
 <aside class="notes">
-<p>Mine: now over to you Julie</p>
+<p><strong>Mine:</strong></p>
+<p>Now over to you Julie.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -634,10 +820,11 @@
       }</style></aside>
 </section></section>
 <section>
-<section id="section-5" class="title-slide slide level1 center" data-background-image="images/horst_penguins_telescope.png" data-background-size="contain">
-<h1></h1>
+<section id="collaborate" class="title-slide slide level1 section-title-top center" data-background-image="images/horst_penguins_telescope.png">
+<h1>Collaborate</h1>
 <aside class="notes">
-<p>Julie: Thanks Mine, let’s next talk about Collaborating with Quarto</p>
+<p><strong>Julie:</strong></p>
+<p>Thanks Mine, let’s next talk about Collaborating with Quarto</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -650,11 +837,17 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-6" class="slide level2">
-<h2><img data-src="images/julie-penguin-nametag.png" class="absolute" alt="Penguin with nametag that says &quot;Julie&quot;" style="top: 0px; width: 25%; "></h2>
-<p><img data-src="images/lowndes_venn_science.svg" class="absolute" style="top: 50px; right: 0px; width: 100%; "></p>
+<section id="collaborate-intro" class="slide level2 center" data-menu-title="Collaborate - Intro">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p><img data-src="images/horst_penguins_nametag_julie.png" alt="Penguin with nametag that says &quot;Julie&quot;"></p>
+</div><div class="column" style="width:70%;">
+<p><img data-src="images/lowndes_venn_science.svg"></p>
+</div>
+</div>
 <aside class="notes">
-<p>Julie: As you heard earlier I work at the intersection of actionable environmental science, data science, and open science. What I absolutely love doing is mentoring, teaching, and empowering communities, having learned from so many of you who are here or listening today.</p>
+<p><strong>Julie:</strong> As you heard earlier I work at the intersection of actionable environmental science, data science, and open science. What I absolutely love doing is mentoring, teaching, and empowering communities, having learned from so many of you who are here or listening today.</p>
 <p>I’ve made this my job through Openscapes.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -668,14 +861,15 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-7" class="slide level2" data-background-image="images/horst_openscapes_champions.jpg" data-background-size="80%" data-fig-alt="Illustration of a grassy field by an ocean, there’s a river that meanders from the midground to the background on the right hand side. There are mountains in the background. The Openscapes hex logo is in the top left hand corner. In the foreground there are many animals: hermit crab working alone on a laptop, a sad rabbit on a laptop under a raincloud, a frustrated skunk on a laptop under a raincloud. Just over a bush is another group of animals: a fox with a welcome sign stands with a hedgehog holding map brochures In front of a larger park map. The fox and hedgehog are in front of a group of animals: a heron, a squirrel, a mouse holding a notebook, a raccoon, a snake, and a quail. In the midground, there’s a turtle, deer, owl and beaver by the river that has stepping stone rocks across. A roadrunner, lizard, blue bird, and rabbit, are walking down a path together, one of the other paths is blocked by a log. There’s a rowboat on the edge of the water. In the background, a duck, turtle, red squirrel, fox, and raven are walking single file over a wooden bridge that crosses the river. Most of the animals have coloured bandanas tied around their necks and a few are wearing hats. Up in the sky, there’s a satellite.">
+<section id="section" class="slide level2" data-background-image="images/horst_openscapes_champions.jpg" data-fig-alt="Illustration of a grassy field by an ocean, there’s a river that meanders from the midground to the background on the right hand side. There are mountains in the background. The Openscapes hex logo is in the top left hand corner. In the foreground there are many animals: hermit crab working alone on a laptop, a sad rabbit on a laptop under a raincloud, a frustrated skunk on a laptop under a raincloud. Just over a bush is another group of animals: a fox with a welcome sign stands with a hedgehog holding map brochures In front of a larger park map. The fox and hedgehog are in front of a group of animals: a heron, a squirrel, a mouse holding a notebook, a raccoon, a snake, and a quail. In the midground, there’s a turtle, deer, owl and beaver by the river that has stepping stone rocks across. A roadrunner, lizard, blue bird, and rabbit, are walking down a path together, one of the other paths is blocked by a log. There’s a rowboat on the edge of the water. In the background, a duck, turtle, red squirrel, fox, and raven are walking single file over a wooden bridge that crosses the river. Most of the animals have coloured bandanas tied around their necks and a few are wearing hats. Up in the sky, there’s a satellite.">
 <h2></h2>
 <p><img data-src="images/openscapes_hex.png" class="absolute" style="top: 0px; width: 15%; "></p>
 <aside class="notes">
+<p><strong>Julie:</strong></p>
 <p>Openscapes is a movement and a community that I launched and have built together with my partner Erin Robinson.</p>
 <p>Our flagship activity is mentoring research teams in environmental open data science. Since 2018 we’ve helped over 75 teams move from sad lonely workflows like the animals on bottom left and into this rich landscape full of open source software, data, and communities. Our role is welcome folks at the trailhead, meeting them where they are and helping them explore and navigate this landscape safely together.</p>
 <p>A big focus of Openscapes is helping researchers build psychologically safety within their teams, so that there is a strong culture of peer-learning and teaching, of asking questions, not assuming what people know or don’t know, and trying to blur the lines of who can participate in technology.</p>
-<p>Transition: The story I’d like to tell you now is with NASA</p>
+<p>&lt;&gt;The story I’d like to tell you now is with NASA.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -688,12 +882,13 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-8" class="slide level2" data-background-video="images/R_beach_ball_flat_360p.mp4">
+<section id="section-1" class="slide level2" data-background-video="images/R_beach_ball_flat_360p.mp4">
 <h2></h2>
 <aside class="notes">
+<p><strong>Julie:</strong></p>
 <p>NASA has been collecting unbelievable amounts of data about Earth since 1960. These data are freely available and help researchers tackle really critical questions about our planet, which is only more relevant with the imapacts of climate change.</p>
 <p>Historically, these data are stored by 12 different data centers around the US and researchers go to different data centers separately to download sometimes terrabytes of data to analyze it locally.</p>
-<p>Transition - Now, as a result of many years of the preparation they’re migrating these data to the Cloud. In anticipation and support of this, those 12 data centers are gearing up to support researchers transition their workflows to the Cloud too. (maybe just say this or have a slide)</p>
+<p>&lt;&gt; Now, as a result of many years of the preparation they’re migrating these data to the Cloud. In anticipation and support of this, those 12 data centers are gearing up to support researchers transition their workflows to the Cloud too. (maybe just say this or have a slide)</p>
 <p>And this is how NASA Openscapes came to be</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -707,20 +902,22 @@
           display:block!important;
       }</style></aside>
 </section></section>
-<section id="section-9" class="title-slide slide level1 h1center center">
+<section>
+<section id="section-2" class="title-slide slide level1 centered center">
 <h1><img data-src="images/NASA_logo.png" style="width:18.0%"> <img data-src="images/openscapes_hex.png" style="width:12.0%"></h1>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><br> <br> <br> <strong>Develop a cross-NASA mentor community<br>to co-create and teach common tutorials<br> to support researchers with Earthdata Cloud</strong></p>
+<p><br> <br> <br> <strong>Develop a cross-NASA mentor community</strong><br>to co-create and teach common tutorials<br> to support researchers with Earthdata Cloud</p>
 <p><a href="https://nasa-openscapes.github.io">nasa-openscapes.github.io</a></p>
 </div><div class="column" style="width:50%;">
 <p><img data-src="images/2021-NASA-Openscapes-Mentors-Photoshop.png" style="width:80.0%"></p>
 </div>
 </div>
 <aside class="notes">
+<p><strong>Julie:</strong></p>
 <p>NASA-Openscapes is a 3-year project is to Develop a cross-NASA mentor community to co-create and teach common tutorials to support researchers with Earthdata Cloud</p>
 <p>So this is a big project. Since we started in early 2021 we’ve been working with just amazing group of NASA user support staff and engineers. And while Erin had a decade of experience with the NASA community, a lot of it was new to me. I was unfamiliar with Earth science as a research domain, the types of satellite imagery data NASA works with, not to mention cloud infrastructure that is evolving rapidly.</p>
-<p>Transition: And as an R user a fourth big thing that was intimidating to me -</p>
+<p>&lt;&gt; And as an R user a fourth big thing that was intimidating to me -</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -733,11 +930,11 @@
           display:block!important;
       }</style></aside>
 </section>
-
-<section>
-<section id="many-earth-scientists-use-python" class="title-slide slide level1 h1center center">
-<h1>Many Earth scientists use python <br>😬</h1>
+<section id="many-use-python" class="slide level2 center centered" data-menu-title="Many use Python" data-background-color="#0F1620">
+<h2></h2>
+<p><span class="larger">Many Earth scientists <br> use Python <br> 😬</span></p>
 <aside class="notes">
+<p><strong>Julie:</strong></p>
 <p>Many NASA Earth scientists use python, and that’s where the tutorial development was focused. And my role leading NASA Openscapes was not to learn python from the ground-up, but I needed to be able to interoperate and collaborate with python users. Transition: So I was feeling pretty intimidated about this. But if you know me, you know that -</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -751,9 +948,10 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-10" class="slide level2" data-background-image="images/horst_rey_quarto.png" data-background-size="85%">
+<section id="section-3" class="slide level2" data-background-image="images/horst_rey_quarto.png">
 <h2></h2>
 <aside class="notes">
+<p><strong>Julie:</strong></p>
 <p>I feel like R and especially R Markdown is a total superpower, I honestly I think differently about what’s possible in science because of R Markdown. Quarto let me bring that experience and confidence to NASA Openscapes.</p>
 <p>I had been collaborating with J.J. Allaire for the past few years and I knew Quarto was emerging right when we needed it. I asked if we could use Quarto for NASA-Openscapes and this became a really exciting collaboration with the Quarto team and the NASA Mentors</p>
 <style type="text/css">
@@ -768,14 +966,17 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-11" class="slide level2">
+<section id="section-4" class="slide level2">
 <h2></h2>
+<div class="borderbox">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/hackathon.png" style="width:80.0%"></p>
+<p><img data-src="images/hackathon.png" style="width:90.0%"></p>
 </figure>
 </div>
+</div>
 <aside class="notes">
+<p><strong>Julie:</strong></p>
 <p>This Quarto site we made for the Fall 2021 Cloud Hackathon was where we really found traction in working together with the Mentors was dev’ing tutorials for the hackathon.</p>
 <p>Through Openscapes gave them space and they dev’d a community, psych safety, getting comfortable learning new things, sharing imperfect work, giving feedback. And quarto gave them a place to collab and present their work on a beautiful way for learners.</p>
 <style type="text/css">
@@ -790,7 +991,7 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-12" class="slide level2">
+<section id="section-5" class="slide level2">
 <h2></h2>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -878,11 +1079,11 @@
 </section>
 
 <section>
-<section id="section-13" class="title-slide slide level1 h1center center">
+<section id="section-6" class="title-slide slide level1 h1center center">
 <h1><img data-src="images/NASA_logo.png" style="width:18.0%"> <img data-src="images/openscapes_hex.png" style="width:12.0%"></h1>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>Develop a cross-NASA mentor community<br>to co-create and teach common tutorials<br> to support researchers with Earthdata Cloud</strong></p>
+<p><strong>Develop a cross-NASA mentor community</strong><br>to co-create and teach common tutorials<br> to support researchers with Earthdata Cloud</p>
 <p><br></p>
 <p><span data-text-align="center"><strong>Space and place to find the common, establish a peer-learning &amp; teaching culture, contribute as part of their jobs.</strong></span></p>
 <p><br></p>
@@ -914,7 +1115,7 @@
 <h2>Teach</h2>
 </section></section>
 <section>
-<section id="section-14" class="title-slide slide level1 center" data-background-image="images/horst_quarto_penguins_teach.png" data-background-size="contain">
+<section id="section-7" class="title-slide slide level1 center" data-background-image="images/horst_quarto_penguins_teach.png" data-background-size="contain">
 <h1></h1>
 
 </section>
@@ -1015,7 +1216,7 @@
 <h2>Reimagine</h2>
 </section></section>
 <section>
-<section id="section-15" class="title-slide slide level1 center" data-background-image="images/horst_quarto_penguins_dive.png" data-background-size="contain">
+<section id="section-8" class="title-slide slide level1 center" data-background-image="images/horst_quarto_penguins_dive.png" data-background-size="contain">
 <h1></h1>
 <aside class="notes">
 <p>Julie: As you’ve seen, Quarto is so powerful to accomplish our existing goals. And, it’s important to take some time to reimagine what’s possible and how we interact with it.</p>
@@ -1069,7 +1270,8 @@
 <div class="quotebox">
 <p>To address our climate emergency, we must rapidly, radically reshape society. We need every solution and every solver. As the saying goes, to change everything, we need everyone.</p>
 <p><strong>What this moment calls for is a mosaic of voices</strong> – the full spectrum of idea and insights for how we can turn things around.<br>
-<br>
+</p>
+<p><br>
 Ayana Elizabeth Johnson &amp; Katharine Wilkinson<br>
 <em>All We Can Save</em></p>
 </div>
@@ -1233,8 +1435,10 @@ Ayana Elizabeth Johnson &amp; Katharine Wilkinson<br>
 <p>Mosiac of voices: we need everyone</p>
 <div class="quotebox-partial">
 <p>Addressing&nbsp;the&nbsp;climate&nbsp;crisis… will&nbsp;take&nbsp;everyone.<br>
-We cannot, we must not, go it alone.<br>
-<br>
+</p>
+<p>We cannot, we must not, go it alone.<br>
+</p>
+<p><br>
 Ayana Elizabeth Johnson &amp; Katharine Wilkinson<br>
 <em>All We Can Save</em></p>
 </div>
@@ -1350,15 +1554,10 @@ Ayana Elizabeth Johnson &amp; Katharine Wilkinson<br>
 </div>
 </div>
 </section>
-<section id="references" class="slide level2 smaller scrollable">
+<section id="references" class="slide level2">
 <h2>References</h2>
 <div class="footer footer-default">
 
-</div>
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-baker2015" class="csl-entry" role="doc-biblioentry">
-Baker, Monya. 2015. <span>“Over Half of Psychology Studies Fail Reproducibility Test.”</span> <em>Nature</em>, August. <a href="https://doi.org/10.1038/nature.2015.18248">https://doi.org/10.1038/nature.2015.18248</a>.
-</div>
 </div>
 </section></section>
     </div>
