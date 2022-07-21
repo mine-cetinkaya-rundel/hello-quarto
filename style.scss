@@ -11,42 +11,39 @@ $link-color: #75AADB;
 
 /*-- scss:rules --*/
 
-.reveal #title-slide h1 {
+.reveal .custom-title {
   font-family: 'Delius Unicase', cursive;
   color: #d2e3f3;
   font-size: 3em;
-  position: absolute;
-  top: -200%;
+  position: absolute; 
+  left: 20px; 
+  top: 20px
 }
 
-.reveal #title-slide .subtitle {
+.reveal .custom-subtitle {
   font-family: 'Delius Unicase', cursive;
   color: #d2e3f3;
-  font-size: 1.25em;
-  position: absolute;
-  top: -100%;
+  font-size: 1.2em;
+  position: absolute; 
+  left: 20px; 
+  top: 200px
 }
 
-.reveal #title-slide .author {
+.reveal .custom-author {
   color: #d2e3f3;
+  position: absolute; 
   text-align: right;
-  font-size: 1.5em;
-  position: absolute;
-  top: 100%;
+  right: 0px; 
+  bottom: 20px;
+  line-height: 1.5em;
 }
 
-.reveal h1 {
-  font-family: 'Delius Unicase', cursive;
-  color: #75AADB;
-  font-size: 2em;
-}
-
-.reveal .section-title-top h1 {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+.reveal .custom-url a {
+  color: #FFFFFF;
+  position: absolute; 
+  text-align: right;
+  right: 0px; 
+  bottom: -40px;
 }
 
 .reveal .centered {
@@ -60,8 +57,6 @@ $link-color: #75AADB;
 .reveal .midi {
   font-size: 1.2em;
 }
-
-
 
 .reveal .h1center h1 {
   text-align: center;
