@@ -1,7 +1,5 @@
 ---
 pagetitle: "Hello Quarto"
-subtitle: "share • collaborate • teach • reimagine"
-author: "Mine Çetinkaya-Rundel <br> Julia Stewart Lowndes"
 format: 
   revealjs: 
     theme: style.scss
@@ -17,7 +15,15 @@ bibliography: references.bib
 # Thank you so much, We're excited to be here! Mine and I have both been using Quarto for the last year; she has been teaching with it since its earliest days and my Openscapes team is the first external users of Quarto. As Mine and I have experimented with it in our own work we realize we love it, and we're thrilled to introduce and welcome you to Quarto. 
 ---
 
-# Hello, Quarto! {.section-title-top background-image="images/horst_penguins_telescope.png"}
+## {background-image="images/horst_penguins_telescope.png"}
+
+[Hello Quarto]{.custom-title}
+
+[share • collaborate • teach • reimagine]{.custom-subtitle}
+
+[Mine Çetinkaya-Rundel <br> Julia Stewart Lowndes]{.custom-author}
+
+[[rstd.io/hello-quarto](https://rstd.io/hello-quarto)]{.custom-url}
 
 # Hello, Quarto? {.section-title-top background-image="images/horst_quarto_meteor_transparent.png"}
 
