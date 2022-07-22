@@ -33,17 +33,45 @@ $link-color: #75AADB;
   color: #d2e3f3;
   position: absolute; 
   text-align: right;
+  font-size: 1.1em;
   right: 0px; 
   bottom: 20px;
   line-height: 1.5em;
 }
 
 .reveal .custom-url a {
-  color: #FFFFFF;
+  color: #d2e3f3;
   position: absolute; 
   text-align: right;
   right: 0px; 
+  bottom: 350px;
+  font-size: 1.9em;
+}
+
+.reveal .custom-artwork {
+  font-family: 'Delius Unicase', cursive;
+  color: #d2e3f3;
+  position: absolute; 
+  font-size: 0.8em;
+  text-align: right;
+  right: 0px; 
   bottom: -40px;
+}
+
+.reveal .code-file {
+  background-color: #ECECEC;
+  margin-bottom: 2px !important;
+}
+
+.reveal .code-file p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 0.8em;
+  margin-left: 0.8em;
+}
+
+.reveal .code-file code {
+  color: #0F1620;
 }
 
 .reveal .section-title-top h1 {
@@ -55,9 +83,22 @@ $link-color: #75AADB;
   top: -400px
 }
 
-.reveal .display-url a {
-  font-size: 2.5em;
-  color: #d2e3f3;
+.reveal .section-title-middle-dark h1 {
+  font-family: 'Delius Unicase', cursive;
+  color: #0F1620;
+  font-size: 3em;
+  position: absolute; 
+  left: 5px; 
+  top: 0px
+}
+
+.reveal .section-title-middle-light h1 {
+  font-family: 'Delius Unicase', cursive;
+  color: #75AADB;
+  font-size: 3em;
+  position: absolute; 
+  left: 5px; 
+  top: 0px
 }
 
 .reveal .slide .quotebox {
@@ -95,8 +136,8 @@ $link-color: #75AADB;
   height: 300px;
 }
 
-.reveal .slide .borderbox {
-  border: 3px solid #9fa1a5;
+.reveal .borderbox img {
+  border: 3px solid #ececec;
 }
 
 /* alignment */
