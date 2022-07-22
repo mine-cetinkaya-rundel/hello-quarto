@@ -1,0 +1,216 @@
+# Share {.title-middle-dark background-image="images/horst_quarto_penguins_share.png"}
+
+##  {#share-intro .center data-menu-title="Share - Intro" background-color="#0F1620"}
+
+![](images/horst_penguins_nametag_mine.png){fig-alt="Penguin with nametag that says \"Mine\"" fig-align="center" width="700px"}
+
+::: notes
+**Mine:**
+
+Thanks Julie!
+
+I remember vividly the first time I've heard of knitr at useR 2012 and sitting in the audience and starting to convert my teaching materials to use it while the keynote was still going on.
+
+I'll call this a success if a few of you are firing up a Quarto project right now to see what all the hype is about.
+
+I'm very excited to have this opportunity to talk to you about Quarto, which I've had the opportunity to live and breathe over the last year.
+I am an educator -- a developer educator at RStudio and a professor at Duke.
+The word educator might make you think I'm in front of students, perhaps lecturing 24/7 but in reality I spend more of my time in front of my computer authoring and creating materials to share with the world: share with my students, share with my fellow educators, and share with anyone interested in learning the things I'm teaching.
+Sometimes I'm writing a slide deck for a talk, sometimes creating a website for a course, sometimes writing books, sometimes journal articles.
+Whatever it is that I create, I share them all openly - that is, with an open license that allows for free use and reuse and adaptation.
+More often than not I'm thinking "web first" to ease open sharing and wider reach, but I also still live in the confines of traditional journal publishing and academia, which means I regularly need to create PDFs as well.
+So an authoring system that allows for multiple types of outputs from a single source is not only a time saver, but basically essential for me to carry on my existence.
+:::
+
+## R Markdown ecosystem {transition="zoom"}
+
+![](images/rmd_ecosystem.png){fig-align="center"}
+
+::: notes
+**Mine:**
+
+Julie mentioned unifying the R Markdown ecosystem so let's dig a bit more into what that means... Think of all the packages from the R Markdown universe that many of you've come to love and rely on over the years.
+Each package addresses a different need and offers a different output: for example, you can use blogdown or distill for creating websites and blogs, bookdown for writing a book, rticles for writing journal articles, etc.
+:::
+
+## Next generation R Markdown {transition="zoom"}
+
+![](images/horst_quarto_ball.png){width="900px" fig-align="center"}
+
+::: notes
+**Mine:**
+
+Quarto unifies the functionality from a wide range of packages from the R Markdown ecosystem, building on Pandoc on the technical side and years of experience developing, maintaining, and tweaking these packages as well as community feedback on the human side.
+:::
+
+## Next generation R Markdown {auto-animate="true"}
+
+::: columns
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-1_4.png){width="50px"} Consistent implementation of attractive and handy features across outputs: tabsets, code-folding, syntax highlighting, etc.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-2_4.png){width="50px"} More accessible defaults as well as better support for accessibility
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+:::
+
+::: columns
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-3_4.png){width="50px"} Guardrails, particularly helpful for new learners: YAML completion, informative syntax errors, etc.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-4_4.png){width="50px"} Support for other languages like Python, Julia, Observable, and more via Jupyter engine for executable code chunks.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+:::
+
+::: notes
+**Mine:** Beyond unification, Quarto also offers
+
+\<\> consistent implementation of attractive and handy features across outputs such as tabsets, code-folding, and syntax highlighting
+
+\<\> more accessible defaults as well as better support for creating accessibile documents
+
+\<\> guardrails that are particularly helpful for new learners like YAML completion and informative syntax errors
+
+\<\> and perhaps most excitingly for those who are not coming from the R ecosystem, Quarto offers support for other languages like Python, Julia, Observable, and more via the Jupyter engine, in addition to knitr, for executable code chunks
+:::
+
+##  {#demo-1 data-menu-title="Demo 1"}
+
+::: demo
+DEMO 1
+:::
+
+::: notes
+**Mine:**
+
+Alright, that's enough talking.
+Let's dive in and see what all the fuss is about!
+:::
+
+##  {#quarto-orchestrates .centered data-menu-title="Quarto CLI orchestrates rendering" background-color="#ECF2FF"}
+
+::: {style="margin-top: 100px; font-size: 2.2em; color: #0F1620"}
+Quarto CLI orchestrates<br>each step of rendering
+:::
+
+::: illustration
+**Illustration:** Add Allison's illustration of Request diagram at https://mine-cetinkaya-rundel.github.io/hello-quarto-sdssg/#/running-code
+:::
+
+::: notes
+**Mine:**
+
+A common first question is "how are R Markdown and Quarto different, under the hood, particularly given the rename of the file just works?" The main difference is that with R Markdown, the R package rmarkdown does the heavy lifting of the orchestration of going from source code (the Rmd file) to output, using knitr for evaluating the code chunks.
+With Quarto, the Quarto command line interface (or CLI, for short) does the orchestration of processing executable code chunks with either knitr or jupyter and then converting the resulting markdown file to the desired output.
+While this is technically impressive, I'll be honest, it's not necessarily what sparked my interest in Quarto in the first place.
+:::
+
+##  {#moving-between-straightforward-1 .centered data-menu-title="Moving between straightforward" background-color="#ECF2FF"}
+
+::: {style="margin-top: 100px; font-size: 2.2em; color: #0F1620"}
+Quarto makes moving between "things" ~~easy~~ straightforward
+:::
+
+::: columns
+::: {.column width="33%"}
+::: fragment
+Document
+
+::: {.code-file .sourceCode .cell-code}
+{{< fa file >}} lesson-1.qmd
+:::
+
+``` yaml
+title: "Lesson 1"
+format: html
+```
+:::
+:::
+
+::: {.column width="33%"}
+::: fragment
+Presentation
+
+::: {.code-file .sourceCode .cell-code}
+{{< fa file >}} lesson-1.qmd
+:::
+
+``` yaml
+title: "Lesson 1"
+format: revealjs
+```
+:::
+:::
+
+::: {.column width="33%"}
+::: fragment
+Website
+
+::: {.code-file .sourceCode .cell-code}
+{{< fa file >}} _quarto.yml
+:::
+
+``` yaml
+project:
+  type: website
+
+website: 
+  navbar: 
+    left:
+      - lesson-1.qmd
+```
+:::
+:::
+:::
+
+::: notes
+**Mine:** What did spark my interest was how easy, or, let's not say easy, I don't like that word in reference to any new technology, but how straightforward it is with Quarto to move between "things".
+As an educator, two things are of utmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats (like documents to slides to websites to books).
+Over the last year of using Quarto for everything, I've felt like I've finally found the tool that lets me go from one to the other with minimal futzing around with my source code.
+This has helped me focus my time on my content, which has been a huge win.
+:::
+
+##  {#pass-to-collaborate background-image="images/horst_quarto_meteor.png"}
+
+::: notes
+**Mine:**
+
+Now over to you Julie.
+:::

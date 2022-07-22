@@ -1,0 +1,62 @@
+# Teach {.title-middle-light background-image="images/horst_quarto_penguins_teach.png"}
+
+## Use Quarto to accomplish existing goals {.smaller}
+
+How academics share their teaching resources/ new avenues for publishing:
+
+-   Tooling that makes it easy to share what you do with the world on the web is incredibly *useful* -- if it's not easy to make a course website, you won't.
+-   It's *useful* to the world -- Open sharing of knowledge, other people can learn from and reuse.
+-   It's [useful]{.underline} to you -- It's a way of getting credit for your work, and when it comes time for annual review/promotion materials, it's easy to say "here is everything I created".
+
+::: notes
+Mine: I started off introducing myself as a prof and educator, and so you probably have an idea of what my responsibilities look like, but you might not know my practices. Teaching, writing, and research are three things I do as an educator, and I can do it all with Quarto in ways that look very similar under the hood but very different in output. (Maybe add PPT anecdote here.)
+:::
+
+## Different on the outside, similar on the inside
+
+::: illustration
+**Image:** Screenshots of each next to each other on top row, folder organization of each on the bottom row. Top looks different, bottom looks very similar.
+
+-   Teaching: Course website with obvious folders
+-   Writing: Book - R4DS
+-   Research: Journal articles
+:::
+
+::: notes
+Mine: And last 10% to tweak it for your context...
+:::
+
+## Demo: File architecture, books
+
+::: demo
+**This will be replaced with screen recording.**
+
+-   Short - "a few things I've learned transitioning Rmd -\> quarto"
+-   Change `_bookdown.yml` to `_quarto.yml` - maybe...
+-   My bookdown H1 headers were markdown `# Like This`; quarto book will build but the rest of the headers don't show up on the right TOC. Change to yaml `title: Like This`. Also will look right in the viewer.
+:::
+
+::: notes
+Mine: [TO DO: Create screen recording and write script.]{.todo}
+
+Visual Editor: Mine's "this functionality exists" vs Julie's "this is designed to be inviting"
+:::
+
+##  {#moving-between-straightforward-2 .centered data-menu-title="Moving between straightforward" background-color="#ECF2FF"}
+
+::: {style="margin-top: 100px; font-size: 2.2em; color: #0F1620"}
+Quarto makes moving between "things" ~~easy~~ straightforward
+:::
+
+::: notes
+Moving from R Markdown to Quarto is straightforward:
+
+-   Is teaching Quarto different from teaching R Markdown? Easier / harder / **not different**?
+-   Potential anecdote: Art history student writing thesis in Quarto. One semester to thesis writing a much less steep learning curve...
+:::
+
+## {#pass-to-teach background-image="images/horst_quarto_meteor.png"}
+
+::: notes
+Now back over to you one more time Julie.
+:::
