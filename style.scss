@@ -74,9 +74,18 @@ $link-color: #75AADB;
   color: #0F1620;
 }
 
-.reveal .section-title-top h1 {
+.reveal .title-top-light h1 {
   font-family: 'Delius Unicase', cursive;
   color: #75AADB;
+  font-size: 3em;
+  position: absolute; 
+  left: 20px; 
+  top: -400px
+}
+
+.reveal .title-top-dark h1 {
+  font-family: 'Delius Unicase', cursive;
+  color: #0F1620;
   font-size: 3em;
   position: absolute; 
   left: 20px; 

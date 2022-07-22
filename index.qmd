@@ -33,7 +33,7 @@ Thank you so much, We're excited to be here! Mine and I have both been using Qua
 Say out loud: rstd.io/hello-quarto and art by Allison Horst
 :::
 
-# Hello, Quarto? {.section-title-top background-image="images/horst_quarto_meteor_transparent.png"}
+# Hello, Quarto? {.title-top-light background-image="images/horst_quarto_meteor_transparent.png"}
 
 ::: notes
 **Julie:** But also, we know you have questions. Mine and I did too. What is Quarto? Why Quarto? And how does it relate to R Markdown and to other tools you already use and workflows you already have? \<\> Well -
@@ -133,7 +133,7 @@ Then I will focus on how it extends the R Markdown ecosystem through collaborati
 Over to you Mine!
 :::
 
-# Share {.section-title-middle-dark background-image="images/horst_quarto_penguins_share.png"}
+# Share {.title-middle-dark background-image="images/horst_quarto_penguins_share.png"}
 
 ##  {#share-intro .center data-menu-title="Share - Intro" background-color="#0F1620"}
 
@@ -340,7 +340,7 @@ website:
 Now over to you Julie.
 :::
 
-# Collaborate {.section-title-top background-image="images/horst_penguins_telescope.png"}
+# Collaborate {.title-top-light background-image="images/horst_penguins_telescope.png"}
 
 ::: notes
 Thanks Mine, let's next talk about Collaborating with Quarto
@@ -576,7 +576,7 @@ Julie: ...
 Now back over to you Mine.
 :::
 
-# Teach {.section-title-middle-light background-image="images/horst_quarto_penguins_teach.png"}
+# Teach {.title-middle-light background-image="images/horst_quarto_penguins_teach.png"}
 
 ## Use Quarto to accomplish existing goals {.smaller}
 
@@ -604,7 +604,7 @@ Mine: I started off introducing myself as a prof and educator, and so you probab
 Mine: And last 10% to tweak it for your context...
 :::
 
-# Demo: File architecture, books
+## Demo: File architecture, books
 
 ::: demo
 **This will be replaced with screen recording.**
@@ -639,7 +639,7 @@ Moving from R Markdown to Quarto is straightforward:
 Now back over to you one more time Julie.
 :::
 
-# Reimagine {.section-title-top background-image="images/horst_quarto_penguins_dive.png"}
+# Reimagine {.title-top-light background-image="images/horst_quarto_penguins_dive.png"}
 
 ::: notes
 Reimagining is about seeing new ways of approaching things that's sparked by but not constrained by what you learn
@@ -681,7 +681,7 @@ Transition: but that there is so much that we can all do collectively.
 
 ::: columns
 ::: {.column width="60%"}
-![](images/approach-guide.png){width="80%" border="3px"}
+[![](images/approach-guide.png)]{.borderbox width="80%"}
 :::
 
 ::: {.column width="40%"}
@@ -795,7 +795,7 @@ Across not only coding languages, but across coding comforts.
 ![](images/visual_editor.png){fig-align="center" width="70%"}
 
 ::: notes
-Don't mean to say that the VE is only for new learners. It is for markdown-savvy writers as well. In fact I know J.J. Allaire prefers to do his writing in the VE
+Don't mean to say that the VE is only for new learners. It is for markdown-savvy writers as well. In fact I know J.J. Allaire prefers to do his writing in the VE.
 :::
 
 ::: footer
@@ -908,7 +908,7 @@ Transition: Let me demo Quarto with the Visual editor - it's really exciting to 
 Mine: We've gone through these, but we have so much more to say, we'll just need to do it a lot more quickly...
 :::
 
-# Thank you {background-image="images/horst_quarto_penguins_thankyou.png" background-size="contain"}
+# Thank you {.title-top-dark  background-image="images/horst_quarto_penguins_thankyou.png"}
 
 ## Coda
 
