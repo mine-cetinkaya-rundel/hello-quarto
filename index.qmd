@@ -331,11 +331,11 @@ Thanks Mine, let's next talk about Collaborating with Quarto
 ##  {#collaborate-intro .center data-menu-title="Collaborate - Intro"}
 
 ::: columns
-::: {.column width="30%"}
+::: {.column width="20%"}
 ![](images/horst_penguins_nametag_julie.png){fig-alt="Penguin with nametag that says \"Julie\""}
 :::
 
-::: {.column width="70%"}
+::: {.column width="80%"}
 ![](images/lowndes_venn_science.svg)
 :::
 :::
@@ -399,7 +399,7 @@ And in that work, what we've done is develop this mentor community across the Ea
 
 ::: columns
 ::: {.column width="50%"}
-<br> <br> <br> **Develop a mentor community across NASA Earth science data centers** <br>to co-create and teach common tutorials to support researchers as they migrate analytical workflows to the Cloud
+<br> <br> <br> **Develop a mentor community across NASA Earth science data centers** <br> <br> Co-create and teach common tutorials <br> to support researchers as they migrate analytical workflows to the Cloud
 
 
 
@@ -431,8 +431,6 @@ https://science.nasa.gov/earth-science/earth-science-data
 [Many Earth scientists <br> use Python <br> 😬]{.larger}
 
 ::: notes
-**Julie:**
-
 Many NASA Earth scientists use python, and that's where the tutorial development was focused.
 And my role leading NASA Openscapes was not to learn python from the ground-up, but I needed to be able to interoperate and collaborate with python users.
 Transition: So I was feeling pretty intimidated about this.
@@ -494,10 +492,30 @@ Followed quickly by other iterations we were able to do with this same workflow
 Codifying this to the cookbook
 :::
 
-## Collaborating across coding languages
+## Collaborating across coding languages {highlight-style="github"}
 
-**Screenshot:** _quarto.yml: .ipynbs, with .rmds
+**Example `_quarto.yml`**
 
+\
+
+```{yaml, code-line-numbers: "|6|9"}
+
+    contents:
+      - section: in-development/index.qmd
+        contents:
+          - in-development/earthdata-access-demo.ipynb
+          - in-development/nsidc/icesat2-cmr-onprem-vs-cloud.ipynb
+          - in-development/transform-workflow.ipynb
+          - in-development/lpdaac/lpdaac_ecostress_lste_kerchunk.ipynb
+          - in-development/matlab-aws.qmd
+          - in-development/earthdata-python-r-handoff.rmd  
+      - section: contributing/index.qmd
+        contents: 
+          - contributing/onboarding.qmd
+          - contributing/workflow.qmd
+          - contributing/quarto-website-tutorial.md
+      - troubleshooting.md
+```
 
 
 
@@ -511,6 +529,20 @@ This is the setup we've had and it's good because it turns out there is a big R 
 
 ## Contributing from our current tools
 
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images/rstudio-ide.png){border="3px"}
+![](images/github-ide.png){border="3px"}
+:::
+
+::: {.column width="40%"}
+![](images/vscode-ide.png){border="3px"}
+![](images/jupyterhub.png){border="3px"}
+:::
+
+::::
+
 Screenshot: RStudio IDE, VSCode, Jupyter...
 
 ::: notes
@@ -522,7 +554,10 @@ And this has also have dividends because while I said that the Earth science com
 Transition: So let me show you what this looks like in Jupyter -
 :::
 
-# DEMO: Quarto in 2i2c JupyterHub
+## DEMO: Quarto in JupyterLab
+
+Using Quarto from the Openscapes 2i2c JupyterHub
+
 
 ::: demo
 **This will be replaced with screen recording.**
