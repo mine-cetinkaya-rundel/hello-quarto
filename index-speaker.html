@@ -817,9 +817,9 @@
 <section id="collaborate-intro" class="slide level2 center" data-menu-title="Collaborate - Intro">
 <h2></h2>
 <div class="columns">
-<div class="column" style="width:30%;">
+<div class="column" style="width:20%;">
 <p><img data-src="images/horst_penguins_nametag_julie.png" alt="Penguin with nametag that says &quot;Julie&quot;"></p>
-</div><div class="column" style="width:70%;">
+</div><div class="column" style="width:80%;">
 <p><img data-src="images/lowndes_venn_science.svg"></p>
 </div>
 </div>
@@ -904,7 +904,7 @@
 <h2><img data-src="images/NASA_logo.png" style="width:18.0%"> <img data-src="images/openscapes_hex.png" style="width:12.0%"></h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><br> <br> <br> <strong>Develop a mentor community across NASA Earth science data centers</strong> <br>to co-create and teach common tutorials to support researchers as they migrate analytical workflows to the Cloud</p>
+<p><br> <br> <br> <strong>Develop a mentor community across NASA Earth science data centers</strong> <br> <br> Co-create and teach common tutorials <br> to support researchers as they migrate analytical workflows to the Cloud</p>
 </div><div class="column" style="width:50%;">
 <p><img data-src="images/2021-NASA-Openscapes-Mentors-Photoshop.png" style="width:80.0%"></p>
 <p><a href="https://nasa-openscapes.github.io">nasa-openscapes.github.io</a></p>
@@ -931,7 +931,6 @@
 <h2></h2>
 <p><span class="larger">Many Earth scientists <br> use Python <br> 😬</span></p>
 <aside class="notes">
-<p><strong>Julie:</strong></p>
 <p>Many NASA Earth scientists use python, and that’s where the tutorial development was focused. And my role leading NASA Openscapes was not to learn python from the ground-up, but I needed to be able to interoperate and collaborate with python users. Transition: So I was feeling pretty intimidated about this. But if you know me, you know that -</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -1019,9 +1018,28 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="collaborating-across-coding-languages" class="slide level2">
+<section id="collaborating-across-coding-languages" class="slide level2" data-highlight-style="github">
 <h2>Collaborating across coding languages</h2>
-<p><strong>Screenshot:</strong> _quarto.yml: .ipynbs, with .rmds</p>
+<p><strong>Example <code>_quarto.yml</code></strong></p>
+<p><br>
+</p>
+<p>```{yaml, code-line-numbers: “|6|9”}</p>
+<pre><code>contents:
+  - section: in-development/index.qmd
+    contents:
+      - in-development/earthdata-access-demo.ipynb
+      - in-development/nsidc/icesat2-cmr-onprem-vs-cloud.ipynb
+      - in-development/transform-workflow.ipynb
+      - in-development/lpdaac/lpdaac_ecostress_lste_kerchunk.ipynb
+      - in-development/matlab-aws.qmd
+      - in-development/earthdata-python-r-handoff.rmd  
+  - section: contributing/index.qmd
+    contents: 
+      - contributing/onboarding.qmd
+      - contributing/workflow.qmd
+      - contributing/quarto-website-tutorial.md
+  - troubleshooting.md</code></pre>
+<p>```</p>
 <aside class="notes">
 <p>In fact, it’s mostly .ipynbs as you see in this simplifid view of our <code>_quarto.yml</code> file. Being able to make a collection of tutorials in different language and filetypes has been a huge benefit for us working together.</p>
 <p>This is the setup we’ve had and it’s good because it turns out there is a big R community we are set up to support!</p>
@@ -1039,6 +1057,13 @@
 </section>
 <section id="contributing-from-our-current-tools" class="slide level2">
 <h2>Contributing from our current tools</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/rstudio-ide.png" data-border="3px"> <img data-src="images/github-ide.png" data-border="3px"></p>
+</div><div class="column" style="width:40%;">
+<p><img data-src="images/vscode-ide.png" data-border="3px"> <img data-src="images/jupyterhub.png" data-border="3px"></p>
+</div>
+</div>
 <p>Screenshot: RStudio IDE, VSCode, Jupyter…</p>
 <aside class="notes">
 <p>And, we’re all able to work in whatever tool we’re already comfortable with as we contributed to this cookbook, which is possible since you install quarto as a command line too like git; it’s not an R package or a python package. So with people working in their current tools and Quarto working in each case, we didn’t need people to shift their software tools and instead could focus on upskilling around common pieces like Quarto and GitHub, but we didn’t need to upset or shift everyone’s software workflows, we could weave Quarto into existing workflows.</p>
@@ -1055,10 +1080,10 @@
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-</section></section>
-<section>
-<section id="demo-quarto-in-2i2c-jupyterhub" class="title-slide slide level1 center">
-<h1>DEMO: Quarto in 2i2c JupyterHub</h1>
+</section>
+<section id="demo-quarto-in-jupyterlab" class="slide level2">
+<h2>DEMO: Quarto in JupyterLab</h2>
+<p>Using Quarto from the Openscapes 2i2c JupyterHub</p>
 <div class="demo">
 <p><strong>This will be replaced with screen recording.</strong></p>
 </div>
