@@ -146,7 +146,7 @@ $link-color: #75AADB;
 }
 
 .reveal .borderbox img {
-  border: 3px solid #ececec;
+  border: 5px solid #ececec;
 }
 
 /* alignment */
@@ -213,5 +213,6 @@ $link-color: #75AADB;
 
 .reveal .footer {
   font-size: 0.35em !important;
+  margin-left: 0.5em;
   text-align: right !important;
 }
