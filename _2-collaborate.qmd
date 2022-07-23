@@ -4,7 +4,7 @@
 Thanks Mine. I've learned so much from what others have shared openly and it's influenced so much about how I collaborate too
 :::
 
-##  {#collaborate-intro .center data-menu-title="Collaborate - Intro"}
+##  {#collaborate-intro .center data-menu-title="Collaborate Intro"}
 
 ::: columns
 ::: {.column width="20%"}
@@ -168,7 +168,7 @@ Followed quickly by other iterations we were able to do with this same workflow.
 transtion: So let me show you what this looks like from Jupyter - 
 :::
 
-##  {#demo-2 .centered data-menu-title="Demo 2" background-color="#000000"}
+##  {#demo-quarto-jupyter data-menu-title="Demo Quarto Jupter" background-color="#000000" .centered}
 
 ```{=html}
 <iframe src="https://drive.google.com/file/d/1RCsho2BpfLk-cAS-E28EIwnjbqVmaVgV/preview" width="1600" height="900" allow="autoplay">
@@ -254,7 +254,7 @@ And this was important because of all the new things we were learning together, 
 Transition: And this has teaching implications that Mine will talk about next.
 :::
 
-##  {#pass-to-teach background-image="images/horst_quarto_meteor_reverse.png"}
+##  {#pass-to-teach data-menu-title="Quarto Meteor Reverse" background-image="images/horst_quarto_meteor_reverse.png"}
 
 ::: notes
 So now back over to you Mine.
