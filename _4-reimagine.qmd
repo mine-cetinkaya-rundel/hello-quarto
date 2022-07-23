@@ -7,9 +7,24 @@ editor:
 # Reimagine {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png"}
 
 ::: notes
-Reimagining is about seeing new ways of approaching things that's
-sparked by but not constrained by what you learn
+Reimagining is about new ways of thinking and new ways of approaching things that can be sparked by technology
 :::
+
+## Demo: Quarto in the Visual Editor
+
+\
+
+::: demo
+**This box will be replaced with screen recording.**
+:::
+
+::: notes
+And one way the mosiac of voices is enabled is through VE
+
+Visual Editor - friendly for non-coders. Reimagine who participates.
+Also nice for markdown-savvy writers
+:::
+
 
 ## Marine background image
 
@@ -29,6 +44,8 @@ mentored through Openscapes and joined our team to strengthen pathways
 to Open Science for Black researchers. This kind of experience is such a
 wonderful example of paying things forward, connecting and extending
 dots, and reimagining
+
+And this kind of reimagining and leadership is so critical
 :::
 
 ##  {#all-we-can-save-mosaic .center data-menu-title="All We Can Save Mosaic of Voices" background-image="images/landsat_art_bolivia_lrg.jpg"}
@@ -37,8 +54,8 @@ dots, and reimagining
 To address our climate emergency, we must rapidly, radically reshape
 society. We need every solution and every solver. As the saying goes, to
 change everything, we need everyone. **What this moment calls for is a
-mosaic of voices -- the full spectrum of idea and insights for how we
-can turn things around.**\
+mosaic of voices** -- the full spectrum of idea and insights for how we
+can turn things around.\
 
 \
 Ayana Elizabeth Johnson & Katharine Wilkinson\
@@ -46,28 +63,27 @@ Ayana Elizabeth Johnson & Katharine Wilkinson\
 :::
 
 ::: notes
-And it's so critical today. We see open science as part of the broader
-climate movement. We take so much inspiration from groups like All We
-Can Save, who are amplifying stories of climate leadership and calling
+And it's so critical today. Our work is part of addressing the climate emergency. We take so much inspiration from groups like All We
+Can Save, who are amplifying stories of climate leadership in the climate movement and calling
 for reimagining on a huge scale. They describe how there is not one
 single fix, but that what this moment calls for is a mosaic of voices.
 
-Transition: but that there is so much that we can all do collectively.
+Transition: and that there is so much that we can all do collectively.
 :::
 
 ## Engaging, empowering, amplifying a mosiac of voices
 
 ::: columns
-::: {.column width="60%"}
+::: {.column width="50%"}
 ::: borderbox
 ![](images/approach-guide.png)
 :::
 :::
 
-::: {.column width="40%"}
+::: {.column width="50%"}
 \
 
-***Building inclusion, empathy, & openness into daily work***
+***Building inclusion, empathy, and openness into daily work***
 
 \
 
@@ -76,6 +92,9 @@ Transition: but that there is so much that we can all do collectively.
 **Empower:** Onboard learners as contributors
 
 **Amplify:** Reuse (and credit!) good ideas
+
+
+[Space and place]{.shout}
 :::
 :::
 
@@ -85,33 +104,23 @@ with science, focused on engaging, empowering, and amplifying a mosaic
 of voices in the environmental research community, and focused building
 inclusion, empathy, and openness into our daily work.
 
-And Quarto is enabling and accelerating part of that paradigm shift
+And Quarto is enabling and accelerating part of this cultural shift
 because it gives a place for the mosiac of voices to write and share
 ideas.
 
-This Openscapes Approach Guide has no code in it - it's something Erin
-and I started developing to codify how we work and to onboard ourselves
-to things we do every few months and want to do consistenly. It also
-gives visibility and value to the work that is involved to mentor,
-teach, facilitate, coach, and build community which are a big part of
-what we do.
+This Openscapes Approach Guide is one example of this. 
 
-And then it has also been a way to empower new learners. Last year when
-we started working with NASA we also onboarded mentors from the
-California EPA, NOAA Fisheries, protocols.io, as well as Ileana whose
-quote you heard and Stef Butland. They learned from the content of the
-Approach Guide, and also learned how to contribute to it with quarto and
-GitHub
+It has been a way to make the implicit explicit in terms of our values and how we work. This Guide has no code in it, and it's an important resource for us to be consistent and accountable and it's a welcoming entryway to others to learn 
 
-And it's also a way to amplify good ideas. We borrowed this idea from
-the Fay Lab Manual at the University of Massachusetts Dartmouth, as well
-as modeled throughout open science communities in different ways
-includeing eScience, Mozilla, Pangeo and of course the R community
+And then it has also been a way to empower new people to Openscapes, no matter where they are starting from. They learned from the content of the
+Approach Guide, and also learned how to contribute to it with quarto and thus increasing this mosaic of voices
 
-I don't want to say that Openscapes and Quarto's going to save us but
-the way it's enabled us to come together and do big work is going to.
-It's lowering the barriers and blurring lines of who can contribute
-their ideas and insights.
+And it's also a way to amplify good ideas. We borrowed this idea from what we saw from other open source activities, particularly in the R and Mozilla communities. 
+
+Through our work we've found again and again the importance of **space and place**: space for a mosaic of voices to come together and learn and share and find the common, and really transition behavior in a way that can be intimidating. And place where they can write things down, collaborate and share in really streamlined ways. Together this helps people feel less stuck, learn new skills, get comfortable sharing work earlier, and braver about sharing imperfect work
+
+And Quarto has let us scale this mosaic of voices and make these ideas
+actionable in a variety of ways.
 :::
 
 
@@ -164,31 +173,25 @@ their ideas and insights.
 :::
 
 ::: notes
-Over the last year there have been all these voices: NOAA, NASA, Fay Lab
-we've worked with - these groups are all addressing the climate
+I've talked a lot about NASA, but over the last year we have also been working with NOAA Fisheries, with the Cal EPA, and with science groups as well as growing our team. These groups are all addressing the climate
 emergency, and they're doing this more elegantly and collaboratively
-with Openscapes and Quarto.
-
-And Quarto has let us scale this mosaic of voices and make these ideas
-actionable in a variety of ways.
-
-Say out loud: I've talked a lot about NASA, but others: like the Fay Lab
-like NMFS, our team: Ileana, Stef
+with Openscapes and Quarto. They've been engaging, empowering and amplifying others 
 
 Mosaic allows across languages and comfort
 
 The fact that Quarto works across languages like Python and R is so
 useful for us, and it's been equally valuable for this to work across
-coding comfort levels. Many people do not identify as coders - in fact
+coding comfort levels. 
+
+In the broadest sense of the climate movement, 
+Many people do not identify as coders - in fact
 training in data is one of the largest unmet needs for environmental
 researchers and those are the ones in a data-intensive science program.
 Quarto helps us blur the lines
 
 but it's been really useful for others. Can move this forward
 
-We've given space to build psychological safety and place to collaborate
-and share ideas. We've been helping people transition behavior in a way
-that can be intimidating.
+
 
 Within this mosaic of voices, there is a range of technical skills, and
 it's important that that whole range can contribute and that a divide
@@ -197,14 +200,15 @@ mosaic of voices actionable to tackle these big problems, we need
 strategies to close those gaps and blur those lines.
 :::
 
-## Reimagining contributing and value {.takeaway .center background-image="images/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpeg" background-opacity="0.1"}
+## Reducing barriers, blurring lines {.takeaway .center background-image="images/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpeg" background-opacity="0.1"}
 
 ::: midi
-**Reducing barriers, blurring lines**
+
+**Reimagining what contributing looks like, and how we value it**
 
 \
 
-**Contribution formats:** books, websites, etc
+**Contribution formats:** beyond traditional manuscripts: websites, slides, etc
 
 \
 
@@ -223,12 +227,15 @@ strategies to close those gaps and blur those lines.
 This is about reimagining how we contribute as a mosiac of voices and
 how we value contribution.
 
+Quarto has been lowering the barriers and blurring lines of who can contribute
+their ideas and insights in this open sharable way 
+
 These are just a few. Changes how you think
 
 Across not only coding languages, but across coding comforts.
 :::
 
-## Collaborating across coding comfort levels {.takeaway .center}
+## Collaborating across coding comforts {.takeaway .center}
 
 \
 
@@ -243,20 +250,6 @@ do his writing in the VE.
 :::
 
 
-## Demo: Quarto in the Visual Editor
-
-\
-
-::: demo
-**This box will be replaced with screen recording.**
-:::
-
-::: notes
-And one way the mosiac of voices is enabled is through VE
-
-Visual Editor - friendly for non-coders. Reimagine who participates.
-Also nice for markdown-savvy writers
-:::
 
 ## {background-image="images/2021-Cloud-Hackathon-GroupPhotoWave.png" background-position="left bottom" background-opacity="0.7"}
 
