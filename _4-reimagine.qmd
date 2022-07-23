@@ -172,6 +172,8 @@ actionable in a variety of ways.
 :::
 :::
 
+**TO DO: Low priority - animate these to come on automatically one by one**
+
 ::: notes
 I've talked a lot about NASA, but over the last year we have also been working with NOAA Fisheries, with the Cal EPA, and with science groups as well as growing our team. These groups are all addressing the climate
 emergency, and they're doing this more elegantly and collaboratively

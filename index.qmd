@@ -65,13 +65,13 @@ Quarto **unifies** and **extends** <br>the R Markdown ecosystem
 
 <br>
 
-::: {.fragment .fade-up .large}
+::: {.large}
 **unifies** for people who love R Markdown
 :::
 
 <br>
 
-::: {.fragment .fade-up .large}
+::: {.fragment fragment-index=2 .fade-up .large}
 **extends** for people who don't know R Markdown
 :::
 
@@ -99,8 +99,8 @@ Quarto is a new open-source scientific and technical publishing system.
 Quarto is a new, open-source,<br> scientific and technical<br> publishing system
 :::
 
-::: {.fragment .fade-up .midi}
-that makes the process of **creating** and **collaborating**<br>on scientific and technical documents dramatically better
+::: {.midi}
+that makes the process of **creating** and **collaborating**<br>dramatically better
 :::
 
 ::: {.fragment .fade-up}
@@ -208,7 +208,7 @@ Over to you Mine!
 :::
 
 ::: notes
-Mine: ...
+Mine: with the last one, and you too can be a part of this change. We've talked about our experiences using Quarto and all the problems it has helped us solve and reimagine, but while Quarto is stable and ready for use, it's also just a baby that you too can be a part of its growth. So start using and start chiming in with feedback...
 :::
 
 # Thank you {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png"}

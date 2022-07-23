@@ -15,13 +15,17 @@ There are, of course, big differences technically between these two systems. How
 What is different, however, is the learning curve that comes after it.
 :::
 
-## Learning curve...
+## Flattening the learning curve
 
 - With Quarto simple quarto -> more complicated is not hard
 - With Rmd -> look at the power of what rmd did with a simple document, ecosystem florishing creates lack of consistency, quarto is unifying -- rmd common thread but also lots of domain specific, lots of stuff to pick up in between, 10000ft view, distill in a common core
 - rmd a lot of pieces, quarto bringing things together, and featuring visual editor helps
 - really loved teaching rmd but quarto people are picking it up a lot more quickly
 -  Anecdote: Art history student writing thesis in Quarto. One semester to thesis writing a much less steep learning curve.
+
+::: notes
+A tool that's teachable and friendly but also grows with them, grows with all of us
+:::
 
 ##  {#demo-3 .centered data-menu-title="Demo 3" background-color="#000000"}
 
@@ -43,10 +47,10 @@ What is different, however, is the learning curve that comes after it.
 
 - Not just easy to go from document -> thesis -> book or website
 - Not just easy to go from simple documents -> meticulously formatted journal articles
-- But also across disciplines -- stats students using Jupyter in CS class can use Quarto too, maybe? That sounds like a bright future to me!
+- But also across disciplines -- stats students using Jupyter in CS class can use Quarto too, maybe? That sounds like a bright future to me! And a bright future includes things we can't even imagine yet. So now Julie will talk about the role of Quarto in reimagining the future.
 
 ## {#pass-to-teach background-image="images/horst_quarto_meteor.png"}
 
 ::: notes
-Now back over to you one more time Julie.
+Back over to you one more time Julie.
 :::

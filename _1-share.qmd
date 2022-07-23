@@ -118,6 +118,7 @@ Some highlights of these improvements include
 ::: notes
 So now I'm assuming you've already fired up Quarto and started digging into it or you're waiting for me to do that.
 So, let's dive in and see what all the Quarto fuss is about!
+TO DO: Mention freeze!!!
 :::
 
 ## Quarto CLI orchestrates<br>each step of rendering {.takeaway .center}
@@ -194,7 +195,10 @@ What did spark my interest was how easy, or, let's not say easy, I don't like th
 
 As an educator, two things are of utmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats, like documents to slides to websites to books.
 
-Over the last year of using Quarto for pretty much everything, I've felt like I've finally found the tool that lets me go from one output type to the other with minimal, if any, futzing around with my source code beyond the yaml.
+Over the last year of using Quarto for pretty much everything, I've felt like I've finally found the tool that lets me go from one output type to the other with minimal, if any, futzing around with my source code beyond the yaml. For example, here are common things I produce
+<>a lesson in document form
+<>the same content in presentation form
+<>the same content embedded in a website, and you can see that all that needed to change is a few lines in the yaml.
 This has helped me focus my time on content, and that's the dream folks!
 :::
 
@@ -208,6 +212,10 @@ Tooling that makes it easy to share what you do<br>with the world on the web is 
 
 ::: {.fragment .fade-up .large}
 It's **useful** to the world<br>as it facilitates open sharing of knowledge<br>for learning and for reuse
+:::
+
+::: notes
+It's easy to create and the next step is sharing and that's easy too
 :::
 
 ##  {#pass-to-collaborate background-image="images/horst_quarto_meteor.png"}
