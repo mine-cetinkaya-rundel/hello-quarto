@@ -5,7 +5,6 @@ format:
     theme: style.scss
     multiplex: true
     transition: fade
-    chalkboard: true
     height: 900
     width: 1600
     fontcolor: "#262d36"
