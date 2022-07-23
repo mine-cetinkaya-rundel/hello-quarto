@@ -87,25 +87,6 @@
     code span.va { color: #aa5d00; } /* Variable */
     code span.vs { color: #008000; } /* VerbatimString */
     code span.wa { color: #696969; font-style: italic; } /* Warning */
-    div.csl-bib-body { }
-    div.csl-entry {
-      clear: both;
-    }
-    .hanging div.csl-entry {
-      margin-left:2em;
-      text-indent:-2em;
-    }
-    div.csl-left-margin {
-      min-width:2em;
-      float:left;
-    }
-    div.csl-right-inline {
-      margin-left:2em;
-      padding-left:1em;
-    }
-    div.csl-indent {
-      margin-left: 2em;
-    }
   </style>
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css" id="theme">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -877,7 +858,7 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="section" class="slide level2" data-background-image="images/horst_openscapes_champions.jpg" data-fig-alt="Illustration of a grassy field by an ocean, there’s a river that meanders from the midground to the background on the right hand side. There are mountains in the background. The Openscapes hex logo is in the top left hand corner. In the foreground there are many animals: hermit crab working alone on a laptop, a sad rabbit on a laptop under a raincloud, a frustrated skunk on a laptop under a raincloud. Just over a bush is another group of animals: a fox with a welcome sign stands with a hedgehog holding map brochures In front of a larger park map. The fox and hedgehog are in front of a group of animals: a heron, a squirrel, a mouse holding a notebook, a raccoon, a snake, and a quail. In the midground, there’s a turtle, deer, owl and beaver by the river that has stepping stone rocks across. A roadrunner, lizard, blue bird, and rabbit, are walking down a path together, one of the other paths is blocked by a log. There’s a rowboat on the edge of the water. In the background, a duck, turtle, red squirrel, fox, and raven are walking single file over a wooden bridge that crosses the river. Most of the animals have coloured bandanas tied around their necks and a few are wearing hats. Up in the sky, there’s a satellite.">
+<section id="section" class="slide level2" data-background-image="images/horst_openscapes_champions.jpg" data-background-size="contain" data-fig-alt="Illustration of a grassy field by an ocean, there’s a river that meanders from the midground to the background on the right hand side. There are mountains in the background. The Openscapes hex logo is in the top left hand corner. In the foreground there are many animals: hermit crab working alone on a laptop, a sad rabbit on a laptop under a raincloud, a frustrated skunk on a laptop under a raincloud. Just over a bush is another group of animals: a fox with a welcome sign stands with a hedgehog holding map brochures In front of a larger park map. The fox and hedgehog are in front of a group of animals: a heron, a squirrel, a mouse holding a notebook, a raccoon, a snake, and a quail. In the midground, there’s a turtle, deer, owl and beaver by the river that has stepping stone rocks across. A roadrunner, lizard, blue bird, and rabbit, are walking down a path together, one of the other paths is blocked by a log. There’s a rowboat on the edge of the water. In the background, a duck, turtle, red squirrel, fox, and raven are walking single file over a wooden bridge that crosses the river. Most of the animals have coloured bandanas tied around their necks and a few are wearing hats. Up in the sky, there’s a satellite.">
 <h2></h2>
 <p><img data-src="images/openscapes_hex.png" class="absolute" style="top: 0px; width: 15%; "></p>
 <aside class="notes">
@@ -949,7 +930,6 @@
 </div><div class="column" style="width:50%;">
 <p><img data-src="images/2021-NASA-Openscapes-Mentors-Photoshop.png" style="width:80.0%"></p>
 <p><img data-src="images/nasa-daac-logos.png" style="width:70.0%"></p>
-<p><a href="https://nasa-openscapes.github.io">nasa-openscapes.github.io</a></p>
 </div>
 </div>
 <aside class="notes">
@@ -1036,7 +1016,7 @@
 <p><img data-src="images/cloud_workshop_agu.png" style="width:80.0%"></p>
 </div>
 <div class="borderbox">
-<p>TODO: These are slides!! <img data-src="images/quarto_slides_steiker.png" style="width:80.0%"></p>
+<p><img data-src="images/quarto_slides_steiker.png" style="width:80.0%"></p>
 </div>
 </div><div class="column" style="width:50%;">
 <p><br></p>
@@ -1060,14 +1040,14 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="collaborating-across-coding-languages" class="slide level2" data-highlight-style="github">
+<section id="collaborating-across-coding-languages" class="slide level2 takeaway center" data-highlight-style="github">
 <h2>Collaborating across coding languages</h2>
 <p><br>
 </p>
 <div class="code-file sourceCode cell-code">
-<p><i class="fa-solid fa-file"></i> <code>_quarto.yml</code></p>
+<p><i class="fa-solid fa-file"></i> _quarto.yml</p>
 </div>
-<div class="sourceCode" id="cb4" data-code-line-numbers="|6|9"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">contents</span><span class="kw">:</span></span>
+<div class="sourceCode" id="cb4" data-code-line-numbers="2,4,9,15"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">contents</span><span class="kw">:</span></span>
 <span id="cb4-2"><a href="#cb4-2"></a><span class="at">  </span><span class="kw">-</span><span class="at"> </span><span class="fu">section</span><span class="kw">:</span><span class="at"> in-development/index.qmd</span></span>
 <span id="cb4-3"><a href="#cb4-3"></a><span class="at">    </span><span class="fu">contents</span><span class="kw">:</span></span>
 <span id="cb4-4"><a href="#cb4-4"></a><span class="at">      </span><span class="kw">-</span><span class="at"> in-development/earthdata-access-demo.ipynb</span></span>
@@ -1097,21 +1077,29 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="contributing-from-our-current-tools" class="slide level2 center">
+<section id="contributing-from-our-current-tools" class="slide level2 takeaway center">
 <h2>Contributing from our current tools</h2>
 <div class="centered">
 <div class="columns">
 <div class="column" style="width:45%;">
-<p><span class="borderbox"><img data-src="images/tools-rstudio-ide.png"></span></p>
+<div class="borderbox">
+<p><img data-src="images/tools-rstudio-ide.png"></p>
+</div>
 </div><div class="column" style="width:45%;">
-<p><span class="borderbox"><img data-src="images/tools-vscode-ide.png"></span></p>
+<div class="borderbox">
+<p><img data-src="images/tools-vscode-ide.png"></p>
+</div>
 </div>
 </div>
 <div class="columns">
 <div class="column" style="width:45%;">
-<p><span class="borderbox"><img data-src="images/tools-github-ide.png"></span></p>
+<div class="borderbox">
+<p><img data-src="images/tools-github-ide.png"></p>
+</div>
 </div><div class="column" style="width:45%;">
-<p><span class="borderbox"><img data-src="images/tools-jupyterhub.png"></span></p>
+<div class="borderbox">
+<p><img data-src="images/tools-jupyterhub.png"></p>
+</div>
 </div>
 </div>
 </div>
@@ -1284,7 +1272,7 @@
       }</style></aside>
 </section></section>
 <section>
-<section id="reimagine" class="title-slide slide level1 title-top-light center" data-background-image="images/horst_quarto_penguins_dive.png">
+<section id="reimagine" class="title-slide slide level1 title-top-light center" data-background-image="images/horst_quarto_penguins_reimagine.png">
 <h1>Reimagine</h1>
 <aside class="notes">
 <p>Reimagining is about seeing new ways of approaching things that’s sparked by but not constrained by what you learn</p>
@@ -1348,11 +1336,11 @@ Ayana Elizabeth Johnson &amp; Katharine Wilkinson<br>
 </section>
 <section id="engaging-empowering-amplifying-a-mosiac-of-voices" class="slide level2">
 <h2>Engaging, empowering, amplifying a mosiac of voices</h2>
-<p><br>
-</p>
 <div class="columns">
 <div class="column" style="width:60%;">
-<p><span class="borderbox" width="80%"><img data-src="images/approach-guide.png"></span></p>
+<div class="borderbox">
+<p><img data-src="images/approach-guide.png"></p>
+</div>
 </div><div class="column" style="width:40%;">
 <p><br>
 </p>
@@ -1382,28 +1370,33 @@ Ayana Elizabeth Johnson &amp; Katharine Wilkinson<br>
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-<div class="footer">
-<p>ESIP blog</p>
-</div>
 </section>
-<section id="section-5" class="slide level2">
+<section id="section-5" class="slide level2" data-background-color="#0F1620">
 <h2></h2>
 <!---An actionable mosaic of voices --->
 <div class="columns">
 <div class="column" style="width:20%;">
-<p><img data-src="images/approach-guide.png"> <img data-src="images/cookbook.png"> <img data-src="images/ecostress.png"> <img data-src="images/faylab-labmanual.png"></p>
-</div><div class="column" style="width:30%;">
-<p><img data-src="images/cloud_workshop_agu.png"> <img data-src="images/hackathon.png"> <img data-src="images/quarto_slides_steiker.png"></p>
-</div><div class="column" style="width:30%;">
-<p><img data-src="images/esip_winter2022_slides.png"> <img data-src="images/nasa-openscapes-website.png"> <img data-src="images/quarto-website-tutorial.png"> <img data-src="images/champions-lesson-series.png"></p>
+<div class="borderbox">
+<p><img data-src="images/cookbook.png"> <img data-src="images/hackathon.png"> <img data-src="images/swot-ocean-workshop.png"></p>
+</div>
+</div><div class="column" style="width:20%;">
+<div class="borderbox">
+<p><img data-src="images/quarto_slides_steiker.png"> <img data-src="images/cloud_workshop_agu.png"> <img data-src="images/openscapes-events.png"> <img data-src="images/seal-slides-london.png"></p>
+</div>
+</div><div class="column" style="width:20%;">
+<div class="borderbox">
+<p><img data-src="images/faylab-labmanual.png"> <img data-src="images/lpdaac-uwg.png"> <img data-src="images/quarto-website-tutorial.png"></p>
+</div>
+</div><div class="column" style="width:20%;">
+<div class="borderbox">
+<p><img data-src="images/nasa-openscapes-website.png"> <img data-src="images/ecostress.png"> <img data-src="images/esip_winter2022_slides.png"> <img data-src="images/nmfs-openscapes.png"></p>
+</div>
+</div><div class="column" style="width:20%;">
+<div class="borderbox">
+<p><img data-src="images/champions-lesson-series.png"> <img data-src="images/tidy-movement-london.png"> <img data-src="images/approach-guide.png"></p>
 </div>
 </div>
-<ul>
-<li>events page</li>
-<li>SWOT</li>
-<li>lp uwg</li>
-<li>josh slides</li>
-</ul>
+</div>
 <aside class="notes">
 <p>Over the last year there have been all these voices: NOAA, NASA, Fay Lab we’ve worked with - these groups are all addressing the climate emergency, and they’re doing this more elegantly and collaboratively with Openscapes and Quarto.</p>
 <p>And Quarto has let us scale this mosaic of voices and make these ideas actionable in a variety of ways.</p>
@@ -1425,7 +1418,7 @@ Ayana Elizabeth Johnson &amp; Katharine Wilkinson<br>
           display:block!important;
       }</style></aside>
 </section>
-<section id="reimagining-contributing-and-value" class="slide level2" data-background-image="images/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpeg" data-background-opacity="0.1">
+<section id="reimagining-contributing-and-value" class="slide level2 takeaway center" data-background-image="images/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpeg" data-background-opacity="0.1">
 <h2>Reimagining contributing and value</h2>
 <div class="midi">
 <p><strong>Reducing barriers, blurring lines</strong></p>
@@ -1458,14 +1451,16 @@ Ayana Elizabeth Johnson &amp; Katharine Wilkinson<br>
           display:block!important;
       }</style></aside>
 </section>
-<section id="collaborating-across-coding-comfort-levels" class="slide level2">
+<section id="collaborating-across-coding-comfort-levels" class="slide level2 takeaway center">
 <h2>Collaborating across coding comfort levels</h2>
 <p><br>
 </p>
+<div class="borderbox">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="images/visual_editor.png" style="width:70.0%"></p>
 </figure>
+</div>
 </div>
 <aside class="notes">
 <p>Don’t mean to say that the VE is only for new learners. It is for markdown-savvy writers as well. In fact I know J.J. Allaire prefers to do his writing in the VE.</p>
@@ -1480,9 +1475,6 @@ Ayana Elizabeth Johnson &amp; Katharine Wilkinson<br>
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-<div class="footer">
-<p>source: <span class="citation" data-cites="baker2015">(<a href="#/ref-baker2015" role="doc-biblioref" onclick="return false;">Baker 2015</a>)</span></p>
-</div>
 </section>
 <section id="demo-quarto-in-the-visual-editor" class="slide level2">
 <h2>Demo: Quarto in the Visual Editor</h2>
@@ -1506,10 +1498,10 @@ Ayana Elizabeth Johnson &amp; Katharine Wilkinson<br>
           display:block!important;
       }</style></aside>
 </section>
-<section id="reimagining-together" class="slide level2" data-background-image="images/2021-Cloud-Hackathon-GroupPhotoWave.png" data-background-size="contain">
-<h2>Reimagining together</h2>
-<p><strong>Reimagining how we tackle challenges means integrating new tech, new behavior, new culture.</strong></p>
+<section id="section-6" class="slide level2" data-background-image="images/2021-Cloud-Hackathon-GroupPhotoWave.png" data-background-position="left bottom" data-background-opacity="0.7">
+<h2></h2>
 <aside class="notes">
+<p>Reimagining together Reimagining how we tackle challenges means integrating new tech, new behavior, new culture.</p>
 <p>See across levels of “finish”. sharing imperfect work - the way that we work, the softwared the workflows they’ve learned to use</p>
 <p>Sharing openly, quickly, imperfectly - by bringinging together our way of working with Quarto, supporing mentors that are more rapid sharers. (tie to climate emergency and quarto) Quarto is theProduct/place, for our process, people</p>
 <p>We had the people and the process but we didn’t have the place. When Quarto snapped into place, we were able to reimagine how we work togethre.</p>
@@ -1531,14 +1523,14 @@ Ayana Elizabeth Johnson &amp; Katharine Wilkinson<br>
       }</style></aside>
 <p><br>
 </p>
-<div class="quotebox-partial">
+<div class="quotebox">
 <p>Addressing&nbsp;the&nbsp;climate&nbsp;crisis… will&nbsp;take&nbsp;everyone.<br>
 </p>
 <p>We cannot, we must not, go it alone.<br>
 </p>
 <p><br>
 Ayana Elizabeth Johnson &amp; Katharine Wilkinson<br>
-<em>All We Can Save</em></p>
+All We Can Save</p>
 </div>
 <aside class="notes">
 <p>Just want to emphasize the power of removing barriers and blurring lines. of who’s a coder or not</p>
@@ -1554,41 +1546,6 @@ Ayana Elizabeth Johnson &amp; Katharine Wilkinson<br>
 <p>This is a screenshot of the new Visual Editor that is part of the RStudio IDE, and it’s something we’ve been experimenting with more and more. We’ve found this to be a really nice way to write prose even for those familiar with Markdown, but it’s also a friendlier way for people to get to know the tools.</p>
 <p>This is about not assuming technical skills, but creating an safe culture where they can say what they don’t know and reinforce a peer-learning &amp; teaching culture, and using tooling that is friendly for new and seasoned coders alike.</p>
 <p>Transition: Let me demo Quarto with the Visual editor - it’s really exciting to blur those lines between who identifies as a coder or not using these tools collaboratively.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="summary" class="slide level2">
-<h2>Summary</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/horst-lcr-penguins-4.jpg" width="386"></p>
-</figure>
-</div>
-<div class="illustration">
-<p><strong>Illustration:</strong> Presented as 4 quadrants in the Quarto logo</p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Share.</strong> <br></p>
-<p><br></p>
-<p><strong>Teach.</strong></p>
-</div><div class="column" style="width:50%;">
-<p><strong>Collaborate.</strong></p>
-<p><br></p>
-<p><strong>Reimagine.</strong></p>
-</div>
-</div>
-</div>
-<aside class="notes">
-<p>Mine: We’ve gone through these, but we have so much more to say, we’ll just need to do it a lot more quickly…</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1655,15 +1612,45 @@ Ayana Elizabeth Johnson &amp; Katharine Wilkinson<br>
 </div>
 </div>
 </section>
-<section id="references" class="slide level2 smaller scrollable">
-<h2>References</h2>
+<section id="annotated-notes-1" class="slide level2">
+<h2>Annotated Notes 1/</h2>
+<p>Annotated and hyperlink-y list of resources mentioned in the slides, in roughly the same order (and following <a href="https://github.com/jennybc/code-smells-and-feels#credits-and-resources">Jenny Bryan’s lead</a>)</p>
+<p><br>
+</p>
+<p><span class="shout">Share</span></p>
+</section>
+<section id="annotated-notes-2" class="slide level2">
+<h2>Annotated Notes 2/</h2>
+<p><span class="shout">Collaborate</span></p>
+<p><strong>NASA Images</strong></p>
+<ul>
+<li>Spinning Globe Earthdata: <a href="https://svs.gsfc.nasa.gov/30701" class="uri">https://svs.gsfc.nasa.gov/30701</a></li>
+</ul>
+<p><strong>NASA-Openscapes</strong> - <a href="https://nasa-openscapes.github.io">nasa-openscapes.github.io</a></p>
+</section>
+<section id="annotated-notes-3" class="slide level2">
+<h2>Annotated Notes 3/</h2>
+<p><span class="shout">Teach</span></p>
+</section>
+<section id="annotated-notes-4" class="slide level2">
+<h2>Annotated Notes 4/</h2>
+<p><span class="shout">Reimagine</span></p>
+<p><strong>Approach Guide</strong></p>
+<p>See also: https://www.openscapes.org/blog/2022/02/17/esip-winter-2022/</p>
+<p><strong>Quarto Mosaic </strong></p>
+<ul>
+<li><a href="https://nasa-openscapes.github.io/2022-LPDAAC-UWG-Breakout/" class="uri">https://nasa-openscapes.github.io/2022-LPDAAC-UWG-Breakout/</a></li>
+<li><a href="https://podaac.github.io/2022-SWOT-Ocean-Cloud-Workshop/" class="uri">https://podaac.github.io/2022-SWOT-Ocean-Cloud-Workshop/</a></li>
+<li><a href="https://openscapes.github.io/approach-guide/" class="uri">https://openscapes.github.io/approach-guide/</a></li>
+<li><a href="https://nasa-openscapes.github.io/slides/Earthdata_Cloud__Open-Science-Tutorial.html#/title-slide">NASA Earthdata Access in the Cloud Using Open-source libraries</a> - Slides from a Jupyter Notebook by Amy Steiker. Involved development with the Quarto team in November 2021</li>
+<li><a href="https://go.usa.gov/xus2a">Bio-logger Data from Ribbon and Spotted Seals: A Deep Dive</a> - Slides by Josh London</li>
+</ul>
+<p><strong>NASA images</strong></p>
+<ul>
+<li><a href="https://www.iowaview.org/wp-content/uploads/2019/09/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpg" class="uri">https://www.iowaview.org/wp-content/uploads/2019/09/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpg</a></li>
+</ul>
 <div class="footer footer-default">
 
-</div>
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-baker2015" class="csl-entry" role="doc-biblioentry">
-Baker, Monya. 2015. <span>“Over Half of Psychology Studies Fail Reproducibility Test.”</span> <em>Nature</em>, August. <a href="https://doi.org/10.1038/nature.2015.18248">https://doi.org/10.1038/nature.2015.18248</a>.
-</div>
 </div>
 </section></section>
     </div>

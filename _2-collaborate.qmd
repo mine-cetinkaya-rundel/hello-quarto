@@ -1,3 +1,7 @@
+---
+bibliography: references.bib
+---
+
 # Collaborate {.title-top-light background-image="images/horst_penguins_telescope.png"}
 
 ::: notes
@@ -22,7 +26,7 @@ As you heard earlier I work at the intersection of actionable environmental scie
 I've made this my job through Openscapes.
 :::
 
-##  {background-image="images/horst_openscapes_champions.jpg" fig-alt="Illustration of a grassy field by an ocean, there’s a river that meanders from the midground to the background on the right hand side. There are mountains in the background. The Openscapes hex logo is in the top left hand corner. In the foreground there are many animals: hermit crab working alone on a laptop, a sad rabbit on a laptop under a raincloud, a frustrated skunk on a laptop under a raincloud. Just over a bush is another group of animals: a fox with a welcome sign stands with a hedgehog holding map brochures In front of a larger park map. The fox and hedgehog are in front of a group of animals: a heron, a squirrel, a mouse holding a notebook, a raccoon, a snake, and a quail. In the midground, there’s a turtle, deer, owl and beaver by the river that has stepping stone rocks across. A roadrunner, lizard, blue bird, and rabbit, are walking down a path together, one of the other paths is blocked by a log. There’s a rowboat on the edge of the water. In the background, a duck, turtle, red squirrel, fox, and raven are walking single file over a wooden bridge that crosses the river. Most of the animals have coloured bandanas tied around their necks and a few are wearing hats. Up in the sky, there’s a satellite."}
+##  {background-image="images/horst_openscapes_champions.jpg" background-size="contain" fig-alt="Illustration of a grassy field by an ocean, there’s a river that meanders from the midground to the background on the right hand side. There are mountains in the background. The Openscapes hex logo is in the top left hand corner. In the foreground there are many animals: hermit crab working alone on a laptop, a sad rabbit on a laptop under a raincloud, a frustrated skunk on a laptop under a raincloud. Just over a bush is another group of animals: a fox with a welcome sign stands with a hedgehog holding map brochures In front of a larger park map. The fox and hedgehog are in front of a group of animals: a heron, a squirrel, a mouse holding a notebook, a raccoon, a snake, and a quail. In the midground, there’s a turtle, deer, owl and beaver by the river that has stepping stone rocks across. A roadrunner, lizard, blue bird, and rabbit, are walking down a path together, one of the other paths is blocked by a log. There’s a rowboat on the edge of the water. In the background, a duck, turtle, red squirrel, fox, and raven are walking single file over a wooden bridge that crosses the river. Most of the animals have coloured bandanas tied around their necks and a few are wearing hats. Up in the sky, there’s a satellite."}
 
 ![](images/openscapes_hex.png){.absolute top="0" width="15%"}
 
@@ -77,8 +81,6 @@ Erin had 10 years of experience working with NASA Earthdata and she brought NASA
 ![](images/2021-NASA-Openscapes-Mentors-Photoshop.png){width="80%"}
 
 ![](images/nasa-daac-logos.png){width="70%"}
-
-[nasa-openscapes.github.io](https://nasa-openscapes.github.io)
 :::
 :::
 
@@ -110,7 +112,7 @@ I had been collaborating with J.J. Allaire for the past few years and I knew Qua
 
 ## 
 
-::: borderbox
+::: borderbox 
 ![](images/hackathon.png){width="80%" fig-align="center"}
 :::
 
@@ -131,7 +133,7 @@ Through Openscapes gave them space and they dev'd a community, psych safety, get
 :::
 
 ::: borderbox
-TODO: These are slides!! ![](images/quarto_slides_steiker.png){width="80%"}
+![](images/quarto_slides_steiker.png){width="80%"}
 :::
 :::
 
@@ -150,14 +152,15 @@ Followed quickly by other iterations we were able to do with this same workflow
 Codifying this to the cookbook
 :::
 
-## Collaborating across coding languages {highlight-style="github"}
+## Collaborating across coding languages {.takeaway .center highlight-style="github"}
 
 \
 
 ::: {.code-file .sourceCode .cell-code}
-{{< fa file >}} `_quarto.yml`
+{{< fa file >}} _quarto.yml
 :::
-```{.yaml code-line-numbers="|6|9"}
+
+``` {.yaml code-line-numbers="2,4,9,15"}
 contents:
   - section: in-development/index.qmd
     contents:
@@ -181,33 +184,36 @@ In fact, it's mostly .ipynbs as you see in this simplified view of our `_quarto.
 This is the setup we've had and it's good because it turns out there is a big R community we are set up to support!
 :::
 
-## Contributing from our current tools {.center}
+## Contributing from our current tools {.takeaway .center}
 
 ::: centered
-
-::: {.columns}
+::: columns
+::: {.column width="45%"}
+::: borderbox
+![](images/tools-rstudio-ide.png)
+:::
+:::
 
 ::: {.column width="45%"}
-[![](images/tools-rstudio-ide.png)]{.borderbox}
+::: borderbox
+![](images/tools-vscode-ide.png)
+:::
+:::
+:::
+
+::: columns
+::: {.column width="45%"}
+::: borderbox
+![](images/tools-github-ide.png)
+:::
 :::
 
 ::: {.column width="45%"}
-[![](images/tools-vscode-ide.png)]{.borderbox}
+::: borderbox
+![](images/tools-jupyterhub.png)
 :::
-
 :::
-
-::: {.columns}
-
-::: {.column width="45%"}
-[![](images/tools-github-ide.png)]{.borderbox}
 :::
-::: {.column width="45%"}
-[![](images/tools-jupyterhub.png)]{.borderbox}
-:::
-
-:::
-
 :::
 
 ::: notes
@@ -230,7 +236,7 @@ Transition: So let me show you what this looks like in Jupyter -
 Julie: ...
 :::
 
-## {#pass-to-teach background-image="images/horst_quarto_meteor.png"}
+##  {#pass-to-teach background-image="images/horst_quarto_meteor.png"}
 
 ::: notes
 Now back over to you Mine.

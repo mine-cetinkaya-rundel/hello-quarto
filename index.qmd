@@ -12,7 +12,6 @@ format:
     highlight-style: a11y
     code-line-numbers: false
 editor: visual
-bibliography: references.bib
 ---
 
 ##  {#hello-quarto data-menu-title="Hello Quarto" background-image="images/horst_penguins_telescope.png"}
@@ -192,4 +191,47 @@ Just as we chose to go to the moon<br> We know it's never too soon<br> To choose
 :::
 :::
 
-## References
+## Annotated Notes 1/
+
+Annotated and hyperlink-y list of resources mentioned in the slides, in roughly the same order (and following [Jenny Bryan's lead](https://github.com/jennybc/code-smells-and-feels#credits-and-resources))
+
+\
+
+[Share]{.shout}
+
+## Annotated Notes 2/
+
+[Collaborate]{.shout}
+
+
+**NASA Images**
+
+- Spinning Globe Earthdata: <https://svs.gsfc.nasa.gov/30701>
+
+
+**NASA-Openscapes** - [nasa-openscapes.github.io](https://nasa-openscapes.github.io)
+
+
+## Annotated Notes 3/
+
+[Teach]{.shout}
+
+## Annotated Notes 4/
+
+[Reimagine]{.shout}
+
+**Approach Guide**
+
+See also: https://www.openscapes.org/blog/2022/02/17/esip-winter-2022/
+
+**Quarto Mosaic **
+
+- <https://nasa-openscapes.github.io/2022-LPDAAC-UWG-Breakout/>
+- <https://podaac.github.io/2022-SWOT-Ocean-Cloud-Workshop/>
+- <https://openscapes.github.io/approach-guide/>
+- [NASA Earthdata Access in the Cloud Using Open-source libraries](https://nasa-openscapes.github.io/slides/Earthdata_Cloud__Open-Science-Tutorial.html#/title-slide) - Slides from a Jupyter Notebook by Amy Steiker. Involved development with the Quarto team in November 2021
+- [Bio-logger Data from Ribbon and Spotted Seals: A Deep Dive](https://go.usa.gov/xus2a) - Slides by Josh London
+
+**NASA images**
+
+- <https://www.iowaview.org/wp-content/uploads/2019/09/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpg>
