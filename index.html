@@ -579,18 +579,36 @@
 <h1>Share</h1>
 
 </section>
-<section id="share-intro" class="slide level2 center" data-menu-title="Share - Intro" data-background-color="#0F1620">
+<section id="share-intro" class="slide level2 center" data-menu-title="Share - Intro">
 <h2></h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/horst_penguins_nametag_mine.png" alt="Penguin with nametag that says &quot;Mine&quot;" width="700"></p>
-</figure>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p><img data-src="images/mine-venn.svg"></p>
+</div><div class="column" style="width:30%;">
+<p><img data-src="images/horst_penguins_nametag_mine.png" alt="Penguin with nametag that says &quot;Mine&quot;"></p>
+</div>
 </div>
 <aside class="notes">
 <p>Thanks Julie!</p>
-<p>I’m very excited to have this opportunity to talk to you about Quarto, which I’ve had the opportunity to live and breathe over the last year. I am an educator – a developer educator at RStudio and a professor at Duke. The word educator might make you think I’m in front of students, perhaps lecturing 24/7 but, in reality, I spend most of my time in front of my computer authoring and creating materials to share with the world: share with my students, share with my fellow educators, and share with anyone interested in learning the things I’m writing or talking about. Sometimes I’m writing a slide deck for a talk, sometimes creating a website for a course, sometimes writing books, sometimes journal articles. Whatever it is that I create, I share them all openly - that is, with an open license that allows for free use and reuse and adaptation. More often than not I’m thinking “web first” to ease open sharing and wider reach, but I also still live in the confines of traditional journal publishing and academia, which means I regularly need to create PDFs as well. So an authoring system that allows for multiple types of outputs from a single source that contains both code and prose is not only a time saver, but basically essential for me to carry on my existence. And for years, that tool has been R Markdown for me.</p>
-<p>In fact, I remember vividly the first time I’ve heard of knitr at useR 2012 and sitting in the audience and starting to convert my teaching materials to use it while the keynote was still going on.</p>
-<p>I’ll call this a success if a few of you are already firing up Quarto right now, instead of listening to me, to see what all the hype is about!</p>
+<p>I’m very excited to have this opportunity to talk to you about Quarto, which I’ve had the opportunity to live and breathe over the last year. I am an educator – a developer educator at RStudio and a professor at Duke where I also do research in addition to my teaching. The word educator might make you think I’m in front of students, perhaps lecturing 24/7 but, in reality, I spend most of my time in front of my computer authoring and creating materials to share with the world: share with my students, share with my fellow educators, and share with anyone interested in learning the things I’m writing or talking about. Sometimes I’m writing a slide deck for a talk, sometimes creating a website for a course, sometimes writing books, sometimes journal articles. Whatever it is that I create, I share them all openly - that is, with an open license that allows for free use and reuse and adaptation. More often than not I’m thinking “web first” to ease open sharing and wider reach, but I also still live in the confines of traditional journal publishing and academia, which means I regularly need to create PDF documents as well. So an authoring system that allows for multiple types of outputs from a single source that contains both code and prose is not only a time saver, but basically essential for me to carry on my existence. And for years, that tool has been R Markdown for me.</p>
+<p>In fact, I remember vividly the first time I’ve heard of knitr at useR 2012. Yihui Xie and JJ Allaire gave a keynote on reproducible authoring with knitr and it must have been no more than 3 slides into their talk that fired up my laptop and started to converting my teaching materials to use it while the keynote was still going on because it so clearly addressed a huge pain point for me of creating web-ready, reproducible documents that brought code and prose together. And by the end of that keynote I was already brainstorming ways of teaching it in my intro stats course to my students.</p>
+<p>So, I’ll call this keynote a success if a few of you are already firing up Quarto right now, instead of listening to me, to see what all the hype is about!</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="link-to-slides" class="slide level2 center" data-menu-title="Link to slides" data-background-image="images/horst_quarto_penguins_url.png">
+<h2></h2>
+<aside class="notes">
+<p>But I hope you’ll continue to listen with one ear and take in the beautiful illustrations by Allison Horst. And if you just want to sit back and enjoy the talk, feel free to cross your arms and I’ll advance the slides for you.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -628,7 +646,7 @@
 <h2>Quarto: Next generation R Markdown</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/horst_quarto_ball.png" width="900"></p>
+<p><img data-src="images/horst_quarto_ball.png" style="width:80.0%"></p>
 </figure>
 </div>
 <aside class="notes">
@@ -802,12 +820,13 @@
 </section>
 <section id="quarto-facilitates-open-sharing" class="slide level2 takeaway center">
 <h2>Quarto facilitates open sharing</h2>
+<p><br></p>
 <div class="fragment fade-up large">
-<p>Tooling that makes it easy to share what you do<br>with the world on the web is incredibly <strong>useful</strong></p>
+<p>Tooling that makes it easy to share what you do<br> with the world on the web is incredibly <strong>useful</strong></p>
 </div>
 <p><br></p>
 <div class="fragment fade-up large">
-<p>It’s <strong>useful</strong> to the world<br>as it facilitates open sharing of knowledge<br>for learning and for reuse</p>
+<p>It’s <strong>useful</strong> not just to you, but <strong>to the world</strong><br> as it facilitates open sharing of knowledge<br> for learning and for reuse</p>
 </div>
 <aside class="notes">
 <p>It’s easy to create and the next step is sharing and that’s easy too</p>
@@ -823,7 +842,7 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="pass-to-collaborate" class="slide level2" data-background-image="images/horst_quarto_meteor.png">
+<section id="pass-to-collaborate" class="slide level2" data-background-image="images/horst_quarto_meteor.png" aria-label="Quarto logo depicted as a meteor against a dark background with a tail comprised of bright stars.">
 <h2></h2>
 <aside class="notes">
 <p>I’ve been saying “I” a lot so far, I author slide decks, I create websites, etc. But, I, like many of you, don’t operate in isolation from others. Much of my work, and much of Julie’s work is collaborative. So, over to you Julie, to talk about collaborating with Quarto.</p>
@@ -1204,7 +1223,7 @@ NOAA Southeast Fisheries Science Center</p>
 <h2>Flattening the learning curve</h2>
 <ul>
 <li>With Quarto simple quarto -&gt; more complicated is not hard</li>
-<li>With Rmd -&gt; look at the power of what rmd did with a simple document, ecosystem florishing creates lack of consistency, quarto is unifying – rmd common thread but also lots of domain specific, lots of stuff to pick up in between, 10000ft view, distill in a common core</li>
+<li>With Rmd -&gt; look at the power of what rmd did with a simple document, ecosystem flourishing creates lack of consistency, quarto is unifying – rmd common thread but also lots of domain specific, lots of stuff to pick up in between, 10000ft view, distill in a common core</li>
 <li>rmd a lot of pieces, quarto bringing things together, and featuring visual editor helps</li>
 <li>really loved teaching rmd but quarto people are picking it up a lot more quickly</li>
 <li>Anecdote: Art history student writing thesis in Quarto. One semester to thesis writing a much less steep learning curve.</li>
