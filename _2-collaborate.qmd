@@ -4,7 +4,7 @@
 Thanks Mine. I've learned so much from what others have shared openly and it's influenced so much about how I collaborate too
 :::
 
-##  {#collaborate-intro .center data-menu-title="Collaborate - Intro"}
+##  {#collaborate-intro .center data-menu-title="Collaborate Intro"}
 
 ::: columns
 ::: {.column width="20%"}
@@ -132,7 +132,7 @@ Allaire over the past few years and I asked if we could use Quarto for NASA-Open
 ::: notes
 This Quarto site we made for the Fall 2021 Cloud Hackathon. Developing tutorials for this teaching event was really where we really found traction in working together and building this Mentor community. 
 
-Quarto provided this place for us to collect those tutorials and present them in beautiful way for the hackathon participants, and that helped us develop tutorials thinking about those learners and really focusing our tutorial development with empathy for those learners.
+Quarto provided this place for us to collect those tutorials and present them in beautiful way for the hackathon participants, and that helped us develop tutorials thinking about those learners and really focusing our tutorial development with empathy for those learners. We could share one url with learners early, and continue to update it as the event neared and this vastly reduced the number of emails and eliminated the number of attachments sent.
 
 And it also gave us a way to learn something new together and identify other things to learn together. And it turned out this was really important, that I wasn't the only person feeling intimidated by new tech and moving pieces and how to collaborate most effectively. We had all been assuming that everyone else knew things we didn't and had it all figured out. It turned out it was really important that we had been building this trust and psychological safety so that we had room to grow and learn - 
 ould ask questions, getting comfortable learning new things, sharing imperfect work, giving feedback.
@@ -168,7 +168,7 @@ Followed quickly by other iterations we were able to do with this same workflow.
 transtion: So let me show you what this looks like from Jupyter - 
 :::
 
-##  {#demo-2 .centered data-menu-title="Demo 2" background-color="#000000"}
+##  {#demo-quarto-jupyter data-menu-title="Demo Quarto Jupter" background-color="#000000" .centered}
 
 ```{=html}
 <iframe src="https://drive.google.com/file/d/1RCsho2BpfLk-cAS-E28EIwnjbqVmaVgV/preview" width="1600" height="900" allow="autoplay">
@@ -254,7 +254,7 @@ And this was important because of all the new things we were learning together, 
 Transition: And this has teaching implications that Mine will talk about next.
 :::
 
-##  {#pass-to-teach background-image="images/horst_quarto_meteor_reverse.png"}
+##  {#pass-to-teach data-menu-title="Quarto Meteor Reverse" background-image="images/horst_quarto_meteor_reverse.png"}
 
 ::: notes
 So now back over to you Mine.

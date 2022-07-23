@@ -7,26 +7,10 @@ editor:
 # Reimagine {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png"}
 
 ::: notes
-Reimagining is about new ways of thinking and new ways of approaching things that can be sparked by technology
+When I think about reimagining it's about approaching familiar things in new ways and seeing entirely new directions to take
 :::
 
-## Demo: Quarto in the Visual Editor
-
-\
-
-::: demo
-**This box will be replaced with screen recording.**
-:::
-
-::: notes
-And one way the mosiac of voices is enabled is through VE
-
-Visual Editor - friendly for non-coders. Reimagine who participates.
-Also nice for markdown-savvy writers
-:::
-
-
-## Marine background image
+## {#ileana-fenwick-quote data-menu-title="Ileana Fenwick Quote"}
 
 ::: quotebox
 FULL QUOTE UPCOMING Openscapes has really helped me think about science
@@ -39,13 +23,12 @@ Ileana Fenwick
 :::
 
 ::: notes
-I love this quote from Ileana Fenwick, who is a marine scientist who was
-mentored through Openscapes and joined our team to strengthen pathways
-to Open Science for Black researchers. This kind of experience is such a
-wonderful example of paying things forward, connecting and extending
-dots, and reimagining
+I love this quote from Ileana Fenwick, who says “Openscapes has been transformative for me as a scientist, as a team leader, and for our program…it has highlighted how much we can learn from each other, not just related to whatever project or issue we're working on, but also related to how we work. And it's created a forum for us to learn and share across programs and divisions.” (PLACEHOLDER)
 
-And this kind of reimagining and leadership is so critical
+Ileana is a marine scientist who was mentored through Openscapes and is now seeing new ways to support Black researchers through open science. This kind of experience is such a powerful example of paying things forward, connecting and extending
+dots. 
+
+transition: And this kind of reimagining and leadership is so critical today -
 :::
 
 ##  {#all-we-can-save-mosaic .center data-menu-title="All We Can Save Mosaic of Voices" background-image="https://drive.google.com/uc?export=view&id=1ZfBHj6mLHRWqd2RvUcqbwwBgcphdXTO_"}
@@ -63,15 +46,17 @@ Ayana Elizabeth Johnson & Katharine Wilkinson\
 :::
 
 ::: notes
-And it's so critical today. Our work is part of addressing the climate emergency. We take so much inspiration from groups like All We
-Can Save, who are amplifying stories of climate leadership in the climate movement and calling
-for reimagining on a huge scale. They describe how there is not one
-single fix, but that what this moment calls for is a mosaic of voices.
+Because this work is part of addressing the climate emergency. We take so much inspiration from groups like All We
+Can Save, who say "To address our climate emergency, we must rapidly, radically reshape
+society. We need every solution and every solver. As the saying goes, to
+change everything, we need everyone. What this moment calls for is a
+mosaic of voices the full spectrum of idea and insights for how we
+can turn things around."
 
-Transition: and that there is so much that we can all do collectively.
+I find this quote so empowering because I want to be part of that mosaic of voices. It's not saying that Openscapes and Quarto are going to save us, but we can play a meaningful role in contributing to this greater effort. 
 :::
 
-## Engaging, empowering, amplifying a mosiac of voices
+## Shifting culture through a mosiac of voices
 
 ::: columns
 ::: {.column width="50%"}
@@ -83,41 +68,27 @@ Transition: and that there is so much that we can all do collectively.
 ::: {.column width="50%"}
 \
 
-***Building inclusion, empathy, and openness into daily work***
 
-\
+[**Engage:** Make the implicit explicit]{.midi}
 
-**Engage:** Make the implicit explicit
+[**Empower:** Onboard learners as contributors]{.midi}
 
-**Empower:** Onboard learners as contributors
+[**Amplify:** Reuse (and credit!) good ideas]{.midi}
 
-**Amplify:** Reuse (and credit!) good ideas
-
-
-[Space and place]{.shout}
 :::
 :::
 
 ::: notes
-Openscapes has been doing its own level of trying to do culture shift
-with science, focused on engaging, empowering, and amplifying a mosaic
-of voices in the environmental research community, and focused building
-inclusion, empathy, and openness into our daily work.
+Openscapes is contributing to a culture shift, and Quarto is enabling and accelerating it. 
 
-And Quarto is enabling and accelerating part of this cultural shift
-because it gives a place for the mosiac of voices to write and share
-ideas.
+This Openscapes Approach Guide is one small example. This Guide has no code in it, but we're using Quarto because it is gives us a really nimble way to write and publish.  Additionally, it role models how non-code contributions are really important in these large-scale cultural shifts. 
 
-This Openscapes Approach Guide is one example of this. 
+This was a place to write things down and share them, and really make the implicit explicit, first so that we consistent in how we work but also to welcome others to our approach, whether they're learning from us or on their own. 
 
-It has been a way to make the implicit explicit in terms of our values and how we work. This Guide has no code in it, and it's an important resource for us to be consistent and accountable and it's a welcoming entryway to others to learn 
-
-And then it has also been a way to empower new people to Openscapes, no matter where they are starting from. They learned from the content of the
-Approach Guide, and also learned how to contribute to it with quarto and thus increasing this mosaic of voices
+I've talked a lot about NASA already but we've also been working with Mentors from NOAA Fisheries and the Cal EPA, as well as growing our team. This guide was a good way to onboard them, and to help them be not only learners but also contributors. They all had contributions they could make as new learners, no matter where they were starting from. We were able to onboard them to Quarto so that they could contribute early expertise and perspectives that could improve. 
+(similar to ggplot?)
 
 And it's also a way to amplify good ideas. We borrowed this idea from what we saw from other open source activities, particularly in the R and Mozilla communities. 
-
-Through our work we've found again and again the importance of **space and place**: space for a mosaic of voices to come together and learn and share and find the common, and really transition behavior in a way that can be intimidating. And place where they can write things down, collaborate and share in really streamlined ways. Together this helps people feel less stuck, learn new skills, get comfortable sharing work earlier, and braver about sharing imperfect work
 
 And Quarto has let us scale this mosaic of voices and make these ideas
 actionable in a variety of ways.
@@ -175,72 +146,38 @@ actionable in a variety of ways.
 **TO DO: Low priority - animate these to come on automatically one by one**
 
 ::: notes
-I've talked a lot about NASA, but over the last year we have also been working with NOAA Fisheries, with the Cal EPA, and with science groups as well as growing our team. These groups are all addressing the climate
-emergency, and they're doing this more elegantly and collaboratively
-with Openscapes and Quarto. They've been engaging, empowering and amplifying others 
+This is a cool way to think about a mosaic of voices - both the voices combined within invidual quarto sites and across. And it represents so many different ways of contributing, whether with code or not. 
 
-Mosaic allows across languages and comfort
+Through our work we've found again and again the importance of **space and place**: space for a mosaic of voices to come together and learn and share and find the common, and really transition behavior in a way that can be intimidating. And place where they can write things down, collaborate and share in really streamlined ways. Together this helps people feel less stuck, not assume skills in each other learn new skills, get comfortable sharing work earlier, and braver about sharing imperfect work -- which is critical to do to find climate solutions, since we need to iterate early 
 
-The fact that Quarto works across languages like Python and R is so
-useful for us, and it's been equally valuable for this to work across
-coding comfort levels. 
+~This is about not assuming technical skills, but about building trust and psychologically safety within teams, so that we can have honest conversations about what people know and where they need support upskilling. so that there is a strong culture of peer-learning and teaching, of asking questions, not assuming what people know or don't know, and trying to blur the lines of who can participate in technology.~
 
-In the broadest sense of the climate movement, 
-Many people do not identify as coders - in fact
-training in data is one of the largest unmet needs for environmental
-researchers and those are the ones in a data-intensive science program.
-Quarto helps us blur the lines
+culture where they can say what they don't know and reinforce a
+peer-learning & teaching culture, and using tooling that is friendly for
+new and seasoned coders alike.
 
-but it's been really useful for others. Can move this forward
-
-Within this mosaic of voices, there is a range of technical skills, and
-it's important that that whole range can contribute and that a divide
-between who is technical or not, and this gap is widening. To make this
-mosaic of voices actionable to tackle these big problems, we need
-strategies to close those gaps and blur those lines.
+one thing that facilitates this kind of blurred lines between as a coder or not is the visual editor
 :::
 
-## We can all reducing barriers, blur lines {.takeaway .center background-image="images/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpeg" background-opacity="0.1"}
-
-Space and place
-A big focus of Openscapes is helping researchers build psychologically safety within their teams, so that there is a strong culture of peer-learning and teaching, of asking questions, not assuming what people know or don't know, and trying to blur the lines of who can participate in technology.
-
-
-
-::: midi
- 
-**Reimagine what contributing looks like and how we value it**
+## Demo: Quarto in the Visual Editor
 
 \
 
-**Contribution formats:** beyond traditional manuscripts: websites, slides, etc
 
-\
-
-**Science communication:** share earlier and as you want, openly
-
-\
-
-**Open science:** not just products but process and people
-
-\
-
-***Who*** **contributes:** who is psychologically safe and supported
+::: demo
+**This box will be replaced with screen recording.**
 :::
 
 ::: notes
-This is about reimagining how we contribute as a mosiac of voices and
-how we value contribution.
+And one way the mosiac of voices is enabled is through VE
 
-Quarto has been lowering the barriers and blurring lines of who can contribute
-their ideas and insights in this open sharable way 
+Don't mean to say that the VE is only for new learners. It is for
+markdown-savvy writers as well. In fact I know J.J. Allaire prefers to
+do his writing in the VE.
 
-These are just a few. Changes how you think
-
-Across not only coding languages, but across coding comforts.
 :::
 
-## Quarto enables collaborating across coding comforts {.takeaway .center}
+## Quarto enables collaborating <br>across coding comfort levels {.takeaway .center}
 
 \
 
@@ -249,21 +186,44 @@ Across not only coding languages, but across coding comforts.
 :::
 
 ::: notes
-Don't mean to say that the VE is only for new learners. It is for
-markdown-savvy writers as well. In fact I know J.J. Allaire prefers to
-do his writing in the VE.
+Quarto enables collaborating across coding comfort levels and also different comfort levels with technology. It's been really neat to see how Quarto can not only reduce barriers across coding languages like python and R, but also
+differnt experience levels.
+
+Reimagine who participates. The VE is really friendly for non-coders, and is a nice way to write for markdown-savvy writers, and it's awesome to have a tool that both of those are true! And like Mine said, it gives space for learners to level-up
 :::
 
+## We can all enable reimagining <br>by reducing barriers, blurring lines {.takeaway .center background-image="images/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpeg" background-opacity="0.1"}
 
+\
 
-## {background-image="images/2021-Cloud-Hackathon-GroupPhotoWave.png" background-position="left bottom" background-opacity="0.7"}
+::: midi
+ 
+**Reimagine what contributing looks like and how we value it**
 
+\
 
+**Contribution formats:** interoperate with leverage the open web
+
+\
+
+**Science communication:** share earlier and as you want, openly
+
+\
+
+**Open as a way to work:** not just products but process and people
+
+\
+
+***Who*** **contributes:** who is psychologically safe and supported
+:::
 
 ::: notes
-Reimagining together
-Reimagining how we tackle challenges means integrating new tech, new
-behavior, new culture.
+And, maybe most importantly, we can all enable reimagining by reducing barriers, blurring lines. 
+
+We can reimagine what contributing looks like, and how we value it. This starts with leveraging tools and approaches to support diverse contributors. 
+
+With Openscapes and Quarto we've seen lines blurred between and across fed agencies, between researchers, between people who do and don't identify as coders, what lang you use, how technical you
+are
 
 See across levels of "finish". sharing imperfect work - the way that we
 work, the softwared the workflows they've learned to use
@@ -273,33 +233,18 @@ of working with Quarto, supporing mentors that are more rapid sharers.
 (tie to climate emergency and quarto) Quarto is theProduct/place, for
 our process, people
 
+Contributing openly as a way to work + removing barriers
+
 We had the people and the process but we didn't have the place. When
 Quarto snapped into place, we were able to reimagine how we work
 togethre.
 
-Contributing openly as a way to work + removing barriers
+Growing the mosaic. meeting people where they were
 
-Like we said it's openly it's a movement. Like All We Can save we can't
-go it alone.
-
-And it's been cool to see how Quarto has enabled us to not only reuse
-things like tutorials but also ideas like how to design and facilitate
-learning events. One of the things here is that open science is a way to
-work. It's not just about products, it's about process. It's about
-people.
-
-Transition: So these examples so far have been about openly creating
-documentation for your team, which is a big part of reimagining how we
-work. And it's also an opportunity to extend this in other resources as
-well.
-
-Bri: Openscapes is doing its own level of trying to do culture shift
-with science, focused on building inclusion, empathy, and openness into
-our daily work. And Quarto is enabling and accelerating part of that
-paradigm shift because it helps bring this mosiac of voices together.
-has and how it goes across languages It's been really useful for us but
-it's been really useful for others. Can move this forward
 :::
+
+## {background-image="images/2021-Cloud-Hackathon-GroupPhotoWave.png" background-position="left bottom" background-opacity="0.7"}
+
 
 \
 
@@ -314,53 +259,13 @@ All We Can Save
 :::
 
 ::: notes
-Just want to emphasize the power of removing barriers and blurring
-lines. of who's a coder or not
+So to close with this final quote from All We Can Save that we cannot, we must not, go it alone.
 
-Blurring between fed agencies, between researchers, between people who
-do and don't identify as coders, what lang you use, how technical you
-are
+There's so much more to contribute, so much more to do. 
 
-Mosiac of voices: we need everyone
+I really appreciate having this opp to share this with all of you. Looking forward to this collective community to continue to contribute to this mosiac
 
-Growing the mosaic. meeting people where they were I reimagined how I
-worked with groups. I learned how to work with groups. **Transition of
-behavior is the power of Openscapes.**
+~Lights at Night Rivers - instead: patchwork of landuse. Landsat. Mosiac.~
 
-Blurred: End the mosiac: through this work for this last year, we've
-been able to remove barrier and I really appreciate having this opp to
-share this with all of you. Looking forward to this collective community
-contributes to this mosiac
-
-Lights at Night Rivers - instead: patchwork of landuse. Landsat. Mosiac.
-
-This is just the beginning. There's so much more to write, so much more
-to do, we need the Earthrise quote. Do more than cop, grounded, steady,
-ready
-
-when it comes to who is a coder and not and how we value contribution.
-
-The more we talk about this and role model what's possible, the more
-actionable we all become.
-
-And throughout all of this is the idea that we can collaborate across
-coding comfort levels. It's been really neat to see how Quarto can not
-only reduce barriers across coding languages like python and R, but also
-differnt experience levels.
-
-This is a screenshot of the new Visual Editor that is part of the
-RStudio IDE, and it's something we've been experimenting with more and
-more. We've found this to be a really nice way to write prose even for
-those familiar with Markdown, but it's also a friendlier way for people
-to get to know the tools.
-
-This is about not assuming technical skills, but creating an safe
-culture where they can say what they don't know and reinforce a
-peer-learning & teaching culture, and using tooling that is friendly for
-new and seasoned coders alike.
-
-Transition: Let me demo Quarto with the Visual editor - it's really
-exciting to blur those lines between who identifies as a coder or not
-using these tools collaboratively.
 :::
 
