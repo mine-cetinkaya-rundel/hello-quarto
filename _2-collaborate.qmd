@@ -106,16 +106,15 @@ https://science.nasa.gov/earth-science/earth-science-data
 
 ::: notes
 Many NASA Earth scientists use python, and all tutorial development was focused in jupyter notebooks.
-And my role leading NASA Openscapes was not to learn python from the ground-up, but I needed to be able to interoperate and collaborate with python users.
-Transition: So I was feeling pretty intimidated about this.
-But if you know me, you know that -
+And my role leading NASA Openscapes was not to learn python from the ground-up, but I needed to be able to collaborate and role model collaboration with python users.
+Transition:
+So I was intimiated about all this, but something powerful that I bring is years of experience with RMarkdown. RMarkdown has and it has so reshaped how I think about what's possible that I think of it as a superpower. 
 :::
 
 ##  {background-image="images/horst_rey_quarto.png" background-size="contain"}
 
 ::: notes
-I feel like R and especially R Markdown is a total superpower, I honestly I think differently about what's possible in science because of R Markdown.
-Quarto let me bring that experience and confidence to NASA Openscapes.
+And Quarto let me bring my experience and confidence to collaborating in python. 
 
 I had been collaborating with J.J.
 Allaire for the past few years and I knew Quarto was emerging right when we needed it.
