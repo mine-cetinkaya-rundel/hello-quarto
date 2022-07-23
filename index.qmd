@@ -21,7 +21,7 @@ editor: visual
 
 [mine çetinkaya-rundel <br> julia stewart lowndes]{.custom-author}
 
-[[rstd.io/hello-quarto](https://rstd.io/hello-quarto)]{.custom-url}
+[[mine.quarto.pub/hello-quarto](https://mine.quarto.pub/hello-quarto/)]{.custom-url}
 
 [artwork by allison horst]{.custom-artwork}
 
