@@ -164,7 +164,7 @@ Followed quickly by other iterations we were able to do with this same workflow
 Codifying this to the cookbook
 :::
 
-## Collaborating across coding languages {.takeaway .center highlight-style="github"}
+## Quarto enables collaborating across coding languages {.takeaway .center highlight-style="github"}
 
 \
 
@@ -197,7 +197,7 @@ Being able to make a collection of tutorials in different language and file type
 This is the setup we've had and it's good because it turns out there is a big R community we are set up to support!
 :::
 
-## Contributing from our current tools {.takeaway .center}
+## Quarto enables contributing from our current tools {.takeaway .center}
 
 ::: centered
 ::: columns

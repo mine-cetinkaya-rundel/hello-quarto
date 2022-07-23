@@ -200,11 +200,11 @@ mosaic of voices actionable to tackle these big problems, we need
 strategies to close those gaps and blur those lines.
 :::
 
-## Reducing barriers, blurring lines {.takeaway .center background-image="images/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpeg" background-opacity="0.1"}
+## Quarto enables reimagining what contributing looks like {.takeaway .center background-image="images/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpeg" background-opacity="0.1"}
 
 ::: midi
-
-**Reimagining what contributing looks like, and how we value it**
+Reducing barriers, blurring lines 
+** and how we value it**
 
 \
 
@@ -235,7 +235,7 @@ These are just a few. Changes how you think
 Across not only coding languages, but across coding comforts.
 :::
 
-## Collaborating across coding comforts {.takeaway .center}
+## Quarto enables collaborating across coding comforts {.takeaway .center}
 
 \
 
