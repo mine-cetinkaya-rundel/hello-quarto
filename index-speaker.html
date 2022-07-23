@@ -587,11 +587,10 @@
 </figure>
 </div>
 <aside class="notes">
-<p><strong>Mine:</strong></p>
 <p>Thanks Julie!</p>
-<p>I remember vividly the first time I’ve heard of knitr at useR 2012 and sitting in the audience and starting to convert my teaching materials to use it while the keynote was still going on.</p>
-<p>I’ll call this a success if a few of you are firing up a Quarto project right now to see what all the hype is about.</p>
-<p>I’m very excited to have this opportunity to talk to you about Quarto, which I’ve had the opportunity to live and breathe over the last year. I am an educator – a developer educator at RStudio and a professor at Duke. The word educator might make you think I’m in front of students, perhaps lecturing 24/7 but in reality I spend more of my time in front of my computer authoring and creating materials to share with the world: share with my students, share with my fellow educators, and share with anyone interested in learning the things I’m teaching. Sometimes I’m writing a slide deck for a talk, sometimes creating a website for a course, sometimes writing books, sometimes journal articles. Whatever it is that I create, I share them all openly - that is, with an open license that allows for free use and reuse and adaptation. More often than not I’m thinking “web first” to ease open sharing and wider reach, but I also still live in the confines of traditional journal publishing and academia, which means I regularly need to create PDFs as well. So an authoring system that allows for multiple types of outputs from a single source is not only a time saver, but basically essential for me to carry on my existence.</p>
+<p>I’m very excited to have this opportunity to talk to you about Quarto, which I’ve had the opportunity to live and breathe over the last year. I am an educator – a developer educator at RStudio and a professor at Duke. The word educator might make you think I’m in front of students, perhaps lecturing 24/7 but, in reality, I spend most of my time in front of my computer authoring and creating materials to share with the world: share with my students, share with my fellow educators, and share with anyone interested in learning the things I’m writing or talking about. Sometimes I’m writing a slide deck for a talk, sometimes creating a website for a course, sometimes writing books, sometimes journal articles. Whatever it is that I create, I share them all openly - that is, with an open license that allows for free use and reuse and adaptation. More often than not I’m thinking “web first” to ease open sharing and wider reach, but I also still live in the confines of traditional journal publishing and academia, which means I regularly need to create PDFs as well. So an authoring system that allows for multiple types of outputs from a single source that contains both code and prose is not only a time saver, but basically essential for me to carry on my existence. And for years, that tool has been R Markdown for me.</p>
+<p>In fact, I remember vividly the first time I’ve heard of knitr at useR 2012 and sitting in the audience and starting to convert my teaching materials to use it while the keynote was still going on.</p>
+<p>I’ll call this a success if a few of you are already firing up Quarto right now, instead of listening to me, to see what all the hype is about!</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -604,15 +603,14 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="r-markdown-ecosystem" class="slide level2" data-transition="zoom">
-<h2>R Markdown ecosystem</h2>
+<section id="the-r-markdown-ecosystem" class="slide level2">
+<h2>The R Markdown ecosystem</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="images/rmd_ecosystem.png"></p>
 </figure>
 </div>
 <aside class="notes">
-<p><strong>Mine:</strong></p>
 <p>Julie mentioned unifying the R Markdown ecosystem so let’s dig a bit more into what that means… Think of all the packages from the R Markdown universe that many of you’ve come to love and rely on over the years. Each package addresses a different need and offers a different output: for example, you can use blogdown or distill for creating websites and blogs, bookdown for writing a book, rticles for writing journal articles, etc.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -626,16 +624,15 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="next-generation-r-markdown" class="slide level2" data-transition="zoom">
-<h2>Next generation R Markdown</h2>
+<section id="quarto-next-generation-r-markdown" class="slide level2" data-transition="zoom">
+<h2>Quarto: Next generation R Markdown</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="images/horst_quarto_ball.png" width="900"></p>
 </figure>
 </div>
 <aside class="notes">
-<p><strong>Mine:</strong></p>
-<p>Quarto unifies the functionality from a wide range of packages from the R Markdown ecosystem, building on Pandoc on the technical side and years of experience developing, maintaining, and tweaking these packages as well as community feedback on the human side.</p>
+<p>Quarto unifies the functionality from a wide range of packages from the R Markdown ecosystem, building on Pandoc on the technical side and years of experience developing, maintaining, and tweaking these packages as well as community feedback on the human side. Inevitably, any unification effort presents an opportunity to identify and address gaps in functionality and inefficiencies in user experience, and the process of building Quarto has been no different.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -648,8 +645,8 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="next-generation-r-markdown-1" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Next generation R Markdown</h2>
+<section id="quarto-highlights" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Quarto highlights</h2>
 <div class="columns">
 <div class="column" style="width:5%;">
 
@@ -693,11 +690,11 @@
 </div>
 </div>
 <aside class="notes">
-<p><strong>Mine:</strong> Beyond unification, Quarto also offers</p>
-<p>&lt;&gt; consistent implementation of attractive and handy features across outputs such as tabsets, code-folding, and syntax highlighting</p>
+<p>Some highlights of these improvements include</p>
+<p>&lt;&gt; consistent implementation of attractive and handy features across outputs such as tabsets, code-folding, and syntax highlighting,</p>
 <p>&lt;&gt; more accessible defaults as well as better support for creating accessibile documents</p>
-<p>&lt;&gt; guardrails that are particularly helpful for new learners like YAML completion and informative syntax errors</p>
-<p>&lt;&gt; and perhaps most excitingly for those who are not coming from the R ecosystem, Quarto offers support for other languages like Python, Julia, Observable, and more via the Jupyter engine, in addition to knitr, for executable code chunks</p>
+<p>&lt;&gt; guardrails that are particularly helpful for new learners like YAML completion and informative syntax errors,</p>
+<p>&lt;&gt; and perhaps most excitingly for those who are not coming from the R ecosystem, Quarto offers support for other languages like Python, Julia, Observable, and more via the Jupyter engine, in addition to knitr, for executable code chunks.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -716,8 +713,7 @@
 </iframe>
 <p><strong>THIS IS NOT THE FINAL DEMO, JUST TRYING EMBEDDING FROM DRIVE</strong></p>
 <aside class="notes">
-<p><strong>Mine:</strong></p>
-<p>Alright, that’s enough talking. Let’s dive in and see what all the fuss is about!</p>
+<p>So now I’m assuming you’ve already fired up Quarto and started digging into it or you’re waiting for me to do that. So, let’s dive in and see what all the Quarto fuss is about!</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -736,7 +732,9 @@
 <p><strong>Illustration:</strong> Add Allison’s illustration of Request diagram at https://mine-cetinkaya-rundel.github.io/hello-quarto-sdssg/#/running-code</p>
 </div>
 <aside class="notes">
-<p>A common first question is “how are R Markdown and Quarto different, under the hood, particularly given the rename of the file just works?” The main difference is that with R Markdown, the R package rmarkdown does the heavy lifting of the orchestration of going from source code (the Rmd file) to output, using knitr for evaluating the code chunks. With Quarto, the Quarto command line interface (or CLI, for short) does the orchestration of processing executable code chunks with either knitr or jupyter and then converting the resulting markdown file to the desired output. While this is technically impressive, I’ll be honest, it’s not necessarily what sparked my interest in Quarto in the first place.</p>
+<p>Now that you’ve all had a chance to see Quarto in action, a common first question may be “how are R Markdown and Quarto different, under the hood, particularly given the rename of the file just works?”</p>
+<p>The main difference is that with R Markdown, the R package rmarkdown does the heavy lifting of the orchestration of going from source code (the Rmd file) to output, using knitr for evaluating the code chunks. With Quarto, the Quarto command line interface (or CLI, for short) does the orchestration of processing executable code chunks with either knitr or jupyter and then converting the resulting markdown file to the desired output.</p>
+<p>While this is technically impressive, I’ll be honest, it’s not necessarily what sparked my interest in Quarto in the first place.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -787,7 +785,9 @@
 </div>
 </div>
 <aside class="notes">
-<p><strong>Mine:</strong> What did spark my interest was how easy, or, let’s not say easy, I don’t like that word in reference to any new technology, but how straightforward it is with Quarto to move between “things”. As an educator, two things are of utmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats (like documents to slides to websites to books). Over the last year of using Quarto for everything, I’ve felt like I’ve finally found the tool that lets me go from one to the other with minimal futzing around with my source code. This has helped me focus my time on content, which is always the dream.</p>
+<p>What did spark my interest was how easy, or, let’s not say easy, I don’t like that word in reference to any new technology, but how straightforward it is with Quarto to move between “things”, output types.</p>
+<p>As an educator, two things are of utmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats, like documents to slides to websites to books.</p>
+<p>Over the last year of using Quarto for pretty much everything, I’ve felt like I’ve finally found the tool that lets me go from one output type to the other with minimal, if any, futzing around with my source code beyond the yaml. This has helped me focus my time on content, and that’s the dream folks!</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -803,8 +803,7 @@
 <section id="pass-to-collaborate" class="slide level2" data-background-image="images/horst_quarto_meteor.png">
 <h2></h2>
 <aside class="notes">
-<p><strong>Mine:</strong></p>
-<p>Now over to you Julie.</p>
+<p>I’ve been saying “I” a lot so far, I author slide decks, I create websites, etc. But, I, like many of you, don’t operate in isolation from others. Much of my work, and much of Julie’s work is collaborative. So, over to you Julie, to talk about collaborating with Quarto.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1637,7 +1636,7 @@ All We Can Save</p>
 <p><span class="shout">Reimagine</span></p>
 <p><strong>Approach Guide</strong></p>
 <p>See also: https://www.openscapes.org/blog/2022/02/17/esip-winter-2022/</p>
-<p><strong>Quarto Mosaic </strong></p>
+<p><strong>Quarto Mosaic</strong></p>
 <ul>
 <li><a href="https://nasa-openscapes.github.io/2022-LPDAAC-UWG-Breakout/" class="uri">https://nasa-openscapes.github.io/2022-LPDAAC-UWG-Breakout/</a></li>
 <li><a href="https://podaac.github.io/2022-SWOT-Ocean-Cloud-Workshop/" class="uri">https://podaac.github.io/2022-SWOT-Ocean-Cloud-Workshop/</a></li>

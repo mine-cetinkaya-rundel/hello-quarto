@@ -5,45 +5,41 @@
 ![](images/horst_penguins_nametag_mine.png){fig-alt="Penguin with nametag that says \"Mine\"" fig-align="center" width="700px"}
 
 ::: notes
-**Mine:**
-
 Thanks Julie!
-
-I remember vividly the first time I've heard of knitr at useR 2012 and sitting in the audience and starting to convert my teaching materials to use it while the keynote was still going on.
-
-I'll call this a success if a few of you are firing up a Quarto project right now to see what all the hype is about.
 
 I'm very excited to have this opportunity to talk to you about Quarto, which I've had the opportunity to live and breathe over the last year.
 I am an educator -- a developer educator at RStudio and a professor at Duke.
-The word educator might make you think I'm in front of students, perhaps lecturing 24/7 but in reality I spend more of my time in front of my computer authoring and creating materials to share with the world: share with my students, share with my fellow educators, and share with anyone interested in learning the things I'm teaching.
+The word educator might make you think I'm in front of students, perhaps lecturing 24/7 but, in reality, I spend most of my time in front of my computer authoring and creating materials to share with the world: share with my students, share with my fellow educators, and share with anyone interested in learning the things I'm writing or talking about.
 Sometimes I'm writing a slide deck for a talk, sometimes creating a website for a course, sometimes writing books, sometimes journal articles.
 Whatever it is that I create, I share them all openly - that is, with an open license that allows for free use and reuse and adaptation.
 More often than not I'm thinking "web first" to ease open sharing and wider reach, but I also still live in the confines of traditional journal publishing and academia, which means I regularly need to create PDFs as well.
-So an authoring system that allows for multiple types of outputs from a single source is not only a time saver, but basically essential for me to carry on my existence.
+So an authoring system that allows for multiple types of outputs from a single source that contains both code and prose is not only a time saver, but basically essential for me to carry on my existence.
+And for years, that tool has been R Markdown for me.
+
+In fact, I remember vividly the first time I've heard of knitr at useR 2012 and sitting in the audience and starting to convert my teaching materials to use it while the keynote was still going on.
+
+I'll call this a success if a few of you are already firing up Quarto right now, instead of listening to me, to see what all the hype is about!
 :::
 
-## R Markdown ecosystem {transition="zoom"}
+## The R Markdown ecosystem
 
 ![](images/rmd_ecosystem.png){fig-align="center"}
 
 ::: notes
-**Mine:**
-
 Julie mentioned unifying the R Markdown ecosystem so let's dig a bit more into what that means... Think of all the packages from the R Markdown universe that many of you've come to love and rely on over the years.
 Each package addresses a different need and offers a different output: for example, you can use blogdown or distill for creating websites and blogs, bookdown for writing a book, rticles for writing journal articles, etc.
 :::
 
-## Next generation R Markdown {transition="zoom"}
+## Quarto: Next generation R Markdown {transition="zoom"}
 
 ![](images/horst_quarto_ball.png){width="900px" fig-align="center"}
 
 ::: notes
-**Mine:**
-
 Quarto unifies the functionality from a wide range of packages from the R Markdown ecosystem, building on Pandoc on the technical side and years of experience developing, maintaining, and tweaking these packages as well as community feedback on the human side.
+Inevitably, any unification effort presents an opportunity to identify and address gaps in functionality and inefficiencies in user experience, and the process of building Quarto has been no different.
 :::
 
-## Next generation R Markdown {auto-animate="true"}
+## Quarto highlights {auto-animate="true"}
 
 ::: columns
 ::: {.column width="5%"}
@@ -100,28 +96,28 @@ Quarto unifies the functionality from a wide range of packages from the R Markdo
 :::
 
 ::: notes
-**Mine:** Beyond unification, Quarto also offers
+Some highlights of these improvements include
 
-\<\> consistent implementation of attractive and handy features across outputs such as tabsets, code-folding, and syntax highlighting
+\<\> consistent implementation of attractive and handy features across outputs such as tabsets, code-folding, and syntax highlighting,
 
 \<\> more accessible defaults as well as better support for creating accessibile documents
 
-\<\> guardrails that are particularly helpful for new learners like YAML completion and informative syntax errors
+\<\> guardrails that are particularly helpful for new learners like YAML completion and informative syntax errors,
 
-\<\> and perhaps most excitingly for those who are not coming from the R ecosystem, Quarto offers support for other languages like Python, Julia, Observable, and more via the Jupyter engine, in addition to knitr, for executable code chunks
+\<\> and perhaps most excitingly for those who are not coming from the R ecosystem, Quarto offers support for other languages like Python, Julia, Observable, and more via the Jupyter engine, in addition to knitr, for executable code chunks.
 :::
 
-## {#demo-1 data-menu-title="Demo 1" background-color="#000000" .center}
+##  {#demo-1 .center data-menu-title="Demo 1" background-color="#000000"}
 
-<iframe src="https://drive.google.com/file/d/1RCsho2BpfLk-cAS-E28EIwnjbqVmaVgV/preview" width="1600" height="900" allow="autoplay"></iframe>
-
+```{=html}
+<iframe src="https://drive.google.com/file/d/1RCsho2BpfLk-cAS-E28EIwnjbqVmaVgV/preview" width="1600" height="900" allow="autoplay">
+</iframe>
+```
 **THIS IS NOT THE FINAL DEMO, JUST TRYING EMBEDDING FROM DRIVE**
 
 ::: notes
-**Mine:**
-
-Alright, that's enough talking.
-Let's dive in and see    what all the fuss is about!
+So now I'm assuming you've already fired up Quarto and started digging into it or you're waiting for me to do that.
+So, let's dive in and see what all the Quarto fuss is about!
 :::
 
 ## Quarto CLI orchestrates<br>each step of rendering {.takeaway .center}
@@ -131,8 +127,11 @@ Let's dive in and see    what all the fuss is about!
 :::
 
 ::: notes
-A common first question is "how are R Markdown and Quarto different, under the hood, particularly given the rename of the file just works?" The main difference is that with R Markdown, the R package rmarkdown does the heavy lifting of the orchestration of going from source code (the Rmd file) to output, using knitr for evaluating the code chunks.
+Now that you've all had a chance to see Quarto in action, a common first question may be "how are R Markdown and Quarto different, under the hood, particularly given the rename of the file just works?"
+
+The main difference is that with R Markdown, the R package rmarkdown does the heavy lifting of the orchestration of going from source code (the Rmd file) to output, using knitr for evaluating the code chunks.
 With Quarto, the Quarto command line interface (or CLI, for short) does the orchestration of processing executable code chunks with either knitr or jupyter and then converting the resulting markdown file to the desired output.
+
 While this is technically impressive, I'll be honest, it's not necessarily what sparked my interest in Quarto in the first place.
 :::
 
@@ -191,16 +190,19 @@ website:
 :::
 
 ::: notes
-**Mine:** What did spark my interest was how easy, or, let's not say easy, I don't like that word in reference to any new technology, but how straightforward it is with Quarto to move between "things".
-As an educator, two things are of utmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats (like documents to slides to websites to books).
-Over the last year of using Quarto for everything, I've felt like I've finally found the tool that lets me go from one to the other with minimal futzing around with my source code.
-This has helped me focus my time on content, which is always the dream.
+What did spark my interest was how easy, or, let's not say easy, I don't like that word in reference to any new technology, but how straightforward it is with Quarto to move between "things", output types.
+
+As an educator, two things are of utmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats, like documents to slides to websites to books.
+
+Over the last year of using Quarto for pretty much everything, I've felt like I've finally found the tool that lets me go from one output type to the other with minimal, if any, futzing around with my source code beyond the yaml.
+This has helped me focus my time on content, and that's the dream folks!
 :::
 
 ##  {#pass-to-collaborate background-image="images/horst_quarto_meteor.png"}
 
 ::: notes
-**Mine:**
-
-Now over to you Julie.
+I've been saying "I" a lot so far, I author slide decks, I create websites, etc.
+But, I, like many of you, don't operate in isolation from others.
+Much of my work, and much of Julie's work is collaborative.
+So, over to you Julie, to talk about collaborating with Quarto.
 :::
