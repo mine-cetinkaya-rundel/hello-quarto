@@ -1,18 +1,59 @@
-# Teach {.title-middle-light background-image="images/horst_quarto_penguins_teach.png"}
+# Teach {.title-middle-ice background-image="images/horst_quarto_penguins_teach.png"}
 
-## Use Quarto to accomplish existing goals {.smaller}
+## Quarto makes moving between "things" ~~easy~~ straightforward {.takeaway .center}
 
-How academics share their teaching resources/ new avenues for publishing:
-
--   Tooling that makes it easy to share what you do with the world on the web is incredibly *useful* -- if it's not easy to make a course website, you won't.
--   It's *useful* to the world -- Open sharing of knowledge, other people can learn from and reuse.
--   It's [useful]{.underline} to you -- It's a way of getting credit for your work, and when it comes time for annual review/promotion materials, it's easy to say "here is everything I created".
+::: {.fragment .fade-up .large}
+Moving from R Markdown to Quarto is straightforward,<br> for experienced users and well as for new learners
+:::
 
 ::: notes
-Mine: I started off introducing myself as a prof and educator, and so you probably have an idea of what my responsibilities look like, but you might not know my practices. Teaching, writing, and research are three things I do as an educator, and I can do it all with Quarto in ways that look very similar under the hood but very different in output. (Maybe add PPT anecdote here.)
+Earlier I mentioned that Quarto makes moving between things straightforward, referring to various output formats as the "things".
+An important question around "moving from one thing to another" that you might be wondering about is moving from teaching and learning R Markdown to Quarto as well as moving from teaching with R Markdown to Quarto.
+This past year I taught a regression class with 90 students, where a large majority had taken an introductory data science course previously where they learned R Markdown. For just one semester. And then we dropped them into a course that used Quarto instead, with a brief overview of the differences, like YAML style chunk options and rendering instead of knitting. And then we just let them run with it. And the transition was incredibly smooth for all students in the class. Not one mention of "why Quarto when we already learned R Markdown" in the evaluations, which, frankly, was a pleasant surprise to me.
+<>So, moving from R Markdown to Quarto is straightforward, for experienced users and well as for new learners.
+There are, of course, big differences technically between these two systems. However practically, for students who are just writing a single document for a given assignment and maybe an end of semester project with a handful of chapters, teaching and learning Quarto is practically not different than R Markdown.
+What is different, however, is the learning curve that comes after it.
+:::
+
+## Learning curve...
+
+- With Quarto simple quarto -> more complicated is not hard
+- With Rmd -> look at the power of what rmd did with a simple document, ecosystem florishing creates lack of consistency, quarto is unifying -- rmd common thread but also lots of domain specific, lots of stuff to pick up in between, 10000ft view, distill in a common core
+- rmd a lot of pieces, quarto bringing things together, and featuring visual editor helps
+- really loved teaching rmd but quarto people are picking it up a lot more quickly
+-  Anecdote: Art history student writing thesis in Quarto. One semester to thesis writing a much less steep learning curve.
+
+##  {#demo-3 .centered data-menu-title="Demo 3" background-color="#000000"}
+
+::: demo
+- Features that are useful for learning:
+  - yaml errors
+  - going from a handful of documents to book / thesis
+  - if teaching with rstudio, it comes with everything, and people can just get started
+  - visual editor -- Julie will say more
+- Features that are useful for teaching:
+  - chalkboard on slides
+  - multiplex: Slides / scroll for audience
+  - downlit / code-link
+  - quarto publish quartopub
+- Features that are useful for research: quarto journal
+:::
+
+## Quarto can grow with learners in a profound way {.takeaway .center}
+
+- Not just easy to go from document -> thesis -> book or website
+- Not just easy to go from simple documents -> meticulously formatted journal articles
+- But also across disciplines -- stats students using Jupyter in CS class can use Quarto too, maybe? That sounds like a bright future to me!
+
+## {#pass-to-teach background-image="images/horst_quarto_meteor.png"}
+
+::: notes
+Now back over to you one more time Julie.
 :::
 
 ## Different on the outside, similar on the inside
+
+**OMIT THIS?**
 
 ::: illustration
 **Image:** Screenshots of each next to each other on top row, folder organization of each on the bottom row. Top looks different, bottom looks very similar.
@@ -26,37 +67,4 @@ Mine: I started off introducing myself as a prof and educator, and so you probab
 Mine: And last 10% to tweak it for your context...
 :::
 
-## Demo: File architecture, books
 
-::: demo
-**This will be replaced with screen recording.**
-
--   Short - "a few things I've learned transitioning Rmd -\> quarto"
--   Change `_bookdown.yml` to `_quarto.yml` - maybe...
--   My bookdown H1 headers were markdown `# Like This`; quarto book will build but the rest of the headers don't show up on the right TOC. Change to yaml `title: Like This`. Also will look right in the viewer.
-:::
-
-::: notes
-Mine: [TO DO: Create screen recording and write script.]{.todo}
-
-Visual Editor: Mine's "this functionality exists" vs Julie's "this is designed to be inviting"
-:::
-
-##  {#moving-between-straightforward-2 .centered data-menu-title="Moving between straightforward" background-color="#ECF2FF"}
-
-::: {style="margin-top: 100px; font-size: 2.2em; color: #0F1620"}
-Quarto makes moving between "things" ~~easy~~ straightforward
-:::
-
-::: notes
-Moving from R Markdown to Quarto is straightforward:
-
--   Is teaching Quarto different from teaching R Markdown? Easier / harder / **not different**?
--   Potential anecdote: Art history student writing thesis in Quarto. One semester to thesis writing a much less steep learning curve...
-:::
-
-## {#pass-to-teach background-image="images/horst_quarto_meteor.png"}
-
-::: notes
-Now back over to you one more time Julie.
-:::
