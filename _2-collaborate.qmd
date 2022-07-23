@@ -104,8 +104,8 @@ https://science.nasa.gov/earth-science/earth-science-data
 
 ::: notes
 Many NASA Earth scientists use python, and that's where the tutorial development was focused.
-And my role leading NASA Openscapes was not to learn python from the ground-up, but I needed to be able to interoperate and collaborate with python users.
-Transition: So I was feeling pretty intimidated about this.
+And my role leading NASA Openscapes was not to learn python from the ground-up, but I needed to be able to collaborate and role model collaboration with python users.
+Transition:
 But if you know me, you know that -
 :::
 
