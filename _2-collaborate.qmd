@@ -50,7 +50,9 @@ A big focus of Openscapes is helping researchers build psychologically safety wi
 \<\>The story I'd like to tell you now is with NASA.
 :::
 
-##  {background-video="images/R_beach_ball_flat_360p.mp4"}
+##  {#nasa-beach-ball data-menu-title="NASA Beach Ball" background-color="#000000" .center}
+
+<iframe src="https://drive.google.com/file/d/1PftRxKJ18XuFg9BT2E8czCWekbTe1Vb8/preview" width="1600" height="900" allow="autoplay"></iframe>
 
 ::: notes
 NASA has been collecting unbelievable amounts of data about Earth for decades These data are freely available and help researchers tackle really critical questions about our planet, which is only more relevant with the impacts of climate change.
