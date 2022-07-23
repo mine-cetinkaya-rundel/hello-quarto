@@ -48,7 +48,7 @@ dots, and reimagining
 And this kind of reimagining and leadership is so critical
 :::
 
-##  {#all-we-can-save-mosaic .center data-menu-title="All We Can Save Mosaic of Voices" background-image="images/landsat_art_bolivia_lrg.jpg"}
+##  {#all-we-can-save-mosaic .center data-menu-title="All We Can Save Mosaic of Voices" background-image="https://drive.google.com/uc?export=view&id=1ZfBHj6mLHRWqd2RvUcqbwwBgcphdXTO_"}
 
 ::: quotebox
 To address our climate emergency, we must rapidly, radically reshape
@@ -192,8 +192,6 @@ researchers and those are the ones in a data-intensive science program.
 Quarto helps us blur the lines
 
 but it's been really useful for others. Can move this forward
-
-
 
 Within this mosaic of voices, there is a range of technical skills, and
 it's important that that whole range can contribute and that a divide
