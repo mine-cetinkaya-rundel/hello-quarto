@@ -4,7 +4,7 @@ editor:
     wrap: 72
 ---
 
-# Reimagine {.title-top-light background-image="images/horst_quarto_penguins_reimagine.png"}
+# Reimagine {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png"}
 
 ::: notes
 Reimagining is about seeing new ways of approaching things that's

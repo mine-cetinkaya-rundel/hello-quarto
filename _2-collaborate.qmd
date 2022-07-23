@@ -1,8 +1,4 @@
----
-bibliography: references.bib
----
-
-# Collaborate {.title-top-light background-image="images/horst_penguins_telescope.png"}
+# Collaborate {.title-top-ice background-image="images/horst_penguins_telescope.png"}
 
 ::: notes
 Thanks Mine, let's next talk about Collaborating with Quarto
