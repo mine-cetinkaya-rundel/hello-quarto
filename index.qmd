@@ -37,7 +37,7 @@ Say out loud: rstd.io/hello-quarto and art by Allison Horst
 # Hello, Quarto? {.title-top-light background-image="images/horst_quarto_meteor_transparent.png"}
 
 ::: notes
-**Julie:** But also, we know you have questions.
+But also, we know you have questions.
 Mine and I did too.
 What is Quarto?
 Why Quarto?
@@ -52,8 +52,6 @@ Quarto **unifies** and **extends** <br>the R Markdown ecosystem
 :::
 
 ::: notes
-**Julie:**
-
 Quarto unifies & extends the R Markdown ecosystem.
 :::
 
