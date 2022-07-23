@@ -202,11 +202,16 @@ mosaic of voices actionable to tackle these big problems, we need
 strategies to close those gaps and blur those lines.
 :::
 
-## Quarto enables reimagining what contributing looks like {.takeaway .center background-image="images/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpeg" background-opacity="0.1"}
+## We can all reducing barriers, blur lines {.takeaway .center background-image="images/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpeg" background-opacity="0.1"}
+
+Space and place
+A big focus of Openscapes is helping researchers build psychologically safety within their teams, so that there is a strong culture of peer-learning and teaching, of asking questions, not assuming what people know or don't know, and trying to blur the lines of who can participate in technology.
+
+
 
 ::: midi
-Reducing barriers, blurring lines 
-** and how we value it**
+ 
+**Reimagine what contributing looks like and how we value it**
 
 \
 
