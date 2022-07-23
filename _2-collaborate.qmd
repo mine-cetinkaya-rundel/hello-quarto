@@ -123,7 +123,7 @@ I asked if we could use Quarto for NASA-Openscapes and this became a really exci
 ## 
 
 ::: borderbox
-![](images/hackathon.png){width="80%" fig-align="center"}
+![](images/hackathon.png){width="70%" fig-align="center"}
 :::
 
 ::: notes
@@ -136,7 +136,7 @@ Through Openscapes gave them space and they dev'd a community, psych safety, get
 And quarto gave them a place to collab and present their work on a beautiful way for learners.
 :::
 
-## 
+## {.centered}
 
 ::: columns
 ::: {.column width="50%"}
