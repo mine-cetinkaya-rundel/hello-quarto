@@ -107,7 +107,7 @@ Some highlights of these improvements include
 \<\> and perhaps most excitingly for those who are not coming from the R ecosystem, Quarto offers support for other languages like Python, Julia, Observable, and more via the Jupyter engine, in addition to knitr, for executable code chunks.
 :::
 
-##  {#demo-1 .center data-menu-title="Demo 1" background-color="#000000"}
+##  {#demo-1 .centered data-menu-title="Demo 1" background-color="#000000"}
 
 ```{=html}
 <iframe src="https://drive.google.com/file/d/1RCsho2BpfLk-cAS-E28EIwnjbqVmaVgV/preview" width="1600" height="900" allow="autoplay">

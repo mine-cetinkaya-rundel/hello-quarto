@@ -242,7 +242,7 @@ And this has also have dividends because while I said that the Earth science com
 Transition: So let me show you what this looks like in Jupyter -
 :::
 
-##  {#demo-2 .center data-menu-title="Demo 2" background-color="#000000"}
+##  {#demo-2 .centered data-menu-title="Demo 2" background-color="#000000"}
 
 ```{=html}
 <iframe src="https://drive.google.com/file/d/1RCsho2BpfLk-cAS-E28EIwnjbqVmaVgV/preview" width="1600" height="900" allow="autoplay">
