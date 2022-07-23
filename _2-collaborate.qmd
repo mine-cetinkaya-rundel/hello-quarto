@@ -23,7 +23,8 @@ What I absolutely love doing is mentoring, teaching, and empowering communities,
 I've made this my job through Openscapes.
 :::
 
-##  {background-color="#0F1620" background-image="images/horst_openscapes_champions.jpg" background-size="contain" background-position="bottom right" fig-alt="Illustration of a grassy field by an ocean, there’s a river that meanders from the midground to the background on the right hand side. There are mountains in the background. The Openscapes hex logo is in the top left hand corner. In the foreground there are many animals: hermit crab working alone on a laptop, a sad rabbit on a laptop under a raincloud, a frustrated skunk on a laptop under a raincloud. Just over a bush is another group of animals: a fox with a welcome sign stands with a hedgehog holding map brochures In front of a larger park map. The fox and hedgehog are in front of a group of animals: a heron, a squirrel, a mouse holding a notebook, a raccoon, a snake, and a quail. In the midground, there’s a turtle, deer, owl and beaver by the river that has stepping stone rocks across. A roadrunner, lizard, blue bird, and rabbit, are walking down a path together, one of the other paths is blocked by a log. There’s a rowboat on the edge of the water. In the background, a duck, turtle, red squirrel, fox, and raven are walking single file over a wooden bridge that crosses the river. Most of the animals have coloured bandanas tied around their necks and a few are wearing hats. Up in the sky, there’s a satellite. Overlaid on the image is the OpenScapes hex logo."}
+
+##  {#openscapes-intro data-menu-title="Openscapes Intro" background-color="#0F1620" background-image="images/horst_openscapes_champions.jpg" background-size="contain" background-position="bottom right" fig-alt="Illustration of a grassy field by an ocean, there’s a river that meanders from the midground to the background on the right hand side. There are mountains in the background. The Openscapes hex logo is in the top left hand corner. In the foreground there are many animals: hermit crab working alone on a laptop, a sad rabbit on a laptop under a raincloud, a frustrated skunk on a laptop under a raincloud. Just over a bush is another group of animals: a fox with a welcome sign stands with a hedgehog holding map brochures In front of a larger park map. The fox and hedgehog are in front of a group of animals: a heron, a squirrel, a mouse holding a notebook, a raccoon, a snake, and a quail. In the midground, there’s a turtle, deer, owl and beaver by the river that has stepping stone rocks across. A roadrunner, lizard, blue bird, and rabbit, are walking down a path together, one of the other paths is blocked by a log. There’s a rowboat on the edge of the water. In the background, a duck, turtle, red squirrel, fox, and raven are walking single file over a wooden bridge that crosses the river. Most of the animals have coloured bandanas tied around their necks and a few are wearing hats. Up in the sky, there’s a satellite. Overlaid on the image is the OpenScapes hex logo."}
 
 ::: notes
 Openscapes is a movement and a community that I launched in 2018 and have built together with my partner Erin Robinson.
@@ -66,7 +67,7 @@ However, these data are stored by 12 different data centers around the US and re
 Now, as a result of many years of the preparation these 12 data centers are migrating these data to the Cloud, hosted by AWS and others. And, in anticipation and support of this, the data centers will also support researchers who will be migrate their analytical workflows to the Cloud too. 
 :::
 
-## ![](images/NASA_logo.png){width="18%"} ![](images/openscapes_hex.png){width="12%"} {.centered}
+## {#nasa-openscapes data-menu-title="NASA Openscapes"} ![](images/NASA_logo.png){width="18%"} ![](images/openscapes_hex.png){width="12%"} {.centered}
 
 ::: fragment
 ::: columns
@@ -106,33 +107,33 @@ https://science.nasa.gov/earth-science/earth-science-data
 Many NASA Earth scientists use python, and all tutorial development was focused in jupyter notebooks.
 And my role leading NASA Openscapes was not to learn python from the ground-up, but I needed to be able to collaborate and role model collaboration with python users.
 Transition:
-So I was intimiated about all this, but something powerful that I bring is years of experience with RMarkdown. RMarkdown has and it has so reshaped how I think about what's possible that I think of it as a superpower. 
+So I was intimiated about all this, but I also brought something really powerful to this work. And that's the experience and confidence I've developed as an RMarkdown user for over 8 years. RMarkdown has so reshaped how I think about what's possible that I think of it as a superpower. 
 :::
 
-##  {background-image="images/horst_rey_quarto.png" background-size="contain"}
+##  {#star-wars-rey-quarto data-menu-title="Star Wars Rey Quarto" background-image="images/horst_rey_quarto.png" background-size="contain"}
 
 ::: notes
-And Quarto let me bring my experience and confidence to collaborating in python. 
+And Quarto let me bring this superpower to collaborating with python folks. 
 
-I had been collaborating with J.J.
-Allaire for the past few years and I knew Quarto was emerging right when we needed it.
-I asked if we could use Quarto for NASA-Openscapes and this became a really exciting collaboration with the Quarto team and the NASA Mentors
+Quarto was emerging right when we needed it; I had been collaborating with J.J.
+Allaire over the past few years and I asked if we could use Quarto for NASA-Openscapes. It was still quite early in its development and it became a really exciting collaboration with the Quarto developer team and the NASA Mentors, not only to be able to use this tool but also helped influence some of its design, particularly in the freeze feature that just Mine introduced. 
 :::
 
-## 
+## {#nasa-cloud-hackathon data-menu-title="NASA Cloud Hackathon"}
 
 ::: borderbox
 ![](images/hackathon.png){width="70%" fig-align="center"}
 :::
 
 ::: notes
-I'm not the only one intimidated - nervousness around new tech and what people didn't know.
-it turned out everyone was but gave room to grow and learn
+This Quarto site we made for the Fall 2021 Cloud Hackathon. Developing tutorials for this teaching event was really where we really found traction in working together and building this Mentor community. 
 
-This Quarto site we made for the Fall 2021 Cloud Hackathon was where we really found traction in working together with the Mentors was dev'ing tutorials for the hackathon.
+Quarto provided this place for us to collect those tutorials and present them in beautiful way for the hackathon participants, and that helped us develop tutorials thinking about those learners and really focusing our tutorial development with empathy for those learners.
 
-Through Openscapes gave them space and they dev'd a community, psych safety, getting comfortable learning new things, sharing imperfect work, giving feedback.
-And quarto gave them a place to collab and present their work on a beautiful way for learners.
+And it also gave us a way to learn something new together and identify other things to learn together. And it turned out this was really important, that I wasn't the only person feeling intimidated by new tech and moving pieces and how to collaborate most effectively. We had all been assuming that everyone else knew things we didn't and had it all figured out. It turned out it was really important that we had been building this trust and psychological safety so that we had room to grow and learn - 
+ould ask questions, getting comfortable learning new things, sharing imperfect work, giving feedback.
+
+So from this investment in technology and collaboration, 
 :::
 
 ## {.centered}
