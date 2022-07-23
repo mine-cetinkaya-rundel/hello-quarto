@@ -28,7 +28,9 @@ bibliography: references.bib
 [artwork by allison horst]{.custom-artwork}
 
 ::: notes
-Thank you so much, We're excited to be here! Mine and I have both been using Quarto for the last year; she has been teaching with it since its earliest days and my Openscapes team is the first external users of Quarto. As Mine and I have experimented with it in our own work we realize we love it, and we're thrilled to introduce and welcome you to Quarto.
+Thank you so much, We're excited to be here!
+Mine and I have both been using Quarto for the last year; she has been teaching with it since its earliest days and my Openscapes team is the first external users of Quarto.
+As Mine and I have experimented with it in our own work we realize we love it, and we're thrilled to introduce and welcome you to Quarto.
 
 Say out loud: rstd.io/hello-quarto and art by Allison Horst
 :::
@@ -36,7 +38,12 @@ Say out loud: rstd.io/hello-quarto and art by Allison Horst
 # Hello, Quarto? {.title-top-light background-image="images/horst_quarto_meteor_transparent.png"}
 
 ::: notes
-**Julie:** But also, we know you have questions. Mine and I did too. What is Quarto? Why Quarto? And how does it relate to R Markdown and to other tools you already use and workflows you already have? \<\> Well -
+**Julie:** But also, we know you have questions.
+Mine and I did too.
+What is Quarto?
+Why Quarto?
+And how does it relate to R Markdown and to other tools you already use and workflows you already have?
+\<\> Well -
 :::
 
 ##  {#unifies-extends-1 .centered data-menu-title="Unifies and extends 1" background-color="#0F1620" auto-animate="true"}
@@ -80,7 +87,7 @@ And it extends it beyond R as a friendly way to work reproducibly with text and 
 ##  {#publishing-system-1 .centered data-menu-title="Publishing system 1" background-color="#0F1620" auto-animate="true"}
 
 ::: {style="margin-top: 100px; font-size: 3em; color: #75AADB;"}
-**Quarto is a new, open-source,**<br> scientific and technical<br> publishing system
+Quarto is a new, open-source,<br> scientific and technical<br> publishing system
 :::
 
 ::: notes
@@ -90,7 +97,7 @@ Quarto is a new open-source scientific and technical publishing system.
 ##  {#publishing-system-2 .centered data-menu-title="Publishing system 2" background-color="#0F1620" auto-animate="true"}
 
 ::: {style="margin-top: 50px; font-size: 2em; color: #75AADB"}
-**Quarto is a new, open-source,**<br> scientific and technical<br> publishing system
+Quarto is a new, open-source,<br> scientific and technical<br> publishing system
 :::
 
 ::: {.fragment .fade-up .midi}
@@ -125,7 +132,7 @@ First Mine will focus on how Quarto unifies the R Markdown ecosystem through sha
 Then I will focus on how it extends the R Markdown ecosystem through collaborating and reimagining with Quarto
 :::
 
-##  {#outline-3 .centered data-menu-title="Outline 3" background-color="#0F1620" auto-animate="true"}
+##  {#outline-3 .centered data-menu-title="Outline 3" auto-animate="true"}
 
 ![](images/outline-3.png)
 
@@ -141,7 +148,7 @@ Over to you Mine!
 
 {{< include _4-reimagine.qmd >}}
 
-# Thank you {.title-top-dark  background-image="images/horst_quarto_penguins_thankyou.png"}
+# Thank you {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png"}
 
 ## Coda
 

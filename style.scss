@@ -92,7 +92,7 @@ $link-color: #75AADB;
   top: -400px
 }
 
-.reveal .section-title-middle-dark h1 {
+.reveal .title-middle-dark h1 {
   font-family: 'Delius Unicase', cursive;
   color: #0F1620;
   font-size: 3em;
@@ -101,13 +101,25 @@ $link-color: #75AADB;
   top: 0px
 }
 
-.reveal .section-title-middle-light h1 {
+.reveal .title-middle-light h1 {
   font-family: 'Delius Unicase', cursive;
   color: #75AADB;
   font-size: 3em;
   position: absolute; 
   left: 5px; 
   top: 0px
+}
+
+.reveal .takeaway h2 {
+  font-size: 2.2em;
+  font-weight: normal;
+  color: #0F1620;
+  text-align: center;
+}
+
+.reveal .takeaway {
+  background-color: #ECF2FF;
+  text-align: center;
 }
 
 .reveal .slide .quotebox {
