@@ -67,7 +67,11 @@ However, these data are stored by 12 different data centers around the US and re
 Now, as a result of many years of the preparation these 12 data centers are migrating these data to the Cloud, hosted by AWS and others. And, in anticipation and support of this, the data centers will also support researchers who will be migrate their analytical workflows to the Cloud too. 
 :::
 
-## {#nasa-openscapes data-menu-title="NASA Openscapes"} ![](images/NASA_logo.png){width="18%"} ![](images/openscapes_hex.png){width="12%"} {.centered}
+## {#nasa-openscapes data-menu-title="NASA Openscapes"}
+
+::: centered
+![](images/NASA_logo.png){width="18%"} ![](images/openscapes_hex.png){width="12%"}
+:::
 
 ::: fragment
 ::: columns
@@ -159,9 +163,9 @@ So from this investment in technology and collaboration,
 :::
 
 ::: notes
-Followed quickly by other iterations we were able to do with this same workflow
+Followed quickly by other iterations we were able to do with this same workflow. They created other Quart sites for workshops as well as slide decks, as well as a central place to put the more stable tutorials that they had taught and tested (in a process that is reminding me more and more of how you would develop an R package from little scripts that you've tested and then modularlized). And all of these all of these sites are built from Jupyter notebooks. 
 
-Codifying this to the cookbook
+transtion: So let me show you what this looks like from Jupyter - 
 :::
 
 ##  {#demo-2 .centered data-menu-title="Demo 2" background-color="#000000"}
@@ -174,9 +178,11 @@ Codifying this to the cookbook
 
 ::: notes
 Julie: ...
+
+transition: So to emphasize two key things from our work with NASA Openscapes and Quarto:
 :::
 
-## Quarto enables collaborating across coding languages {.takeaway .center highlight-style="github"}
+## Quarto enables collaborating <br>across coding languages {.takeaway .center highlight-style="github"}
 
 \
 
@@ -203,13 +209,12 @@ contents:
 ```
 
 ::: notes
-In fact, it's mostly .ipynbs as you see in this simplified view of our `_quarto.yml` file.
-Being able to make a collection of tutorials in different language and file types has been a huge benefit for us working together.
+Quarto enables collaborating across coding languages.  This is a simplified view of the yaml from the Cloud Cookbook - you see it's collection of tutorials with different file types. It's mostly ipynbs and markdown since that is where we have started with our first year with the NASA Mentors.
 
-This is the setup we've had and it's good because it turns out there is a big R community we are set up to support!
+And, as we work with more research teams using NASA Earthdata Cloud data science we've found that why it is python heavey there is indeed a substantial R community as well. And we're positioned to support R users too since this workflow we've developed with Quarto it's not language-specific! We'll be increasing our support for R users and experimenting more with reticulate to interoperate more between Python and R so stay tuned. 
 :::
 
-## Quarto enables contributing from our current tools {.takeaway .center}
+## Quarto enables contributing <br>from our current tools {.takeaway .center}
 
 ::: centered
 ::: columns
@@ -221,7 +226,7 @@ This is the setup we've had and it's good because it turns out there is a big R 
 
 ::: {.column width="45%"}
 ::: borderbox
-![](images/tools-vscode-ide.png)
+![](images/tools-jupyterhub.png)
 :::
 :::
 :::
@@ -235,21 +240,18 @@ This is the setup we've had and it's good because it turns out there is a big R 
 
 ::: {.column width="45%"}
 ::: borderbox
-![](images/tools-jupyterhub.png)
+![](images/tools-vscode-ide.png)
 :::
 :::
 :::
 :::
 
 ::: notes
-In our group, some use RStudio, some VS Code, some the GitHub IDE, and some JupyterLab
+And, a second thing is that we're all able to contribute from whatever tool we're already comfortable with. I've just demoed jupyter but in fact in our group some use RStudio, some VS Code, some GitHub. 
 
-And, we're all able to work in whatever tool we're already comfortable with as we contributed to this cookbook, which is possible since you install quarto as a command line too like git; it's not an R package or a python package.
-So with people working in their current tools and Quarto working in each case, we didn't need people to shift their software tools and instead could focus on upskilling around common pieces like Quarto and GitHub, but we didn't need to upset or shift everyone's software workflows, we could weave Quarto into existing workflows.
+And this was important because of all the new things we were learning together, we didn't also need people to shift their software tools. Instead, everyone has been able to learn Quarto from the comfort of our own "homes". 
 
-And this has also have dividends because while I said that the Earth science community is python-heavy what we've learned the more we work with this NASA Cloud data we see there is a significant R community and we're positioned to support them with this workflow we've developed because of Quarto it's not language-specific
-
-What's been neat about using your own tools is that it allows us to learn Quarto from the comfort of our own "homes" and this has teaching implications that Mine will talk about next.
+Transition: And this has teaching implications that Mine will talk about next.
 :::
 
 ##  {#pass-to-teach background-image="images/horst_quarto_meteor_reverse.png"}
