@@ -198,6 +198,18 @@ Over the last year of using Quarto for pretty much everything, I've felt like I'
 This has helped me focus my time on content, and that's the dream folks!
 :::
 
+## Quarto facilitates open sharing {.takeaway .center}
+
+::: {.fragment .fade-up .large}
+Tooling that makes it easy to share what you do<br>with the world on the web is incredibly **useful**
+:::
+
+<br>
+
+::: {.fragment .fade-up .large}
+It's **useful** to the world<br>as it facilitates open sharing of knowledge<br>for learning and for reuse
+:::
+
 ##  {#pass-to-collaborate background-image="images/horst_quarto_meteor.png"}
 
 ::: notes
