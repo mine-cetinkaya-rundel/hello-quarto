@@ -649,7 +649,7 @@
 <h2>Quarto: Next generation R Markdown</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/horst_quarto_ball.png" style="width:50.0%"></p>
+<p><img data-src="images/horst_quarto_ball_straight.png" style="width:50.0%"></p>
 </figure>
 </div>
 <aside class="notes">
@@ -752,13 +752,17 @@
 </section>
 <section id="quarto-cli-orchestrates-each-step-of-rendering" class="slide level2 takeaway center">
 <h2>Quarto CLI orchestrates<br>each step of rendering</h2>
-<div class="illustration">
-<p><strong>Illustration:</strong> Add Allison’s illustration of diagram from https://mine-cetinkaya-rundel.github.io/hello-quarto-sdssg/#/running-code</p>
+<div class="fragment fade-up">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/horst_qmd_render_schema.png" alt="A schema diagram showing what happens going from qmd file to final output. First, qmd is processed with either knir or jupyter. The result is an md file. Then, the md file is processed through Pandoc, and the result can be an HTML, PDF, Word document, or more."></p>
+</figure>
+</div>
 </div>
 <aside class="notes">
 <p>Now that you’ve all had a chance to see Quarto in action, a common first question may be “how are R Markdown and Quarto different, under the hood, particularly given that we can just rename an Rmd as a qmd, and it just works?”</p>
 <p>The main difference is that with R Markdown, the R package rmarkdown does the heavy lifting of going from source code, the Rmd file, to output, using knitr for evaluating executable code chunks.</p>
-<p>With Quarto, on the other hand, the Quarto command line interface, or the Quarto CLI, as commobly referred, does the orchestration of processing executable code chunks with either knitr or jupyter and then converting the resulting markdown file to the desired output.</p>
+<p>&lt;&gt; With Quarto, on the other hand, the Quarto command line interface, or the Quarto CLI, as commobly referred, does the orchestration of processing executable code chunks with either knitr or jupyter and then converting the resulting markdown file to the desired output.</p>
 <p>While this is technically impressive, I’ll be honest, it’s not exactly what sparked my interest in Quarto in the first place.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -811,8 +815,10 @@
 </div>
 <aside class="notes">
 <p>What did spark my interest was how easy, or, let’s not say easy, I don’t like that word in reference to any new technology, but how straightforward it is with Quarto to move between “things”, output types.</p>
-<p>As an educator, two things are of utmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats, like documents to slides to websites to books.</p>
-<p>Over the last year of using Quarto for pretty much everything, I’ve felt like I’ve finally found the tool that lets me go from one output type to the other with minimal, if any, futzing around with my source code beyond the yaml. For example, here are common things I produce &lt;&gt;a lesson in document form &lt;&gt;the same content in presentation form &lt;&gt;the same content embedded in a website, and you can see that all that needed to change is a few lines in the yaml. This has helped me focus my time on content, and that, folks, is the dream!</p>
+<p>As an educator, two things are of utmost importance to me about the tools I use to create my materials: reproducibility and ease of transition between output formats, like documents to slides to websites to books.</p>
+<p>Over the last year of using Quarto for pretty much everything, I’ve felt like I’ve finally found the tool that lets me go from one output type to the other with minimal, if any, futzing around with my source code beyond the yaml. For example, here are common things I produce</p>
+<p>&lt;&gt; a lesson in document form &lt;&gt; the same content in presentation form &lt;&gt; the same content on a page in a website,</p>
+<p>and you can see that all that needed to change going between these formats is a few lines in the yaml. Nothing in the content part of my document. No slide breaks to remove, no citation style to change, no headings to re-level. This ease of transition has freed up time to focus my time on content, and that, folks, is the dream! Now, whether I use that time to better my content or muck around with CSS to no end, I’ll let you guess!</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -836,7 +842,8 @@
 <p>It’s <strong>useful</strong> not just to you, but <strong>to the world</strong><br> as it facilitates open sharing of knowledge<br> for learning and for reuse</p>
 </div>
 <aside class="notes">
-<p>Easily creating reproducible artifacts is great. But for the sharing story to be complete, the tool also needs to support easily <em>sharing</em> those artifacts, like with a simple command like <code>quarto publish</code>, and hopefully soon a button RStudio that does the same thing.</p>
+<p>Ultimately, easily creating reproducible artifacts is great.</p>
+<p>But for the sharing story to be complete, the tool also needs to support easily <em>sharing</em> those artifacts, like with a simple command like <code>quarto publish</code>, and hopefully soon a button RStudio that does the same thing.</p>
 <p>&lt;&gt; I think that tooling that makes it easy to share what you do with the world on the web is incredibly useful.</p>
 <p>&lt;&gt; And it’s not just useful to you, the creator, but to the world, as it facilitates open sharing of knowledge for learning and for reuse.</p>
 <style type="text/css">
@@ -911,7 +918,7 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="section" class="slide level2" data-background-color="#0F1620" data-background-image="images/horst_openscapes_champions.jpg" data-background-size="contain" data-background-position="bottom right" data-fig-alt="Illustration of a grassy field by an ocean, there’s a river that meanders from the midground to the background on the right hand side. There are mountains in the background. The Openscapes hex logo is in the top left hand corner. In the foreground there are many animals: hermit crab working alone on a laptop, a sad rabbit on a laptop under a raincloud, a frustrated skunk on a laptop under a raincloud. Just over a bush is another group of animals: a fox with a welcome sign stands with a hedgehog holding map brochures In front of a larger park map. The fox and hedgehog are in front of a group of animals: a heron, a squirrel, a mouse holding a notebook, a raccoon, a snake, and a quail. In the midground, there’s a turtle, deer, owl and beaver by the river that has stepping stone rocks across. A roadrunner, lizard, blue bird, and rabbit, are walking down a path together, one of the other paths is blocked by a log. There’s a rowboat on the edge of the water. In the background, a duck, turtle, red squirrel, fox, and raven are walking single file over a wooden bridge that crosses the river. Most of the animals have coloured bandanas tied around their necks and a few are wearing hats. Up in the sky, there’s a satellite. Overlaid on the image is the OpenScapes hex logo.">
+<section id="openscapes-intro" class="slide level2" data-menu-title="Openscapes Intro" data-background-color="#0F1620" data-background-image="images/horst_openscapes_champions.jpg" data-background-size="contain" data-background-position="bottom right" data-fig-alt="Illustration of a grassy field by an ocean, there’s a river that meanders from the midground to the background on the right hand side. There are mountains in the background. The Openscapes hex logo is in the top left hand corner. In the foreground there are many animals: hermit crab working alone on a laptop, a sad rabbit on a laptop under a raincloud, a frustrated skunk on a laptop under a raincloud. Just over a bush is another group of animals: a fox with a welcome sign stands with a hedgehog holding map brochures In front of a larger park map. The fox and hedgehog are in front of a group of animals: a heron, a squirrel, a mouse holding a notebook, a raccoon, a snake, and a quail. In the midground, there’s a turtle, deer, owl and beaver by the river that has stepping stone rocks across. A roadrunner, lizard, blue bird, and rabbit, are walking down a path together, one of the other paths is blocked by a log. There’s a rowboat on the edge of the water. In the background, a duck, turtle, red squirrel, fox, and raven are walking single file over a wooden bridge that crosses the river. Most of the animals have coloured bandanas tied around their necks and a few are wearing hats. Up in the sky, there’s a satellite. Overlaid on the image is the OpenScapes hex logo.">
 <h2></h2>
 <aside class="notes">
 <p>Openscapes is a movement and a community that I launched in 2018 and have built together with my partner Erin Robinson.</p>
@@ -973,8 +980,11 @@ NOAA Southeast Fisheries Science Center</p>
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-1" class="slide level2 centered">
-<h2><img data-src="images/NASA_logo.png" style="width:18.0%"> <img data-src="images/openscapes_hex.png" style="width:12.0%"></h2>
+<section id="nasa-openscapes" class="slide level2" data-menu-title="NASA Openscapes">
+<h2></h2>
+<div class="centered">
+<p><img data-src="images/NASA_logo.png" style="width:18.0%"> <img data-src="images/openscapes_hex.png" style="width:12.0%"></p>
+</div>
 <div class="fragment">
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -1009,7 +1019,7 @@ NOAA Southeast Fisheries Science Center</p>
 <h2></h2>
 <p><span class="larger">Many Earth scientists <br> use Python <br> 😬</span></p>
 <aside class="notes">
-<p>Many NASA Earth scientists use python, and all tutorial development was focused in jupyter notebooks. And my role leading NASA Openscapes was not to learn python from the ground-up, but I needed to be able to collaborate and role model collaboration with python users. Transition: So I was intimiated about all this, but something powerful that I bring is years of experience with RMarkdown. RMarkdown has and it has so reshaped how I think about what’s possible that I think of it as a superpower.</p>
+<p>Many NASA Earth scientists use python, and all tutorial development was focused in jupyter notebooks. And my role leading NASA Openscapes was not to learn python from the ground-up, but I needed to be able to collaborate and role model collaboration with python users. Transition: So I was intimiated about all this, but I also brought something really powerful to this work. And that’s the experience and confidence I’ve developed as an RMarkdown user for over 8 years. RMarkdown has so reshaped how I think about what’s possible that I think of it as a superpower.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1022,11 +1032,11 @@ NOAA Southeast Fisheries Science Center</p>
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-2" class="slide level2" data-background-image="images/horst_rey_quarto.png" data-background-size="contain">
+<section id="star-wars-rey-quarto" class="slide level2" data-menu-title="Star Wars Rey Quarto" data-background-image="images/horst_rey_quarto.png" data-background-size="contain">
 <h2></h2>
 <aside class="notes">
-<p>And Quarto let me bring my experience and confidence to collaborating in python.</p>
-<p>I had been collaborating with J.J. Allaire for the past few years and I knew Quarto was emerging right when we needed it. I asked if we could use Quarto for NASA-Openscapes and this became a really exciting collaboration with the Quarto team and the NASA Mentors</p>
+<p>And Quarto let me bring this superpower to collaborating with python folks.</p>
+<p>Quarto was emerging right when we needed it; I had been collaborating with J.J. Allaire over the past few years and I asked if we could use Quarto for NASA-Openscapes. It was still quite early in its development and it became a really exciting collaboration with the Quarto developer team and the NASA Mentors, not only to be able to use this tool but also helped influence some of its design, particularly in the freeze feature that just Mine introduced.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1039,7 +1049,7 @@ NOAA Southeast Fisheries Science Center</p>
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-3" class="slide level2">
+<section id="nasa-cloud-hackathon" class="slide level2" data-menu-title="NASA Cloud Hackathon">
 <h2></h2>
 <div class="borderbox">
 <div class="quarto-figure quarto-figure-center">
@@ -1049,9 +1059,10 @@ NOAA Southeast Fisheries Science Center</p>
 </div>
 </div>
 <aside class="notes">
-<p>I’m not the only one intimidated - nervousness around new tech and what people didn’t know. it turned out everyone was but gave room to grow and learn</p>
-<p>This Quarto site we made for the Fall 2021 Cloud Hackathon was where we really found traction in working together with the Mentors was dev’ing tutorials for the hackathon.</p>
-<p>Through Openscapes gave them space and they dev’d a community, psych safety, getting comfortable learning new things, sharing imperfect work, giving feedback. And quarto gave them a place to collab and present their work on a beautiful way for learners.</p>
+<p>This Quarto site we made for the Fall 2021 Cloud Hackathon. Developing tutorials for this teaching event was really where we really found traction in working together and building this Mentor community.</p>
+<p>Quarto provided this place for us to collect those tutorials and present them in beautiful way for the hackathon participants, and that helped us develop tutorials thinking about those learners and really focusing our tutorial development with empathy for those learners.</p>
+<p>And it also gave us a way to learn something new together and identify other things to learn together. And it turned out this was really important, that I wasn’t the only person feeling intimidated by new tech and moving pieces and how to collaborate most effectively. We had all been assuming that everyone else knew things we didn’t and had it all figured out. It turned out it was really important that we had been building this trust and psychological safety so that we had room to grow and learn - ould ask questions, getting comfortable learning new things, sharing imperfect work, giving feedback.</p>
+<p>So from this investment in technology and collaboration,</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1064,7 +1075,7 @@ NOAA Southeast Fisheries Science Center</p>
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-4" class="slide level2 centered">
+<section id="section" class="slide level2 centered">
 <h2></h2>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -1082,8 +1093,8 @@ NOAA Southeast Fisheries Science Center</p>
 </div>
 </div>
 <aside class="notes">
-<p>Followed quickly by other iterations we were able to do with this same workflow</p>
-<p>Codifying this to the cookbook</p>
+<p>Followed quickly by other iterations we were able to do with this same workflow. They created other Quart sites for workshops as well as slide decks, as well as a central place to put the more stable tutorials that they had taught and tested (in a process that is reminding me more and more of how you would develop an R package from little scripts that you’ve tested and then modularlized). And all of these all of these sites are built from Jupyter notebooks.</p>
+<p>transtion: So let me show you what this looks like from Jupyter -</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1103,6 +1114,7 @@ NOAA Southeast Fisheries Science Center</p>
 <p><strong>THIS IS NOT THE FINAL DEMO, JUST TRYING EMBEDDING FROM DRIVE</strong></p>
 <aside class="notes">
 <p>Julie: …</p>
+<p>transition: So to emphasize two key things from our work with NASA Openscapes and Quarto:</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1116,7 +1128,7 @@ NOAA Southeast Fisheries Science Center</p>
       }</style></aside>
 </section>
 <section id="quarto-enables-collaborating-across-coding-languages" class="slide level2 takeaway center" data-highlight-style="github">
-<h2>Quarto enables collaborating across coding languages</h2>
+<h2>Quarto enables collaborating <br>across coding languages</h2>
 <p><br>
 </p>
 <div class="code-file sourceCode cell-code">
@@ -1138,8 +1150,8 @@ NOAA Southeast Fisheries Science Center</p>
 <span id="cb4-14"><a href="#cb4-14"></a><span class="at">      </span><span class="kw">-</span><span class="at"> contributing/quarto-website-tutorial.md</span></span>
 <span id="cb4-15"><a href="#cb4-15"></a><span class="at">  </span><span class="kw">-</span><span class="at"> troubleshooting.md</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <aside class="notes">
-<p>In fact, it’s mostly .ipynbs as you see in this simplified view of our <code>_quarto.yml</code> file. Being able to make a collection of tutorials in different language and file types has been a huge benefit for us working together.</p>
-<p>This is the setup we’ve had and it’s good because it turns out there is a big R community we are set up to support!</p>
+<p>Quarto enables collaborating across coding languages. This is a simplified view of the yaml from the Cloud Cookbook - you see it’s collection of tutorials with different file types. It’s mostly ipynbs and markdown since that is where we have started with our first year with the NASA Mentors.</p>
+<p>And, as we work with more research teams using NASA Earthdata Cloud data science we’ve found that why it is python heavey there is indeed a substantial R community as well. And we’re positioned to support R users too since this workflow we’ve developed with Quarto it’s not language-specific! We’ll be increasing our support for R users and experimenting more with reticulate to interoperate more between Python and R so stay tuned.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1153,7 +1165,7 @@ NOAA Southeast Fisheries Science Center</p>
       }</style></aside>
 </section>
 <section id="quarto-enables-contributing-from-our-current-tools" class="slide level2 takeaway center">
-<h2>Quarto enables contributing from our current tools</h2>
+<h2>Quarto enables contributing <br>from our current tools</h2>
 <div class="centered">
 <div class="columns">
 <div class="column" style="width:45%;">
@@ -1162,7 +1174,7 @@ NOAA Southeast Fisheries Science Center</p>
 </div>
 </div><div class="column" style="width:45%;">
 <div class="borderbox">
-<p><img data-src="images/tools-vscode-ide.png"></p>
+<p><img data-src="images/tools-jupyterhub.png"></p>
 </div>
 </div>
 </div>
@@ -1173,16 +1185,15 @@ NOAA Southeast Fisheries Science Center</p>
 </div>
 </div><div class="column" style="width:45%;">
 <div class="borderbox">
-<p><img data-src="images/tools-jupyterhub.png"></p>
+<p><img data-src="images/tools-vscode-ide.png"></p>
 </div>
 </div>
 </div>
 </div>
 <aside class="notes">
-<p>In our group, some use RStudio, some VS Code, some the GitHub IDE, and some JupyterLab</p>
-<p>And, we’re all able to work in whatever tool we’re already comfortable with as we contributed to this cookbook, which is possible since you install quarto as a command line too like git; it’s not an R package or a python package. So with people working in their current tools and Quarto working in each case, we didn’t need people to shift their software tools and instead could focus on upskilling around common pieces like Quarto and GitHub, but we didn’t need to upset or shift everyone’s software workflows, we could weave Quarto into existing workflows.</p>
-<p>And this has also have dividends because while I said that the Earth science community is python-heavy what we’ve learned the more we work with this NASA Cloud data we see there is a significant R community and we’re positioned to support them with this workflow we’ve developed because of Quarto it’s not language-specific</p>
-<p>What’s been neat about using your own tools is that it allows us to learn Quarto from the comfort of our own “homes” and this has teaching implications that Mine will talk about next.</p>
+<p>And, a second thing is that we’re all able to contribute from whatever tool we’re already comfortable with. I’ve just demoed jupyter but in fact in our group some use RStudio, some VS Code, some GitHub.</p>
+<p>And this was important because of all the new things we were learning together, we didn’t also need people to shift their software tools. Instead, everyone has been able to learn Quarto from the comfort of our own “homes”.</p>
+<p>Transition: And this has teaching implications that Mine will talk about next.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1222,7 +1233,12 @@ NOAA Southeast Fisheries Science Center</p>
 <p>Moving from R Markdown to Quarto is straightforward,<br> for experienced users and well as for new learners</p>
 </div>
 <aside class="notes">
-<p>Earlier I mentioned that Quarto makes moving between things straightforward, referring to various output formats as the “things”. An important question around “moving from one thing to another” that you might be wondering about is moving from teaching and learning R Markdown to Quarto as well as moving from teaching with R Markdown to Quarto. This past year I taught a regression class with 90 students, where a large majority had taken an introductory data science course previously where they learned R Markdown. For just one semester. And then we dropped them into a course that used Quarto instead, with a brief overview of the differences, like YAML style chunk options and rendering instead of knitting. And then we just let them run with it. And the transition was incredibly smooth for all students in the class. Not one mention of “why Quarto when we already learned R Markdown” in the evaluations, which, frankly, was a pleasant surprise to me. &lt;&gt;So, moving from R Markdown to Quarto is straightforward, for experienced users and well as for new learners. There are, of course, big differences technically between these two systems. However practically, for students who are just writing a single document for a given assignment and maybe an end of semester project with a handful of chapters, teaching and learning Quarto is practically not different than R Markdown. What is different, however, is the learning curve that comes after it.</p>
+<p>Earlier I mentioned that Quarto makes moving between things straightforward, referring to various output formats as the “things”.</p>
+<p>An important question around “moving from one thing to another” that you, particularly the educators in the audience, might be wondering about is moving from teaching and learning R Markdown to Quarto as well as moving your teaching materials from R Markdown to Quarto.</p>
+<p>This past year I taught a regression class at Duke with 90 students. A large majority of these students had taken an introductory data science course previously where they learned R Markdown, and had no other coursework with R or R Markdown.</p>
+<p>And we dropped them into a course that used Quarto instead, with a brief overview of the differences between Quarto and R Markdown, like YAML style chunk options and rendering instead of knitting, without getting into some of the technical details of the differences like we’ve done here.</p>
+<p>And then we just let them run with it. And the transition was incredibly smooth for all students in the class. Not even one mention of “why Quarto when we already learned R Markdown” in the evaluations, which, frankly, was a pleasant surprise to me. It seemed like their experience of transition was not much different than mine.</p>
+<p>&lt;&gt; So, moving from R Markdown to Quarto is straightforward, for experienced users and well as for new learners. There are, of course, big technical differences between these two systems. However, practically, for students who are mostly working on a single document for a given assignment and maybe an end of semester project with a handful of chapters, teaching and learning Quarto is practically not different than R Markdown. What is different, however, is the learning curve that comes after the initial introduction.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1245,6 +1261,10 @@ NOAA Southeast Fisheries Science Center</p>
 <li>Anecdote: Art history student writing thesis in Quarto. One semester to thesis writing a much less steep learning curve.</li>
 </ul>
 <aside class="notes">
+<p>Over the last decade I have thoroughly loved teaching R Markdown. It’s amazing when students hit that Knit button, see their code and their prose come together, and often you can hear a “wow” in the classroom the first time that happens. I’ve also loved that this is a tool that they could pick up easily on the first day of an intro course, and it could grow with them as their statistical and computational expertise grew.</p>
+<p>However, I have also struggled with students picking</p>
+<p>I believe there are two important factors in flattening the learning curve for going from authoring a single document to a more substantial project with multiple documents.</p>
+<p>First is the visual editor and then the fact that you don’t need to learn a new package, or a new citation style, or a new layout…</p>
 <p>A tool that’s teachable and friendly but also grows with them, grows with all of us</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -1430,7 +1450,7 @@ Ayana Elizabeth Johnson &amp; Katharine Wilkinson<br>
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-5" class="slide level2" data-background-color="#0F1620">
+<section id="section-1" class="slide level2" data-background-color="#0F1620">
 <h2></h2>
 <!---An actionable mosaic of voices --->
 <div class="columns">
@@ -1536,7 +1556,7 @@ Ayana Elizabeth Johnson &amp; Katharine Wilkinson<br>
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-6" class="slide level2" data-background-image="images/2021-Cloud-Hackathon-GroupPhotoWave.png" data-background-position="left bottom" data-background-opacity="0.7">
+<section id="section-2" class="slide level2" data-background-image="images/2021-Cloud-Hackathon-GroupPhotoWave.png" data-background-position="left bottom" data-background-opacity="0.7">
 <h2></h2>
 <aside class="notes">
 <p>Reimagining together Reimagining how we tackle challenges means integrating new tech, new behavior, new culture.</p>

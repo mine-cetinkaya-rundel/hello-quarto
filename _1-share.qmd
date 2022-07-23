@@ -56,7 +56,7 @@ Each package addresses a different need and offers a different output: for examp
 
 ## Quarto: Next generation R Markdown {transition="zoom"}
 
-![](images/horst_quarto_ball.png){fig-align="center" width="50%"}
+![](images/horst_quarto_ball_straight.png){fig-align="center" width="50%"}
 
 ::: notes
 Quarto unifies the functionality from these packages,
@@ -152,8 +152,8 @@ So, let's dive in and see what all the Quarto fuss is about!
 
 ## Quarto CLI orchestrates<br>each step of rendering {.takeaway .center}
 
-::: illustration
-**Illustration:** Add Allison's illustration of diagram from https://mine-cetinkaya-rundel.github.io/hello-quarto-sdssg/#/running-code
+::: {.fragment .fade-up}
+![](images/horst_qmd_render_schema.png){fig-alt="A schema diagram showing what happens going from qmd file to final output. First, qmd is processed with either knir or jupyter. The result is an md file. Then, the md file is processed through Pandoc, and the result can be an HTML, PDF, Word document, or more." fig-align="center"}
 :::
 
 ::: notes
@@ -161,7 +161,7 @@ Now that you've all had a chance to see Quarto in action, a common first questio
 
 The main difference is that with R Markdown, the R package rmarkdown does the heavy lifting of going from source code, the Rmd file, to output, using knitr for evaluating executable code chunks.
 
-With Quarto, on the other hand, the Quarto command line interface, or the Quarto CLI, as commobly referred, does the orchestration of processing executable code chunks with either knitr or jupyter and then converting the resulting markdown file to the desired output.
+\<\> With Quarto, on the other hand, the Quarto command line interface, or the Quarto CLI, as commobly referred, does the orchestration of processing executable code chunks with either knitr or jupyter and then converting the resulting markdown file to the desired output.
 
 While this is technically impressive, I'll be honest, it's not exactly what sparked my interest in Quarto in the first place.
 :::
@@ -223,11 +223,18 @@ website:
 ::: notes
 What did spark my interest was how easy, or, let's not say easy, I don't like that word in reference to any new technology, but how straightforward it is with Quarto to move between "things", output types.
 
-As an educator, two things are of utmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats, like documents to slides to websites to books.
+As an educator, two things are of utmost importance to me about the tools I use to create my materials: reproducibility and ease of transition between output formats, like documents to slides to websites to books.
 
 Over the last year of using Quarto for pretty much everything, I've felt like I've finally found the tool that lets me go from one output type to the other with minimal, if any, futzing around with my source code beyond the yaml.
-For example, here are common things I produce \<\>a lesson in document form \<\>the same content in presentation form \<\>the same content embedded in a website, and you can see that all that needed to change is a few lines in the yaml.
-This has helped me focus my time on content, and that, folks, is the dream!
+For example, here are common things I produce
+
+\<\> a lesson in document form \<\> the same content in presentation form \<\> the same content on a page in a website,
+
+and you can see that all that needed to change going between these formats is a few lines in the yaml.
+Nothing in the content part of my document.
+No slide breaks to remove, no citation style to change, no headings to re-level.
+This ease of transition has freed up time to focus my time on content, and that, folks, is the dream!
+Now, whether I use that time to better my content or muck around with CSS to no end, I'll let you guess!
 :::
 
 ## Quarto facilitates open sharing {.takeaway .center}
@@ -245,12 +252,13 @@ It's **useful** not just to you, but **to the world**<br> as it facilitates open
 :::
 
 ::: notes
-Easily creating reproducible artifacts is great. 
-But for the sharing story to be complete, the tool also needs to support easily _sharing_ those artifacts, like with a simple command like `quarto publish`, and hopefully soon a button RStudio that does the same thing.
+Ultimately, easily creating reproducible artifacts is great.
 
-<> I think that tooling that makes it easy to share what you do with the world on the web is incredibly useful.
+But for the sharing story to be complete, the tool also needs to support easily *sharing* those artifacts, like with a simple command like `quarto publish`, and hopefully soon a button RStudio that does the same thing.
 
-<> And it's not just useful to you, the creator, but to the world, as it facilitates open sharing of knowledge for learning and for reuse.
+\<\> I think that tooling that makes it easy to share what you do with the world on the web is incredibly useful.
+
+\<\> And it's not just useful to you, the creator, but to the world, as it facilitates open sharing of knowledge for learning and for reuse.
 :::
 
 ##  {#pass-to-collaborate background-image="images/horst_quarto_meteor.png" aria-label="Quarto logo depicted as a meteor against a dark background with a tail comprised of bright stars."}
