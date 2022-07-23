@@ -48,7 +48,7 @@ dots, and reimagining
 And this kind of reimagining and leadership is so critical
 :::
 
-##  {#all-we-can-save-mosaic .center data-menu-title="All We Can Save Mosaic of Voices" background-image="images/landsat_art_bolivia_lrg.jpg"}
+##  {#all-we-can-save-mosaic .center data-menu-title="All We Can Save Mosaic of Voices" background-image="https://drive.google.com/uc?export=view&id=1ZfBHj6mLHRWqd2RvUcqbwwBgcphdXTO_"}
 
 ::: quotebox
 To address our climate emergency, we must rapidly, radically reshape
@@ -193,8 +193,6 @@ Quarto helps us blur the lines
 
 but it's been really useful for others. Can move this forward
 
-
-
 Within this mosaic of voices, there is a range of technical skills, and
 it's important that that whole range can contribute and that a divide
 between who is technical or not, and this gap is widening. To make this
@@ -202,11 +200,16 @@ mosaic of voices actionable to tackle these big problems, we need
 strategies to close those gaps and blur those lines.
 :::
 
-## Quarto enables reimagining what contributing looks like {.takeaway .center background-image="images/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpeg" background-opacity="0.1"}
+## We can all reducing barriers, blur lines {.takeaway .center background-image="images/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpeg" background-opacity="0.1"}
+
+Space and place
+A big focus of Openscapes is helping researchers build psychologically safety within their teams, so that there is a strong culture of peer-learning and teaching, of asking questions, not assuming what people know or don't know, and trying to blur the lines of who can participate in technology.
+
+
 
 ::: midi
-Reducing barriers, blurring lines 
-** and how we value it**
+ 
+**Reimagine what contributing looks like and how we value it**
 
 \
 

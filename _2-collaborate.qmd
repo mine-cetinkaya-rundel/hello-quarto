@@ -1,7 +1,7 @@
 # Collaborate {.title-top-ice background-image="images/horst_penguins_telescope.png"}
 
 ::: notes
-Thanks Mine, let's next talk about Collaborating with Quarto
+Thanks Mine. I've learned so much from what others have shared openly and it's influenced so much about how I collaborate too
 :::
 
 ##  {#collaborate-intro .center data-menu-title="Collaborate - Intro"}
@@ -28,28 +28,30 @@ I've made this my job through Openscapes.
 ![](images/openscapes_hex.png){.absolute top="0" width="15%"}
 
 ::: notes
-Openscapes is a movement and a community that I launched and have built together with my partner Erin Robinson.
+Openscapes is a movement and a community that I launched in 2018 and have built together with my partner Erin Robinson.
 
-Our flagship activity is mentoring research teams in environmental open data science.
-Our role is welcome folks at the trailhead, meeting them where they are and helping them explore existing pathways and reduce bushwacking and as they navigate this landscape safely together.
-Since 2018 we've helped over 75 teams move from sad lonely workflows like the animals on bottom left and into this rich landscape full of open source software, data, and communities.
+Our flagship activity is mentoring research teams in open practices that can increase inclusive collaboration and accelerate data-driven solutions. 
+
+We think of open science as a landscape full of open source software, data, and communities, and many paths forward. 
+
+Our role is welcome folks at the trailhead, helping them move from feeling stuck and alone like these sad animals on bottom left and identify what's common with their team so they can safely explore and navigate this landscape safely together.
+
+We work primarily with environmental researchers, many who have been marine scientists and R users like me. One participant Adyan Rios has described this as saying: 
 :::
 
 ##  {#adyan-rios-quote .center data-menu-title="Adyan Rios Quote" background-image="images/torsten-dederichs-KrQJzrZiCak-unsplash.jpg"}
 
 ::: quotebox
-"As fisheries scientists, we know that when we're in rough seas, it's important to keep the ship afloat AND get out of the storm. Openscapes helps teams steer out of the storm of email chains with 37 versions of the same attachment and to the calmer waters of open science and meaningful collaboration, using tools like R"
+"As fisheries scientists, we know that when we're in rough seas, it's important to keep the ship afloat AND get out of the storm. Openscapes helps teams steer out of the storm of email chains with 37 versions of the same spreadsheet and to the calmer waters of open science and meaningful collaboration, using tools like R"
 
 Adyan Rios\
 NOAA Southeast Fisheries Science Center
 :::
 
 ::: notes
-This quote from Adyan Rios is one example
+Adyan Rios says "As fisheries scientists, we know that when we're in rough seas, it's important to keep the ship afloat AND get out of the storm. Openscapes helps teams steer out of the storm of email chains with 37 versions of the same attachment and to the calmer waters of open science and meaningful collaboration, using tools like R"
 
-A big focus of Openscapes is helping researchers build psychologically safety within their teams, so that there is a strong culture of peer-learning and teaching, of asking questions, not assuming what people know or don't know, and trying to blur the lines of who can participate in technology.
-
-\<\>The story I'd like to tell you now is with NASA.
+Working with research teams really blurs the lines between mentoring and collaboration, and that is definitely true of the story I'd like to tell you about NASA.
 :::
 
 ##  {#nasa-beach-ball .center data-menu-title="NASA Beach Ball" background-color="#000000"}
@@ -59,20 +61,16 @@ A big focus of Openscapes is helping researchers build psychologically safety wi
 </iframe>
 ```
 ::: notes
-NASA has been collecting unbelievable amounts of data about Earth for decades These data are freely available and help researchers tackle really critical questions about our planet, which is only more relevant with the impacts of climate change.
+With NASA you probably think about outer space, but they also collects an unbelievable amount of data about Earth. Researchers use NASA Earthdata to tackle all kinds of questions about our planet like XXX that are especially important to address the impacts of climate change.
 
-However, these data are stored by 12 different data centers around the US and researchers go to different data centers separately to download the data which is sometimes terrabytes to analyze it locally.
-(This is a huge burden on every user)
+However, these data are stored by 12 different data centers around the US and researchers have to download data separately from each data center and analyze it locally - until now.
 
-\<\> Now, as a result of many years of the preparation these NASA data centers are migrating these data to the Cloud hosted by AWS and others.
-
-In anticipation and support of this, those 12 data centers are gearing up to support researchers transition their workflows to the Cloud
-
-Erin had 10 years of experience working with NASA Earthdata and she brought NASA and openscapes together through a 3 year proposal that we cowrote and now lead together And in that work, what we've done is develop this mentor community across the Earthscience data centers
+Now, as a result of many years of the preparation these 12 data centers are migrating these data to the Cloud, hosted by AWS and others. And, in anticipation and support of this, the data centers will also support researchers who will be migrate their analytical workflows to the Cloud too. 
 :::
 
 ## ![](images/NASA_logo.png){width="18%"} ![](images/openscapes_hex.png){width="12%"} {.centered}
 
+::: fragment
 ::: columns
 ::: {.column width="50%"}
 **Develop a mentor community across NASA Earth science data centers** <br> <br> Co-create and teach common tutorials <br> to support researchers as they migrate analytical workflows to the Cloud
@@ -86,12 +84,16 @@ Erin had 10 years of experience working with NASA Earthdata and she brought NASA
 ![](images/2021-NASA-Openscapes-Mentors-Photoshop.png){width="80%"}
 :::
 :::
+:::
 
 ::: notes
-In this first year we've loved working with 5 of the data centers and have helped them co-create and teach common tutorials to support researchers with Earthdata Cloud we'll dive into that a bit more
+My partner Erin had 10 years of experience working with NASA Earthdata and she brought NASA and Openscapes together in a 3 year project that we lead together. 
 
-This was intimidating to me.
-This was the first proj I was a PI on, NASA as an org was intimdating, earth science remote sensing data is new I was unfamiliar with Earth science as a research domain, the types of satellite imagery data NASA works with, not to mention cloud infrastructure that is evolving rapidly.
+Our focus is in developing a mentor community across NASA Earth science data centers that has a unified approach to co-creating and teaching common tutorials to support researchers as they migrate analytical workflows to the Cloud
+
+So let me just stop here and say this is a big project. 
+
+And, it was really intimidating to me. Just working with NASA was intimidating to me, this is a huge organization that I've looked up to my whole life. Plus, I'm new to the kinds of data I'm new to earth science as a research discipline, I'm new to the kinds of remotely sensed data, not to mention cloud infrastructure that is evolving rapidly.
 
 \<\> And as an R user a fourth big thing that was intimidating to me -
 
@@ -103,7 +105,7 @@ https://science.nasa.gov/earth-science/earth-science-data
 [Many Earth scientists <br> use Python <br> 😬]{.larger}
 
 ::: notes
-Many NASA Earth scientists use python, and that's where the tutorial development was focused.
+Many NASA Earth scientists use python, and all tutorial development was focused in jupyter notebooks.
 And my role leading NASA Openscapes was not to learn python from the ground-up, but I needed to be able to collaborate and role model collaboration with python users.
 Transition:
 So I was intimiated about all this, but something powerful that I bring is years of experience with RMarkdown. RMarkdown has and it has so reshaped how I think about what's possible that I think of it as a superpower. 
@@ -241,6 +243,8 @@ This is the setup we've had and it's good because it turns out there is a big R 
 :::
 
 ::: notes
+In our group, some use RStudio, some VS Code, some the GitHub IDE, and some JupyterLab
+
 And, we're all able to work in whatever tool we're already comfortable with as we contributed to this cookbook, which is possible since you install quarto as a command line too like git; it's not an R package or a python package.
 So with people working in their current tools and Quarto working in each case, we didn't need people to shift their software tools and instead could focus on upskilling around common pieces like Quarto and GitHub, but we didn't need to upset or shift everyone's software workflows, we could weave Quarto into existing workflows.
 

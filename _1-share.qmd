@@ -1,24 +1,40 @@
 # Share {.title-middle-dark background-image="images/horst_quarto_penguins_share.png"}
 
-##  {#share-intro .center data-menu-title="Share - Intro" background-color="#0F1620"}
+##  {#share-intro .center data-menu-title="Share - Intro"}
 
-![](images/horst_penguins_nametag_mine.png){fig-alt="Penguin with nametag that says \"Mine\"" fig-align="center" width="700px"}
+::: columns
+
+::: {.column width="70%"}
+![](images/mine-venn.svg)
+:::
+
+::: {.column width="30%"}
+![](images/horst_penguins_nametag_mine.png){fig-alt="Penguin with nametag that says \"Mine\""}
+:::
+
+:::
 
 ::: notes
 Thanks Julie!
 
 I'm very excited to have this opportunity to talk to you about Quarto, which I've had the opportunity to live and breathe over the last year.
-I am an educator -- a developer educator at RStudio and a professor at Duke.
+I am an educator -- a developer educator at RStudio and a professor at Duke where I also do research in addition to my teaching.
 The word educator might make you think I'm in front of students, perhaps lecturing 24/7 but, in reality, I spend most of my time in front of my computer authoring and creating materials to share with the world: share with my students, share with my fellow educators, and share with anyone interested in learning the things I'm writing or talking about.
 Sometimes I'm writing a slide deck for a talk, sometimes creating a website for a course, sometimes writing books, sometimes journal articles.
 Whatever it is that I create, I share them all openly - that is, with an open license that allows for free use and reuse and adaptation.
-More often than not I'm thinking "web first" to ease open sharing and wider reach, but I also still live in the confines of traditional journal publishing and academia, which means I regularly need to create PDFs as well.
+More often than not I'm thinking "web first" to ease open sharing and wider reach, but I also still live in the confines of traditional journal publishing and academia, which means I regularly need to create PDF documents as well.
 So an authoring system that allows for multiple types of outputs from a single source that contains both code and prose is not only a time saver, but basically essential for me to carry on my existence.
 And for years, that tool has been R Markdown for me.
 
-In fact, I remember vividly the first time I've heard of knitr at useR 2012 and sitting in the audience and starting to convert my teaching materials to use it while the keynote was still going on.
+In fact, I remember vividly the first time I've heard of knitr at useR 2012. Yihui Xie and JJ Allaire gave a keynote on reproducible authoring with knitr and it must have been no more than 3 slides into their talk that fired up my laptop and started to converting my teaching materials to use it while the keynote was still going on because it so clearly addressed a huge pain point for me of creating web-ready, reproducible documents that brought code and prose together. And by the end of that keynote I was already brainstorming ways of teaching it in my intro stats course to my students.
 
-I'll call this a success if a few of you are already firing up Quarto right now, instead of listening to me, to see what all the hype is about!
+So, I'll call this keynote a success if a few of you are already firing up Quarto right now, instead of listening to me, to see what all the hype is about!
+:::
+
+## {#link-to-slides data-menu-title="Link to slides" .center background-image="images/horst_quarto_penguins_url.png"}
+
+::: notes
+But I hope you'll continue to listen with one ear and take in the beautiful illustrations by Allison Horst. And if you just want to sit back and enjoy the talk, feel free to cross your arms and I'll advance the slides for you.
 :::
 
 ## The R Markdown ecosystem
@@ -30,9 +46,9 @@ Julie mentioned unifying the R Markdown ecosystem so let's dig a bit more into w
 Each package addresses a different need and offers a different output: for example, you can use blogdown or distill for creating websites and blogs, bookdown for writing a book, rticles for writing journal articles, etc.
 :::
 
-## Quarto: Next generation R Markdown {transition="zoom"}
+## Quarto: Next generation R Markdown { transition="zoom"}
 
-![](images/horst_quarto_ball.png){width="900px" fig-align="center"}
+![](images/horst_quarto_ball.png){width="80%" fig-align="center"}
 
 ::: notes
 Quarto unifies the functionality from a wide range of packages from the R Markdown ecosystem, building on Pandoc on the technical side and years of experience developing, maintaining, and tweaking these packages as well as community feedback on the human side.
@@ -204,21 +220,26 @@ This has helped me focus my time on content, and that's the dream folks!
 
 ## Quarto facilitates open sharing {.takeaway .center}
 
+<br>
+
 ::: {.fragment .fade-up .large}
-Tooling that makes it easy to share what you do<br>with the world on the web is incredibly **useful**
+Tooling that makes it easy to share what you do<br>
+with the world on the web is incredibly **useful**
 :::
 
 <br>
 
 ::: {.fragment .fade-up .large}
-It's **useful** to the world<br>as it facilitates open sharing of knowledge<br>for learning and for reuse
+It's **useful** not just to you, but **to the world**<br>
+as it facilitates open sharing of knowledge<br>
+for learning and for reuse
 :::
 
 ::: notes
 It's easy to create and the next step is sharing and that's easy too
 :::
 
-##  {#pass-to-collaborate background-image="images/horst_quarto_meteor.png"}
+##  {#pass-to-collaborate background-image="images/horst_quarto_meteor.png" aria-label="Quarto logo depicted as a meteor against a dark background with a tail comprised of bright stars."}
 
 ::: notes
 I've been saying "I" a lot so far, I author slide decks, I create websites, etc.
