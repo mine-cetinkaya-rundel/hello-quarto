@@ -13,7 +13,7 @@ format:
 editor: visual
 ---
 
-##  {#hello-quarto data-menu-title="Hello Quarto" background-image="images/horst_penguins_telescope.png"}
+##  {#hello-quarto-title data-menu-title="Hello Quarto" background-image="images/horst_penguins_telescope.png"}
 
 [Hello Quarto]{.custom-title}
 
