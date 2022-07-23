@@ -17,7 +17,7 @@ Thanks Julie!
 
 I'm very excited to have this opportunity to talk to you about Quarto, which I've had the pleasure to live and breathe over the last year.
 
-I am an educator -- a developer educator at RStudio and a professor at Duke where I teach and conduct research.
+I work at the intersection of education, research, and development -- I am a developer educator at RStudio and a professor at Duke where I teach and conduct research.
 
 The word educator might make you think I'm in front of students lecturing 24/7 but, in reality, I spend most of my time in front of my computer authoring and creating materials to share with the world: share with my students, share with my fellow educators, and share with anyone interested in learning the things I'm writing or talking about.
 Sometimes I'm writing a slide deck for a talk, sometimes creating a website for a course, sometimes writing books, sometimes journal articles.

@@ -207,7 +207,7 @@ Over to you Mine!
 ::: notes
 Mine: with the last one, and you too can be a part of this change.
 We've talked about our experiences using Quarto and all the problems it has helped us solve and reimagine, but while Quarto is stable and ready for use, it's also just a baby that you too can be a part of its growth.
-So start using and start chiming in with feedback...
+So start using and start chiming in with feedback... or build an extension...
 :::
 
 # Thank you {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png"}
