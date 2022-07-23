@@ -111,17 +111,17 @@ Quarto unifies the functionality from a wide range of packages from the R Markdo
 \<\> and perhaps most excitingly for those who are not coming from the R ecosystem, Quarto offers support for other languages like Python, Julia, Observable, and more via the Jupyter engine, in addition to knitr, for executable code chunks
 :::
 
-##  {#demo-1 data-menu-title="Demo 1"}
+## {#demo-1 data-menu-title="Demo 1" background-color="#000000" .center}
 
-::: demo
-DEMO 1
-:::
+<iframe src="https://drive.google.com/file/d/1RCsho2BpfLk-cAS-E28EIwnjbqVmaVgV/preview" width="1600" height="900" allow="autoplay"></iframe>
+
+**THIS IS NOT THE FINAL DEMO, JUST TRYING EMBEDDING FROM DRIVE**
 
 ::: notes
 **Mine:**
 
 Alright, that's enough talking.
-Let's dive in and see what all the fuss is about!
+Let's dive in and see    what all the fuss is about!
 :::
 
 ## Quarto CLI orchestrates<br>each step of rendering {.takeaway .center}
@@ -194,7 +194,7 @@ website:
 **Mine:** What did spark my interest was how easy, or, let's not say easy, I don't like that word in reference to any new technology, but how straightforward it is with Quarto to move between "things".
 As an educator, two things are of utmost importance for me about the tools I use to create my materials: reproducibility and ease of transition between output formats (like documents to slides to websites to books).
 Over the last year of using Quarto for everything, I've felt like I've finally found the tool that lets me go from one to the other with minimal futzing around with my source code.
-This has helped me focus my time on my content, which has been a huge win.
+This has helped me focus my time on content, which is always the dream.
 :::
 
 ##  {#pass-to-collaborate background-image="images/horst_quarto_meteor.png"}
