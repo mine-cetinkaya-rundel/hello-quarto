@@ -48,6 +48,14 @@ $link-color: #75AADB;
   bottom: -10px;
 }
 
+.reveal .custom-url-middle-dark a {
+  color: #0F1620;
+  font-size: 1.75em;
+  position: absolute; 
+  left: 20px; 
+  top: -150px;
+}
+
 .reveal .custom-artwork {
   font-family: 'Delius Unicase', cursive;
   color: #d2e3f3;
@@ -140,7 +148,7 @@ $link-color: #75AADB;
   text-align: center;
 }
 
-.reveal .slide .quotebox {
+.reveal .slide .quotebox-transparent {
   border: 2px solid #FFFFFF;
   padding: 1em;
   background: rgb(231, 231, 232, 0.75);
@@ -150,6 +158,18 @@ $link-color: #75AADB;
   color: #0F1620;
   font-size: 1.1em;
 }
+
+.reveal .slide .quotebox-opaque {
+  border: 2px solid #FFFFFF;
+  padding: 1em;
+  background: rgb(231, 231, 232, 0.95);
+  position: absolute;
+  left: 15%;
+  width: 70%;
+  color: #0F1620;
+  font-size: 1.1em;
+}
+
 
 .reveal .slide .bulletbox {
   padding: 0.5em;
