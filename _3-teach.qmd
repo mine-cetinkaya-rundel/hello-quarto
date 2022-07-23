@@ -50,21 +50,3 @@ What is different, however, is the learning curve that comes after it.
 ::: notes
 Now back over to you one more time Julie.
 :::
-
-## Different on the outside, similar on the inside
-
-**OMIT THIS?**
-
-::: illustration
-**Image:** Screenshots of each next to each other on top row, folder organization of each on the bottom row. Top looks different, bottom looks very similar.
-
--   Teaching: Course website with obvious folders
--   Writing: Book - R4DS
--   Research: Journal articles
-:::
-
-::: notes
-Mine: And last 10% to tweak it for your context...
-:::
-
-
