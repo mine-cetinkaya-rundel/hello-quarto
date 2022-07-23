@@ -12,7 +12,7 @@ When I think about reimagining it's about approaching familiar things in new way
 
 ## {#ileana-fenwick-quote data-menu-title="Ileana Fenwick Quote"}
 
-::: quotebox
+::: quotebox-transparent
 FULL QUOTE UPCOMING Openscapes has really helped me think about science
 differently, it's more collaborative and less lonely, with so many
 people in open science as infinite ways to learn...
@@ -33,7 +33,7 @@ transition: And this kind of reimagining and leadership is so critical today -
 
 ##  {#all-we-can-save-mosaic .center data-menu-title="All We Can Save Mosaic of Voices" background-image="https://drive.google.com/uc?export=view&id=1ZfBHj6mLHRWqd2RvUcqbwwBgcphdXTO_"}
 
-::: quotebox
+::: quotebox-opaque
 To address our climate emergency, we must rapidly, radically reshape
 society. We need every solution and every solver. As the saying goes, to
 change everything, we need everyone. **What this moment calls for is a
@@ -248,8 +248,9 @@ Growing the mosaic. meeting people where they were
 
 \
 
-::: quotebox
-Addressing the climate crisis... will take everyone.\
+::: quotebox-opaque
+Addressing the climate crisis... 
+will take everyone.\
 
 We cannot, we must not, go it alone.\
 

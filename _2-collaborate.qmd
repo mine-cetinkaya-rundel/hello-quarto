@@ -40,7 +40,7 @@ We work primarily with environmental researchers, many who have been marine scie
 
 ##  {#adyan-rios-quote .center data-menu-title="Adyan Rios Quote" background-image="images/torsten-dederichs-KrQJzrZiCak-unsplash.jpg"}
 
-::: quotebox
+::: quotebox-transparent
 "As fisheries scientists, we know that when we're in rough seas, it's important to keep the ship afloat AND get out of the storm. Openscapes helps teams steer out of the storm of email chains with 37 versions of the same spreadsheet and to the calmer waters of open science and meaningful collaboration, using tools like R"
 
 Adyan Rios\
