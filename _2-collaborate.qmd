@@ -254,7 +254,7 @@ And this was important because of all the new things we were learning together, 
 Transition: And this has teaching implications that Mine will talk about next.
 :::
 
-##  {#pass-to-teach data-menu-title="Quarto Meteor Reverse" background-image="images/horst_quarto_meteor_reverse.png"}
+##  {#pass-to-teach data-menu-title="Quarto Meteor Reverse" background-image="images/horst-quarto-meteor-R-to-L.png"}
 
 ::: notes
 So now back over to you Mine.

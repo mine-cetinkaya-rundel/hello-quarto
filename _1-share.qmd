@@ -261,7 +261,7 @@ But for the sharing story to be complete, the tool also needs to support easily 
 \<\> And it's not just useful to you, the creator, but to the world, as it facilitates open sharing of knowledge for learning and for reuse.
 :::
 
-##  {#pass-to-collaborate background-image="images/horst_quarto_meteor.png" aria-label="Quarto logo depicted as a meteor against a dark background with a tail comprised of bright stars."}
+##  {#pass-to-collaborate background-image="images/horst-quarto-meteor-L-to-R.png" aria-label="Quarto logo depicted as a meteor against a dark background with a tail comprised of bright stars."}
 
 ::: notes
 I've been saying "I" a lot so far, I author slide decks, I create websites, etc.
