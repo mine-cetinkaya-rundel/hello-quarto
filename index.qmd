@@ -273,6 +273,8 @@ Annotated and hyperlink-y list of resources mentioned in the slides, in roughly 
 
 **FayLab Manual**
 
+- [How diversity makes us smarter](https://www.scientificamerican.com/article/how-diversity-makes-us-smarter/)
+
 Re: Gavin Fay on psychological safety: [Openscapes is Awesome! Building lab resources to sustain future us with tools from open data science](https://docs.google.com/presentation/d/1c624mH3md8pQHiP6rJ7HPuhxDLgNB7xvONDZlUM3f64/edit#slide=id.gb6050dd30d_0_0)
 
 See also: https://www.openscapes.org/blog/2022/02/17/esip-winter-2022/
