@@ -67,7 +67,7 @@ A tool that's teachable and friendly but also grows with them, grows with all of
 - Not just easy to go from simple documents -> meticulously formatted journal articles
 - But also across disciplines -- stats students using Jupyter in CS class can use Quarto too, maybe? That sounds like a bright future to me! And a bright future includes things we can't even imagine yet.
 
-## {#pass-to-teach background-image="images/horst-quarto-meteor-L-to-R.png"}
+## {#pass-to-reimagine data-menu-title="Pass to reimagine" background-image="images/horst-quarto-meteor-L-to-R.png" aria-label="Quarto logo depicted as a meteor against a dark background with a tail comprised of bright stars, going from left to right."}
 
 ::: notes
 So now Julie will talk about the role of Quarto in reimagining the future.

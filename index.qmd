@@ -33,7 +33,7 @@ As Mine and I have experimented with it in our own work we realize we love it, a
 Say out loud: rstd.io/hello-quarto and art by Allison Horst
 :::
 
-# Hello, Quarto? {.title-top-light background-image="images/horst_quarto_meteor_transparent.png"}
+# Hello, Quarto? {.title-top-light background-image="images/horst-quarto-meteor-transparent.png" aria-label="Quarto logo depicted as a meteor against a white background with a tail comprised of bright stars."}
 
 ::: notes
 But also, we know you have questions.
