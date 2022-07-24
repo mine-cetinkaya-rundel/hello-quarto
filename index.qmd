@@ -29,8 +29,6 @@ editor: visual
 Thank you so much, We're excited to be here!
 Mine and I have both been using Quarto for the last year; she has been teaching with it since its earliest days and my Openscapes team is the first external users of Quarto.
 As Mine and I have experimented with it in our own work we realize we love it, and we're thrilled to introduce and welcome you to Quarto.
-
-Say out loud: rstd.io/hello-quarto and art by Allison Horst
 :::
 
 # Hello, Quarto? {.title-top-light background-image="images/horst_quarto_meteor_transparent.png"}
@@ -73,11 +71,9 @@ Quarto **unifies** and **extends** <br>the R Markdown ecosystem
 :::
 
 ::: notes
-It unifies the R Markdown ecosystem by reducing little points of friction, so that websites, books, and slides all have a common approach.
+It unifies it for people who love R Markdown by reducing little points of friction, so that websites, books, and slides all have a common approach.
 
-And it extends it beyond R as a friendly way to work reproducibly with text and code in the same place
-
-\<\> It builds on 10 years of insight from R Markdown -
+And it extends it for people who don't know RMarkdown by being a friendly way to work reproducibly with text and code in the same place
 :::
 
 ##  {#publishing-system-1 .centered data-menu-title="Publishing system 1" background-color="#0F1620" auto-animate="true"}
@@ -117,7 +113,7 @@ The goal is to make the process of creating and collaborating on scientific and 
 ![](images/outline-1.png)
 
 ::: notes
-First Mine will focus on how Quarto unifies the R Markdown ecosystem through sharing and teaching
+First Mine will focus on how Quarto unifies the R Markdown ecosystem through stories of sharing and teaching
 :::
 
 ##  {#outline-2 .centered data-menu-title="Outline 2" auto-animate="true"}
@@ -125,7 +121,7 @@ First Mine will focus on how Quarto unifies the R Markdown ecosystem through sha
 ![](images/outline-2.png)
 
 ::: notes
-Then I will focus on how it extends the R Markdown ecosystem through collaborating and reimagining with Quarto
+Then I will focus on how Quarto extends the R Markdown ecosystem through stories of collaborating and reimagining
 :::
 
 ##  {#outline-3 .centered data-menu-title="Outline 3" auto-animate="true"}
@@ -133,7 +129,7 @@ Then I will focus on how it extends the R Markdown ecosystem through collaborati
 ![](images/outline-3.png)
 
 ::: notes
-Over to you Mine!
+We're excited to get started! Over to you Mine!
 :::
 
 {{< include _1-share.qmd >}}
@@ -272,7 +268,9 @@ Annotated and hyperlink-y list of resources mentioned in the slides, in roughly 
 
 [Reimagine]{.shout}
 
-**Approach Guide**
+**FayLab Manual**
+
+Re: Gavin Fay on psychological safety: [Openscapes is Awesome! Building lab resources to sustain future us with tools from open data science](https://docs.google.com/presentation/d/1c624mH3md8pQHiP6rJ7HPuhxDLgNB7xvONDZlUM3f64/edit#slide=id.gb6050dd30d_0_0)
 
 See also: https://www.openscapes.org/blog/2022/02/17/esip-winter-2022/
 
@@ -287,3 +285,8 @@ See also: https://www.openscapes.org/blog/2022/02/17/esip-winter-2022/
 **NASA images**
 
 -   <https://www.iowaview.org/wp-content/uploads/2019/09/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpg>
+
+**All We Can Save**
+
+How to answer the Q of "what should I do to fight climate change?" A: "What are you good at? Do that. Do that in the service of climate" -  ([ayanaeliza](https://twitter.com/juliesquid/status/1362573772096593923))
+

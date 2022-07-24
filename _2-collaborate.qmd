@@ -48,9 +48,9 @@ NOAA Southeast Fisheries Science Center
 :::
 
 ::: notes
-Adyan Rios says "As fisheries scientists, we know that when we're in rough seas, it's important to keep the ship afloat AND get out of the storm. Openscapes helps teams steer out of the storm of email chains with 37 versions of the same attachment and to the calmer waters of open science and meaningful collaboration, using tools like R"
+Adyan Rios says "As fisheries scientists, we know that when we're in rough seas, it's important to keep the ship afloat AND get out of the storm. Openscapes helps teams steer out of the storm of email chains with 37 versions of the same spreadsheet and to the calmer waters of open science and meaningful collaboration, using tools like R"
 
-Working with research teams really blurs the lines between mentoring and collaboration, and that is definitely true of the story I'd like to tell you about NASA.
+Working with research teams really XXreduces between mentoring and collaboration, and that is definitely true of the story I'd like to tell you about NASA.
 :::
 
 ##  {#nasa-beach-ball .center data-menu-title="NASA Beach Ball" background-color="#000000"}
@@ -64,7 +64,7 @@ With NASA you probably think about outer space, but they also collects an unbeli
 
 However, these data are stored by 12 different data centers around the US and researchers have to download data separately from each data center and analyze it locally - until now.
 
-Now, as a result of many years of the preparation these 12 data centers are migrating these data to the Cloud, hosted by AWS and others. And, in anticipation and support of this, the data centers will also support researchers who will be migrate their analytical workflows to the Cloud too. 
+Now, as a result of many years of the preparation these 12 data centers are migrating these data to the Cloud, hosted by AWS and others. ~And, in anticipation and support of this, the data centers will also support researchers who will be migrate their analytical workflows to the Cloud too.~ TODO 
 :::
 
 ## {#nasa-openscapes data-menu-title="NASA Openscapes"}
@@ -132,7 +132,7 @@ Allaire over the past few years and I asked if we could use Quarto for NASA-Open
 ::: notes
 This Quarto site we made for the Fall 2021 Cloud Hackathon. Developing tutorials for this teaching event was really where we really found traction in working together and building this Mentor community. 
 
-Quarto provided this place for us to collect those tutorials and present them in beautiful way for the hackathon participants, and that helped us develop tutorials thinking about those learners and really focusing our tutorial development with empathy for those learners. We could share one url with learners early, and continue to update it as the event neared and this vastly reduced the number of emails and eliminated the number of attachments sent.
+Quarto provided this place for us to collect those tutorials and present them in beautiful way for the hackathon participants, and that helped us develop tutorials thinking about those learners and really focusing our tutorial development with empathy for those learners. We could share one url with learners early, and continue to update it as the event neared and this vastly reduced the number of emails and eliminated the number of attachments sent. TODO wordy
 
 And it also gave us a way to learn something new together and identify other things to learn together. And it turned out this was really important, that I wasn't the only person feeling intimidated by new tech and moving pieces and how to collaborate most effectively. We had all been assuming that everyone else knew things we didn't and had it all figured out. It turned out it was really important that we had been building this trust and psychological safety so that we had room to grow and learn - 
 ould ask questions, getting comfortable learning new things, sharing imperfect work, giving feedback.
@@ -157,7 +157,7 @@ So from this investment in technology and collaboration,
 <br>
 
 ::: borderbox
-![](images/cookbook_contributing.png)
+![](images/cookbook.png)
 :::
 :::
 :::
@@ -165,7 +165,7 @@ So from this investment in technology and collaboration,
 ::: notes
 Followed quickly by other iterations we were able to do with this same workflow. They created other Quart sites for workshops as well as slide decks, as well as a central place to put the more stable tutorials that they had taught and tested (in a process that is reminding me more and more of how you would develop an R package from little scripts that you've tested and then modularlized). And all of these all of these sites are built from Jupyter notebooks. 
 
-transtion: So let me show you what this looks like from Jupyter - 
+transtion: Mine showed you how you can make something like this from qmd files and in RStudio, let me show you how to you can do this from Jpuyter with ipynb notebooks
 :::
 
 ##  {#demo-quarto-jupyter data-menu-title="Demo Quarto Jupter" background-color="#000000" .centered}
@@ -247,15 +247,14 @@ And, as we work with more research teams using NASA Earthdata Cloud data science
 :::
 
 ::: notes
-And, a second thing is that we're all able to contribute from whatever tool we're already comfortable with. I've just demoed jupyter but in fact in our group some use RStudio, some VS Code, some GitHub. 
+And, a second thing is that we're all able to contribute from whatever tool we're already comfortable with. I've just demoed jupyter but in fact in our group some use RStudio, some VS Code, some directly edit documents on GitHub. 
 
 And this was important because of all the new things we were learning together, we didn't also need people to shift their software tools. Instead, everyone has been able to learn Quarto from the comfort of our own "homes". 
 
-Transition: And this has teaching implications that Mine will talk about next.
 :::
 
 ##  {#pass-to-teach data-menu-title="Quarto Meteor Reverse" background-image="images/horst_quarto_meteor_reverse.png"}
 
 ::: notes
-So now back over to you Mine.
+Transition: And this has teaching implications that Mine will talk about next. 
 :::
