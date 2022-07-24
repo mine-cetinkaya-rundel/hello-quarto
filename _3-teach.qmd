@@ -8,14 +8,22 @@ Moving from R Markdown to Quarto is straightforward,<br> for experienced users a
 
 ::: notes
 Earlier I mentioned that Quarto makes moving between things straightforward, referring to various output formats as the "things".
-An important question around "moving from one thing to another" that you might be wondering about is moving from teaching and learning R Markdown to Quarto as well as moving from teaching with R Markdown to Quarto.
-This past year I taught a regression class with 90 students, where a large majority had taken an introductory data science course previously where they learned R Markdown. For just one semester. And then we dropped them into a course that used Quarto instead, with a brief overview of the differences, like YAML style chunk options and rendering instead of knitting. And then we just let them run with it. And the transition was incredibly smooth for all students in the class. Not one mention of "why Quarto when we already learned R Markdown" in the evaluations, which, frankly, was a pleasant surprise to me.
-<>So, moving from R Markdown to Quarto is straightforward, for experienced users and well as for new learners.
-There are, of course, big differences technically between these two systems. However practically, for students who are just writing a single document for a given assignment and maybe an end of semester project with a handful of chapters, teaching and learning Quarto is practically not different than R Markdown.
-What is different, however, is the learning curve that comes after it.
+
+An important question around "moving from one thing to another" that you, particularly the educators in the audience, might be wondering about is moving from teaching and learning R Markdown to Quarto as well as moving your teaching materials from R Markdown to Quarto.
+
+This past year I taught a regression class at Duke with 90 students. A large majority of these students had taken an introductory data science course previously where they learned R Markdown, and had no other coursework with R or R Markdown.
+
+And we dropped them into a course that used Quarto instead, with a brief overview of the differences between Quarto and R Markdown, like YAML style chunk options and rendering instead of knitting, without getting into some of the technical details of the differences like we've done here.
+
+And then we just let them run with it. And the transition was incredibly smooth for all students in the class. Not even one mention of "why Quarto when we already learned R Markdown" in the evaluations, which, frankly, was a pleasant surprise to me. It seemed like their experience of transition was not much different than mine.
+
+<> So, moving from R Markdown to Quarto is straightforward, for experienced users and well as for new learners.
+There are, of course, big technical differences between these two systems. However, practically, for students who are mostly working on a single document for a given assignment and maybe an end of semester project with a handful of chapters, teaching and learning Quarto is practically not different than R Markdown.
+What is different, however, is the learning curve that comes after the initial introduction.
 :::
 
 ## Flattening the learning curve
+
 
 - With Quarto simple quarto -> more complicated is not hard
 - With Rmd -> look at the power of what rmd did with a simple document, ecosystem flourishing creates lack of consistency, quarto is unifying -- rmd common thread but also lots of domain specific, lots of stuff to pick up in between, 10000ft view, distill in a common core
@@ -24,6 +32,16 @@ What is different, however, is the learning curve that comes after it.
 -  Anecdote: Art history student writing thesis in Quarto. One semester to thesis writing a much less steep learning curve.
 
 ::: notes
+Over the last decade I have thoroughly loved teaching R Markdown. It's amazing when students hit that Knit button, see their code and their prose come together, and often you can hear a "wow" in the classroom the first time that happens. I've also loved that this is a tool that they could pick up easily on the first day of an intro course, and it could grow with them as their statistical and computational expertise grew.
+
+However, I have also struggled with students picking 
+
+I believe there are two important factors in flattening the learning curve for going from authoring a single document to a more substantial project with multiple documents.
+
+First is the visual editor and then the fact that you don't need to learn a new package, or a new citation style, or a new layout...
+
+
+
 A tool that's teachable and friendly but also grows with them, grows with all of us
 :::
 
