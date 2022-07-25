@@ -1,9 +1,9 @@
 # Reimagine {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png"}
 
 ::: notes
-One way I think about reimagining is about approaching known things in new ways. It's about both technology and culture and how those both interplay.
+One way I think about reimagining is about approaching known things in new ways. And it's with both tools and culture that make this happen
 
-There are so many ways to take this idea and I want to focus first on reimagining science.
+Let's start - 
 :::
 
 ##  {background-color="#0F1620"}
@@ -13,21 +13,11 @@ Open science as a process
 :::
 
 ::: notes
-Exciting to see open approaches to the things we create in science. but we can go beyond open science as products and to open science as process. We've really focused on how we work through Openscapes. (short, next Ileana:)
+Exciting to see open approaches to the things we create in science. And, we're not limited to the traditional forms of science communication; we can go beyond open science as products and to open science as process. 
 
+We've really focused on how we work through Openscapes. 
 
-Reimagining science can start with openly available publications like Mine has showed us. But but we don't have to limit ourselves to only sharing at the end when things are final - that's a cultural artifact of how hard it used to be to print and share physical journal articles. Only sharing at the end delays the solutions we draw from science and it also maintains long-standing barriers and inequities of who gets to contribute in science.
-
-
-So we can go beyond open products and think about **open science as a process**. This includes sharing code as well as sharing ideas earlier, through blog posts describing experimental design or slides from a conference that share work in progress. There is a benefit to to sharing the process of science earlier, because ideas can be refined through feedback and leveraged in new ways so that we're not all reinventing on our own.
-
-This is where the open web and tools like Quarto are transforming science communication into something that is not something limited at the end but is an active part of ongoing research and enables a broader diversity of contributors.
-
-\<\> But we need to go beyond this again and **make open science as a process deliberately inclusive**. This includes the process of doing science within a lab group or research community. The benefit of this is that diverse communities are more innovative (which many studies have shown). Yet to a culture oriented around the printing press, it is a radical idea that everyone no matter where they are in terms of experience or seniority has something to contribute and also something to learn. I first experienced this feeling of deliberate inclusion from open source communities like R and Mozilla and that feeling is what Openscapes is trying to amplify in science.
-
-As we've grown we've continued to learn and incorporate inclusion more boldly in Openscapes curriculum and activities, because it is a practice that we can all improve just we can with coding and data science.
-
-transition: The FayLab is an example of a research group that is operationalizing this
+Ileana Fenwick is a marine scientist who participated in Openscapes and she says 
 :::
 
 ## {#ileana-fenwick-quote data-menu-title="Ileana Fenwick Quote" background-image="images/fenwick-scuba.jpg"}
@@ -37,7 +27,7 @@ Because of Openscapes, I have renewed hope in how we can bring about a kinder fu
 
 Ileana Fenwick
 
-Marine scientist, PhD Candidate UNC
+University of North Carolina, Openscapes
 :::
 
 ##  {background-color="#0F1620"}
