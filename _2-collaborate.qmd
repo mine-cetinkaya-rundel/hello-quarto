@@ -53,12 +53,8 @@ Adyan Rios says "As fisheries scientists, we know that when we're in rough seas,
 Working with research teams really XXreduces between mentoring and collaboration, and that is definitely true of the story I'd like to tell you about NASA.
 :::
 
-##  {#nasa-beach-ball .center data-menu-title="NASA Beach Ball" background-color="#000000"}
+##  {#nasa-beach-ball data-menu-title="NASA Beach Ball" background-video="videos/nasa-beach-ball.mp4" background-size="contain" background-color="#000000" .center}
 
-```{=html}
-<iframe src="https://drive.google.com/file/d/1PftRxKJ18XuFg9BT2E8czCWekbTe1Vb8/preview" width="1600" height="900" allow="autoplay">
-</iframe>
-```
 ::: notes
 With NASA you probably think about outer space, but they also collects an unbelievable amount of data about Earth. Researchers use NASA Earthdata to tackle all kinds of questions about our planet like XXX that are especially important to address the impacts of climate change.
 
@@ -162,21 +158,15 @@ So from this investment in technology and collaboration,
 :::
 
 ::: notes
-Followed quickly by other iterations we were able to do with this same workflow. They created other Quart sites for workshops as well as slide decks, as well as a central place to put the more stable tutorials that they had taught and tested (in a process that is reminding me more and more of how you would develop an R package from little scripts that you've tested and then modularlized). And all of these all of these sites are built from Jupyter notebooks. 
+Followed quickly by other iterations we were able to do with this same workflow. They created other Quart sites for workshops as well as slide decks, as well as a central place to put the more stable tutorials that they had taught and tested (in a process that is reminding me more and more of how you would develop an R package from little scripts that you've tested and then modularized). And all of these all of these sites are built from Jupyter notebooks. 
 
 transtion: Mine showed you how you can make something like this from qmd files and in RStudio, let me show you how to you can do this from Jpuyter with ipynb notebooks
 :::
 
-##  {#demo-quarto-jupyter data-menu-title="Demo Quarto Jupter" background-color="#000000" .centered}
-
-```{=html}
-<iframe src="https://drive.google.com/file/d/1RCsho2BpfLk-cAS-E28EIwnjbqVmaVgV/preview" width="1600" height="900" allow="autoplay">
-</iframe>
-```
-**THIS IS NOT THE FINAL DEMO, JUST TRYING EMBEDDING FROM DRIVE**
+##  {#demo-jupyter data-menu-title="Demo: Jupter" background-video="videos/demo-2-collaborate.mp4" background-size="contain" background-color="#FFFFFF" .center}
 
 ::: notes
-Julie: ...
+...
 
 transition: So to emphasize two key things from our work with NASA Openscapes and Quarto:
 :::
@@ -255,5 +245,5 @@ And this was important because of all the new things we were learning together, 
 ##  {#pass-to-teach data-menu-title="Pass to teach" background-image="images/horst-quarto-meteor-R-to-L.png" aria-label="Quarto logo depicted as a meteor against a dark background with a tail comprised of bright stars, going from right to left."}
 
 ::: notes
-Transition: And this has teaching implications that Mine will talk about next. 
+Transition: And this has teaching implications that Mine will talk about next.
 :::

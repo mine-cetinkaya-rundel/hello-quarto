@@ -159,13 +159,7 @@ Let me now demo Quarto with the Visual Editor, and let me preface by saying I th
 However, I don't mean to imply that it's only for new folks. It's designed for writing, and that means it's designed for markdown-savvy people as well - In fact I know J.J. Allaire prefers to do his own writing in the visual editor.
 :::
 
-## Demo: Quarto in the Visual Editor
-
-\
-
-::: demo
-**This box will be replaced with screen recording.**
-:::
+## {#demo-quarto-visual-editor data-menu-title="Demo: Visual Editor" background-video="videos/demo-2-reimagine.mp4" background-size="contain" background-color="#FFFFFF" .center}
 
 ::: notes
 transition: So I said that reimagining contributions in science is an interplay of technology and culture, and have just showed tools on the technical side
