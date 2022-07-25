@@ -119,7 +119,7 @@ Quarto was emerging right when we needed it; I had been collaborating with J.J.
 Allaire over the past few years and I asked if we could use Quarto for NASA-Openscapes. It was still quite early in its development and it became a really exciting collaboration with the Quarto developer team and the NASA Mentors, not only to be able to use this tool but also helped influence some of its design, particularly in the freeze feature that just Mine introduced. 
 :::
 
-## {#nasa-cloud-hackathon data-menu-title="NASA Cloud Hackathon"}
+## {#nasa-cloud-hackathon data-menu-title="NASA Cloud Hackathon" .center background-color="#0F1620"}
 
 ::: borderbox
 ![](images/hackathon.png){width="70%" fig-align="center"}
@@ -135,7 +135,7 @@ Quartot also gave us a way to learn something new together and that helped see o
 So from this investment in technology and collaboration, 
 :::
 
-## {.centered}
+## {#nasa-quarto-sites data-menu-title="NASA Quarto Sites" .centered background-color="#0F1620"}
 
 ::: columns
 ::: {.column width="50%"}
@@ -145,6 +145,10 @@ So from this investment in technology and collaboration,
 
 ::: borderbox
 ![](images/quarto_slides_steiker.png){width="80%"}
+:::
+
+::: borderbox
+![](imaswot-ocean-workshop.png){width="80%"}
 :::
 :::
 
