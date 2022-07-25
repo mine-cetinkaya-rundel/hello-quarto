@@ -260,6 +260,7 @@ Annotated and hyperlink-y list of resources mentioned in the slides, in roughly 
 **NASA Images**
 
 -   Spinning Globe Earthdata: <https://svs.gsfc.nasa.gov/30701>
+- NASA Hyperwall: <https://eospso.nasa.gov/content/about-nasas-hyperwall>
 
 **NASA-Openscapes** - [nasa-openscapes.github.io](https://nasa-openscapes.github.io)
 
@@ -271,21 +272,32 @@ Annotated and hyperlink-y list of resources mentioned in the slides, in roughly 
 
 [Reimagine]{.shout}
 
-**FayLab Manual**
+**Reimagining Science**
 
 - [How diversity makes us smarter](https://www.scientificamerican.com/article/how-diversity-makes-us-smarter/)
 
-Re: Gavin Fay on psychological safety: [Openscapes is Awesome! Building lab resources to sustain future us with tools from open data science](https://docs.google.com/presentation/d/1c624mH3md8pQHiP6rJ7HPuhxDLgNB7xvONDZlUM3f64/edit#slide=id.gb6050dd30d_0_0)
+**FayLab Manual**
 
-See also: https://www.openscapes.org/blog/2022/02/17/esip-winter-2022/
+- [Learning by doing: migrating to Quarto from Bookdown](https://www.openscapes.org/blog/2022/07/21/quarto-migrate/)
+- Re: Tara Robertson on psychological safety [A Chat with Tara Robertson](https://www.openscapes.org/blog/2021/05/27/tara-robertson/)
+- Re: Gavin Fay on psychological safety: [Openscapes is Awesome! Building lab resources to sustain future us with tools from open data science](https://docs.google.com/presentation/d/1c624mH3md8pQHiP6rJ7HPuhxDLgNB7xvONDZlUM3f64/edit#slide=id.gb6050dd30d_0_0)
 
 **Quarto Mosaic**
+
+See also: [3 takeaways for planning for the year of open science](https://www.openscapes.org/blog/2022/02/17/esip-winter-2022/)
 
 -   <https://nasa-openscapes.github.io/2022-LPDAAC-UWG-Breakout/>
 -   <https://podaac.github.io/2022-SWOT-Ocean-Cloud-Workshop/>
 -   <https://openscapes.github.io/approach-guide/>
 -   [NASA Earthdata Access in the Cloud Using Open-source libraries](https://nasa-openscapes.github.io/slides/Earthdata_Cloud__Open-Science-Tutorial.html#/title-slide) - Slides from a Jupyter Notebook by Amy Steiker. Involved development with the Quarto team in November 2021
 -   [Bio-logger Data from Ribbon and Spotted Seals: A Deep Dive](https://go.usa.gov/xus2a) - Slides by Josh London
+- [Tidy Movement Modeling with R](https://nmml.github.io/tidy-movt-modeling/) by Josh London et al
+
+**Demo: Visual Editor**
+
+Keyboard shortcuts: 
+
+- 
 
 **NASA images**
 

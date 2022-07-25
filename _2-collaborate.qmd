@@ -67,7 +67,7 @@ However, these data are stored by 12 different data centers around the US and re
 Now, as a result of many years of the preparation these 12 data centers are migrating these data to the Cloud, hosted by AWS and others. ~And, in anticipation and support of this, the data centers will also support researchers who will be migrate their analytical workflows to the Cloud too.~ TODO 
 :::
 
-## {#nasa-openscapes data-menu-title="NASA Openscapes"}
+## {#nasa-openscapes data-menu-title="NASA Openscapes" .center}
 
 ::: centered
 ![](images/NASA_logo.png){width="18%"} ![](images/openscapes_hex.png){width="12%"}
