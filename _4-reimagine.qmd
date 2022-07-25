@@ -177,7 +177,7 @@ And it's really up to all of us in science and otherwise to enable reimagining t
 So I'll end where I began and say that the work we do with Openscapes is at the intersection of actionable environmental science, data science, and open science. We're helping shift how scientists work and collaborate and Quarto is enabling and accelerating this shift. And we see all of this as part of the climate movement.
 :::
 
-##  {#all-we-can-save-mosaic .center data-menu-title="All We Can Save Mosaic of Voices" background-image="https://drive.google.com/uc?export=view&id=1ZfBHj6mLHRWqd2RvUcqbwwBgcphdXTO_"}
+##  {#all-we-can-save-mosaic .center data-menu-title="All We Can Save Mosaic of Voices" background-image="images/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpg"}
 
 ::: quotebox-opaque
 To address our climate emergency, we must rapidly, radically reshape society. We need every solution and every solver. ... **What this moment calls for is a mosaic of voices** -- the full spectrum of ideas and insights for how we can turn things around.\
