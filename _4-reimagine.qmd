@@ -97,43 +97,28 @@ All of this together is part of culture change and reimagining science. It reall
 Quarto has been a really powerful tool for us already for culture change because it's a workflow that people can contribute to early, whether or not they are contributing code.
 :::
 
-## Share earlier; reuse, extend (and credit!) good ideas {background-color="#0F1620"}
-
-<!---An actionable mosaic of voices --->
+## {#approach-guide data-menu-title="Approach Guide" .centered background-color="#0F1620"}
 
 ::: columns
-::: {.column width="20%"}
+::: {.column width="50%"}
 ::: borderbox
-![](images/cookbook.png) ![](images/hackathon.png) ![](images/swot-ocean-workshop.png)
+![](images/approach-guide.png) 
 :::
 :::
 
-::: {.column width="20%"}
-::: borderbox
-![](images/quarto_slides_steiker.png) ![](images/cloud_workshop_agu.png) ![](images/openscapes-events.png) ![](images/seal-slides-london.png)
-:::
-:::
+::: {.column width="50%"}
+<br>
 
-::: {.column width="20%"}
 ::: borderbox
-![](images/faylab-labmanual.png) ![](images/lpdaac-uwg.png) ![](images/quarto-website-tutorial.png)
-:::
-:::
 
-::: {.column width="20%"}
-::: borderbox
-![](images/nasa-openscapes-website.png) ![](images/ecostress.png) ![](images/esip_winter2022_slides.png) ![](images/nmfs-openscapes.png)
-:::
-:::
+\
+\
 
-::: {.column width="20%"}
-::: borderbox
-![](images/champions-lesson-series.png) ![](images/tidy-movement-london.png) ![](images/approach-guide.png)
+![](images/nmfs-openscapes.png)
 :::
 :::
 :::
 
-**TO DO: Low priority - animate these to come on automatically one by one**
 
 ::: notes
 The Openscapes community has been to take these ideas and be pretty prolific about sharing them more broadly with Quarto. These images are all linked so you can learn more about each; they are all examples of **sharing earlier** and in a way that doesn't mean lower quality, but it means unfinished as an invitation for feedback and connection across silos, whether those silos are within a traditional lab group or across federal agencies.
