@@ -62,9 +62,9 @@ Working with research teams really XXreduces between mentoring and collaboration
 ::: notes
 With NASA you probably think about outer space, but they also collects an unbelievable amount of data about Earth. Researchers use NASA Earthdata to tackle all kinds of questions about our planet like XXX that are especially important to address the impacts of climate change.
 
-However, these data are stored by 12 different data centers around the US and researchers have to download data separately from each data center and analyze it locally - until now.
+These data are stored by 12 different data centers around the US and researchers have to download sometimes terrabyes of data and analyze it locally - which puts a lot of burden on research groups using this data.
 
-Now, as a result of many years of the preparation these 12 data centers are migrating these data to the Cloud, hosted by AWS and others. ~And, in anticipation and support of this, the data centers will also support researchers who will be migrate their analytical workflows to the Cloud too.~ TODO 
+Now,following many years of the preparation, these 12 data centers are migrating these data to the Cloud, hosted by AWS and others. Aligning with this migration the data centers will support researchers who will be migrating their analytical workflows to the Cloud too. 
 :::
 
 ## {#nasa-openscapes data-menu-title="NASA Openscapes" .center}
@@ -130,11 +130,11 @@ Allaire over the past few years and I asked if we could use Quarto for NASA-Open
 :::
 
 ::: notes
-This Quarto site we made for the Fall 2021 Cloud Hackathon. Developing tutorials for this teaching event was really where we really found traction in working together and building this Mentor community. 
+This Quarto site we made for the Fall 2021 Cloud Hackathon. Developing tutorials for this teaching event was really where we really found traction in working together as a Mentor community. Openscapes had been providing the space for people to come together, and 
 
-Quarto provided this place for us to collect those tutorials and present them in beautiful way for the hackathon participants, and that helped us develop tutorials thinking about those learners and really focusing our tutorial development with empathy for those learners. We could share one url with learners early, and continue to update it as the event neared and this vastly reduced the number of emails and eliminated the number of attachments sent. TODO wordy
+Quarto provided the place for us to work together and build a collection of the tutorials and present them in beautiful way for the hackathon participants.
 
-And it also gave us a way to learn something new together and identify other things to learn together from GitHub Actions to X. And it turned out this was really important, that I wasn't the only person feeling intimidated by new tech and moving pieces and how to collaborate most effectively. We had all been assuming what everyone else knew rather than asking and talking about it
+Quartot also gave us a way to learn something new together and that helped see other parts of our workflow where we could learn more together, like with GitHub Actions. And it turned out this was really important, that I wasn't the only person feeling intimidated by new tech and moving pieces and how to collaborate most effectively. We had all been assuming what everyone else knew rather than asking and talking about it
 
 So from this investment in technology and collaboration, 
 :::

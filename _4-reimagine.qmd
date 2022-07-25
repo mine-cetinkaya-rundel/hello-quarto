@@ -1,40 +1,24 @@
 # Reimagine {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png"}
 
 ::: notes
-When I think about reimagining it's about approaching known things in new ways. It's about both technology and culture and how those both interplay.
+One way I think about reimagining is about approaching known things in new ways. It's about both technology and culture and how those both interplay.
 
-There are so many ways to run with this and I want to focus first on reimagining science.
+There are so many ways to take this idea and I want to focus first on reimagining science.
 :::
 
-##  {#reimagining-science-1 .centered data-menu-title="Reimagining Science 1" background-color="#0F1620" auto-animate="true"}
+##  {background-color="#0F1620"}
 
 ::: {style="margin-top: 150px; font-size: 3em; color: #75AADB;"}
-Reimagining science
-:::
-
-::: notes
-Reimagining science can start with openly available publications like Mine has showed us. But but we don't have to limit ourselves to only sharing at the end when things are final - that's a cultural artifact of how hard it used to be to print and share physical journal articles. Only sharing at the end delays the solutions we draw from science and it also maintains long-standing barriers and inequities of who gets to contribute in science.
-:::
-
-##  {#reimagining-science-2 .centered data-menu-title="Reimagining Science 2" background-color="#0F1620" auto-animate="true"}
-
-::: {style="margin-top: 100px; font-size: 2.2em; color: #75AADB"}
-Reimagining science
-:::
-
-<br>
-
-::: large
 Open science as a process
 :::
 
-<br>
-
-::: {.fragment .fade-up .large fragment-index="2"}
-that we must make deliberately inclusive
-:::
-
 ::: notes
+Exciting to see open approaches to the things we create in science. but we can go beyond open science as products and to open science as process. We've really focused on how we work through Openscapes. (short, next Ileana:)
+
+
+Reimagining science can start with openly available publications like Mine has showed us. But but we don't have to limit ourselves to only sharing at the end when things are final - that's a cultural artifact of how hard it used to be to print and share physical journal articles. Only sharing at the end delays the solutions we draw from science and it also maintains long-standing barriers and inequities of who gets to contribute in science.
+
+
 So we can go beyond open products and think about **open science as a process**. This includes sharing code as well as sharing ideas earlier, through blog posts describing experimental design or slides from a conference that share work in progress. There is a benefit to to sharing the process of science earlier, because ideas can be refined through feedback and leveraged in new ways so that we're not all reinventing on our own.
 
 This is where the open web and tools like Quarto are transforming science communication into something that is not something limited at the end but is an active part of ongoing research and enables a broader diversity of contributors.
@@ -46,7 +30,28 @@ As we've grown we've continued to learn and incorporate inclusion more boldly in
 transition: The FayLab is an example of a research group that is operationalizing this
 :::
 
-##  {#faylab-manual-2 data-menu-title="FayLab Manual"}
+## {#ileana-fenwick-quote data-menu-title="Ileana Fenwick Quote" background-image="images/fenwick-scuba.jpg"}
+
+::: .quotebox-opaque
+Because of Openscapes, I have renewed hope in how we can bring about a kinder future in science through collaboration. I see a commitment in the open science community to bridging the gaps where we've left members of our community behind, and it inspires me. 
+
+Ileana Fenwick
+
+Marine scientist, PhD Candidate UNC
+:::
+
+##  {background-color="#0F1620"}
+
+::: {style="margin-top: 150px; font-size: 3em; color: #75AADB;"}
+Technical and cultural approaches to reduce barriers
+:::
+
+::: notes
+
+:::
+
+
+##  {#faylab-manual data-menu-title="FayLab Manual"}
 
 ::: columns
 ::: {.column width="60%"}

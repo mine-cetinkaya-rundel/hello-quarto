@@ -26,20 +26,13 @@ editor: visual
 [artwork by allison horst]{.custom-artwork}
 
 ::: notes
-Thank you so much, We're excited to be here!
-Mine and I have both been using Quarto for the last year; she has been teaching with it since its earliest days and my Openscapes team is the first external users of Quarto.
-As Mine and I have experimented with it in our own work we realize we love it, and we're thrilled to introduce and welcome you to Quarto.
+Thank you so much, We're excited to be here! Mine and I have both been using Quarto for the last year; she has been teaching with it since its earliest days and my Openscapes team is the first external users of Quarto. As Mine and I have experimented with it in our own work we realize we love it, and we're thrilled to introduce and welcome you to Quarto.
 :::
 
 # Hello, Quarto? {.title-top-light background-image="images/horst-quarto-meteor-transparent.png" aria-label="Quarto logo depicted as a meteor against a white background with a tail comprised of bright stars."}
 
 ::: notes
-But also, we know you have questions.
-Mine and I did too.
-What is Quarto?
-Why Quarto?
-And how does it relate to R Markdown and to other tools you already use and workflows you already have?
-\<\> Well -
+But also, we know you have questions. Mine and I did too. What is Quarto? Why Quarto? And how does it relate to R Markdown and to other tools you already use and workflows you already have? \<\> Well -
 :::
 
 ##  {#unifies-extends-1 .centered data-menu-title="Unifies and extends 1" background-color="#0F1620" auto-animate="true"}
@@ -201,9 +194,7 @@ We're excited to get started! Over to you Mine!
 :::
 
 ::: notes
-Mine: with the last one, and you too can be a part of this change.
-We've talked about our experiences using Quarto and all the problems it has helped us solve and reimagine, but while Quarto is stable and ready for use, it's also just a baby that you too can be a part of its growth.
-So start using and start chiming in with feedback... or build an extension...
+Mine: with the last one, and you too can be a part of this change. We've talked about our experiences using Quarto and all the problems it has helped us solve and reimagine, but while Quarto is stable and ready for use, it's also just a baby that you too can be a part of its growth. So start using and start chiming in with feedback... or build an extension...
 :::
 
 # Thank you {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png"}
@@ -260,7 +251,7 @@ Annotated and hyperlink-y list of resources mentioned in the slides, in roughly 
 **NASA Images**
 
 -   Spinning Globe Earthdata: <https://svs.gsfc.nasa.gov/30701>
-- NASA Hyperwall: <https://eospso.nasa.gov/content/about-nasas-hyperwall>
+-   NASA Hyperwall: <https://eospso.nasa.gov/content/about-nasas-hyperwall>
 
 **NASA-Openscapes** - [nasa-openscapes.github.io](https://nasa-openscapes.github.io)
 
@@ -274,13 +265,13 @@ Annotated and hyperlink-y list of resources mentioned in the slides, in roughly 
 
 **Reimagining Science**
 
-- [How diversity makes us smarter](https://www.scientificamerican.com/article/how-diversity-makes-us-smarter/)
+-   [How diversity makes us smarter](https://www.scientificamerican.com/article/how-diversity-makes-us-smarter/)
 
 **FayLab Manual**
 
-- [Learning by doing: migrating to Quarto from Bookdown](https://www.openscapes.org/blog/2022/07/21/quarto-migrate/)
-- Re: Tara Robertson on psychological safety [A Chat with Tara Robertson](https://www.openscapes.org/blog/2021/05/27/tara-robertson/)
-- Re: Gavin Fay on psychological safety: [Openscapes is Awesome! Building lab resources to sustain future us with tools from open data science](https://docs.google.com/presentation/d/1c624mH3md8pQHiP6rJ7HPuhxDLgNB7xvONDZlUM3f64/edit#slide=id.gb6050dd30d_0_0)
+-   [Learning by doing: migrating to Quarto from Bookdown](https://www.openscapes.org/blog/2022/07/21/quarto-migrate/)
+-   Re: Tara Robertson on psychological safety [A Chat with Tara Robertson](https://www.openscapes.org/blog/2021/05/27/tara-robertson/)
+-   Re: Gavin Fay on psychological safety: [Openscapes is Awesome! Building lab resources to sustain future us with tools from open data science](https://docs.google.com/presentation/d/1c624mH3md8pQHiP6rJ7HPuhxDLgNB7xvONDZlUM3f64/edit#slide=id.gb6050dd30d_0_0)
 
 **Quarto Mosaic**
 
@@ -291,13 +282,13 @@ See also: [3 takeaways for planning for the year of open science](https://www.op
 -   <https://openscapes.github.io/approach-guide/>
 -   [NASA Earthdata Access in the Cloud Using Open-source libraries](https://nasa-openscapes.github.io/slides/Earthdata_Cloud__Open-Science-Tutorial.html#/title-slide) - Slides from a Jupyter Notebook by Amy Steiker. Involved development with the Quarto team in November 2021
 -   [Bio-logger Data from Ribbon and Spotted Seals: A Deep Dive](https://go.usa.gov/xus2a) - Slides by Josh London
-- [Tidy Movement Modeling with R](https://nmml.github.io/tidy-movt-modeling/) by Josh London et al
+-   [Tidy Movement Modeling with R](https://nmml.github.io/tidy-movt-modeling/) by Josh London et al
 
 **Demo: Visual Editor**
 
-Keyboard shortcuts: 
+Keyboard shortcuts:
 
-- 
+-   
 
 **NASA images**
 
@@ -305,5 +296,5 @@ Keyboard shortcuts:
 
 **All We Can Save**
 
-How to answer the Q of "what should I do to fight climate change?" A: "What are you good at? Do that. Do that in the service of climate" -  ([ayanaeliza](https://twitter.com/juliesquid/status/1362573772096593923))
+How to answer the Q of "what should I do to fight climate change?" A: "What are you good at? Do that. Do that in the service of climate" - ([ayanaeliza](https://twitter.com/juliesquid/status/1362573772096593923))
 
