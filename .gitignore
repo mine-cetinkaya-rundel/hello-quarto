@@ -5,3 +5,4 @@
 *.key
 *.m4v
 .DS_Store
+videos/*
