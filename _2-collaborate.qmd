@@ -17,8 +17,8 @@ Thanks Mine. I've learned so much from what others have shared openly and it's i
 :::
 
 ::: notes
-As you heard earlier I work at the intersection of actionable environmental science, data science, and open science.
-What I absolutely love doing is mentoring, teaching, and empowering teams, having learned from so many of you who are here or listening today.
+I work at the intersection of actionable environmental science, data science, and open science. 
+What I absolutely love doing is mentoring, teaching, and empowering communities. And I learned that I loved this because of the R and Mozilla communities, having learned from so many of you who are here or listening today.
 
 I've made this my job through Openscapes.
 :::
@@ -164,6 +164,7 @@ What followed quickly was other iterations we were able to do with this same wor
 
 There's 2 things I want to hightlight here -
 :::
+
 
 ## Quarto enables collaborating <br>across coding languages {.takeaway .center highlight-style="github"}
 

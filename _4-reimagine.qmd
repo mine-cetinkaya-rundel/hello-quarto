@@ -1,12 +1,11 @@
 # Reimagine {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png"}
 
 ::: notes
-One way I think about reimagining is about approaching known things in new ways. And it's with both tools and culture that make this happen
+One way I think about reimagining is about approaching known things in new ways. And that then helps you approach the unknown things. And it's with both tools and culture that make this happen
 
-Let's start - 
 :::
 
-##  {background-color="#0F1620"}
+## {#open-process data-menu-title="Open Process" background-color="#0F1620" .centered}
 
 ::: {style="margin-top: 150px; font-size: 3em; color: #75AADB;"}
 Open science as a process
@@ -20,20 +19,19 @@ We've really focused on how we work through Openscapes.
 Ileana Fenwick is a marine scientist who participated in Openscapes and she says 
 :::
 
-## {#ileana-fenwick-quote data-menu-title="Ileana Fenwick Quote" background-image="images/fenwick-scuba.jpg"}
+## {#ileana-fenwick-quote data-menu-title="Ileana Fenwick Quote" background-image="images/fenwick-scuba.jpg" background-size="contain"}
 
-::: .quotebox-opaque
+::: quotebox-transparent-low
 Because of Openscapes, I have renewed hope in how we can bring about a kinder future in science through collaboration. I see a commitment in the open science community to bridging the gaps where we've left members of our community behind, and it inspires me. 
 
 Ileana Fenwick
-
 University of North Carolina, Openscapes
 :::
 
-##  {background-color="#0F1620"}
+##  {#reduce-barriers data-menu-title="Reduce Barriers" background-color="#0F1620" .centered}
 
 ::: {style="margin-top: 150px; font-size: 3em; color: #75AADB;"}
-Technical and cultural approaches to reduce barriers
+Technical <> cultural approaches to reduce barriers
 :::
 
 ::: notes
@@ -41,7 +39,7 @@ Technical and cultural approaches to reduce barriers
 :::
 
 
-##  {#faylab-manual data-menu-title="FayLab Manual"}
+##  {#faylab-manual data-menu-title="FayLab Manual" background-color="#0F1620"}
 
 ::: columns
 ::: {.column width="60%"}
@@ -56,19 +54,25 @@ Technical and cultural approaches to reduce barriers
 \
 
 ::: fragment
+::: {style="color: white;"}
 [**1. Make the implicit explicit**]{.midi}
 :::
-
-\
-
-::: fragment
-[**2. Onboard learners as contributors**]{.midi}
 :::
 
 \
 
 ::: fragment
+::: {style="color: white;"}
+[**2. Onboard learners as contributors**]{.midi}
+:::
+:::
+
+\
+
+::: fragment
+::: {style="color: white;"}
 [**3. Build trust and psychological safety**]{.midi}
+:::
 :::
 :::
 :::
@@ -97,14 +101,14 @@ Quarto has been a really powerful tool for us already for culture change because
 :::
 
 ::: {.column width="50%"}
-<br>
-
 ::: borderbox
 
 \
 \
+\
 
 ![](images/nmfs-openscapes.png)
+
 :::
 :::
 :::
@@ -155,7 +159,9 @@ So I'll end where I began and say that the work we do with Openscapes is at the 
 ##  {#all-we-can-save-mosaic .center data-menu-title="All We Can Save Mosaic of Voices" background-image="images/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpg"}
 
 ::: quotebox-opaque
-To address our climate emergency, we must rapidly, radically reshape society. We need every solution and every solver. ... **What this moment calls for is a mosaic of voices** -- the full spectrum of ideas and insights for how we can turn things around.\
+'We' speaks to the collective, to collaboration, to community, to the relational work at hand. Addressing the climate crisis...will take everyone. 
+
+'We' speaks to justice, to how we do the work that needs doing and whose contributions are valued. We cannot, we must not, go it alone”
 
 \
 Ayana Elizabeth Johnson & Katharine Wilkinson\

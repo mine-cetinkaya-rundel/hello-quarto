@@ -159,6 +159,18 @@ $link-color: #75AADB;
   font-size: 1.1em;
 }
 
+.reveal .slide .quotebox-transparent-low {
+  border: 2px solid #FFFFFF;
+  padding: 1em;
+  background: rgb(231, 231, 232, 0.75);
+  position: absolute;
+  left: 15%;
+  bottom: 1%;
+  width: 70%;
+  color: #0F1620;
+  font-size: 1.1em;
+}
+
 .reveal .slide .quotebox-opaque {
   border: 2px solid #FFFFFF;
   padding: 1em;
