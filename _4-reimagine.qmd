@@ -1,17 +1,23 @@
 # Reimagine {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png"}
 
 ::: notes
-One way I think about reimagining is about approaching known things in new ways. And that then helps you approach the unknown things. And it's with both tools and culture that make this happen
+Reimagining to me is about approaching known things in new ways and then taking that experience to approach the unknown things. 
 
 :::
 
-## {#open-process data-menu-title="Open Process" background-color="#0F1620" .centered}
-
-::: {style="margin-top: 150px; font-size: 3em; color: #75AADB;"}
-Open science as a process
-:::
+##  {#usgs-mosaic .center data-menu-title="USGS Mosaic" background-image="images/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpg"}
 
 ::: notes
+Openscapes is helping reimagine how people work and how they contribute to addressing the biggest challenges in our lifetime. 
+
+Our work is part of the climate movement. It's about helping people who care deeply about climate to bring that to their work through open science
+
+It's about connecting big challenges with small daily actions. People are feeling stuck by things big and small - 
+
+We're reimaging 
+
+Intentional about tools and culture
+
 Exciting to see open approaches to the things we create in science. And, we're not limited to the traditional forms of science communication; we can go beyond open science as products and to open science as process. 
 
 We've really focused on how we work through Openscapes. 
@@ -31,7 +37,11 @@ University of North Carolina, Openscapes
 ##  {#reduce-barriers data-menu-title="Reduce Barriers" background-color="#0F1620" .centered}
 
 ::: {style="margin-top: 150px; font-size: 3em; color: #75AADB;"}
-Technical <> cultural approaches to reduce barriers
+Lowering barriers 
+
+Deliberate inclusion
+
+Tech <> culture
 :::
 
 ::: notes
@@ -44,7 +54,7 @@ Technical <> cultural approaches to reduce barriers
 ::: columns
 ::: {.column width="60%"}
 ::: borderbox
-![](images/faylab-labmanual.png)
+![](images/faylab-labmanual.png){fig-alt="Screenshot of a Quarto site that is a lab manual of shared practices"}
 :::
 :::
 
@@ -96,7 +106,7 @@ Quarto has been a really powerful tool for us already for culture change because
 ::: columns
 ::: {.column width="50%"}
 ::: borderbox
-![](images/approach-guide.png) 
+![](images/approach-guide.png){fig-alt="Screenshot of a Quarto site that is a guide of the Openscapes Approach"}
 :::
 :::
 
@@ -107,7 +117,7 @@ Quarto has been a really powerful tool for us already for culture change because
 \
 \
 
-![](images/nmfs-openscapes.png)
+![](images/nmfs-openscapes.png){fig-alt="Screenshot of a Quarto site that is community building and teaching platform for NOAA Fisheries"}
 
 :::
 :::
@@ -127,7 +137,7 @@ What's beautiful about this too is that we can use Quarto as a tool both for rep
 \
 
 ::: borderbox
-![](images/visual_editor.png){fig-align="center" width="70%"}
+![](images/visual_editor.png){fig-align="center" width="70%" fig-alt="RStudio IDE"}
 :::
 
 ::: notes
@@ -146,7 +156,7 @@ transition: So I said that reimagining contributions in science is an interplay 
 
 ## We all can enable reimagining {.takeaway .center}
 
-![](images/2021-Cloud-Hackathon-GroupPhotoWave.png){fig-align="center"}
+![](images/2021-Cloud-Hackathon-GroupPhotoWave.png){fig-align="center" fig-alt="Screenshot of waving and smiling faces on Zoom"}
 
 \
 

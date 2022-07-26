@@ -17,23 +17,21 @@ Thanks Mine. I've learned so much from what others have shared openly and it's i
 :::
 
 ::: notes
-I work at the intersection of actionable environmental science, data science, and open science. 
-What I absolutely love doing is mentoring, teaching, and empowering communities. And I learned that I loved this because of the R and Mozilla communities, having learned from so many of you who are here or listening today.
+I work at the intersection of actionable environmental science, data science, and open science. What I absolutely love doing is mentoring, teaching, and empowering communities. And I learned that I loved this because of the R and Mozilla communities, having learned from so many of you who are here or listening today.
 
 I've made this my job through Openscapes.
 :::
-
 
 ##  {#openscapes-intro data-menu-title="Openscapes Intro" background-color="#0F1620" background-image="images/horst_openscapes_champions.jpg" background-size="contain" background-position="bottom right" fig-alt="Illustration of a grassy field by an ocean, there’s a river that meanders from the midground to the background on the right hand side. There are mountains in the background. The Openscapes hex logo is in the top left hand corner. In the foreground there are many animals: hermit crab working alone on a laptop, a sad rabbit on a laptop under a raincloud, a frustrated skunk on a laptop under a raincloud. Just over a bush is another group of animals: a fox with a welcome sign stands with a hedgehog holding map brochures In front of a larger park map. The fox and hedgehog are in front of a group of animals: a heron, a squirrel, a mouse holding a notebook, a raccoon, a snake, and a quail. In the midground, there’s a turtle, deer, owl and beaver by the river that has stepping stone rocks across. A roadrunner, lizard, blue bird, and rabbit, are walking down a path together, one of the other paths is blocked by a log. There’s a rowboat on the edge of the water. In the background, a duck, turtle, red squirrel, fox, and raven are walking single file over a wooden bridge that crosses the river. Most of the animals have coloured bandanas tied around their necks and a few are wearing hats. Up in the sky, there’s a satellite. Overlaid on the image is the OpenScapes hex logo."}
 
 ::: notes
 Openscapes is a movement and a community that I launched in 2018 and have built together with my partner Erin Robinson.
 
-Our flagship activity is mentoring research teams in open science. We think of open science as a landscape full of open source software, data, and communities, and many paths forward. 
+Our flagship activity is mentoring research teams in open science. We think of open science as a landscape full of open source software, data, and communities, and many paths forward.
 
 Our role is welcome teams at the trailhead, helping them seem themselves as a team rather than all feeling stuck and alone like these sad animals on bottom left and we help them start safely navigate this landscape safely together.
 
-We work with professional research groups, and we help these adult learners weave new software and practices into their own work. Adyan Rios is a participant and mentor with us and she's described Openscapes as saying: 
+We work with professional research groups, and we help these adult learners weave new software and practices into their own work. Adyan Rios is a participant and mentor with us and she's described Openscapes as saying:
 :::
 
 ##  {#adyan-rios-quote .center data-menu-title="Adyan Rios Quote" background-image="images/torsten-dederichs-KrQJzrZiCak-unsplash.jpg"}
@@ -51,20 +49,20 @@ Adyan Rios says "As fisheries scientists, we know that when we're in rough seas,
 Working with research teams really XXreduces between mentoring and collaboration, and that is definitely true of the story I'd like to tell you about NASA.
 :::
 
-##  {#nasa-beach-ball data-menu-title="NASA Beach Ball" background-video="videos/nasa-beach-ball.mp4" background-size="contain" background-color="#000000" .center}
+##  {#nasa-beach-ball .center data-menu-title="NASA Beach Ball" background-video="videos/nasa-beach-ball.mp4" background-size="contain" background-color="#000000"}
 
 ::: notes
 With NASA you probably think about outer space, but they also collects an unbelievable amount of data about Earth. Researchers use NASA Earthdata to tackle all kinds of questions about our planet like wildfire and that are especially important to address the impacts of climate change.
 
-These data are stored by 12 different data centers around the US and are freely available - but researchers have to download what is sometimes terrabyes of data and analyze it locally - which puts a lot of burden on research groups. 
+These data are stored by 12 different data centers around the US and are freely available - but researchers have to download what is sometimes terrabyes of data and analyze it locally - which puts a lot of burden on research groups.
 
-Now, following many years of the preparation, these data are migrating to the Cloud, and the data centers will support researchers who will be migrating their analytical workflows to the Cloud too. 
+Now, following many years of the preparation, these data are migrating to the Cloud, and the data centers will support researchers who will be migrating their analytical workflows to the Cloud too.
 :::
 
-## {#nasa-openscapes data-menu-title="NASA Openscapes" .center}
+##  {#nasa-openscapes .center data-menu-title="NASA Openscapes"}
 
 ::: centered
-![](images/NASA_logo.png){width="18%"} ![](images/openscapes_hex.png){width="12%"}
+![](images/NASA_logo.png){width="18%" fig-alt="NASA circular logo"} ![](images/openscapes_hex.png){width="12%" fig-alt="Openscapes logo"}
 :::
 
 ::: fragment
@@ -74,21 +72,21 @@ Now, following many years of the preparation, these data are migrating to the Cl
 
 <br>
 
-![](images/nasa-daac-logos.png){width="70%"}
+![](images/nasa-daac-logos.png){width="70%" fig-alt="logos of five NASA Earth science data centers: LP DAAC, NSIDC, PO.DAAC, ASDC, GES DISC, and IMPACT"}
 :::
 
 ::: {.column width="50%"}
-![](images/2021-NASA-Openscapes-Mentors-Photoshop.png){width="80%"}
+![](images/2021-NASA-Openscapes-Mentors-Photoshop.png){width="80%" fig-alt="Screenshot of smiling faces on Zoom"}
 :::
 :::
 :::
 
 ::: notes
-My partner Erin had 10 years of experience working with NASA Earthdata and she brought NASA and Openscapes together in a 3 year project. 
+My partner Erin had 10 years of experience working with NASA Earthdata and she brought NASA and Openscapes together in a 3 year project.
 
 Our focus is in developing a mentor community across NASA Earth science data centers to co-create and teach common tutorials to support researchers in this effort
 
-So let me just stop here and say this is a big project. 
+So let me just stop here and say this is a big project.
 
 And, it was really intimidating to me. NASA is a huge organization that I've looked up to my whole life. I'm also new to the kinds and size of data I'm new to earth science as a research discipline, I'm new to the kinds of remotely sensed data, not to mention cloud infrastructure that is evolving rapidly.
 
@@ -102,25 +100,23 @@ https://science.nasa.gov/earth-science/earth-science-data
 [Many Earth scientists <br> use Python <br> 😬]{.larger}
 
 ::: notes
-Many NASA Earth scientists use python, and all tutorial development was focused in jupyter notebooks.
-And my role leading NASA Openscapes was not to learn python from the ground-up, but I needed to be able to collaborate and role model collaboration with python users.
+Many NASA Earth scientists use python, and all tutorial development was focused in jupyter notebooks. And my role leading NASA Openscapes was not to learn python from the ground-up, but I needed to be able to collaborate and role model collaboration with python users.
 
-Transition:
-But I also realized I brought something really powerful to this work. I have 8 years of experience and confidence that I've developed as an RMarkdown user and it' been so impactful on the way I think about the world that I consider it a superpower. 
+Transition: But I also realized I brought something really powerful to this work. I have 8 years of experience and confidence that I've developed as an RMarkdown user and it' been so impactful on the way I think about the world that I consider it a superpower.
 :::
 
-##  {#star-wars-rey-quarto data-menu-title="Star Wars Rey Quarto" background-image="images/horst_rey_quarto.png" background-size="contain"}
+##  {#star-wars-rey-quarto data-menu-title="Star Wars Rey Quarto" background-image="images/horst_rey_quarto.png" background-size="contain" fig-alt="Illustration of Rey from Star Wars using the Force with Quarto"}
 
 ::: notes
-And Quarto let me bring this superpower to python. 
+And Quarto let me bring this superpower to python.
 
-Quarto was emerging right when we needed it. I asked J.J. Allaire if we could use it and it was still quite early in its development and it became a really exciting collaboration with the Quarto developer team and the NASA Mentors since this tool was exactly what we needed and in fact by using it we were able to help influence some of its design, particularly in the freeze feature that just Mine introduced. 
+Quarto was emerging right when we needed it. I asked J.J. Allaire if we could use it and it was still quite early in its development and it became a really exciting collaboration with the Quarto developer team and the NASA Mentors since this tool was exactly what we needed and in fact by using it we were able to help influence some of its design, particularly in the freeze feature that just Mine introduced.
 :::
 
-## {#nasa-cloud-hackathon data-menu-title="NASA Cloud Hackathon" .center background-color="#0F1620"}
+##  {#nasa-cloud-hackathon .center data-menu-title="NASA Cloud Hackathon" background-color="#0F1620"}
 
 ::: borderbox
-![](images/hackathon.png){width="70%" fig-align="center"}
+![](images/hackathon.png){width="70%" fig-align="center" fig-alt="Screenshot of Quarto site for a NASA hackathon learning event"}
 :::
 
 ::: notes
@@ -128,25 +124,25 @@ This Quarto site we made for our first teaching event and it's where we really f
 
 Quarto provided the place for us to work together and create collections of the tutorials that we could present in a really friendly way our learners.
 
-Quarto also gave us a way to learn something new together and that was really important bc it turned out I wasn't the only person feeling intimidated and this process helped us identify other things to learn together. 
+Quarto also gave us a way to learn something new together and that was really important bc it turned out I wasn't the only person feeling intimidated and this process helped us identify other things to learn together.
 
-So from this investment in our workflow - 
+So from this investment in our workflow -
 :::
 
-## {#nasa-quarto-sites data-menu-title="NASA Quarto Sites" .centered background-color="#0F1620"}
+##  {#nasa-quarto-sites .centered data-menu-title="NASA Quarto Sites" background-color="#0F1620"}
 
 ::: columns
 ::: {.column width="50%"}
 ::: borderbox
-![](images/cloud_workshop_agu.png){width="80%"}
+![](images/cloud_workshop_agu.png){width="80%" fig-alt="Screenshot of Quarto site for a NASA workshop learning event"}
 :::
 
 ::: borderbox
-![](images/quarto_slides_steiker.png){width="80%"}
+![](images/quarto_slides_steiker.png){width="80%" fig-alt="Screenshot of Quarto slides  a NASA conference talk"}
 :::
 
 ::: borderbox
-![](imaswot-ocean-workshop.png){width="80%"}
+![](images/swot-ocean-workshop.png){width="80%" fig-alt="Screenshot of Quarto site for a NASA workshop learning event"}
 :::
 :::
 
@@ -154,17 +150,16 @@ So from this investment in our workflow -
 <br>
 
 ::: borderbox
-![](images/cookbook.png)
+![](images/cookbook.png){fig-alt="Screenshot of Quarto site for a NASA Cloud Cookbook"}
 :::
 :::
 :::
 
 ::: notes
-What followed quickly was other iterations we were able to do with this same workflow but for specific audiences to help meet them where they are. All of these that you're seeing are built with Jupyter notebooks. 
+What followed quickly was other iterations we were able to do with this same workflow but for specific audiences to help meet them where they are. All of these that you're seeing are built with Jupyter notebooks.
 
 There's 2 things I want to hightlight here -
 :::
-
 
 ## Quarto enables collaborating <br>across coding languages {.takeaway .center highlight-style="github"}
 
@@ -193,9 +188,9 @@ contents:
 ```
 
 ::: notes
-Quarto enables collaborating across coding languages.  This is a simplified view of the yaml from the Cloud Cookbook - you see it's collection of tutorials with different file types. It's mostly ipynbs and markdown since that is where we have started with our first year with the NASA Mentors.
+Quarto enables collaborating across coding languages. This is a simplified view of the yaml from the Cloud Cookbook - you see it's collection of tutorials with different file types. It's mostly ipynbs and markdown since that is where we have started with our first year with the NASA Mentors.
 
-And, as we work with more research teams we've found that there is indeed a substantial R community using NASA Earthdata Cloud data. And we're positioned to support R users too since this workflow we've developed with Quarto it's not language-specific which is just so awesome! We'll be increasing our support for R users and experimenting more with reticulate to interoperate more between Python and R so stay tuned. 
+And, as we work with more research teams we've found that there is indeed a substantial R community using NASA Earthdata Cloud data. And we're positioned to support R users too since this workflow we've developed with Quarto it's not language-specific which is just so awesome! We'll be increasing our support for R users and experimenting more with reticulate to interoperate more between Python and R so stay tuned.
 :::
 
 ## Quarto enables contributing <br>from our current tools {.takeaway .center}
@@ -204,13 +199,13 @@ And, as we work with more research teams we've found that there is indeed a subs
 ::: columns
 ::: {.column width="45%"}
 ::: borderbox
-![](images/tools-rstudio-ide.png)
+![](images/tools-rstudio-ide.png){fig-alt="Screenshot of RStudio IDE"}
 :::
 :::
 
 ::: {.column width="45%"}
 ::: borderbox
-![](images/tools-jupyterhub.png)
+![](images/tools-jupyterhub.png){fig-alt="Screenshot of Jupyter Lab"}
 :::
 :::
 :::
@@ -218,30 +213,29 @@ And, as we work with more research teams we've found that there is indeed a subs
 ::: columns
 ::: {.column width="45%"}
 ::: borderbox
-![](images/tools-github-ide.png)
+![](images/tools-github-ide.png){fig-alt="Screenshot of GitHub IDE"}
 :::
 :::
 
 ::: {.column width="45%"}
 ::: borderbox
-![](images/tools-vscode-ide.png)
+![](images/tools-vscode-ide.png){fig-alt="Screenshot of VS Code IDE"}
 :::
 :::
 :::
 :::
 
 ::: notes
-2) we're all able to contribute from whatever tool we're already comfortable with. In our group some use RStudio, some use JupyterLab some VS Code, some directly edit documents on GitHub. 
+2)  we're all able to contribute from whatever tool we're already comfortable with. In our group some use RStudio, some use JupyterLab some VS Code, some directly edit documents on GitHub.
 
-And this was important because of all the new things we were learning together, we didn't also need people to shift their software tools. Instead, everyone has been able to learn Quarto from the comfort of our own "homes". 
+And this was important because of all the new things we were learning together, we didn't also need people to shift their software tools. Instead, everyone has been able to learn Quarto from the comfort of our own "homes".
 
-transtion: Mine showed you how you use Quarot with qmd files and in RStudio, let me show you how to you can do this from Jpuyter with ipynb notebooks
+transtion: Mine showed you how you use Quarot with qmd files and in RStudio, let me show you how to you can do this from Jupyter with ipynb notebooks
 :::
 
-##  {#demo-jupyter data-menu-title="Demo: Jupter" background-video="videos/demo-2-collaborate.mp4" background-size="contain" background-color="#FFFFFF" .center}
+##  {#demo-jupyter .center data-menu-title="Demo: Jupter" background-video="videos/demo-2-collaborate.mp4" background-size="contain" background-color="#FFFFFF"}
 
 ::: notes
-
 :::
 
 ##  {#pass-to-teach data-menu-title="Pass to teach" background-image="images/horst-quarto-meteor-R-to-L.png" aria-label="Quarto logo depicted as a meteor against a dark background with a tail comprised of bright stars, going from right to left."}
