@@ -1,28 +1,21 @@
 # Reimagine {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png"}
 
 ::: notes
-Reimagining to me is about approaching known things in new ways and then taking that experience to approach the unknown things. 
+We're helping teams reimagine how they work, thinking differently about approaching big challenges as part of their daily work
 
+this is important because our work is part of the climate movement.
 :::
 
 ##  {#usgs-mosaic .center data-menu-title="USGS Mosaic" background-image="images/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpg"}
 
 ::: notes
-Openscapes is helping reimagine how people work and how they contribute to addressing the biggest challenges in our lifetime. 
-
-Our work is part of the climate movement. It's about helping people who care deeply about climate to bring that to their work through open science
+We've seen a really important benefit of an open science mindset how their daily work is connected to the broader big picture. **Our work is part of the climate movement.** It's about helping people who care deeply about climate to bring that to their work through open science
 
 It's about connecting big challenges with small daily actions. People are feeling stuck by things big and small - 
 
-We're reimaging 
+So we help them develop open science as a mindset, that is about their process and extends beyond the open products alone
 
-Intentional about tools and culture
-
-Exciting to see open approaches to the things we create in science. And, we're not limited to the traditional forms of science communication; we can go beyond open science as products and to open science as process. 
-
-We've really focused on how we work through Openscapes. 
-
-Ileana Fenwick is a marine scientist who participated in Openscapes and she says 
+This quote from Ileana Fenwick represents why we do the work we do, and why it's so important to focus on inclusion and people and seeing this connection
 :::
 
 ## {#ileana-fenwick-quote data-menu-title="Ileana Fenwick Quote" background-image="images/fenwick-scuba.jpg" background-size="contain"}
@@ -37,14 +30,25 @@ University of North Carolina, Openscapes
 ##  {#reduce-barriers data-menu-title="Reduce Barriers" background-color="#0F1620" .centered}
 
 ::: {style="margin-top: 150px; font-size: 3em; color: #75AADB;"}
-Lowering barriers 
-
-Deliberate inclusion
 
 Tech <> culture
 :::
 
 ::: notes
+Empowering people is about tech and culture together. 
+
+- Reducing barriers
+
+- Deliberate inclusion
+
+- What contributions are valued and by whom
+
+
+It really does require both technical skills and bravery to participate in open science.
+
+Solutions exist like lightbulbs and regenerative farming but what has been missing is meaningful collaboration, both on the tooling and on the cultural side. We think that Openscapes and quarto really can help this cultural shift
+
+Quarto has been a really powerful tool for us already for culture change because it's a workflow that people can contribute to early, whether or not they are contributing code.
 
 :::
 
@@ -81,24 +85,21 @@ Tech <> culture
 
 ::: fragment
 ::: {style="color: white;"}
-[**3. Build trust and psychological safety**]{.midi}
+[**3. Psychological safety & growth mindset**]{.midi}
 :::
 :::
 :::
 :::
 
 ::: notes
-\<\> Their FayLab Manual was co-created by the group to document documents things like lab culture and philosophy, onboarding procedures and expectations, as well as where data and files are kept, how to use the server and how to learn new skills and software that are the norms in the lab group. This is a published, living document that is useful no matter what research everybody is working on because these are common elements that build this lab community. There's 3 things I want to highlight about it:
+Fay Lab Manual: co-created open, living document: lab culture, onboarding, where data and files are kept, where to learn skills
 
-1)  It **makes what is normally implicit explicit**. It's main purpose is existing group members to all be clear on how their group works together and in practical terms, it immediately reduces the number of would-be emails asking each other where things are. and it also puts the values forward and to welcome people with information before they even join the lab group.
+**Makes the implicit explicit**  all be clear on how their group works together and in practical terms, it immediately reduces the number of would-be emails asking each other where things are. and it also puts the values forward and to welcome people with information before they even join the lab group.
 
-2)  They **onboard learners as contributors** As you read the manual you're also instructed how to contribute. So it's through learning tools like Quarto to fix a typo that empowers learners in a lasting way. This is really culture shift in action because they have now their experience of science is one where they can contribute on Day 1 and don't have to wait for the printing press model in order to have a voice. It's like learning ggplot the first morning of an R course and the importance of how those early wins help people reimagine what they can do themselves as well as what they can contribute.
+**onboards learners as contributors** As you read the manual you're also instructed how to contribute. So it's through learning tools like Quarto to fix a typo that empowers learners in a lasting way. 
 
-3)  All of this requires **building trust and psychological safety** within the group. Psychological safety is the "shared belief held by members of a team that the team is safe for interpersonal risk taking" so people feel comfortable speaking up and asking questions. This group helps establish that through live coding which normalizes making mistakes, really prioritizing time at the beginning of meetings to get to know each other and learn about each other's additional nerdy interests
+**psychological safety & growth mindset** deliberately for example prioritzing time to check in during meetings and screensharing/live coding. 
 
-All of this together is part of culture change and reimagining science. It really does require both technical skills and bravery to participate in open science.
-
-Quarto has been a really powerful tool for us already for culture change because it's a workflow that people can contribute to early, whether or not they are contributing code.
 :::
 
 ## {#approach-guide data-menu-title="Approach Guide" .centered background-color="#0F1620"}
@@ -123,11 +124,9 @@ Quarto has been a really powerful tool for us already for culture change because
 :::
 :::
 
-
 ::: notes
-The Openscapes community has been to take these ideas and be pretty prolific about sharing them more broadly with Quarto. These images are all linked so you can learn more about each; they are all examples of **sharing earlier** and in a way that doesn't mean lower quality, but it means unfinished as an invitation for feedback and connection across silos, whether those silos are within a traditional lab group or across federal agencies.
-
-All of these are examples of **reusing and extending good ideas,** since they incorporate pieces of previous work but are designed intentionally for each audience. This is true whether it's a lab manual or a cloud workshop or a way build the open science community at NOAA Fisheries for example.
+Here are 2 more examples: our Approach Guide which is how we onboard ourselves and others. It complements our Lesson Series which is the content of what we teach
+NMFS-Openscapes is using Quarto to building open science community across NOAA Fisheries and help connect r users and open science folks as well as folks that are feeling stuck and want to join. 
 
 What's beautiful about this too is that we can use Quarto as a tool both for reproducible research and for culture change. And part of this is because -
 :::
@@ -141,11 +140,11 @@ What's beautiful about this too is that we can use Quarto as a tool both for rep
 :::
 
 ::: notes
-Quarto enables collaborating across coding comfort levels, which means we can broaden our idea of collaborators substantially. And, then RStudio IDE Visual Editor further lowers barriers for collab and contrib.
+Quarto enables collaborating across coding comfort levels, which means we can broaden our idea of collaborators substantially. 
 
-Let me now demo Quarto with the Visual Editor, and let me preface by saying I think it's a friendly way for new learners, who may or may not code, to create and contribute.
+And, then RStudio IDE Visual Editor further lowers barriers for collab and contrib.
 
-However, I don't mean to imply that it's only for new folks. It's designed for writing, and that means it's designed for markdown-savvy people as well - In fact I know J.J. Allaire prefers to do his own writing in the visual editor.
+Friendly for new learners, also for experienced users. In fact I know J.J. Allaire prefers to do his own writing in the visual editor.
 :::
 
 ## {#demo-quarto-visual-editor data-menu-title="Demo: Visual Editor" background-video="videos/demo-2-reimagine.mp4" background-size="contain" background-color="#FFFFFF" .center}
@@ -161,9 +160,11 @@ transition: So I said that reimagining contributions in science is an interplay 
 \
 
 ::: notes
+We all can enable reimagining in our daily habits and actions, can rethink defaults, ask more questions, listen more, not assume tech, help each other, and connect our daily work to the bigger efforts like climate.
+
 And it's really up to all of us in science and otherwise to enable reimagining together. Each of us play a role in how we work and learn and teach, and really have a responsibility to examine the defaults around us and learn how they might be barriers to reduce or opportunities to leverage
 
-So I'll end where I began and say that the work we do with Openscapes is at the intersection of actionable environmental science, data science, and open science. We're helping shift how scientists work and collaborate and Quarto is enabling and accelerating this shift. And we see all of this as part of the climate movement.
+To close, I'll end where I began and say that the work we do with Openscapes is at the intersection of actionable environmental science, data science, and open science. We're helping shift how data-intensive researchers and collaborate and Quarto is enabling and accelerating this shift. And we see all of this as part of the climate movement.
 :::
 
 ##  {#all-we-can-save-mosaic .center data-menu-title="All We Can Save Mosaic of Voices" background-image="images/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpg"}
@@ -179,15 +180,7 @@ Ayana Elizabeth Johnson & Katharine Wilkinson\
 :::
 
 ::: notes
-I'll leave you with this quote from All We Can Save, who say "What this moment calls for is a mosaic of voices -- the full spectrum of ideas and insights for how we can turn things around."
+I'll leave you with this quote from All We Can Save, who say "We cannot, must not, go it alone"
 
-Addressing the climate crisis isn't just about recycling and efficient light bulbs - although those are important. It's about centering climate in the work that we do and thinking about how to join and strengthen and support each other as this mosaic of voices.
-
-Solutions exist like lightbulbs and regenerative farming but what has been missing is meaningful collaboration, both on the tooling and on the cultural side. We think that Openscapes and quarto really can help this cultural shift
-
-By sharing openly, quickly, imperfectly and supporting others that are more rapid sharers, but we can play a meaningful role in contributing and role modeling and empowering others in this greater effort.
-
-There's so much more to contribute, so much more to do.
-
-I really appreciate having this opp to share this with all of you. Looking forward to this collective community to continue to contribute to this mosiac
+I really appreciate having this opp to share this with all of you. I am so appreciative of this community. We're just at the beginning of our journey with Openscapes and Quarto and we're excited to continue to build with all of you
 :::
