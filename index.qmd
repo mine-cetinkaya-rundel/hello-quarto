@@ -39,7 +39,7 @@ But also, we know you have questions. We did too. What is Quarto? Why isQuarto? 
 ##  {#unifies-extends-1 .centered data-menu-title="Unifies and extends 1" background-color="#0F1620" auto-animate="true"}
 
 ::: {style="margin-top: 150px; font-size: 3em; color: #75AADB;"}
-Quarto **unifies** and **extends** <br>the R Markdown ecosystem
+Quarto **unifies** and **extends**<br>the R Markdown ecosystem
 :::
 
 ::: notes
@@ -97,9 +97,9 @@ Quarto is a new, open-source,<br> scientific and technical<br> publishing system
 ::: notes
 The goal is to make the process of creating and collaborating dramatically better.
 
-\<\> It handles inputs in multiple languages, and outputs in multiple formats, all going through the same machinery.
+--> It handles inputs in multiple languages, and outputs in multiple formats, all going through the same machinery.
 
-\<\> In our talk today, we'll introduce you to Quarto with stories and demos.
+--> In our talk today, we'll introduce you to Quarto with stories and demos.
 :::
 
 ##  {#outline-1 .centered data-menu-title="Outline 1" auto-animate="true"}
@@ -134,73 +134,21 @@ We're excited to get started! So lets starts off with how Quarto enables sharing
 
 {{< include _4-reimagine.qmd >}}
 
-##  {#outline-summary .centered data-menu-title="Summary" auto-animate="true"}
-
-![](images/outline-3.png)
-
-## Coda {background-color="#0F1620" auto-animate="true"}
-
-::: columns
-::: {.column width="5%"}
-:::
-
-::: {.column width="40%"}
-::: bulletbox
-::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-1_4.png){width="50px"} Quarto helps code be part of things you share
-:::
-:::
-:::
-
-::: {.column width="5%"}
-:::
-
-::: {.column width="40%"}
-::: bulletbox
-::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-2_4.png){width="50px"} Tooling that facilitates reproducibility also facilitates collaboration
-:::
-:::
-:::
-
-::: {.column width="5%"}
-:::
-:::
-
-::: columns
-::: {.column width="5%"}
-:::
-
-::: {.column width="40%"}
-::: bulletbox
-::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-3_4.png){width="50px"} teaching... experienced and new learners...
-:::
-:::
-:::
-
-::: {.column width="5%"}
-:::
-
-::: {.column width="40%"}
-::: bulletbox
-::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-4_4.png){width="50px"} Quarto helps bring about culture change across languages and beyond
-:::
-:::
-:::
-
-::: {.column width="5%"}
-:::
-:::
+# {#coda data-menu-title="Coda" background-image="images/horst_quarto_penguins_thankyou.png"}
 
 ::: notes
-Mine: with the last one, and you too can be a part of this change. We've talked about our experiences using Quarto and all the problems it has helped us solve and reimagine, but while Quarto is stable and ready for use, it's also just a baby that you too can be a part of its growth. So start using and start chiming in with feedback... or build an extension...
+We've talked about our experiences using Quarto and all the problems it has helped us solve and reimagine, but while Quarto is stable and ready for use, it's also just a baby that you too can be a part of its growth. So start using and start chiming in with feedback... or build an extension... this is a sunrise not sunset.
 :::
 
-# Thank you {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png"}
+## {#thank-you data-menu-title="Coda" background-image="images/horst-quarto-meteor-L-to-R.png"}
 
 [[mine.quarto.pub/hello-quarto](https://mine.quarto.pub/hello-quarto)]{.custom-url-middle-dark}
+
+::: notes
+Thank you for listening and if you want to pick up where we left off...
+
+--> go to this url
+:::
 
 ## Say hello to Quarto!
 
