@@ -80,12 +80,14 @@ Instead of telling you about them, let me show you!
 :::
 
 ::: fragment
-❔ Quarto in RStudio in Stats ➞ Quarto in Jupyter\[hub?\]
+❓ Quarto in RStudio in Stats ➞ Quarto in Jupyter\[hub?\]
 in CS
 :::
 
 ::: fragment
+::: larger
 ☀️
+:::
 :::
 
 ::: notes
