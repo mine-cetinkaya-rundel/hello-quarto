@@ -166,10 +166,10 @@ To close, I'll end where I began and say that the work we do with Openscapes is 
 
 ##  {#all-we-can-save-mosaic .center data-menu-title="All We Can Save Mosaic of Voices" background-image="images/NASA_earth_space_twitter_UNOOSA_803692453358424064.jpg"}
 
-::: quotebox-opaque
-'We' speaks to the collective, to collaboration, to community, to the relational work at hand. Addressing the climate crisis...will take everyone. 
+::: quotebox-transparent-bottom-right
+"We" speaks to the collective, to collaboration, to community, to the relational work at hand. Addressing the climate crisis...will take everyone. 
 
-'We' speaks to justice, to how we do the work that needs doing and whose contributions are valued. We cannot, we must not, go it alone”
+"We" speaks to justice, to how we do the work that needs doing and whose contributions are valued. We cannot, we must not, go it alone.
 
 ::: quote-source
 Ayana Elizabeth Johnson & Katharine Wilkinson \
