@@ -1217,7 +1217,7 @@ NOAA Southeast Fisheries Science Center</p>
 <section id="teach" class="title-slide slide level1 title-middle-ice center" data-background-image="images/horst_quarto_penguins_teach.png">
 <h1>Teach</h1>
 <aside class="notes">
-<p>Over the last decade I have thoroughly loved teaching R Markdown. It’s amazing when students hit that Knit button, see their code and their prose come together – you can often hear a “wow, that’s so cool” in the classroom the first time that happens. I’ve also loved that this is a tool that they can pick up easily on the first day of an intro course, and it grows with them as their statistical and computational expertise grows. However, I have also struggled with students, and frankly, myself, when going from a single, simple document to all the various, more advanced output formats in the R Markdown ecosystem particularly for computationally heavy projects. A pleasant surprise in teaching with Quarto has been how much less steep the learning curve is for going from a single, simple document to a multi-document projest has been for students.</p>
+<p>Over the last decade I have thoroughly loved teaching R Markdown. It’s amazing when students hit that Knit button, see their code and their prose come together – you can often hear a “wow, that’s so cool” in the classroom the first time that happens. I’ve also loved that this is a tool that they can pick up easily on the first day of an intro course, and it grows with them as their statistical and computational expertise grows. However, I have also struggled with students, and frankly, myself, when going from a single, simple document to all the various, more advanced output formats in the R Markdown ecosystem particularly for computationally heavy projects. A pleasant surprise in teaching with Quarto has been how much less steep the learning curve is for going from a single, simple document to a multi-document project has been for students.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1236,7 +1236,7 @@ NOAA Southeast Fisheries Science Center</p>
 <div class="column" style="width:45%;">
 <div style="text-align: right; padding-right:1em;">
 <div style="font-size: 1.5em;">
-<p><strong>Quantifying<br>Art Historical<br>Narratives</strong></p>
+<p><strong>Quantifying</strong><br>Art Historical<br>Narratives</p>
 </div>
 <p><br></p>
 <div class="midi" style="font-size: 1.5em; color: #75AADB;">
@@ -1245,6 +1245,9 @@ NOAA Southeast Fisheries Science Center</p>
 <p>Art History +<br> Visual and Media Studies</p>
 <p>Class of 2022</p>
 <p>Duke University</p>
+<div class="fragment">
+<p><em>with Sara Lemus</em> <img data-src="images/arthistory.png" width="150"></p>
+</div>
 </div>
 </div><div class="column" style="width:45%;">
 <div class="quarto-figure quarto-figure-left">
@@ -1255,8 +1258,8 @@ NOAA Southeast Fisheries Science Center</p>
 </div>
 </div>
 <aside class="notes">
-<p>Last semester I had an art history student, Holland Stam, working on a pretty quantitative, for that field, research project. Her thesis explored the representation of artists from different genders and ethinicities in foundational art history books and how this representation has changed, if at all, through editions. If you’ve ever taken an art history course you might be familiar with them: Garner’s Art Through The Ages and Janson’s History of Art. She meticulously collected data from numerous editions of each of the textbooks and measured, page by page, how much space each featured artwork was given and joined that with demographic information on the artists. When I met Holland in my regression course she had only one semester of data science as a background, where she learned R Markdown, and then she started using Quarto as part of coursework in my class. The course assignments were done in single Quarto documents but she was able to figure out, with a bit of Googling and a bit of my help, that she can write each of her thesis chapters as a Quarto document, bring them together with a yml file, and voila! You have a thesis written in Quarto. And when she saw that using this approach she could caption her figures ande insert citations without manual text styling, she was sold! It is always so heartwarming to see your students push what you’re teaching them and use them to solve their problems, it’s especially heartening when this happens with a new thing you’re teaching for the first time while the thing is still in active development!</p>
-<p>Like for Holland, Quarto has provided simple but effective solutions for so many of my problems as an instructor as well. Instead of telling you about them, let me show you!</p>
+<p>Last semester I had an art history student, Holland Stam, working on a pretty quantitative, for that field, research project. Her thesis explored the representation of artists from different genders and ethinicities in foundational art history books and how this representation has changed, if at all, through editions. If you’ve ever taken an art history course you might be familiar with them: Garner’s Art Through The Ages and Janson’s History of Art. She meticulously collected data from numerous editions of each of the textbooks and measured, page by page, how much space each featured artwork was given and joined that with demographic information on the artists. When I met Holland in my regression course she had only one semester of data science as a background, where she learned R Markdown, and then she started using Quarto as part of coursework in my class. The course assignments were done in single Quarto documents but she was able to figure out, with a bit of Googling and a bit of my help, that she can write each of her thesis chapters as a Quarto document, bring them together with a yml file, and voila! You have a thesis written in Quarto. And when she saw that using this approach she could caption her figures ande insert citations without manual text styling, she was sold! It is always so heartwarming to see your students push what you’re teaching them and use them to solve their problems, it’s especially heartening when this happens with a new thing you’re teaching for the first time while the thing is still in active development! And, by the way, if you’re interested in the data, Holland and another student of my, Sara, packaged it up as “arthistory” and you can find it on CRAN.</p>
+<p>But, back to Quarto… like for Holland, Quarto has provided simple but effective solutions for so many of my problems as an instructor as well. Instead of telling you about them, let me show you!</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1293,10 +1296,8 @@ NOAA Southeast Fisheries Science Center</p>
 </section>
 <section id="quarto-flattens-the-learning-curve" class="slide level2 takeaway center">
 <h2>Quarto flattens the learning curve</h2>
-<p>[TO DO: Add words / pics]</p>
 <aside class="notes">
-<p>With features like a consistent citation syntax, more intentional control over when computations should run or rerun, and a single, minimal yaml that controls inputs, layouts, theming, etc. leveling up from a single document to a multi-document project is a lot more straightforward with Quarto.</p>
-<p>[Note from Colin: With Rmd -&gt; look at the power of what rmd did with a simple document, ecosystem flourishing creates lack of consistency, quarto is unifying – rmd common thread but also lots of domain specific, lots of stuff to pick up in between, 10000ft view, distill in a common core.]</p>
+<p>A very pleasant surprise in teaching with Quarto has been how much flatter the learning curve is for leveling up from making a single document to creating multi-document projects. This is aided by features like a consistent citation syntax, more intentional control over when computations should run or rerun, and a single, minimal yaml that controls inputs, layouts, theming, etc.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1342,8 +1343,8 @@ NOAA Southeast Fisheries Science Center</p>
 <section id="reimagine" class="title-slide slide level1 title-top-ice center" data-background-image="images/horst_quarto_penguins_reimagine.png">
 <h1>Reimagine</h1>
 <aside class="notes">
-<p>With Openscapes we think about reimagine big things in new ways. We’re helping teams reimagine how they work, thinking differently about approaching big challenges as part of their daily work</p>
-<p>We’ve seen a really important benefit of an open science mindset how their daily work is connected to the broader big picture.</p>
+<p>With Openscapes we’re helping teams reimagine how they work.</p>
+<p>We help them see what’s possible with tools and teamwork and develop a shared open science mindset that about how what they do nearby and daily can have profound impacts on the big challenges they face.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1356,12 +1357,19 @@ NOAA Southeast Fisheries Science Center</p>
           display:block!important;
       }</style></aside>
 </section>
-<section id="usgs-mosaic" class="slide level2 center" data-menu-title="USGS Mosaic" data-background-image="images/NASAEarthTwitter_1500x500.jpg">
+<section id="nasa-blue-marble-hemi" class="slide level2" data-menu-title="NASA Blue Marble Hemisphere" data-background-image="images/NASAEarthTwitter_1500x500.jpg">
 <h2></h2>
+<div class="quotebox-transparent-bottom-right">
+<p>To address our climate emergency, we must rapidly, radically reshape society. We need every solution and every solver.</p>
+<div class="quote-source">
+<p>Ayana Elizabeth Johnson &amp; Katharine Wilkinson<br>
+All We Can Save</p>
+</div>
+</div>
 <aside class="notes">
-<p><strong>Our work is part of the climate movement.</strong> It’s about helping people who care deeply about climate to bring that to their work through open science</p>
-<p>Climate change, there’s not going to be one single fix, it’s going to be a collective effort with everyone playing a role.</p>
-<p>This quote from Ileana Fenwick represents why we do the work we do, and why it’s so important to focus on inclusion and people and seeing this connection</p>
+<p>And this is critical because <strong>our work helps address the climate emergency</strong>. And we need every solution and every solver. And deliberately welcoming people as a solver and helping connect their daily work with the climate movement and help them get unstuck and reimagine what they can do is such a critical part of our work. When teams we work start creating annual environmental reports save 60 days a year in creating that report, they can refocus that time on further solutions AND have shared energy and hope with the teams they they work with.</p>
+<p>And let me be clear that we all have contibutions we can make to the climate movement. I’ve talked with a lot of you and know you care deeply about climate, and who might not feel like your work is directly aligned with the climate movement, but what if you made it align? Epi studying health in relations to heat waves, neuro studying behav related to climate displacement, contributing to make research pipelines more efficient, there is so much we can do together if we take this energy we feel together from open data science and make that part of the climate movement</p>
+<p>This quote from Ileana Fenwick represents the impact of our approach and the critical importance of inclusion in this effort:</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1387,13 +1395,13 @@ University of North Carolina, Openscapes</p>
 <section id="reduce-barriers" class="slide level2 centered" data-menu-title="Reduce Barriers" data-background-color="#0F1620">
 <h2></h2>
 <div style="margin-top: 150px; font-size: 3em; color: #75AADB;">
-<p>Culture shifts: <br> technical side + human side</p>
+<p>Culture shifts: <br> technical + human</p>
 </div>
 <aside class="notes">
-<p>it’s about seeing inclusion as a daily practice in their work, and that that connects to the climate movement. There can be a gap between who’s tech and not, and we’re not going to solve these big challenges with tech alone. It’s going to be with many smaller things.</p>
-<p>We’ve got to think beyond efficient lightbulbs and recycling for what we can do every day: what if….</p>
-<p>some people who are scientists who work with teams and data don’t write code</p>
-<p>Quarto has been a really powerful tool for us already for culture change because it’s a workflow that people can contribute to early, whether or not they are contributing code.</p>
+<p>So we’re talking about profound culture shift and this involves real work on the tech side and the human side</p>
+<p>We need to really examine the default behavior - and prioritize investment on the human side as much as we do on the tech side be deliberate and intentional about inclusion.</p>
+<p>This means reflecting on what kinds of contributions are valuble, and by whom? This means asking colleagues questions and not making assumptions about what people know. Many if not most people have never been formally trained in working with data or code, and, we often make assumptions that they have been. are valuable contributors.</p>
+<p>RMarkdown and now Quarto has been a really powerful tool for us to make this work actionable and visiable to support people and shift culture around open science</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1441,12 +1449,16 @@ University of North Carolina, Openscapes</p>
 </div>
 <aside class="notes">
 <p>Fay Lab Manual: this is an open, living document to document lab culture, onboarding, where data and files are kept, where to learn skills</p>
-<p>Before I go into details: let’s set the scene for what environmental research groups are like.</p>
+<p>Before I go into details: let’s set the scene for what environmental research groups generally are like.</p>
 <ul>
-<li>lab group working on env sci: not everyone is trained</li>
-<li>people have different deliverables, they oft</li>
-<li>not everyone’s job description means wrangingl</li>
+<li>similar to your teams
+<ul>
+<li>people have different deliverables, they oft don’t feel like a team</li>
+<li>very few people formally trained in responsible w data and code, and not precedent</li>
+<li>not everyone’s job will ever need to include data wrangling, but that doesn’t mean they can’t be a valuable contributor</li>
 <li>but their contribution to science is very valuable</li>
+<li>people have expertise and knowlege that you can learn from maybe as much as they can learn from you about code</li>
+</ul></li>
 </ul>
 <p>So what this lab manual does it:</p>
 <p><strong>Makes the implicit explicit</strong> all be clear on how their group works together and it also puts the values forward and to welcome people who might be interested in joining the</p>
@@ -1511,7 +1523,7 @@ University of North Carolina, Openscapes</p>
 </div>
 </div>
 <aside class="notes">
-<p>Quarto enables collaborating across coding comfort levels, which means we can broaden our idea of collaborators substantially.</p>
+<p>Quarto enables collaborating across coding comfort levels, which means we can broaden our idea of collaborators substantially and earlier.</p>
 <p>And, then RStudio IDE Visual Editor further lowers barriers for collab and contrib.</p>
 <p>Friendly for new learners, also for experienced users. In fact I know Mine prefers to do her own writing in the visual editor.</p>
 <style type="text/css">
@@ -1529,22 +1541,7 @@ University of North Carolina, Openscapes</p>
 <section id="demo-quarto-visual-editor" class="slide level2 center" data-menu-title="Demo: Visual Editor" data-background-video="videos/demo-2-reimagine.mp4" data-background-size="contain" data-background-color="#FFFFFF">
 <h2></h2>
 <aside class="notes">
-<p>transition: So I said that reimagining contributions in science is an interplay of technology and culture, and have just showed tools on the technical side</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside class="notes">
-<p>We all can enable reimagining in our daily habits and actions, can rethink defaults, ask more questions, listen more, not assume tech, help each other, and connect our daily work to the bigger efforts like climate.</p>
-<p>And it’s really up to all of us in science and otherwise to enable reimagining together. Each of us play a role in how we work and learn and teach, and really have a responsibility to examine the defaults around us and learn how they might be barriers to reduce or opportunities to leverage</p>
-<p>To close, I’ll end where I began and say that the work we do with Openscapes is at the intersection of actionable environmental science, data science, and open science. We’re helping shift how data-intensive researchers and collaborate and Quarto is enabling and accelerating this shift. And we see all of this as part of the climate movement.</p>
+<p>transition: So in summary, I’ll say</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1568,8 +1565,7 @@ All We Can Save</p>
 </div>
 </div>
 <aside class="notes">
-<p>I’ll leave you with this quote from All We Can Save, who say “We cannot, must not, go it alone”</p>
-<p>I really appreciate having this opp to share this with all of you. I am so appreciative of this community. We’re just at the beginning of our journey with Openscapes and Quarto and we’re excited to continue to build with all of you</p>
+<p>Openscapes is helping shift culture in scientific teams and communities and align their daily work towards climate solutions, and Quarto is enabling and accelerating this shift. And we invite you reimagine with us.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1659,15 +1655,21 @@ All We Can Save</p>
 <section id="annotated-notes-2" class="slide level2">
 <h2>Annotated Notes 2/</h2>
 <p><span class="shout">Collaborate</span></p>
+<p>Julia Stewart Lowndes PhD <a href="https://jules32.github.io" class="uri">https://jules32.github.io</a></p>
+<p><strong>Openscapes</strong></p>
+<p><a href="https://openscapes.org" class="uri">https://openscapes.org</a></p>
 <p><strong>NASA Images</strong></p>
 <ul>
 <li>Spinning Globe Earthdata: <a href="https://svs.gsfc.nasa.gov/30701" class="uri">https://svs.gsfc.nasa.gov/30701</a></li>
 <li>NASA Hyperwall: <a href="https://eospso.nasa.gov/content/about-nasas-hyperwall" class="uri">https://eospso.nasa.gov/content/about-nasas-hyperwall</a></li>
 </ul>
 <p><strong>NASA-Openscapes</strong> -</p>
+<p><a href="https://nasa-openscapes.github.io">nasa-openscapes.github.io</a></p>
 <ul>
-<li><a href="https://nasa-openscapes.github.io">nasa-openscapes.github.io</a></li>
-<li><a href="https://science.nasa.gov/earth-science/earth-science-data" class="uri">https://science.nasa.gov/earth-science/earth-science-data</a></li>
+<li><p><a href="https://nasa-openscapes.github.io/2021-Cloud-Hackathon/">2021 Cloud Hackathon</a></p></li>
+<li><p><a href="https://nasa-openscapes.github.io/2021-Cloud-Workshop-AGU/">2021 Cloud Workshop at AGU</a></p></li>
+<li><p><a href="https://podaac.github.io/2022-SWOT-Ocean-Cloud-Workshop/">2022 SWOT Ocean Hackathon</a></p></li>
+<li><p>JupyterHub managed by 2i2c <a href="https://2i2c.org/" class="uri">https://2i2c.org/</a></p></li>
 </ul>
 <p><strong>Other</strong></p>
 <ul>
@@ -1677,14 +1679,16 @@ All We Can Save</p>
 <section id="annotated-notes-3" class="slide level2">
 <h2>Annotated Notes 3/</h2>
 <p><span class="shout">Teach</span></p>
+<ul>
+<li>https://saralemus7.github.io/arthistory/</li>
+</ul>
 </section>
 <section id="annotated-notes-4" class="slide level2">
 <h2>Annotated Notes 4/</h2>
 <p><span class="shout">Reimagine</span></p>
-<p><strong>Reimagining Science</strong></p>
-<ul>
-<li><a href="https://www.scientificamerican.com/article/how-diversity-makes-us-smarter/">How diversity makes us smarter</a></li>
-</ul>
+<p><strong>All We Can Save</strong></p>
+<p><a href="https://www.allwecansave.earth/" class="uri">https://www.allwecansave.earth/</a></p>
+<p>How to answer the Q of “what should I do to fight climate change?” A: “What are you good at? Do that. Do that in the service of climate” - (<a href="https://twitter.com/juliesquid/status/1362573772096593923">ayanaeliza</a>)</p>
 <p><strong>FayLab Manual</strong></p>
 <ul>
 <li><a href="https://www.openscapes.org/blog/2022/07/21/quarto-migrate/">Learning by doing: migrating to Quarto from Bookdown</a></li>
@@ -1694,12 +1698,8 @@ All We Can Save</p>
 <p><strong>Quarto Mosaic</strong></p>
 <p>See also: <a href="https://www.openscapes.org/blog/2022/02/17/esip-winter-2022/">3 takeaways for planning for the year of open science</a></p>
 <ul>
-<li><a href="https://nasa-openscapes.github.io/2022-LPDAAC-UWG-Breakout/" class="uri">https://nasa-openscapes.github.io/2022-LPDAAC-UWG-Breakout/</a></li>
-<li><a href="https://podaac.github.io/2022-SWOT-Ocean-Cloud-Workshop/" class="uri">https://podaac.github.io/2022-SWOT-Ocean-Cloud-Workshop/</a></li>
 <li><a href="https://openscapes.github.io/approach-guide/" class="uri">https://openscapes.github.io/approach-guide/</a></li>
-<li><a href="https://nasa-openscapes.github.io/slides/Earthdata_Cloud__Open-Science-Tutorial.html#/title-slide">NASA Earthdata Access in the Cloud Using Open-source libraries</a> - Slides from a Jupyter Notebook by Amy Steiker. Involved development with the Quarto team in November 2021</li>
-<li><a href="https://go.usa.gov/xus2a">Bio-logger Data from Ribbon and Spotted Seals: A Deep Dive</a> - Slides by Josh London</li>
-<li><a href="https://nmml.github.io/tidy-movt-modeling/">Tidy Movement Modeling with R</a> by Josh London et al</li>
+<li><a href="https://nmfs-openscapes.github.io" class="uri">https://nmfs-openscapes.github.io</a></li>
 </ul>
 <p><strong>Demo: Visual Editor</strong></p>
 <p>Keyboard shortcuts:</p>
@@ -1712,8 +1712,6 @@ All We Can Save</p>
 <ul>
 <li><a href="https://www.doi.gov/blog/earth-art-stunning-landsat-images" class="uri">https://www.doi.gov/blog/earth-art-stunning-landsat-images</a></li>
 </ul>
-<p><strong>All We Can Save</strong></p>
-<p>How to answer the Q of “what should I do to fight climate change?” A: “What are you good at? Do that. Do that in the service of climate” - (<a href="https://twitter.com/juliesquid/status/1362573772096593923">ayanaeliza</a>)</p>
 <div class="footer footer-default">
 
 </div>
