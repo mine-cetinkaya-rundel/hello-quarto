@@ -26,20 +26,13 @@ editor: visual
 [artwork by allison horst]{.custom-artwork}
 
 ::: notes
-Thank you so much, We're excited to be here!
-Mine and I have both been using Quarto for the last year; she has been teaching with it since its earliest days and my Openscapes team is the first external users of Quarto.
-As Mine and I have experimented with it in our own work we realize we love it, and we're thrilled to introduce and welcome you to Quarto.
+Thank you so much, We're excited to be here! Mine and I have both been using Quarto for the last year; she has been teaching with it since its earliest days and my Openscapes team is the first external users of Quarto. As Mine and I have experimented with it in our own work we realize we love it, and we're thrilled to introduce and welcome you to Quarto.
 :::
 
 # Hello, Quarto? {.title-top-light background-image="images/horst-quarto-meteor-transparent.png" aria-label="Quarto logo depicted as a meteor against a white background with a tail comprised of bright stars."}
 
 ::: notes
-But also, we know you have questions.
-Mine and I did too.
-What is Quarto?
-Why Quarto?
-And how does it relate to R Markdown and to other tools you already use and workflows you already have?
-\<\> Well -
+But also, we know you have questions. Mine and I did too. What is Quarto? Why Quarto? And how does it relate to R Markdown and to other tools you already use and workflows you already have? \<\> Well -
 :::
 
 ##  {#unifies-extends-1 .centered data-menu-title="Unifies and extends 1" background-color="#0F1620" auto-animate="true"}
@@ -129,8 +122,7 @@ Then I will focus on how Quarto extends the R Markdown ecosystem through stories
 ![](images/outline-3.png)
 
 ::: notes
-We're excited to get started!
-Over to you Mine!
+We're excited to get started! Over to you Mine!
 :::
 
 {{< include _1-share.qmd >}}
@@ -202,9 +194,7 @@ Over to you Mine!
 :::
 
 ::: notes
-Mine: with the last one, and you too can be a part of this change.
-We've talked about our experiences using Quarto and all the problems it has helped us solve and reimagine, but while Quarto is stable and ready for use, it's also just a baby that you too can be a part of its growth.
-So start using and start chiming in with feedback... or build an extension...
+Mine: with the last one, and you too can be a part of this change. We've talked about our experiences using Quarto and all the problems it has helped us solve and reimagine, but while Quarto is stable and ready for use, it's also just a baby that you too can be a part of its growth. So start using and start chiming in with feedback... or build an extension...
 :::
 
 # Thank you {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png"}
@@ -298,12 +288,16 @@ See also: [3 takeaways for planning for the year of open science](https://www.op
 
 Keyboard shortcuts:
 
--   
-
 **NASA images**
 
--   <https://www.iowaview.org/wp-content/uploads/2019/09/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpg>
+- <https://twitter.com/nasaearth/>
+-   <https://twitter.com/UNOOSA/status/803692453358424064/photo/1>
+
+See also: 
+
+- <https://www.doi.gov/blog/earth-art-stunning-landsat-images>
 
 **All We Can Save**
 
 How to answer the Q of "what should I do to fight climate change?" A: "What are you good at? Do that. Do that in the service of climate" - ([ayanaeliza](https://twitter.com/juliesquid/status/1362573772096593923))
+
