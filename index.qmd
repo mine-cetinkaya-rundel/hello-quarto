@@ -129,9 +129,7 @@ Then I will focus on how Quarto extends the R Markdown ecosystem through collabo
 ![](images/outline-3.png)
 
 ::: notes
-We're excited to get started!
-So lets starts off with how Quarto enables sharing.
-Over to you Mine
+We're excited to get started! - Over to you Mine
 :::
 
 {{< include _1-share.qmd >}}
@@ -227,6 +225,8 @@ Julia Stewart Lowndes PhD <https://jules32.github.io>
 -   [2021 Cloud Workshop at AGU](https://nasa-openscapes.github.io/2021-Cloud-Workshop-AGU/)
 
 -   [2022 SWOT Ocean Hackathon](https://podaac.github.io/2022-SWOT-Ocean-Cloud-Workshop/)
+
+**Demo: JupyterLab**
 
 -   JupyterHub managed by 2i2c <https://2i2c.org/>
 

@@ -25,14 +25,19 @@ I work at the intersection of actionable environmental science, data science, an
 I've made this my job through Openscapes.
 :::
 
-##  {#openscapes-intro data-menu-title="Openscapes Intro" background-color="#0F1620" background-image="images/horst_openscapes_champions.jpg" background-size="contain" background-position="bottom right" fig-alt="Illustration of a grassy field by an ocean, there’s a river that meanders from the midground to the background on the right hand side. There are mountains in the background. The Openscapes hex logo is in the top left hand corner. In the foreground there are many animals: hermit crab working alone on a laptop, a sad rabbit on a laptop under a raincloud, a frustrated skunk on a laptop under a raincloud. Just over a bush is another group of animals: a fox with a welcome sign stands with a hedgehog holding map brochures In front of a larger park map. The fox and hedgehog are in front of a group of animals: a heron, a squirrel, a mouse holding a notebook, a raccoon, a snake, and a quail. In the midground, there’s a turtle, deer, owl and beaver by the river that has stepping stone rocks across. A roadrunner, lizard, blue bird, and rabbit, are walking down a path together, one of the other paths is blocked by a log. There’s a rowboat on the edge of the water. In the background, a duck, turtle, red squirrel, fox, and raven are walking single file over a wooden bridge that crosses the river. Most of the animals have coloured bandanas tied around their necks and a few are wearing hats. Up in the sky, there’s a satellite. Overlaid on the image is the OpenScapes hex logo."}
+##  {#openscapes-intro-1 data-menu-title="Openscapes Intro 1" background-color="#0F1620" background-image="images/horst_openscapes_champions.jpg" background-size="contain" background-position="bottom right" fig-alt="Illustration of a grassy field by an ocean, there’s a river that meanders from the midground to the background on the right hand side. There are mountains in the background. The Openscapes hex logo is in the top left hand corner. In the foreground there are many animals: hermit crab working alone on a laptop, a sad rabbit on a laptop under a raincloud, a frustrated skunk on a laptop under a raincloud. Just over a bush is another group of animals: a fox with a welcome sign stands with a hedgehog holding map brochures In front of a larger park map. The fox and hedgehog are in front of a group of animals: a heron, a squirrel, a mouse holding a notebook, a raccoon, a snake, and a quail. In the midground, there’s a turtle, deer, owl and beaver by the river that has stepping stone rocks across. A roadrunner, lizard, blue bird, and rabbit, are walking down a path together, one of the other paths is blocked by a log. There’s a rowboat on the edge of the water. In the background, a duck, turtle, red squirrel, fox, and raven are walking single file over a wooden bridge that crosses the river. Most of the animals have coloured bandanas tied around their necks and a few are wearing hats. Up in the sky, there’s a satellite. Overlaid on the image is the OpenScapes hex logo."}
 
 ::: notes
 Openscapes is an approach and a movement that I launched in 2018 and have built together with my partner Erin Robinson. 
 
 Our flagship activity is mentoring research teams in open science. We think of open science as a landscape full of open source software, data, and communities, and many paths forward.
+:::
 
-Our role is welcome teams at the trailhead, helping them seem themselves as a team rather than all feeling stuck and alone like these sad animals on bottom left and we help them start safely navigate this landscape safely together.
+##  {#openscapes-intro-2 data-menu-title="Openscapes Intro 2" background-color="#0F1620" background-image="images/horst_openscapes_champions.jpg" background-size="contain" background-position="bottom right"}
+
+
+::: notes
+We help people move from the sad lonely animals like the foreground in the bottom right so that they start to explore and navigate this landscape safely, without too much trampling.  Our role is to welcome them at the trail head, helping them seem themselves as a team and identify where they are all starting from
 
 We work with professional research groups in government and academia, and we help these teams modernize their workflows and shift culture with their teams and organization through open software and practices. Adyan Rios from NOAA Fisheries and she's described Openscapes as saying:
 :::
@@ -123,7 +128,7 @@ Quarto was emerging right when we needed it, and I asked J.J. Allaire if we coul
 ##  {#nasa-cloud-hackathon .center data-menu-title="NASA Cloud Hackathon" background-color="#0F1620"}
 
 ::: borderbox
-![](images/2-collaborate/hackathon.png){width="80%" fig-align="center" fig-alt="Screenshot of Quarto site for a NASA hackathon learning event"}
+[![](images/2-collaborate/hackathon.png){width="70%" fig-align="center" fig-alt="Screenshot of Quarto site for a NASA hackathon learning event"}](https://nasa-openscapes.github.io/2021-Cloud-Hackathon/)
 :::
 
 ::: notes
@@ -141,21 +146,21 @@ So from this investment in our workflow and learning  -
 ::: columns
 ::: {.column width="50%"}
 ::: borderbox
-![](images/2-collaborate/cloud-workshop-agu.png){width="70%" fig-alt="Screenshot of Quarto site for a NASA workshop learning event"}
+[![](images/2-collaborate/cloud-workshop-agu.png){width="70%" fig-alt="Screenshot of Quarto site for a NASA workshop learning event"}](https://nasa-openscapes.github.io/2021-Cloud-Workshop-AGU/)
 :::
 
 ::: borderbox
-![](images/2-collaborate/swot-ocean-workshop.png){width="70%" fig-alt="Screenshot of Quarto site for a NASA workshop learning event"}
+[![](images/2-collaborate/swot-ocean-workshop.png){width="70%" fig-alt="Screenshot of Quarto site for a NASA workshop learning event"}](https://podaac.github.io/2022-SWOT-Ocean-Cloud-Workshop/)
 :::
 :::
 
 ::: {.column width="50%"}
 ::: borderbox
-![](images/2-collaborate/cookbook.png){fig-alt="Screenshot of Quarto site for a NASA Cloud Cookbook" width="70%"}
+[![](images/2-collaborate/cookbook.png){fig-alt="Screenshot of Quarto site for a NASA Cloud Cookbook" width="70%"}](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
 :::
 
 ::: borderbox
-![](images/2-collaborate/quarto-slides-steiker.png){width="70%" fig-alt="Screenshot of Quarto slides  a NASA conference talk"}
+[![](images/2-collaborate/quarto-slides-steiker.png){width="70%" fig-alt="Screenshot of Quarto slides a NASA conference talk"}](https://nasa-openscapes.github.io/slides/Earthdata_Cloud__Open-Science-Tutorial#/title-slide)
 :::
 :::
 :::
@@ -237,5 +242,11 @@ transtion: Let me show you how to use Quarto with Jupyter with ipynb notebooks
 ##  {#demo-jupyter .center data-menu-title="Demo: Jupter" background-video="videos/demo-2-collaborate.mp4" background-size="contain" background-color="#FFFFFF"}
 
 ::: notes
-So this was a taste of Quarto in our JupyterHub - 
+-   Orient to JupyterLab. This is a JupyterHub managed by 2i2c
+-   Open Mine's example site, quarto preview
+- add .ipynb 
+-   Add `.ipynb` to `_quarto.yml`
+-   View website - new page is added to website
+-  Add fig captions
+- margin plots: a style prefrred by many now in jupyter notebook
 :::
