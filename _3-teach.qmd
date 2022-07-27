@@ -8,7 +8,37 @@ However, I have also struggled with students, and frankly, myself, when going fr
 A pleasant surprise in teaching with Quarto has been how much less steep the learning curve is for going from a single, simple document to a multi-document projest has been for students.
 :::
 
-## A slide for Holland
+##  {#holland-stam-thesis .center data-menu-title="Holland Stam - Quantifying Art Historical Narratives" background-color="#0F1620"}
+
+::: columns
+
+::: {.column width="45%"}
+
+::: {style="text-align: right; padding-right:1em;"}
+::: {style="font-size: 1.5em;"}
+**Quantifying<br>Art Historical<br>Narratives**
+:::
+
+<br>
+
+::: {.midi style="font-size: 1.5em; color: #75AADB;"}
+Holland Stam
+:::
+
+Art History +<br>
+Visual and Media Studies
+
+Class of 2022
+
+Duke University
+:::
+:::
+
+::: {.column width="45%"}
+![](images/holland-stam.png){fig-alt="Holland working at a table in the Broadhead Center, measuring an entry with a ruler." fig-align="left" width="600"}
+:::
+
+:::
 
 ::: notes
 Last semester I had an art history student, Holland Stam, working on a pretty quantitative, for that field, research project.
