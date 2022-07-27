@@ -203,13 +203,13 @@ And, as we work with more research teams we've found that there is indeed a subs
 ::: columns
 ::: {.column width="45%"}
 ::: borderbox
-![](images/tools-rstudio-ide.png){fig-alt="Screenshot of RStudio IDE"}
+![](images/tools-rstudio-ide.png){fig-alt="Screenshot of RStudio IDE" width="80%"}
 :::
 :::
 
 ::: {.column width="45%"}
 ::: borderbox
-![](images/tools-jupyterhub.png){fig-alt="Screenshot of Jupyter Lab"}
+![](images/tools-jupyterhub.png){fig-alt="Screenshot of Jupyter Lab" width="80%"}
 :::
 :::
 :::
@@ -217,13 +217,13 @@ And, as we work with more research teams we've found that there is indeed a subs
 ::: columns
 ::: {.column width="45%"}
 ::: borderbox
-![](images/tools-github-ide.png){fig-alt="Screenshot of GitHub IDE"}
+![](images/tools-github-ide.png){fig-alt="Screenshot of GitHub IDE" width="80%"}
 :::
 :::
 
 ::: {.column width="45%"}
 ::: borderbox
-![](images/tools-vscode-ide.png){fig-alt="Screenshot of VS Code IDE"}
+![](images/tools-vscode-ide.png){fig-alt="Screenshot of VS Code IDE" width="80%"}
 :::
 :::
 :::
