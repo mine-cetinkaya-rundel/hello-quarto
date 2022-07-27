@@ -42,7 +42,7 @@ Duke University
 :::
 
 ::: notes
-Last semester I had an art history student, Holland Stam, working on a pretty quantitative, for that field, research project.
+Last semester I had an art history student, Holland Stam, working on a pretty quantitative research project.
 Her thesis explored the representation of artists from different genders and ethinicities in foundational art history books and how this representation has changed, if at all, through editions.
 If you've ever taken an art history course you might be familiar with them: Garner's Art Through The Ages and Janson's History of Art.
 She meticulously collected data from numerous editions of each of the textbooks and measured, page by page, how much space each featured artwork was given and joined that with demographic information on the artists.
@@ -51,7 +51,7 @@ The course assignments were done in single Quarto documents but she was able to 
 You have a thesis written in Quarto.
 And when she saw that using this approach she could caption her figures ande insert citations without manual text styling, she was sold!
 It is always so heartwarming to see your students push what you're teaching them and use them to solve their problems, it's especially heartening when this happens with a new thing you're teaching for the first time while the thing is still in active development!
-And, by the way, if you're interested in the data, Holland and another student of my, Sara, packaged it up as "arthistory" and you can find it on CRAN.
+And, by the way, if you're interested in the data, Holland and another student of my, Sara, packaged it up as "arthistory" and you can find it on CRAN. [SAY A BIT MORE!]
 
 But, back to Quarto... like for Holland, Quarto has provided simple but effective solutions for so many of my problems as an instructor as well.
 Instead of telling you about them, let me show you!
