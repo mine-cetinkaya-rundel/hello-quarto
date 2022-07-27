@@ -30,7 +30,7 @@ University of North Carolina, Openscapes
 ##  {#reduce-barriers data-menu-title="Reduce Barriers" background-color="#0F1620" .centered}
 
 ::: {style="margin-top: 150px; font-size: 3em; color: #75AADB;"}
-Culture shifts: <br> technical side + human side
+Culture shifts: <br> technical + human
 :::
 
 ::: notes
