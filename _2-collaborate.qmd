@@ -174,22 +174,18 @@ There's 2 things I want to highlight here -
 {{< fa file >}} _quarto.yml
 :::
 
-``` {.yaml code-line-numbers="2,4,9,15"}
+``` {.yaml code-line-numbers="2,4,8,11"}
 contents:
   - section: in-development/index.qmd
     contents:
       - in-development/earthdata-access-demo.ipynb
       - in-development/nsidc/icesat2-cmr-onprem-vs-cloud.ipynb
-      - in-development/transform-workflow.ipynb
       - in-development/lpdaac/lpdaac_ecostress_lste_kerchunk.ipynb
       - in-development/matlab-aws.qmd
       - in-development/earthdata-python-r-handoff.rmd  
-  - section: contributing/index.qmd
+  - section: contributing/onboarding.qmd
     contents: 
-      - contributing/onboarding.qmd
-      - contributing/workflow.qmd
       - contributing/quarto-website-tutorial.md
-  - troubleshooting.md
 ```
 
 ::: notes
