@@ -6,7 +6,16 @@ With Openscapes we're helping teams reimagine how they work.
 We help them see what's possible with tools and teamwork and develop a shared open science mindset that about how what they do nearby and daily can have profound impacts on the big challenges they face.
 :::
 
-##  {#nasa-blue-marble-hemi .center data-menu-title="NASA Blue Marble Hemisphere" background-image="images/NASAEarthTwitter_1500x500.jpg"}
+##  {#nasa-blue-marble-hemi data-menu-title="NASA Blue Marble Hemisphere" background-image="images/NASAEarthTwitter_1500x500.jpg"}
+
+::: quotebox-transparent-bottom-right
+To address our climate emergency, we must rapidly, radically reshape society. We need every solution and every solver. 
+
+::: quote-source
+Ayana Elizabeth Johnson & Katharine Wilkinson \
+All We Can Save
+:::
+:::
 
 ::: notes
 And this is critical because **our work helps address the climate emergency**. And we need every solution and every solver. And deliberately welcoming people as a solver and helping connect their daily work with the climate movement and help them get unstuck and reimagine what they can do is such a critical part of our work. When teams we work start creating annual environmental reports save 60 days a year in creating that report, they can refocus that time on further solutions AND have shared energy and hope with the teams they they work with. 
