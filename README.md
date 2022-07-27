@@ -9,9 +9,3 @@ This is the homepage for the "Hello, Quarto!" keynote at rstudio::conf(2022).
 ## Acknowledgements
 
 [Add acknowledgements here.]
-
-## Planning
-
-[Delete this before repo goes public]
-
-Google doc for planning - https://docs.google.com/document/d/1-4fzLHgs9PE9QGWWwgQoaPxVu-eoM22iTsNDmRuaS8k/edit
