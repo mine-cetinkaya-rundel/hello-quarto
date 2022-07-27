@@ -6,7 +6,7 @@ With Openscapes we're helping teams reimagine how they work.
 We help them see what's possible with tools and teamwork and develop a shared open science mindset that about how what they do nearby and daily can have profound impacts on the big challenges they face.
 :::
 
-##  {#nasa-blue-marble-hemi data-menu-title="NASA Blue Marble Hemisphere" background-image="images/NASAEarthTwitter_1500x500.jpg"}
+##  {#nasa-blue-marble-hemi data-menu-title="NASA Blue Marble Hemisphere" background-image="images/4-reimagine/NASAEarthTwitter_1500x500.jpg"}
 
 ::: quotebox-transparent-bottom-right
 To address our climate emergency, we must rapidly, radically reshape society. We need every solution and every solver. 
@@ -25,7 +25,7 @@ And let me be clear that we all have contibutions we can make to the climate mov
 This quote from Ileana Fenwick represents the impact of our approach and the critical importance of inclusion in this effort:
 :::
 
-## {#ileana-fenwick-quote data-menu-title="Ileana Fenwick Quote" background-image="images/fenwick-scuba.jpg"}
+## {#ileana-fenwick-quote data-menu-title="Ileana Fenwick Quote" background-image="images/4-reimagine/fenwick-scuba.jpg"}
 
 ::: quotebox-transparent-bottom-right
 Because of Openscapes, I have renewed hope in how we can bring about a kinder future in science. I see a commitment in the open science community to bridging the gaps where we've left members of our community behind, and it inspires me. 
@@ -57,7 +57,7 @@ RMarkdown and now Quarto has been a really powerful tool for us to make this wor
 ::: columns
 ::: {.column width="60%"}
 ::: borderbox
-![](images/faylab-labmanual.png){fig-alt="Screenshot of a Quarto site that is a lab manual of shared practices"}
+![](images/4-reimagine/faylab-labmanual.png){fig-alt="Screenshot of a Quarto site that is a lab manual of shared practices"}
 :::
 :::
 
@@ -123,7 +123,7 @@ This has been a model for us -
 \
 
 ::: borderbox
-![](images/approach-guide.png){fig-alt="Screenshot of a Quarto site that is a guide of the Openscapes Approach"}
+![](images/4-reimagine/approach-guide.png){fig-alt="Screenshot of a Quarto site that is a guide of the Openscapes Approach"}
 :::
 :::
 
@@ -134,7 +134,7 @@ This has been a model for us -
 \
 \
 
-![](images/nmfs-openscapes.png){fig-alt="Screenshot of a Quarto site that is community building and teaching platform for NOAA Fisheries"}
+![](images/4-reimagine/nmfs-openscapes.png){fig-alt="Screenshot of a Quarto site that is community building and teaching platform for NOAA Fisheries"}
 
 :::
 :::
@@ -149,7 +149,7 @@ And NOAA Fisheries is using Quarto to building open science community across the
 ## Quarto enables collaborating <br>across coding comfort levels {.takeaway .center}
 
 ::: borderbox
-![](images/visual_editor.png){fig-align="center" width="70%" fig-alt="RStudio IDE"}
+![](images/4-reimagine/visual_editor.png){fig-align="center" width="70%" fig-alt="RStudio IDE"}
 :::
 
 ::: notes
@@ -167,7 +167,7 @@ Friendly for new learners, also for experienced users. In fact I know Mine prefe
 transition: So in summary, I'll say 
 :::
 
-## We all can enable reimagining {background-image="images/NASA_earth_space_twitter_UNOOSA_803692453358424064.jpg"}
+## We all can enable reimagining {background-image="images/4-reimagine/NASA_earth_space_twitter_UNOOSA_803692453358424064.jpg"}
 
 ::: quotebox-transparent-bottom-right
 "We" speaks to the collective, to collaboration, to community, to the relational work at hand. Addressing the climate crisis...will take everyone. 

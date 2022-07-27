@@ -13,7 +13,7 @@ I'm very excited to have this opportunity to talk to you about Quarto, which I'v
 
 ::: columns
 ::: {.column width="70%"}
-![](images/mine-venn.svg)
+![](images/1-share/mine-venn.svg)
 :::
 
 ::: {.column width="30%"}
@@ -47,7 +47,7 @@ And if you just want to enjoy the talk, feel free to go to this link mine.quarto
 
 ## The R Markdown ecosystem
 
-![](images/rmd_ecosystem.png){fig-align="center"}
+![](images/1-share/rmd_ecosystem.png){fig-align="center"}
 
 ::: notes
 Julie mentioned unifying the R Markdown ecosystem so let's dig a bit more into what that means...

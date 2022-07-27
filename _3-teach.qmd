@@ -1,7 +1,9 @@
 # Teach {.title-middle-ice background-image="images/horst_quarto_penguins_teach.png"}
 
 ::: notes
-Over the last decade I have thoroughly loved teaching R Markdown.
+**Julie:** Transition: And this has teaching implications that Mine will talk about next.
+
+**Mine:**Over the last decade I have thoroughly loved teaching R Markdown.
 It's amazing when students hit that Knit button, see their code and their prose come together -- you can often hear a "wow, that's so cool" in the classroom the first time that happens.
 I've also loved that this is a tool that they can pick up easily on the first day of an intro course, and it grows with them as their statistical and computational expertise grows.
 However, as students' expertise in these areas grow, the computation gets more resource intensive (and even sometimes involving multiple languages) and they end up needing different output formats to support their needs, like PDFs in specific journal styles or a thesis with multiple chapters.
@@ -31,14 +33,14 @@ Class of 2022
 Duke University
 
 ::: fragment
-*with Sara Lemus* ![](images/arthistory.png){width="150"}
+*with Sara Lemus* ![](images/3-teach/arthistory.png){width="150"}
 :::
 :::
 
 :::
 
 ::: {.column width="45%"}
-![](images/holland-stam.png){fig-alt="Holland working at a table in the Broadhead Center, measuring an entry with a ruler." fig-align="left" width="600"}
+![](images/3-teach/holland-stam.png){fig-alt="Holland working at a table in the Broadhead Center, measuring an entry with a ruler." fig-align="left" width="600"}
 :::
 :::
 
@@ -66,17 +68,7 @@ Instead of telling you about them, let me show you!
 ##  {#demo-3 .centered data-menu-title="Demo 3" background-color="#000000"}
 
 ::: demo
--   Features that are useful for learning:
-    -   yaml errors
-    -   going from a handful of documents to book / thesis
-    -   if teaching with rstudio, it comes with everything, and people can just get started
-    -   visual editor -- Julie will say more
--   Features that are useful for teaching:
-    -   chalkboard on slides
-    -   multiplex: Slides / scroll for audience
-    -   downlit / code-link
-    -   quarto publish quartopub
--   Features that are useful for research: quarto journal
+ADD DEMO
 :::
 
 ## Quarto flattens the learning curve {.takeaway .center}

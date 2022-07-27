@@ -149,7 +149,7 @@ We've talked about our experiences using Quarto and all the problems it has help
 So start using Quarto, and get involved by asking questions, or providing feedback, or even building extensions for it.
 :::
 
-##  {#thank-you data-menu-title="Coda" background-image="images/horst-quarto-meteor-L-to-R.png"}
+##  {#thank-you data-menu-title="Coda" background-image="images/horst-quarto-meteor.png"}
 
 [[mine.quarto.pub/hello-quarto](https://mine.quarto.pub/hello-quarto)]{.custom-url-middle-dark}
 
