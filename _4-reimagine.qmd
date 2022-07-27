@@ -32,7 +32,7 @@ University of North Carolina, Openscapes
 ##  {#reduce-barriers data-menu-title="Reduce Barriers" background-color="#0F1620" .centered}
 
 ::: {style="margin-top: 150px; font-size: 3em; color: #75AADB;"}
-Culture shifts: we need tools + people
+Culture shifts: <br> technical side + human side
 :::
 
 ::: notes
@@ -105,6 +105,11 @@ Fay Lab Manual: co-created open, living document: lab culture, onboarding, where
 
 ::: columns
 ::: {.column width="50%"}
+
+\
+\
+\
+
 ::: borderbox
 ![](images/approach-guide.png){fig-alt="Screenshot of a Quarto site that is a guide of the Openscapes Approach"}
 :::
@@ -150,11 +155,7 @@ Friendly for new learners, also for experienced users. In fact I know J.J. Allai
 transition: So I said that reimagining contributions in science is an interplay of technology and culture, and have just showed tools on the technical side
 :::
 
-## We all can enable reimagining {.takeaway .center}
 
-![](images/2021-Cloud-Hackathon-GroupPhotoWave.png){fig-align="center" fig-alt="Screenshot of waving and smiling faces on Zoom"}
-
-\
 
 ::: notes
 We all can enable reimagining in our daily habits and actions, can rethink defaults, ask more questions, listen more, not assume tech, help each other, and connect our daily work to the bigger efforts like climate.
@@ -164,7 +165,7 @@ And it's really up to all of us in science and otherwise to enable reimagining t
 To close, I'll end where I began and say that the work we do with Openscapes is at the intersection of actionable environmental science, data science, and open science. We're helping shift how data-intensive researchers and collaborate and Quarto is enabling and accelerating this shift. And we see all of this as part of the climate movement.
 :::
 
-##  {#all-we-can-save-mosaic .center data-menu-title="All We Can Save Mosaic of Voices" background-image="images/NASA_earth_space_twitter_UNOOSA_803692453358424064.jpg"}
+## We all can enable reimagining {background-image="images/NASA_earth_space_twitter_UNOOSA_803692453358424064.jpg"}
 
 ::: quotebox-transparent-bottom-right
 "We" speaks to the collective, to collaboration, to community, to the relational work at hand. Addressing the climate crisis...will take everyone. 
