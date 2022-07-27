@@ -29,7 +29,7 @@ More often than not I'm thinking "web first" for wider reach, but I also still l
 Therefore an authoring system that allows for multiple types of outputs from a single source that contains both code and prose is not only a time saver, but it's basically essential for me to carry on my existence.
 And for the last decade, that tool for me has been R Markdown.
 
-In fact, I remember vividly the first time I've heard of knitr, at a useR 2012 keynote, as a "new" tool for reproducible authoring.
+In fact, I remember vividly the first time I've heard of knitr, now 10 years ago, at Yihui and JJ's 2012 useR keynote, when they presented on a "new" tool for reproducible authoring.
 It must have been no more than 3 slides into their talk that I started to converting my teaching materials to use knitr.
 And by the end of that keynote I was already brainstorming ways of teaching it to my intro stats students.
 
@@ -221,14 +221,18 @@ website:
 :::
 
 ::: notes
-What did spark my interest was how easy, or, let's not say easy, I don't like that word in reference to any new technology, but how straightforward it is with Quarto to move between "things", output types.
+What did spark my interest was how how straightforward it is with Quarto to move between output formats.
 
 As an educator, two things are of utmost importance to me about the tools I use to create my materials: reproducibility and ease of transition between output formats, like documents to slides to websites to books.
 
 Over the last year of using Quarto for pretty much everything, I've felt like I've finally found the tool that lets me go from one output type to the other with minimal, if any, futzing around with my source code beyond the yaml.
 For example, here are common things I produce
 
---> a lesson in document form --> the same content in presentation form --> the same content on a page in a website,
+--> a lesson in document form 
+
+--> the same content in presentation form 
+
+--> the same content on a page in a website,
 
 and you can see that all that needed to change going between these formats is a few lines in the yaml.
 Nothing in the content part of my document.
