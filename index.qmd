@@ -142,22 +142,22 @@ Over to you Mine
 
 {{< include _4-reimagine.qmd >}}
 
-#  {#coda data-menu-title="Coda" background-image="images/horst_quarto_penguins_thankyou.png"}
-
-::: notes
-We've talked about our experiences using Quarto and all the problems it has helped us solve and reimagine, but while Quarto is stable and ready for use, it's also a baby that you too can be a part of its growth.
-So start using Quarto, and get involved by asking questions, or providing feedback, or even building extensions for it.
-:::
-
-##  {#thank-you data-menu-title="Coda" background-image="images/horst-quarto-meteor.png"}
+#  {#thank-you data-menu-title="Coda" background-image="images/horst-quarto-meteor.png"}
 
 [[mine.quarto.pub/hello-quarto](https://mine.quarto.pub/hello-quarto)]{.custom-url-middle-dark}
 
 ::: notes
-Thank you so much for joining us this morning, here in person or from wherever you are tuning in to the live stream.
-If you would like to start your Quarto journey by picking up where we left off, go to this URL and scroll forward to see the next few slides where we share resources for learning as well as references for the works we presented today.
+If you would like to start sharing, collaborating, teaching, and reimagining with Quarto by picking up where we left off, go to this URL and scroll forward to see the next few slides where we share resources for learning as well as references for the works we presented today.
 We won't be taking questions right now, but stop by the Open Source booth at \[FIND TIME\] to meet the Quarto development team and ask any questions!
 \[TO DO: Need better phrasing\]
+:::
+
+##  {#coda data-menu-title="Coda" background-image="images/horst_quarto_penguins_thankyou.png"}
+
+::: notes
+Thank you so much for joining us this morning, here in person or from wherever you are tuning in to the live stream.
+We've talked about our experiences using Quarto and all the problems it has helped us solve and reimagine, but while Quarto is stable and ready for use, it's also a baby that you too can be a part of its growth.
+So start using Quarto, and get involved by asking questions, or providing feedback, or even building extensions for it.
 :::
 
 ## Say hello to Quarto!
@@ -222,11 +222,13 @@ Julia Stewart Lowndes PhD <https://jules32.github.io>
 
 [nasa-openscapes.github.io](https://nasa-openscapes.github.io)
 
-- [2021 Cloud Hackathon](https://nasa-openscapes.github.io/2021-Cloud-Hackathon/)
-- [2021 Cloud Workshop at AGU](https://nasa-openscapes.github.io/2021-Cloud-Workshop-AGU/)
-- [2022 SWOT Ocean Hackathon](https://podaac.github.io/2022-SWOT-Ocean-Cloud-Workshop/)
+-   [2021 Cloud Hackathon](https://nasa-openscapes.github.io/2021-Cloud-Hackathon/)
 
-- JupyterHub managed by 2i2c <https://2i2c.org/>
+-   [2021 Cloud Workshop at AGU](https://nasa-openscapes.github.io/2021-Cloud-Workshop-AGU/)
+
+-   [2022 SWOT Ocean Hackathon](https://podaac.github.io/2022-SWOT-Ocean-Cloud-Workshop/)
+
+-   JupyterHub managed by 2i2c <https://2i2c.org/>
 
 **Other**
 
@@ -236,8 +238,7 @@ Julia Stewart Lowndes PhD <https://jules32.github.io>
 
 [Teach]{.shout}
 
-- https://saralemus7.github.io/arthistory/
-
+-   https://saralemus7.github.io/arthistory/
 
 ## Annotated Notes 4/
 
@@ -260,7 +261,7 @@ How to answer the Q of "what should I do to fight climate change?" A: "What are 
 See also: [3 takeaways for planning for the year of open science](https://www.openscapes.org/blog/2022/02/17/esip-winter-2022/)
 
 -   <https://openscapes.github.io/approach-guide/>
-- <https://nmfs-openscapes.github.io>
+-   <https://nmfs-openscapes.github.io>
 
 **Demo: Visual Editor**
 
@@ -274,5 +275,3 @@ Keyboard shortcuts:
 See also:
 
 -   <https://www.doi.gov/blog/earth-art-stunning-landsat-images>
-
-
