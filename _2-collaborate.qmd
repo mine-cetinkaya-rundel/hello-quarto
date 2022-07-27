@@ -15,7 +15,7 @@ So, over to you Julie, for collaborating with Quarto.
 :::
 
 ::: {.column width="80%"}
-![](images/lowndes_venn_science.svg)
+![](images/2-collaborate/lowndes_venn_science.svg)
 :::
 :::
 
@@ -37,7 +37,7 @@ Our role is welcome teams at the trailhead, helping them seem themselves as a te
 We work with professional research groups in government and academia, and we help these teams modernize their workflows and shift culture with their teams and organization through open software and practices. Adyan Rios from NOAA Fisheries and she's described Openscapes as saying:
 :::
 
-##  {#adyan-rios-quote .center data-menu-title="Adyan Rios Quote" background-image="images/torsten-dederichs-KrQJzrZiCak-unsplash.jpg"}
+##  {#adyan-rios-quote .center data-menu-title="Adyan Rios Quote" background-image="images/2-collaborate/torsten-dederichs-KrQJzrZiCak-unsplash.jpg"}
 
 ::: quotebox-transparent
 "As fisheries scientists, we know that when we're in rough seas, it's important to keep the ship afloat AND get out of the storm. Openscapes helps teams steer out of the storm of email chains with 37 versions of the same spreadsheet and to the calmer waters of open science and meaningful collaboration, using tools like R"
@@ -69,7 +69,7 @@ Now, following years of the preparation, these data are migrating to the Cloud, 
 ##  {#nasa-openscapes .center data-menu-title="NASA Openscapes"}
 
 ::: centered
-![](images/NASA_logo.png){width="18%" fig-alt="NASA circular logo"} ![](images/openscapes_hex.png){width="12%" fig-alt="Openscapes logo"}
+![](images/2-collaborate/NASA_logo.png){width="18%" fig-alt="NASA circular logo"} ![](images/2-collaborate/openscapes_hex.png){width="12%" fig-alt="Openscapes logo"}
 :::
 
 ::: centered
@@ -80,11 +80,11 @@ Now, following years of the preparation, these data are migrating to the Cloud, 
 
 <br>
 
-![](images/nasa-daac-logos.png){width="70%" fig-alt="logos of five NASA Earth science data centers: LP DAAC, NSIDC, PO.DAAC, ASDC, GES DISC, and IMPACT"}
+![](images/2-collaborate/nasa-daac-logos.png){width="70%" fig-alt="logos of five NASA Earth science data centers: LP DAAC, NSIDC, PO.DAAC, ASDC, GES DISC, and IMPACT"}
 :::
 
 ::: {.column width="50%"}
-![](images/2021-NASA-Openscapes-Mentors-Photoshop.png){width="80%" fig-alt="Screenshot of smiling faces on Zoom"}
+![](images/2-collaborate/2021-NASA-Openscapes-Mentors-Photoshop.png){width="80%" fig-alt="Screenshot of smiling faces on Zoom"}
 :::
 :::
 :::
@@ -123,7 +123,7 @@ Quarto was emerging right when we needed it, and I asked J.J. Allaire if we coul
 ##  {#nasa-cloud-hackathon .center data-menu-title="NASA Cloud Hackathon" background-color="#0F1620"}
 
 ::: borderbox
-![](images/hackathon.png){width="80%" fig-align="center" fig-alt="Screenshot of Quarto site for a NASA hackathon learning event"}
+![](images/2-collaborate/hackathon.png){width="80%" fig-align="center" fig-alt="Screenshot of Quarto site for a NASA hackathon learning event"}
 :::
 
 ::: notes
@@ -141,21 +141,21 @@ So from this investment in our workflow and learning  -
 ::: columns
 ::: {.column width="50%"}
 ::: borderbox
-![](images/cloud_workshop_agu.png){width="70%" fig-alt="Screenshot of Quarto site for a NASA workshop learning event"}
+![](images/2-collaborate/cloud-workshop-agu.png){width="70%" fig-alt="Screenshot of Quarto site for a NASA workshop learning event"}
 :::
 
 ::: borderbox
-![](images/swot-ocean-workshop.png){width="70%" fig-alt="Screenshot of Quarto site for a NASA workshop learning event"}
+![](images/2-collaborate/swot-ocean-workshop.png){width="70%" fig-alt="Screenshot of Quarto site for a NASA workshop learning event"}
 :::
 :::
 
 ::: {.column width="50%"}
 ::: borderbox
-![](images/cookbook.png){fig-alt="Screenshot of Quarto site for a NASA Cloud Cookbook" width="70%"}
+![](images/2-collaborate/cookbook.png){fig-alt="Screenshot of Quarto site for a NASA Cloud Cookbook" width="70%"}
 :::
 
 ::: borderbox
-![](images/quarto_slides_steiker.png){width="70%" fig-alt="Screenshot of Quarto slides  a NASA conference talk"}
+![](images/2-collaborate/quarto-slides-steiker.png){width="70%" fig-alt="Screenshot of Quarto slides  a NASA conference talk"}
 :::
 :::
 :::
@@ -204,13 +204,13 @@ And, as we work with more research teams we've found that there is indeed a subs
 ::: columns
 ::: {.column width="45%"}
 ::: borderbox
-![](images/tools-rstudio-ide.png){fig-alt="Screenshot of RStudio IDE" width="80%"}
+![](images/2-collaborate/tools-rstudio-ide.png){fig-alt="Screenshot of RStudio IDE" width="80%"}
 :::
 :::
 
 ::: {.column width="45%"}
 ::: borderbox
-![](images/tools-jupyterhub.png){fig-alt="Screenshot of Jupyter Lab" width="80%"}
+![](images/2-collaborate/tools-jupyterhub.png){fig-alt="Screenshot of Jupyter Lab" width="80%"}
 :::
 :::
 :::
@@ -218,13 +218,13 @@ And, as we work with more research teams we've found that there is indeed a subs
 ::: columns
 ::: {.column width="45%"}
 ::: borderbox
-![](images/tools-github-ide.png){fig-alt="Screenshot of GitHub IDE" width="80%"}
+![](images/2-collaborate/tools-github-ide.png){fig-alt="Screenshot of GitHub IDE" width="80%"}
 :::
 :::
 
 ::: {.column width="45%"}
 ::: borderbox
-![](images/tools-vscode-ide.png){fig-alt="Screenshot of VS Code IDE" width="80%"}
+![](images/2-collaborate/tools-vscode-ide.png){fig-alt="Screenshot of VS Code IDE" width="80%"}
 :::
 :::
 :::
@@ -242,10 +242,4 @@ transtion: Let me show you how to use Quarto with Jupyter with ipynb notebooks
 
 ::: notes
 So this was a taste of Quarto in our JupyterHub - 
-:::
-
-##  {#pass-to-teach data-menu-title="Pass to teach" background-image="images/horst-quarto-meteor-R-to-L.png" aria-label="Quarto logo depicted as a meteor against a dark background with a tail comprised of bright stars, going from right to left."}
-
-::: notes
-Transition: And this has teaching implications that Mine will talk about next.
 :::
