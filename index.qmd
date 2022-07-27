@@ -240,9 +240,11 @@ Julia Stewart Lowndes PhD <https://jules32.github.io>
 
 [Reimagine]{.shout}
 
-**Reimagining Science**
+**All We Can Save**
 
--   [How diversity makes us smarter](https://www.scientificamerican.com/article/how-diversity-makes-us-smarter/)
+<https://www.allwecansave.earth/>
+
+How to answer the Q of "what should I do to fight climate change?" A: "What are you good at? Do that. Do that in the service of climate" - ([ayanaeliza](https://twitter.com/juliesquid/status/1362573772096593923))
 
 **FayLab Manual**
 
@@ -254,12 +256,8 @@ Julia Stewart Lowndes PhD <https://jules32.github.io>
 
 See also: [3 takeaways for planning for the year of open science](https://www.openscapes.org/blog/2022/02/17/esip-winter-2022/)
 
--   <https://nasa-openscapes.github.io/2022-LPDAAC-UWG-Breakout/>
--   <https://podaac.github.io/2022-SWOT-Ocean-Cloud-Workshop/>
 -   <https://openscapes.github.io/approach-guide/>
--   [NASA Earthdata Access in the Cloud Using Open-source libraries](https://nasa-openscapes.github.io/slides/Earthdata_Cloud__Open-Science-Tutorial.html#/title-slide) - Slides from a Jupyter Notebook by Amy Steiker. Involved development with the Quarto team in November 2021
--   [Bio-logger Data from Ribbon and Spotted Seals: A Deep Dive](https://go.usa.gov/xus2a) - Slides by Josh London
--   [Tidy Movement Modeling with R](https://nmml.github.io/tidy-movt-modeling/) by Josh London et al
+- <https://nmfs-openscapes.github.io>
 
 **Demo: Visual Editor**
 
@@ -274,6 +272,4 @@ See also:
 
 -   <https://www.doi.gov/blog/earth-art-stunning-landsat-images>
 
-**All We Can Save**
 
-How to answer the Q of "what should I do to fight climate change?" A: "What are you good at? Do that. Do that in the service of climate" - ([ayanaeliza](https://twitter.com/juliesquid/status/1362573772096593923))
