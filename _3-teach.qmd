@@ -5,18 +5,23 @@ Over the last decade I have thoroughly loved teaching R Markdown.
 It's amazing when students hit that Knit button, see their code and their prose come together -- you can often hear a "wow, that's so cool" in the classroom the first time that happens.
 I've also loved that this is a tool that they can pick up easily on the first day of an intro course, and it grows with them as their statistical and computational expertise grows.
 However, I have also struggled with students, and frankly, myself, when going from a single, simple document to all the various, more advanced output formats in the R Markdown ecosystem particularly for computationally heavy projects.
+A pleasant surprise in teaching with Quarto has been how much less steep the learning curve is for going from a single, simple document to a multi-document projest has been for students.
 :::
 
 ## A slide for Holland
 
 ::: notes
-Last semester I had an art history student working on a pretty quantitative, for that field, thesis.
-She collected data on representation of artists from different genders and ethnicities in two foundational art history textbooks.
-The same semester she learned Quarto, she was able to figure out with a bit of Googling and a bit of my help that she can write each of her thesis chapters as a Quarto document, bring them together with a yml file, and voila!
+Last semester I had an art history student, Holland Stam, working on a pretty quantitative, for that field, research project.
+Her thesis explored the representation of artists from different genders and ethinicities in foundational art history books and how this representation has changed, if at all, through editions.
+If you've ever taken an art history course you might be familiar with them: Garner's Art Through The Ages and Janson's History of Art.
+She meticulously collected data from numerous editions of each of the textbooks and measured, page by page, how much space each featured artwork was given and joined that with demographic information on the artists.
+When I met Holland in my regression course she had only one semester of data science as a background, where she learned R Markdown, and then she started using Quarto as part of coursework in my class.
+The course assignments were done in single Quarto documents but she was able to figure out, with a bit of Googling and a bit of my help, that she can write each of her thesis chapters as a Quarto document, bring them together with a yml file, and voila!
 You have a thesis written in Quarto.
+And when she saw that using this approach she could caption her figures ande insert citations without manual text styling, she was sold!
 It is always so heartwarming to see your students push what you're teaching them and use them to solve their problems, it's especially heartening when this happens with a new thing you're teaching for the first time while the thing is still in active development!
 
-Quarto has provided simple but effective solutions for so many of my problems as an instructor as well.
+Like for Holland, Quarto has provided simple but effective solutions for so many of my problems as an instructor as well.
 Instead of telling you about them, let me show you!
 :::
 
@@ -38,30 +43,24 @@ Instead of telling you about them, let me show you!
 
 ## Quarto flattens the learning curve {.takeaway .center}
 
--   With Quarto simple quarto -\> more complicated is not hard
--   With Rmd -\> look at the power of what rmd did with a simple document, ecosystem flourishing creates lack of consistency, quarto is unifying -- rmd common thread but also lots of domain specific, lots of stuff to pick up in between, 10000ft view, distill in a common core
--   rmd a lot of pieces, quarto bringing things together, and featuring visual editor helps
--   really loved teaching rmd but quarto people are picking it up a lot more quickly
--   Anecdote: Art history student writing thesis in Quarto. One semester to thesis writing a much less steep learning curve.
+\[TO DO: Add words / pics\]
 
 ::: notes
 With features like a consistent citation syntax, more intentional control over when computations should run or rerun, and a single, minimal yaml that controls inputs, layouts, theming, etc. leveling up from a single document to a multi-document project is a lot more straightforward with Quarto.
-While it's difficult to make these statements empirically for such a new system, I do have an story to share to support my statements.
+
+\[Note from Colin: With Rmd -\> look at the power of what rmd did with a simple document, ecosystem flourishing creates lack of consistency, quarto is unifying -- rmd common thread but also lots of domain specific, lots of stuff to pick up in between, 10000ft view, distill in a common core.\]
 :::
 
 ## Quarto can grow with learners in a profound way {.takeaway .center}
 
+\[TO DO: Are there better words / images for this?\]
+
 ::: fragment
-✔️ Document ➞ Thesis ➞ Book / Website
+✔️ Document ➞ Thesis ➞ Journal article ➞ Book / Website
 :::
 
 ::: fragment
-✔️ Document ➞ Journal article
-:::
-
-::: fragment
-❓ Quarto in RStudio in Stats ➞ Quarto in Jupyter\[hub?\]
-in CS
+❓ Quarto in RStudio in Stats ➞ Quarto in Jupyter in CS
 :::
 
 ::: fragment
@@ -71,9 +70,13 @@ in CS
 :::
 
 ::: notes
--->  ...
--->  ...
--->  But also across disciplines -- stats students using Jupyter in CS class can use Quarto too, maybe? 
--->  That sounds like a bright future to me! And a bright future includes things we can't even imagine yet.
-So Julie -- will tell us a bit about reimagining with Quarto?
+And beyond learners growing and expanding the scope of their work easily with Quarto, Quarto can grow with them in a profound way as well.
+The fact that Quarto is language and authoring tool independent offers an opportunity for folks to take Quarto with them on their data science journey, wherever that journey takes them.
+I mean..
+I'm almost tempted to finally learn Python to see Python in action in Quarto.
+But who I know is learning Python, and Julia, and other languages are my students in their Computer Science courses.
+To think that they could learn R in RStudio, and using Quarto, in my course and then use Quarto again in a Jupyter Notebook in their Python course from CS... That sounds like such a bright future to me!
+
+\[Pause\] And a bright future includes things we can't even imagine yet.
+Julie will now tell us a bit about reimagining with Quarto?
 :::
