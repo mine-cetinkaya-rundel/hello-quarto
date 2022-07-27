@@ -6,7 +6,7 @@ We're helping teams reimagine how they work, thinking differently about approach
 this is important because our work is part of the climate movement.
 :::
 
-##  {#usgs-mosaic .center data-menu-title="USGS Mosaic" background-image="images/2019ESWPoster316x24MTeditnoNP_cropped_sm_er.jpg"}
+##  {#usgs-mosaic .center data-menu-title="USGS Mosaic" background-image="images/ "}
 
 ::: notes
 We've seen a really important benefit of an open science mindset how their daily work is connected to the broader big picture. **Our work is part of the climate movement.** It's about helping people who care deeply about climate to bring that to their work through open science
