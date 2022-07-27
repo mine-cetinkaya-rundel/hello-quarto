@@ -171,6 +171,30 @@ $link-color: #75AADB;
   font-size: 1.1em;
 }
 
+.reveal .slide .quotebox-transparent-wide-high {
+  border: 2px solid #FFFFFF;
+  padding: 1em;
+  background: rgb(231, 231, 232, 0.75);
+  position: absolute;
+  left: 0%;
+  bottom: 65%;
+  width: 95%;
+  color: #0F1620;
+  font-size: 1.1em;
+}
+
+.reveal .slide .quotebox-transparent-bottom-right {
+  border: 2px solid #FFFFFF;
+  padding: 0.5em;
+  background: rgb(231, 231, 232, 0.75);
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  width: 30%;
+  color: #0F1620;
+  font-size: 1.1em;
+}
+
 .reveal .slide .quotebox-opaque {
   border: 2px solid #FFFFFF;
   padding: 1em;
@@ -210,6 +234,10 @@ $link-color: #75AADB;
 
 .reveal .midi {
   font-size: 1.2em;
+}
+
+.reveal .quote-source {
+  font-size: 0.9em;
 }
 
 .reveal .small {
