@@ -1,20 +1,19 @@
 # Reimagine {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png"}
 
 ::: notes
-With Openscapes we think about reimagine big things in new ways. 
-We're helping teams reimagine how they work, thinking differently about approaching big challenges as part of their daily work
+With Openscapes we're helping teams reimagine how they work. 
 
-We've seen a really important benefit of an open science mindset how their daily work is connected to the broader big picture. 
+We help them see what's possible with tools and teamwork and develop a shared open science mindset that about how what they do nearby and daily can have profound impacts on the big challenges they face.
 :::
 
-##  {#usgs-mosaic .center data-menu-title="USGS Mosaic" background-image="images/NASAEarthTwitter_1500x500.jpg"}
+##  {#nasa-blue-marble-hemi .center data-menu-title="NASA Blue Marble Hemisphere" background-image="images/NASAEarthTwitter_1500x500.jpg"}
 
 ::: notes
-**Our work is part of the climate movement.** It's about helping people who care deeply about climate to bring that to their work through open science
+And this is critical because **our work helps address the climate emergency**. And we need every solution and every solver. And deliberately welcoming people as a solver and helping connect their daily work with the climate movement and help them get unstuck and reimagine what they can do is such a critical part of our work. When teams we work start creating annual environmental reports save 60 days a year in creating that report, they can refocus that time on further solutions AND have shared energy and hope with the teams they they work with. 
 
-Climate change, there's not going to be one single fix, it's going to be a collective effort with everyone playing a role.
+And let me be clear that we all have contibutions we can make to the climate movement. I've talked with a lot of you and know you care deeply about climate, and who might not feel like your work is directly aligned with the climate movement, but what if you made it align? Epi studying health in relations to heat waves, neuro studying behav related to climate displacement, contributing to make research pipelines more efficient, there is so much we can do together if we take this energy we feel together from open data science and make that part of the climate movement
 
-This quote from Ileana Fenwick represents why we do the work we do, and why it's so important to focus on inclusion and people and seeing this connection
+This quote from Ileana Fenwick represents the impact of our approach and the critical importance of inclusion in this effort:
 :::
 
 ## {#ileana-fenwick-quote data-menu-title="Ileana Fenwick Quote" background-image="images/fenwick-scuba.jpg"}
@@ -35,15 +34,14 @@ Culture shifts: <br> technical side + human side
 :::
 
 ::: notes
-it's about seeing inclusion as a daily practice in their work, and that that connects to the climate movement. There can be a gap between who's tech and not, and we're not going to solve these big challenges with tech alone. It's going to be with many smaller things. 
+So we're talking about profound culture shift and this involves real work on the tech side and the human side
 
-We've got to think beyond efficient lightbulbs and recycling for what we can do every day: what if....
+We need to really examine the default behavior - and prioritize investment on the human side as much as we do on the tech side be deliberate and intentional about inclusion. 
 
-some people who are scientists who work with teams and data don't write code
+This means reflecting on what kinds of contributions are valuble, and by whom? This means asking colleagues questions and not making assumptions about what people know. Many if not most people have never been formally trained in working with data or code, and, we often make assumptions that they have been. are valuable contributors.
 
-Quarto has been a really powerful tool for us already for culture change because it's a workflow that people can contribute to early, whether or not they are contributing code.
+RMarkdown and now Quarto has been a really powerful tool for us to make this work actionable and visiable to support people and shift culture around open science
 :::
-
 
 ## {#faylab-manual data-menu-title="FayLab Manual" background-color="#0F1620"}
 
@@ -86,12 +84,14 @@ Quarto has been a really powerful tool for us already for culture change because
 ::: notes
 Fay Lab Manual: this is an open, living document to document lab culture, onboarding, where data and files are kept, where to learn skills
 
-Before I go into details: let's set the scene for what environmental research groups are like. 
+Before I go into details: let's set the scene for what environmental research groups generally are like. 
 
-  - lab group working on env sci: not everyone is trained
-  - people have different deliverables, they oft
-  - not everyone's job description means wrangingl
+- similar to your teams
+  - people have different deliverables, they oft don't feel like a team
+  - very few people formally trained in responsible w data and code, and not precedent
+  - not everyone's job will ever need to include data wrangling, but that doesn't mean they can't be a valuable contributor
   - but their contribution to science is very valuable
+  - people have expertise and knowlege that you can learn from maybe as much as they can learn from you about code
 
 So what this lab manual does it: 
 
@@ -144,7 +144,7 @@ And NOAA Fisheries is using Quarto to building open science community across the
 :::
 
 ::: notes
-Quarto enables collaborating across coding comfort levels, which means we can broaden our idea of collaborators substantially. 
+Quarto enables collaborating across coding comfort levels, which means we can broaden our idea of collaborators substantially and earlier. 
 
 And, then RStudio IDE Visual Editor further lowers barriers for collab and contrib.
 
@@ -153,18 +153,9 @@ Friendly for new learners, also for experienced users. In fact I know Mine prefe
 
 ## {#demo-quarto-visual-editor data-menu-title="Demo: Visual Editor" background-video="videos/demo-2-reimagine.mp4" background-size="contain" background-color="#FFFFFF" .center}
 
-::: notes
-transition: So I said that reimagining contributions in science is an interplay of technology and culture, and have just showed tools on the technical side
-:::
-
-
 
 ::: notes
-We all can enable reimagining in our daily habits and actions, can rethink defaults, ask more questions, listen more, not assume tech, help each other, and connect our daily work to the bigger efforts like climate.
-
-And it's really up to all of us in science and otherwise to enable reimagining together. Each of us play a role in how we work and learn and teach, and really have a responsibility to examine the defaults around us and learn how they might be barriers to reduce or opportunities to leverage
-
-To close, I'll end where I began and say that the work we do with Openscapes is at the intersection of actionable environmental science, data science, and open science. We're helping shift how data-intensive researchers and collaborate and Quarto is enabling and accelerating this shift. And we see all of this as part of the climate movement.
+transition: So in summary, I'll say 
 :::
 
 ## We all can enable reimagining {background-image="images/NASA_earth_space_twitter_UNOOSA_803692453358424064.jpg"}
@@ -181,7 +172,5 @@ All We Can Save
 :::
 
 ::: notes
-I'll leave you with this quote from All We Can Save, who say "We cannot, must not, go it alone"
-
-I really appreciate having this opp to share this with all of you. I am so appreciative of this community. We're just at the beginning of our journey with Openscapes and Quarto and we're excited to continue to build with all of you
+Openscapes is helping shift culture in scientific teams and communities and align their daily work towards climate solutions, and Quarto is enabling and accelerating this shift. And we invite you reimagine with us. 
 :::

@@ -207,6 +207,12 @@ Annotated and hyperlink-y list of resources mentioned in the slides, in roughly 
 
 [Collaborate]{.shout}
 
+Julia Stewart Lowndes PhD <https://jules32.github.io>
+
+**Openscapes**
+
+<https://openscapes.org>
+
 **NASA Images**
 
 -   Spinning Globe Earthdata: <https://svs.gsfc.nasa.gov/30701>
@@ -214,8 +220,13 @@ Annotated and hyperlink-y list of resources mentioned in the slides, in roughly 
 
 **NASA-Openscapes** -
 
--   [nasa-openscapes.github.io](https://nasa-openscapes.github.io)
--   <https://science.nasa.gov/earth-science/earth-science-data>
+[nasa-openscapes.github.io](https://nasa-openscapes.github.io)
+
+- [2021 Cloud Hackathon](https://nasa-openscapes.github.io/2021-Cloud-Hackathon/)
+- [2021 Cloud Workshop at AGU](https://nasa-openscapes.github.io/2021-Cloud-Workshop-AGU/)
+- [2022 SWOT Ocean Hackathon](https://podaac.github.io/2022-SWOT-Ocean-Cloud-Workshop/)
+
+- JupyterHub managed by 2i2c <https://2i2c.org/>
 
 **Other**
 
