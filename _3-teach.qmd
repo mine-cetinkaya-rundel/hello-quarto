@@ -5,18 +5,16 @@ Over the last decade I have thoroughly loved teaching R Markdown.
 It's amazing when students hit that Knit button, see their code and their prose come together -- you can often hear a "wow, that's so cool" in the classroom the first time that happens.
 I've also loved that this is a tool that they can pick up easily on the first day of an intro course, and it grows with them as their statistical and computational expertise grows.
 However, I have also struggled with students, and frankly, myself, when going from a single, simple document to all the various, more advanced output formats in the R Markdown ecosystem particularly for computationally heavy projects.
-A pleasant surprise in teaching with Quarto has been how much less steep the learning curve is for going from a single, simple document to a multi-document projest has been for students.
+A pleasant surprise in teaching with Quarto has been how much less steep the learning curve is for going from a single, simple document to a multi-document project has been for students.
 :::
 
 ##  {#holland-stam-thesis .center data-menu-title="Holland Stam - Quantifying Art Historical Narratives" background-color="#0F1620"}
 
 ::: columns
-
 ::: {.column width="45%"}
-
 ::: {style="text-align: right; padding-right:1em;"}
 ::: {style="font-size: 1.5em;"}
-**Quantifying<br>Art Historical<br>Narratives**
+**Quantifying**<br>Art Historical<br>Narratives
 :::
 
 <br>
@@ -25,19 +23,22 @@ A pleasant surprise in teaching with Quarto has been how much less steep the lea
 Holland Stam
 :::
 
-Art History +<br>
-Visual and Media Studies
+Art History +<br> Visual and Media Studies
 
 Class of 2022
 
 Duke University
+
+::: fragment
+*with Sara Lemus* ![](images/arthistory.png){width="150"}
 :::
+:::
+
 :::
 
 ::: {.column width="45%"}
 ![](images/holland-stam.png){fig-alt="Holland working at a table in the Broadhead Center, measuring an entry with a ruler." fig-align="left" width="600"}
 :::
-
 :::
 
 ::: notes
@@ -50,8 +51,9 @@ The course assignments were done in single Quarto documents but she was able to 
 You have a thesis written in Quarto.
 And when she saw that using this approach she could caption her figures ande insert citations without manual text styling, she was sold!
 It is always so heartwarming to see your students push what you're teaching them and use them to solve their problems, it's especially heartening when this happens with a new thing you're teaching for the first time while the thing is still in active development!
+And, by the way, if you're interested in the data, Holland and another student of my, Sara, packaged it up as "arthistory" and you can find it on CRAN.
 
-Like for Holland, Quarto has provided simple but effective solutions for so many of my problems as an instructor as well.
+But, back to Quarto... like for Holland, Quarto has provided simple but effective solutions for so many of my problems as an instructor as well.
 Instead of telling you about them, let me show you!
 :::
 
@@ -73,12 +75,9 @@ Instead of telling you about them, let me show you!
 
 ## Quarto flattens the learning curve {.takeaway .center}
 
-\[TO DO: Add words / pics\]
-
 ::: notes
-With features like a consistent citation syntax, more intentional control over when computations should run or rerun, and a single, minimal yaml that controls inputs, layouts, theming, etc. leveling up from a single document to a multi-document project is a lot more straightforward with Quarto.
-
-\[Note from Colin: With Rmd -\> look at the power of what rmd did with a simple document, ecosystem flourishing creates lack of consistency, quarto is unifying -- rmd common thread but also lots of domain specific, lots of stuff to pick up in between, 10000ft view, distill in a common core.\]
+A very pleasant surprise in teaching with Quarto has been how much flatter the learning curve is for leveling up from making a single document to creating multi-document projects.
+This is aided by features like a consistent citation syntax, more intentional control over when computations should run or rerun, and a single, minimal yaml that controls inputs, layouts, theming, etc. 
 :::
 
 ## Quarto can grow with learners in a profound way {.takeaway .center}
