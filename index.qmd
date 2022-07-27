@@ -26,13 +26,14 @@ editor: visual
 [artwork by allison horst]{.custom-artwork}
 
 ::: notes
-Thank you so much, We're excited to be here! Mine and I have both been using Quarto for the last year; she has been teaching with it since its earliest days and my Openscapes team is the first external users of Quarto. As Mine and I have experimented with it in our own work we realize we love it, and we're thrilled to introduce and welcome you to Quarto.
+Thank you so much, we're excited to be here! 
+Mine and I have been using Quarto for the last year; she has been teaching and contributing to quarto it since its earliest days and Openscapes has been the first external users of Quarto. As we've woven it into our work we realize we love it, and we're thrilled to welcome you to Quarto.
 :::
 
 # Hello, Quarto? {.title-top-light background-image="images/horst-quarto-meteor-transparent.png" aria-label="Quarto logo depicted as a meteor against a white background with a tail comprised of bright stars."}
 
 ::: notes
-But also, we know you have questions. Mine and I did too. What is Quarto? Why Quarto? And how does it relate to R Markdown and to other tools you already use and workflows you already have? \<\> Well -
+But also, we know you have questions. We did too. What is Quarto? Why isQuarto? And how does it relate to R Markdown and the workflows you already have? \<\> Well -
 :::
 
 ##  {#unifies-extends-1 .centered data-menu-title="Unifies and extends 1" background-color="#0F1620" auto-animate="true"}
@@ -66,7 +67,7 @@ Quarto **unifies** and **extends** <br>the R Markdown ecosystem
 ::: notes
 It unifies it for people who love R Markdown by reducing little points of friction, so that websites, books, and slides all have a common approach.
 
-And it extends it for people who don't know RMarkdown by being a friendly way to work reproducibly with text and code in the same place
+And it extends it for people who don't know RMarkdown by being a friendly way to work reproducibly and publish documents that have text and code in the same place
 :::
 
 ##  {#publishing-system-1 .centered data-menu-title="Publishing system 1" background-color="#0F1620" auto-animate="true"}
@@ -86,7 +87,7 @@ Quarto is a new, open-source,<br> scientific and technical<br> publishing system
 :::
 
 ::: midi
-that makes the process of **creating** and **collaborating**<br>dramatically better
+**the goal is to make the process of creating<br> and collaborating dramatically better**
 :::
 
 ::: {.fragment .fade-up}
@@ -94,7 +95,7 @@ that makes the process of **creating** and **collaborating**<br>dramatically bet
 :::
 
 ::: notes
-The goal is to make the process of creating and collaborating on scientific and technical documents dramatically better.
+The goal is to make the process of creating and collaborating dramatically better.
 
 \<\> It handles inputs in multiple languages, and outputs in multiple formats, all going through the same machinery.
 
@@ -106,7 +107,7 @@ The goal is to make the process of creating and collaborating on scientific and 
 ![](images/outline-1.png)
 
 ::: notes
-First Mine will focus on how Quarto unifies the R Markdown ecosystem through stories of sharing and teaching
+First Mine will focus on how Quarto unifies the R Markdown ecosystem through sharing and teaching
 :::
 
 ##  {#outline-2 .centered data-menu-title="Outline 2" auto-animate="true"}
@@ -114,7 +115,7 @@ First Mine will focus on how Quarto unifies the R Markdown ecosystem through sto
 ![](images/outline-2.png)
 
 ::: notes
-Then I will focus on how Quarto extends the R Markdown ecosystem through stories of collaborating and reimagining
+Then I will focus on how Quarto extends the R Markdown ecosystem through collaborating and reimagining
 :::
 
 ##  {#outline-3 .centered data-menu-title="Outline 3" auto-animate="true"}
@@ -122,7 +123,7 @@ Then I will focus on how Quarto extends the R Markdown ecosystem through stories
 ![](images/outline-3.png)
 
 ::: notes
-We're excited to get started! Over to you Mine!
+We're excited to get started! So lets starts off with how Quarto enables sharing. Over to you Mine
 :::
 
 {{< include _1-share.qmd >}}
@@ -253,7 +254,14 @@ Annotated and hyperlink-y list of resources mentioned in the slides, in roughly 
 -   Spinning Globe Earthdata: <https://svs.gsfc.nasa.gov/30701>
 -   NASA Hyperwall: <https://eospso.nasa.gov/content/about-nasas-hyperwall>
 
-**NASA-Openscapes** - [nasa-openscapes.github.io](https://nasa-openscapes.github.io)
+**NASA-Openscapes** - 
+
+- [nasa-openscapes.github.io](https://nasa-openscapes.github.io)
+- <https://science.nasa.gov/earth-science/earth-science-data>
+
+**Other**
+
+- Rey with Quarto, throwback to <https://jules32.github.io/useR-2019-keynote/>
 
 ## Annotated Notes 3/
 
