@@ -123,7 +123,7 @@ This has been a model for us -
 \
 
 ::: borderbox
-![](images/approach-guide.png){fig-alt="Screenshot of a Quarto site that is a guide of the Openscapes Approach"}
+[![](images/approach-guide.png){fig-alt="Screenshot of a Quarto site that is a guide of the Openscapes Approach"}](https://openscapes.github.io/approach-guide/)
 :::
 :::
 
@@ -134,7 +134,7 @@ This has been a model for us -
 \
 \
 
-![](images/nmfs-openscapes.png){fig-alt="Screenshot of a Quarto site that is community building and teaching platform for NOAA Fisheries"}
+[![](images/nmfs-openscapes.png){ fig-alt="Screenshot of a Quarto site that is community building and teaching platform for NOAA Fisheries"}](https://nmfs-openscapes.github.io/)
 
 :::
 :::
