@@ -18,13 +18,15 @@ So we help them develop open science as a mindset, that is about their process a
 This quote from Ileana Fenwick represents why we do the work we do, and why it's so important to focus on inclusion and people and seeing this connection
 :::
 
-## {#ileana-fenwick-quote data-menu-title="Ileana Fenwick Quote" background-image="images/fenwick-scuba.jpg" background-size="contain"}
+## {#ileana-fenwick-quote data-menu-title="Ileana Fenwick Quote" background-image="images/fenwick-scuba.jpg"}
 
-::: quotebox-transparent-low
+::: quotebox-transparent-bottom-right
 Because of Openscapes, I have renewed hope in how we can bring about a kinder future in science through collaboration. I see a commitment in the open science community to bridging the gaps where we've left members of our community behind, and it inspires me. 
 
-Ileana Fenwick
+::: quote-source
+Ileana Fenwick \
 University of North Carolina, Openscapes
+:::
 :::
 
 ##  {#reduce-barriers data-menu-title="Reduce Barriers" background-color="#0F1620" .centered}
@@ -169,9 +171,10 @@ To close, I'll end where I began and say that the work we do with Openscapes is 
 
 'We' speaks to justice, to how we do the work that needs doing and whose contributions are valued. We cannot, we must not, go it alone”
 
-\
-Ayana Elizabeth Johnson & Katharine Wilkinson\
-*All We Can Save*
+::: quote-source
+Ayana Elizabeth Johnson & Katharine Wilkinson \
+All We Can Save
+:::
 :::
 
 ::: notes
