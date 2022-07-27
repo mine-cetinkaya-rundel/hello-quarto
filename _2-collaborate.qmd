@@ -95,8 +95,6 @@ So let me just stop here and say this is a big project.
 And, it was really intimidating to me. NASA is a huge organization that I've looked up to my whole life. I'm also new to the kinds and size of data I'm new to earth science as a research discipline, I'm new to the kinds of remotely sensed data, not to mention cloud infrastructure that is evolving rapidly.
 
 \<\> And as an R user a fourth big thing that was intimidating to me -
-
-https://science.nasa.gov/earth-science/earth-science-data
 :::
 
 ##  {#many-use-python .center .centered data-menu-title="Many use Python" background-color="#0F1620"}
@@ -230,16 +228,17 @@ And, as we work with more research teams we've found that there is indeed a subs
 :::
 
 ::: notes
-2)  we're all able to contribute from whatever tool we're already comfortable with. In our group some use RStudio, some use JupyterLab some VS Code, some directly edit documents on GitHub.
+we're all able to contribute from whatever tool we're already comfortable with. In our group some use RStudio, some use JupyterLab some VS Code, some directly edit documents on GitHub.
 
-And this was important because of all the new things we were learning together, we didn't also need people to shift their software tools. Instead, everyone has been able to learn Quarto from the comfort of our own "homes".
+And this was important because of all the new things we were learning together, we didn't also need people to shift their software tools.
 
-transtion: Mine showed you how you use Quarot with qmd files and in RStudio, let me show you how to you can do this from Jupyter with ipynb notebooks
+transtion: Mine showed you how you use Quaro with qmd files and in RStudio, let me show you how to you can do this from Jupyter with ipynb notebooks
 :::
 
 ##  {#demo-jupyter .center data-menu-title="Demo: Jupter" background-video="videos/demo-2-collaborate.mp4" background-size="contain" background-color="#FFFFFF"}
 
 ::: notes
+So this was a taste of Quarto in our JupyterHub - 
 :::
 
 ##  {#pass-to-teach data-menu-title="Pass to teach" background-image="images/horst-quarto-meteor-R-to-L.png" aria-label="Quarto logo depicted as a meteor against a dark background with a tail comprised of bright stars, going from right to left."}
