@@ -1,4 +1,4 @@
-# Teach {.title-middle-ice background-image="images/horst_quarto_penguins_teach.png"}
+# Teach {.title-middle-ice background-image="images/horst_quarto_penguins_teach.png" aria-label="Two penguins in a room made of ice, looking out a window. One penguin is holding an icicle as a pointer, pointing at a Quarto logo "moon" in the sky, while the other penguin looks on."}
 
 ::: notes
 **Julie:** Transition: And this has teaching implications that Mine will talk about next.
@@ -75,7 +75,7 @@ Class of 2022
 
 Duke University
 
-*with Sara Lemus* ![](images/3-teach/arthistory.png){width="150"}
+*with Sara Lemus* ![](images/3-teach/arthistory.png){width="150" fig-alt="Hex logo for the package arthistory."}
 :::
 :::
 

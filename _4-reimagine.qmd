@@ -1,4 +1,4 @@
-# Reimagine {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png"}
+# Reimagine {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png" aria-label="Two excited penguins diving off of an iceberg into the ocean. A Quarto logo "moon" in the sky is reflected in the water that they're diving into."}
 
 ::: notes
 **Mine:** So Julie will now tell us a bit about reimagining with Quarto.

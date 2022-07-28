@@ -1,4 +1,4 @@
-# Share {.title-middle-dark background-image="images/horst_quarto_penguins_share.png" aria-label="Illustration of two penguins taking a selfie on a phone using a selfie stick."}
+# Share {.title-middle-dark background-image="images/horst_quarto_penguins_share.png" aria-label="Two happy penguins taking a selfie together in a snowy landscape."}
 
 ::: notes
 **Julie:** We're excited to get started!
@@ -13,7 +13,7 @@ I'm very excited to have this opportunity to talk to you about Quarto, which I'v
 
 ::: columns
 ::: {.column width="70%"}
-![](images/1-share/mine-venn.svg)
+![](images/1-share/mine-venn.svg){fig-alt="A Venn diagram with three circles -- education, research, and development. At the intersection is a blue heart with the word compassion."}
 :::
 
 ::: {.column width="30%"}
@@ -38,7 +38,7 @@ And by the end of that keynote I was already brainstorming ways of teaching it t
 So, I'll call this talk a success if some of you are already firing up Quarto right now, instead of listening to me, to see what all the hype is about!
 :::
 
-##  {#link-to-slides .center data-menu-title="Link to slides" background-image="images/horst_quarto_penguins_url.png" aria-label="Illustration of two penguins with arms around each other, sharing an iceberg, staring into the sky. A banner on the illustration shows the URL of the slide deck: mine.quarto.pub/hello-quarto."}
+##  {#link-to-slides .center data-menu-title="Link to slides" background-image="images/horst_quarto_penguins_url.png" aria-label="Two penguins standing on an iceberg at dawn, viewed from behind, with their arms around each others' shoulders. A Quarto logo "moon" is near the horizon. A banner on the illustration shows the URL of the slide deck: mine.quarto.pub/hello-quarto."}
 
 ::: notes
 But I hope you'll continue to listen with one ear and take in the beautiful illustrations by Allison Horst.
@@ -51,7 +51,7 @@ and I'll advance the slides for you.
 
 ## The R Markdown ecosystem
 
-![](images/1-share/rmd_ecosystem.png){fig-align="center"}
+![](images/1-share/rmd_ecosystem.png){fig-align="center" fig-alt="Hex logos for various packages from the R Markdown ecosystem."}
 
 ::: notes
 Julie mentioned unifying the R Markdown ecosystem so let's dig a bit more into what that means...
@@ -62,7 +62,7 @@ Each package addresses a different need and offers a different output: for examp
 
 ## Quarto: Next generation R Markdown {transition="zoom"}
 
-![](images/horst_quarto_ball_straight.png){fig-align="center" width="50%"}
+![](images/horst_quarto_ball_straight.png){fig-align="center" width="50%" fig-alt="Quarto logo."}
 
 ::: notes
 Quarto unifies the functionality from these packages,
@@ -83,7 +83,7 @@ Such a unification effort presents a fantastic  opportunity to identify and addr
 ::: {.column width="40%"}
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-1_4.png){width="50px"} Consistent implementation of attractive and handy features across outputs: tabsets, code-folding, syntax highlighting, etc.
+![](images/horst_quarto_ball-1_4.png){width="50px" fig-alt="One quadrant of the Quarto logo."} Consistent implementation of attractive and handy features across outputs: tabsets, code-folding, syntax highlighting, etc.
 :::
 :::
 :::
@@ -94,7 +94,7 @@ Such a unification effort presents a fantastic  opportunity to identify and addr
 ::: {.column width="40%"}
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-2_4.png){width="50px"} More accessible defaults as well as better support for accessibility
+![](images/horst_quarto_ball-2_4.png){width="50px" fig-alt="Two quadrants of the Quarto logo."} More accessible defaults as well as better support for accessibility
 :::
 :::
 :::
@@ -110,7 +110,7 @@ Such a unification effort presents a fantastic  opportunity to identify and addr
 ::: {.column width="40%"}
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-3_4.png){width="50px"} Guardrails, particularly helpful for new learners: YAML completion, informative syntax errors, etc.
+![](images/horst_quarto_ball-3_4.png){width="50px" fig-alt="Three quadrants of the Quarto logo."} Guardrails, particularly helpful for new learners: YAML completion, informative syntax errors, etc.
 :::
 :::
 :::
@@ -121,7 +121,7 @@ Such a unification effort presents a fantastic  opportunity to identify and addr
 ::: {.column width="40%"}
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-4_4.png){width="50px"} Support for other languages like Python, Julia, Observable, and more via Jupyter engine for executable code chunks.
+![](images/horst_quarto_ball-4_4.png){width="50px" fig-alt="Four quadrants of the Quarto logo."} Support for other languages like Python, Julia, Observable, and more via Jupyter engine for executable code chunks.
 :::
 :::
 :::
@@ -173,7 +173,7 @@ So, let's dive in and see what all the Quarto fuss is about!
 ## Quarto CLI orchestrates<br>each step of rendering {.takeaway .center}
 
 ::: {.fragment .fade-up}
-![](images/horst_qmd_render_schema.png){fig-alt="A schema diagram showing what happens going from qmd file to final output. First, qmd is processed with either knir or jupyter. The result is an md file. Then, the md file is processed through Pandoc, and the result can be an HTML, PDF, Word document, or more." fig-align="center"}
+![](images/horst_qmd_render_schema.png){fig-alt="A schematic representing rendering of Quarto documents from .qmd, to knitr or jupyter, to plain text markdown, then converted by pandoc into any number of output types including html, PDF, or Word document." fig-align="center"}
 :::
 
 ::: notes
