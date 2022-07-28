@@ -242,7 +242,7 @@ transtion: Let me show you how to use Quarto with Jupyter with ipynb notebooks
 ##  {#demo-collaborate .center data-menu-title="Demo: Collaborate" background-video="videos/demo-2-collaborate.mp4" background-size="contain" background-color="#FFFFFF"}
 
 ::: notes
--   Orient to JupyterLab. This is a JupyterHub managed by 2i2c
+-   Orient to JupyterLab. This is a JupyterHub managed by our collaborators at 2i2c
 -   Open Mine's example site, quarto preview
 - add .ipynb 
 -   Add `.ipynb` to `_quarto.yml`

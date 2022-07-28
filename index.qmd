@@ -168,7 +168,7 @@ We can't wait to see what you create!
     - Devin Pastoor - Websites & Books & Blogs, oh my! Creating Rich Content with Quarto
 
 -   Video: [Reproducible authoring with Quarto](https://youtu.be/6p4vOKS6Xls)
--   Video: [Openscapes Community Call](https://youtu.be/azVAl343CIU)
+-   Video: [Openscapes: Hello Quarto with NASA Openscapes, RLadies Santa Barbara, and JJ Allaire](https://youtu.be/azVAl343CIU)
 
 -   Quarto documentation: [quarto.org](https://quarto.org/)
 
@@ -177,6 +177,23 @@ We can't wait to see what you create!
 -   Quarto tip a day: [rstd.io/quartotip](https://rstd.io/quartotip)
 
 ![](images/horst-quarto-penguins.png){fig-alt="Two penguins. The orange one is holding the Quarto logo. The blue one is looking at the orange one." fig-align="right" width="600"}
+
+## Engage, empower, amplify with Openscapes
+
+-   Coming up at rstudio::conf(2022)
+    - Ileana Fenwick - [A Journey to Data Science: Tools for Equity and Diversity in STEM](https://rstudioconf2022.sched.com/event/11ib8/a-journey-to-data-science-tools-for-equity-and-diversity-in-stem). 1:30pm - 1:50pm EDT
+  
+- Openscapes: [openscapes.org](https://openscapes.org)
+  - [Champions Lesson Series](https://openscapes.org/series)
+  - [Approach Guide](https://openscapes.org/approach-guide)
+  - [Quarto Website Tutorial](https://openscapes.github.io/quarto-website-tutorial/)
+  
+- NASA Openscapes: [nasa-openscapes.github.io](https://nasa-openscapes.github.io)
+- NMFS Openscapes: [nasa-openscapes.github.io](https://nasa-openscapes.github.io)
+
+- [Supercharge your research: a ten-week plan for open data science](https://openscapes.github.io/series/Supercharge%20your%20research:%20a%20ten-week%20plan%20for%20open%20data%20science) (Lowndes et al. 2019) 
+- [Our path to better science in less time using open data science tools](https://www.nature.com/articles/s41559-017-0160) (Lowndes et al. 2017)
+- [Open Software Means Kinder Science](https://blogs.scientificamerican.com/observations/open-software-means-kinder-science/)
 
 ## Earthrise by Amanda Gorman[^1] {.smaller}
 
