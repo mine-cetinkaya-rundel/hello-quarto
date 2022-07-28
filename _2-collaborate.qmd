@@ -39,7 +39,7 @@ Our flagship activity is mentoring research teams in open science. We think of o
 ::: notes
 We help people move from the sad lonely animals like the foreground in the bottom right so that they start to explore and navigate this landscape safely, without too much trampling.  Our role is to welcome them at the trail head, helping them seem themselves as a team and identify where they are all starting from
 
-We work with professional research groups in government and academia, and we help these teams modernize their workflows and shift culture with their teams and organization through open software and practices. Adyan Rios from NOAA Fisheries and she's described Openscapes as saying:
+We work with professional research groups in government, academia, nonprofits, and we help these teams modernize their workflows and shift culture with their teams and organization through open software and practices. Adyan Rios from NOAA Fisheries and she's described Openscapes as saying:
 :::
 
 ##  {#quote-adyan-rios .center data-menu-title="Quote: Adyan Rios" background-image="images/2-collaborate/torsten-dederichs-KrQJzrZiCak-unsplash.jpg"}
