@@ -54,7 +54,7 @@ Sure, this took a bit of trial and error and at times frustration, but the fact 
 It is always so heartwarming to see your students push what you're teaching them and use them to solve their problems, it's especially heartening when this happens with a new thing you're teaching for the first time while the thing is still in active development!
 :::
 
-##  {#holland-stam-thesis-1 .center data-menu-title="Quantifying Art Historical Narratives 1" background-color="#0F1620"}
+##  {#holland-stam-thesis-2 .center data-menu-title="Quantifying Art Historical Narratives 2" background-color="#0F1620"}
 
 ::: columns
 ::: {.column width="45%"}
