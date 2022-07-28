@@ -3,7 +3,9 @@
 ::: notes
 **Mine:** So Julie will now tell us a bit about reimagining with Quarto.
 
-**Julie:** Thanks Mine. We've seen already how much Quarto enables and now I want to push it a bit further. What if we could reimagine open science as part of the climate movement. We know what this R community is capable of, what if
+**Julie:** Thanks Mine. We've seen already how much Quarto enables with teach/collab/share
+
+And now I want to push it a bit further. What if we could reimagine open science and open source as part of the climate movement. We know what this R community is capable of, what if
 :::
 
 ##  {#nasa-blue-marble-hemi data-menu-title="NASA Blue Marble Hemisphere" background-image="images/4-reimagine/NASAEarthTwitter_1500x500.jpg"}
@@ -18,13 +20,21 @@ All We Can Save
 :::
 
 ::: notes
-Because **we are in a climate emergency**. We must rapidly, radically reshape society. Let's think about this with 3 user groups if you will
+Because **we are in a climate emergency**. We must rapidly, radically reshape society. We need every solution and every solver. Hard, big. My hope lies in what we have here and what we can do with it. This is a big movement - 
 
-people working direct w climate - hard and stuck. Openscapes R/open source - stuck, Posit 100 yrs extensible beyond
+Let's think about this with 3 user groups if you will
 
-Every solution, every solver. Across all facets and geographies, skills, expertise Dial up inclusion and culture change and welcome
+scientist working direct w climate - hard and stuck. Openscapes 
 
-We're talking about Openscapes has been working in this first category - seeing how powerful this kind of reimagining is.
+R/open source - stuck, Posit 100 yrs 
+
+extensible beyond
+
+Every solution, every solver. Across all facets and geographies, skills, expertise. We need more women. We need more people of color. We need more perspectives on every level. Dial up inclusion and culture change and welcome at an unprecedented level
+
+Requires slowing to speed up
+
+But when it speeds up it's like a flywheel
 
 My colleague Ileana Fenwick is a marine ecologist who particpated in Openscapes last year and beautifully describes this
 :::
@@ -51,9 +61,9 @@ Culture shifts: <br> technical + human
 :::
 
 ::: notes
-We're talking about a **profound culture shift** that involves real deliberate work on the tech and culture side
+We're talking about a **profound culture shift** that involves real deliberate work on the tech and human side
 
-Let's focus on the culture side: We can **build inclusion into our daily work**. Let's think about your team and collagues because I bet they're not different from the teams we mentor
+Let's focus on the human side: We can **build inclusion into our daily work**. Let's think about your team and collagues because I bet they're not different from the teams we mentor
 
 This means **talking** and reflecting with your colleagues: how do we work? shared workflows, where is friction? who contributes, how do they contributes? Handoffs?
 
@@ -62,8 +72,6 @@ This means asking **questions** and really listening. might not have the languag
 This means being **braver** to say I don't know, I need help
 
 A practice, not a checklist. 
-
-Bravery, uncomfort
 
 A practical example - 
 :::
@@ -87,11 +95,10 @@ Fay Lab Manual is a site created by Gavin Fay's Group UMass D
 They are quant fisheries ecologists: data and code: work with managers: food systems and climate
 Bc formal training in data science is uncommon in env, range of skills incoming
 This site: lab culture, code of conduct, info about how they name files, how to learn the software they use
+
+
 It's a living doc online, and it's imperfect
 
-It is radical
-
-All have diff projects diff deliverables, but they are a team. cross all projects
 It is radical in many ways, here are 3: 
 :::
 
@@ -166,11 +173,12 @@ Reimagining within one lab and that idea is catching at bigger scales -
 :::
 
 ::: notes
+We forked this idea back
 Here are 2 more examples: our Approach Guide which is how we onboard ourselves and others to grow the movement
 
 And NOAA Fisheries is using Quarto to building open science community across their science centers
 
-These are examples: Using quarto for culture change - no code. friendly - 
+Using quarto for culture change
 :::
 
 ## Quarto enables collaborating <br>across coding comfort levels {.takeaway .center}
@@ -200,7 +208,8 @@ Think about how you might use this yourself, and teach a colleague
 -   Also: Call-outs
 -   Add extension:
 
-transition: throughtout talk, focus on quarto enabling culture. 
+transition: throughtout talk, focus on quarto enables teach/collab/sharing. 
+culture. 
 Let's end with what we can all enable -
 :::
 
@@ -218,5 +227,7 @@ All We Can Save
 :::
 
 ::: notes
-We can all enable reimagining at levels. We can all play our part We can do this in our daily work, with teams, scale it beyond. We invite you to reimagine with us - And we cannot, we must not go it alone.
+We can all enable reimagining at levels. We can all play our part We can do this in our daily work, with teams, scale it beyond. We invite you to reimagine too -
+
+And we cannot, we must not go it alone.
 :::
