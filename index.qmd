@@ -129,7 +129,8 @@ Then I will focus on how Quarto extends the R Markdown ecosystem through collabo
 ![](images/outline-3.png)
 
 ::: notes
-We're excited to get started! - Over to you Mine
+We're excited to get started!
+- Over to you Mine
 :::
 
 {{< include _1-share.qmd >}}

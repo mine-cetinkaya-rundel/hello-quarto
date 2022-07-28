@@ -135,21 +135,17 @@ Some highlights of these improvements include
 
 --\> guardrails that are particularly helpful for new learners, like YAML completion and informative syntax errors,
 
---\> and perhaps most excitingly for those who are not coming from the R ecosystem, Quarto offers support for other languages like Python, Julia, Observable, and more via the Jupyter engine for executable code chunks, in addition to knitr.
+--\> and perhaps most excitingly for those who are not coming from the R ecosystem, Quarto offers support for other languages like Python, Julia, Observable, and more via the Jupyter engine for executable code chunks.
 And it's designed to be expandable to more engines and languages, even those that might not exist today.
+
+[pause] So by now I'm assuming many of you have already started playing with Quarto, or you're waiting for me to do that.
+So, let's dive in and see what all the Quarto fuss is about!
 :::
 
-##  {#demo-1 .centered data-menu-title="Demo 1" background-color="#000000"}
-
-```{=html}
-<iframe src="https://drive.google.com/file/d/1RCsho2BpfLk-cAS-E28EIwnjbqVmaVgV/preview?start=1" width="1600" height="900"">
-</iframe>
-```
-**THIS IS NOT THE FINAL DEMO, JUST TRYING EMBEDDING FROM DRIVE**
+##  {#demo-share .centered data-menu-title="Demo: Share" background-video="videos/demo-1-share.mp4" background-size="contain" background-color="#FFFFFF"}
 
 ::: notes
-So by now I'm assuming many of you have already started playing with Quarto, or you're waiting for me to do that.
-So, let's dive in and see what all the Quarto fuss is about!
+Add demo notes
 :::
 
 ## Quarto CLI orchestrates<br>each step of rendering {.takeaway .center}

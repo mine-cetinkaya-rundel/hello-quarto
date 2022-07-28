@@ -65,10 +65,10 @@ But, back to Quarto... like for Holland, Quarto has provided simple but effectiv
 Instead of telling you about them, let me show you!
 :::
 
-##  {#demo-3 .centered data-menu-title="Demo 3" background-color="#000000"}
+##  {#demo-teach .centered data-menu-title="Demo: Teach" background-video="videos/demo-3-teach.mp4" background-size="contain" background-color="#FFFFFF"}
 
-::: demo
-ADD DEMO
+::: notes
+Add demo notes
 :::
 
 ## Quarto flattens the learning curve {.takeaway .center}
