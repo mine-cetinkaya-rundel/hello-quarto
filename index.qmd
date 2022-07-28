@@ -141,40 +141,39 @@ We're excited to get started!
 
 {{< include _4-reimagine.qmd >}}
 
-#  {#thank-you data-menu-title="Coda" background-image="images/horst-quarto-meteor.png"}
+# [mine.quarto.pub/hello-quarto](https://mine.quarto.pub/hello-quarto) {#coda data-menu-title="Coda" background-image="images/horst-quarto-meteor.png" .custom-url-top-white}
 
-[[mine.quarto.pub/hello-quarto](https://mine.quarto.pub/hello-quarto)]{.custom-url-middle-dark}
 
 ::: notes
-If you would like to start sharing, collaborating, teaching, and reimagining with Quarto by picking up where we left off, go to this URL and scroll forward to see the next few slides where we share resources for learning as well as references for the works we presented today.
-We won't be taking questions right now, but stop by the Open Source booth at \[FIND TIME\] to meet the Quarto development team and ask any questions!
-\[TO DO: Need better phrasing\]
+If you would like to start sharing, collaborating, teaching, and reimagining with Quarto by picking up where we left off, go to this URL and scroll forward to see the next few slides where we share resources for learning as well as references for the works we presented today. And if you have any questions about Quarto or R Markdown, please stop by the Open Source table in the Lounge between 12-3pm today. And don't miss the Quarto session at 3:20pm!
 :::
 
-##  {#coda data-menu-title="Coda" background-image="images/horst_quarto_penguins_thankyou.png"}
+# Thank you {background-image="images/horst_quarto_penguins_thankyou.png" .title-top-dark}
 
 ::: notes
 Thank you so much for joining us this morning, here in person or from wherever you are tuning in to the live stream.
 We've talked about our experiences using Quarto and all the problems it has helped us solve and reimagine, but while Quarto is stable and ready for use, it's also a baby that you too can be a part of its growth.
-So start using Quarto, and get involved by asking questions, or providing feedback, or even building extensions for it.
+So start using Quarto, and get involved by asking questions, or providing feedback, or building extensions for it.
+We can't wait to see what you create!
 :::
 
 ## Say hello to Quarto!
 
-**TO DO / LOW PRIORITY -- REPLACE ITEMS WITH TILES WITH SCREENSHOTS**
-
 -   Pick up where we left off: [github.com/mine-cetinkaya-rundel/hello-quarto-demo](https://github.com/mine-cetinkaya-rundel/hello-quarto-demo)
 
--   Quarto documentation: [quarto.org/](https://quarto.org/)
+-   Coming up at rstudio::conf(2022) -- Quarto deep dive - Potomac C - 3:20pm:
+    - Tracy Teal - These are a few of my favorite things (about Quarto presentations)
+    - Hamel Husain - Literate Programming With Jupyter Notebooks and Quarto
+    - Devin Pastoor - Websites & Books & Blogs, oh my! Creating Rich Content with Quarto
 
--   Talks:
+-   Video: [Reproducible authoring with Quarto](https://youtu.be/6p4vOKS6Xls)
+-   Video: [Openscapes Community Call](https://youtu.be/azVAl343CIU)
 
-    -   coming up: the talks at conf???
-    -   [Reproducible authoring with Quarto](https://youtu.be/6p4vOKS6Xls)
-    -   Julie's Quarto tutorial???
-    -   [Openscapes Community Call](https://youtu.be/azVAl343CIU)
+-   Quarto documentation: [quarto.org](https://quarto.org/)
 
--   Quarto Gallery: [quarto.org/docs/gallery/](https://quarto.org/docs/gallery/)
+-   Quarto gallery: [quarto.org/docs/gallery](https://quarto.org/docs/gallery/)
+
+-   Quarto tip a day: [rstd.io/quartotip](https://rstd.io/quartotip)
 
 ![](images/horst-quarto-penguins.png){fig-alt="Two penguins. The orange one is holding the Quarto logo. The blue one is looking at the orange one." fig-align="right" width="600"}
 
@@ -194,17 +193,15 @@ Just as we chose to go to the moon<br> We know it's never too soon<br> To choose
 :::
 :::
 
-## Annotated Notes 1/
+## Annotated Notes: Share {.small}
 
-Annotated and hyperlink-y list of resources mentioned in the slides, in roughly the same order (and following [Jenny Bryan's lead](https://github.com/jennybc/code-smells-and-feels#credits-and-resources))
+Mine Çetinkaya-Rundel PhD <https://mine-cr.com>
 
-\
+- Hex logos: <https://github.com/rstudio/hex-stickers>
 
-[Share]{.shout}
+- How it works: <https://quarto.org/docs/get-started/hello/rstudio.html#how-it-works>
 
-## Annotated Notes 2/
-
-[Collaborate]{.shout}
+## Annotated Notes: Collaborate {.small}
 
 Julia Stewart Lowndes PhD <https://jules32.github.io>
 
@@ -217,9 +214,9 @@ Julia Stewart Lowndes PhD <https://jules32.github.io>
 -   Spinning Globe Earthdata: <https://svs.gsfc.nasa.gov/30701>
 -   NASA Hyperwall: <https://eospso.nasa.gov/content/about-nasas-hyperwall>
 
-**NASA-Openscapes** -
+**NASA-Openscapes**
 
-[nasa-openscapes.github.io](https://nasa-openscapes.github.io)
+- [nasa-openscapes.github.io](https://nasa-openscapes.github.io)
 
 -   [2021 Cloud Hackathon](https://nasa-openscapes.github.io/2021-Cloud-Hackathon/)
 
@@ -227,29 +224,22 @@ Julia Stewart Lowndes PhD <https://jules32.github.io>
 
 -   [2022 SWOT Ocean Hackathon](https://podaac.github.io/2022-SWOT-Ocean-Cloud-Workshop/)
 
-**Demo: JupyterLab**
+**Demo: JupyterLab** JupyterHub managed by 2i2c <https://2i2c.org>
 
--   JupyterHub managed by 2i2c <https://2i2c.org/>
+**Other** Rey with Quarto, throwback to <https://jules32.github.io/useR-2019-keynote>
 
-**Other**
+## Annotated Notes: Teach
 
--   Rey with Quarto, throwback to <https://jules32.github.io/useR-2019-keynote/>
+- Photo credit for Holland Stam: <https://undergraduateresearch.duke.edu/news/data-scraping-art-history-survey-texts>
 
-## Annotated Notes 3/
+- 📦 arthistory: <https://saralemus7.github.io/arthistory>
 
-[Teach]{.shout}
+## Annotated Notes: Reimagine {.small}
 
--   https://saralemus7.github.io/arthistory/
+**All We Can Save**: <https://www.allwecansave.earth>
 
-## Annotated Notes 4/
-
-[Reimagine]{.shout}
-
-**All We Can Save**
-
-<https://www.allwecansave.earth/>
-
-How to answer the Q of "what should I do to fight climate change?" A: "What are you good at? Do that. Do that in the service of climate" - ([ayanaeliza](https://twitter.com/juliesquid/status/1362573772096593923))
+How to answer the Q of "!hat should I do to fight climate change?" <br>
+A: "What are you good at? Do that. Do that in the service of climate" - ([ayanaeliza](https://twitter.com/juliesquid/status/1362573772096593923))
 
 **FayLab Manual**
 
@@ -261,18 +251,11 @@ How to answer the Q of "what should I do to fight climate change?" A: "What are 
 
 See also: [3 takeaways for planning for the year of open science](https://www.openscapes.org/blog/2022/02/17/esip-winter-2022/)
 
--   <https://openscapes.github.io/approach-guide/>
+-   <https://openscapes.github.io/approach-guide>
 -   <https://nmfs-openscapes.github.io>
-
-**Demo: Visual Editor**
-
-Keyboard shortcuts:
 
 **NASA images**
 
--   <https://twitter.com/nasaearth/>
+-   <https://twitter.com/nasaearth>
 -   <https://twitter.com/UNOOSA/status/803692453358424064/photo/1>
-
-See also:
-
 -   <https://www.doi.gov/blog/earth-art-stunning-landsat-images>

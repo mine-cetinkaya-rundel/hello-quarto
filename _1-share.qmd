@@ -9,7 +9,7 @@ Over to you Mine
 I'm very excited to have this opportunity to talk to you about Quarto, which I've had the pleasure to live and breathe over the last year.
 :::
 
-##  {#share-intro .center data-menu-title="Share - Intro"}
+##  {#share-intro .center data-menu-title="Share Intro"}
 
 ::: columns
 ::: {.column width="70%"}
@@ -242,13 +242,13 @@ This ease of transition has freed up time to focus my time on content, and that,
 
 <br>
 
-::: {.fragment .fade-up .large}
+::: {.fragment .fade-up .midi}
 Tooling that makes it easy to share what you do<br> with the world on the web is incredibly useful
 :::
 
 <br>
 
-::: {.fragment .fade-up .large}
+::: {.fragment .fade-up .midi}
 It's useful not just to you, but to the world<br> as it facilitates open sharing of knowledge<br> for learning and for reuse
 :::
 

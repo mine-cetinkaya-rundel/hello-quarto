@@ -42,7 +42,7 @@ We help people move from the sad lonely animals like the foreground in the botto
 We work with professional research groups in government and academia, and we help these teams modernize their workflows and shift culture with their teams and organization through open software and practices. Adyan Rios from NOAA Fisheries and she's described Openscapes as saying:
 :::
 
-##  {#adyan-rios-quote .center data-menu-title="Adyan Rios Quote" background-image="images/2-collaborate/torsten-dederichs-KrQJzrZiCak-unsplash.jpg"}
+##  {#quote-adyan-rios .center data-menu-title="Quote: Adyan Rios" background-image="images/2-collaborate/torsten-dederichs-KrQJzrZiCak-unsplash.jpg"}
 
 ::: quotebox-transparent
 "As fisheries scientists, we know that when we're in rough seas, it's important to keep the ship afloat AND get out of the storm. Openscapes helps teams steer out of the storm of email chains with 37 versions of the same spreadsheet and to the calmer waters of open science and meaningful collaboration, using tools like R"
@@ -239,7 +239,7 @@ And this was important because of all the new things we were learning together, 
 transtion: Let me show you how to use Quarto with Jupyter with ipynb notebooks
 :::
 
-##  {#demo-jupyter .center data-menu-title="Demo: Jupter" background-video="videos/demo-2-collaborate.mp4" background-size="contain" background-color="#FFFFFF"}
+##  {#demo-collaborate .center data-menu-title="Demo: Collaborate" background-video="videos/demo-2-collaborate.mp4" background-size="contain" background-color="#FFFFFF"}
 
 ::: notes
 -   Orient to JupyterLab. This is a JupyterHub managed by 2i2c

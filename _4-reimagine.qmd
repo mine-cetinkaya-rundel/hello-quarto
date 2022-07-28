@@ -1,7 +1,9 @@
 # Reimagine {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png"}
 
 ::: notes
-With Openscapes we're helping teams reimagine how they work.
+**Mine:** So Julie will now tell us a bit about reimagining with Quarto.
+
+**Julie:** With Openscapes we're helping teams reimagine how they work.
 
 We help them see what's possible with tools and teamwork and develop a shared open science mindset that about how what they do nearby and daily can have profound impacts on the big challenges they face.
 :::
@@ -25,7 +27,7 @@ And let me be clear that we all have contibutions we can make to the climate mov
 This quote from Ileana Fenwick represents the impact of our approach and the critical importance of inclusion in this effort:
 :::
 
-##  {#ileana-fenwick-quote data-menu-title="Ileana Fenwick Quote" background-image="images/4-reimagine/fenwick-scuba.jpg"}
+##  {#quote-ileana-fenwick data-menu-title="Quote: Ileana Fenwick" background-image="images/4-reimagine/fenwick-scuba.jpg"}
 
 ::: quotebox-transparent-bottom-right
 Because of Openscapes, I have renewed hope in how we can bring about a kinder future in science. I see a commitment in the open science community to bridging the gaps where we've left members of our community behind, and it inspires me.
@@ -174,7 +176,7 @@ And, then RStudio IDE Visual Editor further lowers barriers for collab and contr
 Friendly for new learners, also for experienced users. In fact I know Mine prefers to do her own writing in the visual editor.
 :::
 
-##  {#demo-quarto-visual-editor .center data-menu-title="Demo: Visual Editor" background-video="videos/demo-2-reimagine.mp4" background-size="contain" background-color="#FFFFFF"}
+##  {#demo-reimagine .center data-menu-title="Demo: Reimagine" background-video="videos/demo-4-reimagine.mp4" background-size="contain" background-color="#FFFFFF"}
 
 ::: notes
 - i can write and paste formatted text

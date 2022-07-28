@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>teach</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="_3-teach_files/libs/clipboard/clipboard.min.js"></script>
+<script src="_3-teach_files/libs/quarto-html/quarto.js"></script>
+<script src="_3-teach_files/libs/quarto-html/popper.min.js"></script>
+<script src="_3-teach_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="_3-teach_files/libs/quarto-html/anchor.min.js"></script>
+<link href="_3-teach_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="_3-teach_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="_3-teach_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="_3-teach_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="_3-teach_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="teach" class="level1 title-middle-ice" data-background-image="images/horst_quarto_penguins_teach.png">
+<h1 class="title-middle-ice" data-background-image="images/horst_quarto_penguins_teach.png">Teach</h1>
+<div class="notes">
+<p><strong>Julie:</strong> Transition: And this has teaching implications that Mine will talk about next.</p>
+<p><strong>Mine:</strong>Over the last decade I have thoroughly loved teaching R Markdown. It’s amazing when students hit that Knit button, see their code and their prose come together – you can often hear a “wow, that’s so cool” in the classroom the first time that happens. I’ve also loved that this is a tool that they can pick up easily on the first day of an intro course, and it grows with them as their statistical and computational expertise grows. However, as students’ expertise in these areas grow, the computation gets more resource intensive (and even sometimes involving multiple languages) and they end up needing different output formats to support their needs, like PDFs in specific journal styles or a thesis with multiple chapters. A pleasant surprise in teaching with Quarto has been how much less steep the learning curve is for making this transition from single, simple document to a multi-document projects. Let me tell you the story of one of my thesis students.</p>
+</div>
+<section id="holland-stam-thesis" class="level2 center" data-menu-title="Holland Stam - Quantifying Art Historical Narratives" data-background-color="#0F1620">
+<h2 class="center anchored" data-menu-title="Holland Stam - Quantifying Art Historical Narratives" data-background-color="#0F1620" data-anchor-id="holland-stam-thesis"></h2>
+<div class="columns">
+<div class="column" style="width:45%;">
+<div style="text-align: right; padding-right:1em;">
+<div style="font-size: 1.5em;">
+<p><strong>Quantifying</strong><br>Art Historical<br>Narratives</p>
+</div>
+<p><br></p>
+<div class="midi" style="font-size: 1.5em; color: #75AADB;">
+<p>Holland Stam</p>
+</div>
+<p>Art History +<br> Visual and Media Studies</p>
+<p>Class of 2022</p>
+<p>Duke University</p>
+<div class="fragment">
+<p><em>with Sara Lemus</em> <img src="images/3-teach/arthistory.png" class="img-fluid" width="150"></p>
+</div>
+</div>
+</div><div class="column" style="width:45%;">
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="images/3-teach/holland-stam.png" class="img-fluid figure-img" alt="Holland working at a table in the Broadhead Center, measuring an entry with a ruler." width="600"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="notes">
+<p>Last semester I had an art history student, Holland Stam, working on a pretty quantitative research project. Her thesis explored the representation of artists from different genders and ethinicities in foundational art history books and how this representation has changed, if at all, through editions. If you’ve ever taken an art history course you might be familiar with them: Garner’s Art Through The Ages and Janson’s History of Art. She meticulously collected data from numerous editions of each of the textbooks and measured, page by page, how much space each featured artwork was given and joined that with demographic information on the artists. When I met Holland in my regression course she had only one semester of data science as a background, where she learned R Markdown, and then she started using Quarto as part of coursework in my class. In both classes her experience with computational documents was limited to a single document per assignment, writing a bit of code to analyze data then writing some text to interpret findings. In a sense, this is exactly what her thesis entailed as well, but of course there was more. Multiple chapters, millions of citations in a very specific style that art historians use, captioned figures and tables, and not having to rerun the whole thesis code with each minor edit. With a bit of Googling and a bit of my help, she pretty quickly figured out how to bring chapters of her thesis written in Quarto together with a yaml file, and voiola! She had a thesis written in Quarto. Sure, this took a bit of trial and error and at times frustration, but the fact that she could caption her figures while creating them with code and insert citations without manual text styling, she was sold! It is always so heartwarming to see your students push what you’re teaching them and use them to solve their problems, it’s especially heartening when this happens with a new thing you’re teaching for the first time while the thing is still in active development! And, by the way, if you’re interested in the data, Holland and another student of my, Sara Lemus, packaged it up as “arthistory”. Sara is a stats major who had a lot more experience with R and was working with me for updating some data packages I maintain to learn about package development. She got interested in Holland’s thesis during our lab meetings and it was clear the two of them, with their newly acquired skills and enthusiasm, should team up and make the data available to more researchers, and packaged it up and even got it on CRAN!</p>
+<p>But, back to Quarto… like for Holland, Quarto has provided simple but effective solutions for so many of my problems as an instructor too. Instead of telling you about them, let me show you!</p>
+</div>
+</section>
+<section id="demo-teach" class="level2 centered" data-menu-title="Demo: Teach" data-background-video="videos/demo-3-teach.mp4" data-background-size="contain" data-background-color="#FFFFFF">
+<h2 class="centered anchored" data-menu-title="Demo: Teach" data-background-video="videos/demo-3-teach.mp4" data-background-size="contain" data-background-color="#FFFFFF" data-anchor-id="demo-teach"></h2>
+<div class="notes">
+<p>Add demo notes</p>
+</div>
+</section>
+<section id="quarto-flattens-the-learning-curve" class="level2 takeaway center">
+<h2 class="takeaway center anchored" data-anchor-id="quarto-flattens-the-learning-curve">Quarto flattens the learning curve</h2>
+<div class="quarto-figure quarto-figure-center" style="width:&quot;80%">
+<figure class="figure">
+<p><img src="images/3-teach/many-qmd-to-output.png" class="img-fluid figure-img" alt="A schematic showing many qmd files, going through Quarto, to generate an HTML, PDF, or Word document or more. The Quarto logo is depicted as a baseball a penguin is spinning."></p>
+</figure>
+</div>
+<div class="notes">
+<p>So, in regards to teaching, I’ve talked about a much less steep hill students need to climb as their projects grow. I’ve also said this was a pleasant surprise as it was not something I had thought about when I started teaching with Quarto. But, in hindsight, this was no coincidence. Quarto’s features like consistent citation syntax, more intentional control over when computations should run or rerun, and a single, minimal yaml that controls inputs, layouts, theming, etc. all contribute to flattening this learning curve.</p>
+</div>
+</section>
+<section id="quarto-can-grow-with-learners-in-a-profound-way" class="level2 takeaway center">
+<h2 class="takeaway center anchored" data-anchor-id="quarto-can-grow-with-learners-in-a-profound-way">Quarto can grow with learners in a profound way</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/3-teach/many-lang-qmd-to-output.png" class="img-fluid figure-img" alt="A schematic showing many computing languages (R, Python, Julia, Observable, and more) going into many single qmd files, going through Quarto, to generate an HTML, PDF, or Word document or more. The Quarto logo is depicted as a baseball a penguin is spinning."></p>
+</figure>
+</div>
+<div class="notes">
+<p>And beyond learners growing and expanding the scope of their work easily with Quarto, Quarto can grow with them in a profound way as well. The fact that Quarto is language and authoring tool independent offers an opportunity for folks to take Quarto with them on their data science journey, wherever that journey takes them. I mean.. I’m almost tempted to finally learn Python to see it in action in Quarto. But who I know is learning Python, and Julia, and other languages are my students in their Computer Science courses. To imagine that they could learn R in RStudio using Quarto in my course, and then continue to use Quarto in Jupyter in their CS courses… That sounds like such a bright future to me!</p>
+<p><strong>[Pause]</strong> And a bright future includes things we can’t even imagine yet.</p>
+<p><strong>[Mine continue on next slide]</strong></p>
+</div>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

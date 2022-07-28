@@ -36,7 +36,6 @@ Duke University
 *with Sara Lemus* ![](images/3-teach/arthistory.png){width="150"}
 :::
 :::
-
 :::
 
 ::: {.column width="45%"}
@@ -73,37 +72,33 @@ Add demo notes
 
 ## Quarto flattens the learning curve {.takeaway .center}
 
+![](images/3-teach/many-qmd-to-output.png){width="70%" fig-alt="A schematic showing many qmd files, going through Quarto, to generate an HTML, PDF, or Word document or more. The Quarto logo is depicted as a baseball a penguin is spinning." fig-align="center"}
+
 ::: notes
-A very pleasant surprise in teaching with Quarto has been how much flatter the learning curve is for leveling up from making a single document to creating multi-document projects.
-This is aided by features like a consistent citation syntax, more intentional control over when computations should run or rerun, and a single, minimal yaml that controls inputs, layouts, theming, etc. 
+So, in regards to teaching, I've talked about a much less steep hill students need to climb as their projects grow.
+I've also said this was a pleasant surprise as it was not something I had thought about when I started teaching with Quarto.
+But, in hindsight, this was no coincidence.
+Quarto's features like consistent citation syntax, more intentional control over when computations should run or rerun, and a single, minimal yaml that controls inputs, layouts, theming, etc. all contribute to flattening this learning curve.
 :::
 
 ## Quarto can grow with learners in a profound way {.takeaway .center}
 
-\[TO DO: Are there better words / images for this?\]
+<br>
 
-::: fragment
-✔️ Document ➞ Thesis ➞ Journal article ➞ Book / Website
-:::
-
-::: fragment
-❓ Quarto in RStudio in Stats ➞ Quarto in Jupyter in CS
-:::
-
-::: fragment
-::: larger
-☀️
-:::
+::: {.fragment .fade-up}
+![](images/3-teach/many-lang-qmd-to-output.png){fig-alt="A schematic showing many computing languages (R, Python, Julia, Observable, and more) going into many single qmd files, going through Quarto, to generate an HTML, PDF, or Word document or more. The Quarto logo is depicted as a baseball a penguin is spinning." fig-align="center"}
 :::
 
 ::: notes
 And beyond learners growing and expanding the scope of their work easily with Quarto, Quarto can grow with them in a profound way as well.
-The fact that Quarto is language and authoring tool independent offers an opportunity for folks to take Quarto with them on their data science journey, wherever that journey takes them.
-I mean..
-I'm almost tempted to finally learn Python to see Python in action in Quarto.
-But who I know is learning Python, and Julia, and other languages are my students in their Computer Science courses.
-To think that they could learn R in RStudio, and using Quarto, in my course and then use Quarto again in a Jupyter Notebook in their Python course from CS... That sounds like such a bright future to me!
 
-\[Pause\] And a bright future includes things we can't even imagine yet.
-Julie will now tell us a bit about reimagining with Quarto?
+--> The fact that Quarto is language and authoring tool independent offers an opportunity for folks to take Quarto with them on their data science journey, wherever that journey takes them.
+I mean..
+I'm almost tempted to finally learn Python to see it in action in Quarto.
+But who I know is learning Python, and Julia, and other languages are my students in their Computer Science courses.
+To imagine that they could learn R in RStudio using Quarto in my course, and then continue to use Quarto in Jupyter in their CS courses... That sounds like such a bright future to me!
+
+**\[Pause\]** And a bright future includes things we can't even imagine yet.
+
+**\[Mine continue on next slide\]**
 :::
