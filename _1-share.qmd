@@ -42,7 +42,11 @@ So, I'll call this talk a success if some of you are already firing up Quarto ri
 
 ::: notes
 But I hope you'll continue to listen with one ear and take in the beautiful illustrations by Allison Horst.
-And if you just want to enjoy the talk, feel free to go to this link mine.quarto.pub/hello-quarto/, sit back, and I'll advance the slides for you.
+And if you just want to enjoy the talk, feel free to go to this link: mine.quarto.pub/hello-quarto
+
+sit back, 
+
+and I'll advance the slides for you.
 :::
 
 ## The R Markdown ecosystem
@@ -65,9 +69,9 @@ Quarto unifies the functionality from these packages,
 
 building on Pandoc on the technical side
 
-and over a decade of experience developing, maintaining, and tweaking these packages as well as community feedback on the human side.
+and on the human side -- over a decade of experience developing, maintaining, and tweaking these packages as well as community feedback R Markdown extension packages.
 
-Additionally, any unification effort presents an opportunity to identify and address gaps functionality and inefficiencies in user experience, and the process of building Quarto has been no different.
+Such a unification effort presents a fantastic  opportunity to identify and address gaps functionality and inefficiencies in user experience, and the process of building Quarto has been no different.
 :::
 
 ## Quarto highlights
@@ -145,7 +149,25 @@ So, let's dive in and see what all the Quarto fuss is about!
 ##  {#demo-share .centered data-menu-title="Demo: Share" background-video="videos/demo-1-share.mp4" background-size="contain" background-color="#FFFFFF"}
 
 ::: notes
-Add demo notes
+-   Open hello.Rmd with source editor -\> knit
+-   Change to visual editor -\> knit
+-   Close file -\> change file type to .qmd -\> open + render
+-   Change `output: html_document` to `format: html` -\> render
+-   Click on Render on save
+-   Change to `format: pdf` -\> render -\> then change back
+-   Add chunk option `echo: false` to the first chunk
+-   Add `execute` > `echo: false` to the yaml
+-   Add alt text to figure in second code chunk -\> save to render
+-   Change to `format: revealjs` -\> save to render
+-   Add H2 to break slides
+-   Change to `format: html`
+-   Add `index.qmd` with File \> New Quarto Document
+-   Add `_quarto.yml` for website
+-   Relaunch project
+-   Show new Build tab
+-   Render site, show `_site` folder
+-   Add freeze to _quarto.yml
+-   From terminal: `quarto publish`
 :::
 
 ## Quarto CLI orchestrates<br>each step of rendering {.takeaway .center}
@@ -226,10 +248,8 @@ As an educator, two things are of utmost importance to me about the tools I use 
 Over the last year of using Quarto for pretty much everything, I've felt like I've finally found the tool that lets me go from one output type to the other with minimal, if any, futzing around with my source code beyond the yaml.
 For example, here are common things I produce
 
---\> a lesson in document form
-
---\> the same content in presentation form
-
+--\> a lesson in document form <br>
+--\> the same content in presentation form <br>
 --\> the same content on a page in a website,
 
 and you can see that all that needed to change going between these formats is a few lines in the yaml.
@@ -261,7 +281,9 @@ But for the sharing story to be complete, the tool also needs to support easily 
 
 --\> And it's not just useful to you, the creator, but to the world, as it facilitates open sharing of knowledge for learning and for reuse.
 
-\[pause\]
+\[Pause\]
 
 I've been talking just about me and my work so far, but I, like many of you, don't operate in a silo disconnected from others.
+
+**[Mine continue on next slide]**
 :::

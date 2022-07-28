@@ -27,7 +27,7 @@ editor: visual
 
 ::: notes
 Thank you so much, we're excited to be here!
-Mine and I have been using Quarto for the last year; she has been teaching and contributing to quarto it since its earliest days and Openscapes has been the first external users of Quarto.
+Mine and I have been using Quarto for the last year; she has been teaching and contributing to the development of Quarto it since its earliest days and Openscapes has been the first external users of Quarto.
 As we've woven it into our work we realize we love it, and we're thrilled to welcome you to Quarto.
 :::
 
@@ -37,9 +37,10 @@ As we've woven it into our work we realize we love it, and we're thrilled to wel
 But also, we know you have questions.
 We did too.
 What is Quarto?
-Why isQuarto?
+Why is Quarto?
 And how does it relate to R Markdown and the workflows you already have?
-\<\> Well -
+
+--> Well
 :::
 
 ##  {#unifies-extends-1 .centered data-menu-title="Unifies and extends 1" background-color="#0F1620" auto-animate="true"}
@@ -113,7 +114,7 @@ The goal is to make the process of creating and collaborating dramatically bette
 ![](images/outline-1.png)
 
 ::: notes
-First Mine will focus on how Quarto unifies the R Markdown ecosystem through sharing and teaching
+First Mine will focus on how Quarto unifies the R Markdown ecosystem through stories of sharing and teaching
 :::
 
 ##  {#outline-2 .centered data-menu-title="Outline 2" auto-animate="true"}
@@ -145,7 +146,7 @@ We're excited to get started!
 
 
 ::: notes
-If you would like to start sharing, collaborating, teaching, and reimagining with Quarto by picking up where we left off, go to this URL and scroll forward to see the next few slides where we share resources for learning as well as references for the works we presented today. And if you have any questions about Quarto or R Markdown, please stop by the Open Source table in the Lounge between 12-3pm today. And don't miss the Quarto session at 3:20pm!
+If you would like to start sharing, collaborating, teaching, and reimagining with Quarto by picking up where we left off, go to this link and scroll forward to see the next few slides where we share resources for learning as well as references for the works we presented today. And if you have any questions about Quarto or R Markdown, please stop by the Open Source table in the Lounge between 12-3pm today. And don't miss the Quarto session at 3:20pm!
 :::
 
 # Thank you {background-image="images/horst_quarto_penguins_thankyou.png" .title-top-dark}
@@ -153,7 +154,7 @@ If you would like to start sharing, collaborating, teaching, and reimagining wit
 ::: notes
 Thank you so much for joining us this morning, here in person or from wherever you are tuning in to the live stream.
 We've talked about our experiences using Quarto and all the problems it has helped us solve and reimagine, but while Quarto is stable and ready for use, it's also a baby that you too can be a part of its growth.
-So start using Quarto, and get involved by asking questions, or providing feedback, or building extensions for it.
+So start using Quarto, and get involved by asking questions, reporting issues, providing feedback, and even building extensions for it.
 We can't wait to see what you create!
 :::
 
