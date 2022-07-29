@@ -38,7 +38,7 @@ And by the end of that keynote I was already brainstorming ways of teaching it t
 So, I'll call this talk a success if some of you are already firing up Quarto right now, instead of listening to me, to see what all the hype is about!
 :::
 
-##  {#link-to-slides .center data-menu-title="Link to slides" background-image="images/horst_quarto_penguins_url.png" aria-label="Two penguins standing on an iceberg at dawn, viewed from behind, with their arms around each others' shoulders. A Quarto logo "moon" is near the horizon. A banner on the illustration shows the URL of the slide deck: mine.quarto.pub/hello-quarto."}
+##  {#link-to-slides .center data-menu-title="Link to slides" background-image="images/horst_quarto_penguins_url.png" aria-label="Two penguins standing on an iceberg at dawn, viewed from behind, with their arms around each others' shoulders. A Quarto logo moon is near the horizon. A banner on the illustration shows the URL of the slide deck: mine.quarto.pub/hello-quarto."}
 
 ::: notes
 But I hope you'll continue to listen with one ear and take in the beautiful illustrations by Allison Horst.

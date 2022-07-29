@@ -1,4 +1,4 @@
-# Collaborate {.title-top-ice background-image="images/horst_penguins_telescope.png" aria-label="One penguin standing on another penguin's shoulders in a snowscape, looking through a telescope at a Quarto logo "moon" in the night sky."}
+# Collaborate {.title-top-ice background-image="images/horst_penguins_telescope.png" aria-label="One penguin standing on another penguin's shoulders in a snowscape, looking through a telescope at a Quarto logo moon in the night sky."}
 
 ::: notes
 **Mine:** Much of my work, and much of Julie's work is collaborative.
