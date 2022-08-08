@@ -196,7 +196,7 @@ We can't wait to see what you create!
 
 -   NASA Openscapes: [nasa-openscapes.github.io](https://nasa-openscapes.github.io)
 
--   NMFS Openscapes: [nasa-openscapes.github.io](https://nasa-openscapes.github.io)
+-   NMFS Openscapes: [nmfs-openscapes.github.io](https://nmfs-openscapes.github.io)
 
 -   [Supercharge your research: a ten-week plan for open data science](https://openscapes.github.io/series/Supercharge%20your%20research:%20a%20ten-week%20plan%20for%20open%20data%20science) (Lowndes et al. 2019)
 
